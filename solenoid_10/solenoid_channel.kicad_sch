@@ -740,7 +740,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_LED_AKL:LED_5mm"
+		(symbol "PCM_LED_AKL:LED_1.8mm_SMD"
 			(pin_numbers
 				(hide yes)
 			)
@@ -759,7 +759,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_5mm"
+			(property "Value" "LED_1.8mm_SMD"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -767,7 +767,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_1.8mm_GullWing"
 				(at 0 0 0)
 				(effects
 					(font
@@ -785,7 +785,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
+			(property "Description" "LED, Generic 1.8mm SMD subminiature gull wing, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -794,7 +794,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode generic 5mm THT"
+			(property "ki_keywords" "LED diode generic 1.8mm SMD gull wing subminiature"
 				(at 0 0 0)
 				(effects
 					(font
@@ -812,7 +812,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_5mm_0_1"
+			(symbol "LED_1.8mm_SMD_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -946,7 +946,7 @@
 					)
 				)
 			)
-			(symbol "LED_5mm_0_2"
+			(symbol "LED_1.8mm_SMD_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 2.54 2.54)
@@ -1032,7 +1032,7 @@
 					)
 				)
 			)
-			(symbol "LED_5mm_1_1"
+			(symbol "LED_1.8mm_SMD_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1070,7 +1070,7 @@
 					)
 				)
 			)
-			(symbol "LED_5mm_1_2"
+			(symbol "LED_1.8mm_SMD_1_2"
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 0)
@@ -2081,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 163.83 63.5)
+			(xy 160.02 63.5) (xy 163.83 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2138,6 +2138,16 @@
 			(type default)
 		)
 		(uuid "4b467c95-d180-42d8-8d9a-3d66c2b2d46b")
+	)
+	(wire
+		(pts
+			(xy 149.86 63.5) (xy 143.51 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e352c3f-d39d-4304-98bb-5a2223dd08b7")
 	)
 	(wire
 		(pts
@@ -2578,6 +2588,78 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_LED_AKL:LED_1.8mm_SMD")
+		(at 139.7 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ea915bf-fc6b-4b2b-9dcc-2db7cd8c8748")
+		(property "Reference" "LED6"
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_1.8mm_SMD"
+			(at 139.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_1.8mm_GullWing"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Generic 1.8mm SMD subminiature gull wing, Alternate KiCad Library"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "247a9b2d-c749-4ff6-b12d-24e0e18d1bcc")
+		)
+		(pin "2"
+			(uuid "e4e38e82-1c64-45b6-a266-29f0aab8f349")
+		)
+		(instances
+			(project "solenoid_10"
+				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/22d9bef0-fbbf-4c96-a1de-b9073d4eab1a"
+					(reference "LED6")
+					(unit 1)
+				)
+				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/31dd3f1a-af55-40f0-ad15-494e6c90d7a9"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1217080-1:1217080-1")
 		(at 153.67 74.93 0)
 		(unit 1)
@@ -2683,7 +2765,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 148.59 63.5 270)
+		(at 154.94 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2692,7 +2774,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d18480c-e885-43fa-8bd3-d8050063c2dd")
 		(property "Reference" "R1"
-			(at 148.59 57.15 90)
+			(at 154.94 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2782,7 @@
 			)
 		)
 		(property "Value" "1k2"
-			(at 148.59 59.69 90)
+			(at 154.94 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 63.5 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 63.5 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2808,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 148.59 63.5 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2817,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 151.765 60.325 0)
+			(at 158.115 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2826,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 145.415 66.04 0)
+			(at 151.765 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,78 +2849,6 @@
 				)
 				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/31dd3f1a-af55-40f0-ad15-494e6c90d7a9"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_LED_AKL:LED_5mm")
-		(at 139.7 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d634caa-c03d-407b-8b5e-5680846e2be3")
-		(property "Reference" "LED1"
-			(at 139.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_5mm"
-			(at 139.7 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
-			(at 139.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
-			(at 139.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a7e58f1-786e-4860-819d-3ddcefa77749")
-		)
-		(pin "2"
-			(uuid "5305952c-5033-4904-86d3-eef1dc5d38eb")
-		)
-		(instances
-			(project "solenoid_10"
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/22d9bef0-fbbf-4c96-a1de-b9073d4eab1a"
-					(reference "LED1")
-					(unit 1)
-				)
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/31dd3f1a-af55-40f0-ad15-494e6c90d7a9"
-					(reference "LED3")
 					(unit 1)
 				)
 			)
