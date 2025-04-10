@@ -12,15 +12,15 @@
 
 ## TODO
 
-- [ ] Add M8 or M12 connector Symbols
+- [X] Add M8 or M12 connector Symbols
 - [ ] Add M8 or M12 connector footprints.
 - [X] Add spade connector Symbols.
 - [X] Add spade connector footprints.
-- [ ] Add OV protection.
-- [ ] Add OC protection.
+- [X] Add OV protection.
+- [X] Add OC protection.
 - [X] Source N-CH Mosfet.
 - [X] Source Tactile switch.
 - [ ] Source smd led.
-- [ ] Source fuses.
-- [ ] Add test points.
-- [ ] Add secondary 2.54mm holes.
+- [X] Source fuses.
+- [X] Add test points.
+- [ ] Add M codes to silkscreen.
