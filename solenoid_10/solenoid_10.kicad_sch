@@ -2071,6 +2071,12 @@
 		(uuid "9dce2e09-f292-437d-b046-ac93b0355209")
 	)
 	(junction
+		(at 128.27 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac9e9f59-9874-4a75-b3e8-8b9f0581a7dd")
+	)
+	(junction
 		(at 82.55 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2151,6 +2157,16 @@
 			(type default)
 		)
 		(uuid "56723bab-93fd-4cf7-8c74-207b54f2ee1f")
+	)
+	(wire
+		(pts
+			(xy 128.27 24.13) (xy 133.35 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574f412e-f1de-4283-94ff-a9fa0864a780")
 	)
 	(wire
 		(pts
@@ -2302,6 +2318,16 @@
 		)
 		(uuid "f5baccae-e61a-4abf-b7a3-91fc3ceddc07")
 	)
+	(wire
+		(pts
+			(xy 128.27 22.86) (xy 128.27 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f763df20-c58f-406e-a007-03c72d89cfef")
+	)
 	(label "CH1_IN"
 		(at 45.72 78.74 0)
 		(effects
@@ -2343,7 +2369,7 @@
 		(uuid "51ded2df-14fe-4e49-bc0d-69a9acf22e12")
 	)
 	(label "VGATE"
-		(at 128.27 24.13 0)
+		(at 133.35 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3253,6 +3279,72 @@
 			(project "solenoid_10"
 				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 128.27 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e38ebc72-876f-4936-bd7e-393428573b9d")
+		(property "Reference" "#FLG02"
+			(at 128.27 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 128.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 128.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1c42469-3d3f-4b2d-ae3f-db225451e089")
+		)
+		(instances
+			(project "solenoid_10"
+				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
