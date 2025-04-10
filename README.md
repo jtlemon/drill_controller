@@ -16,3 +16,9 @@ assuming data sheet accuracy are:
 
 
 ## Shield
+
+Note: Most the protection circuitry should be on the shield itself, such as
+optical isolation of signals and ESD protection. Larger fuses will be located
+externally for the higher voltage components.
+
+
