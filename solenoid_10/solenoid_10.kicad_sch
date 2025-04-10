@@ -692,371 +692,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Diode_AKL:SM4007PL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM4007PL"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/46c9a94b8759dbc6300546e57a2a5c9c/SM4007PL-TP.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SOD-123F Diode, Rectifier, 1000V, 1A, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode SM4007PL 4007"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SM4007PL_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SM4007PL_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SM4007PL_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SM4007PL_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Elektuur:R"
 			(pin_numbers
 				(hide yes)
@@ -1719,141 +1354,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Voltage_Regulator_AKL:L78M12CDT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L78M12CDT"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-252-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78m.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TO-252 12V 0.5A 3-terminal voltage regulator, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "12V 0.5A voltage regulator vreg pmic power supply 3-terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L78M12CDT_0_0"
-				(rectangle
-					(start -5.08 1.27)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "GND"
-					(at 0 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "L78M12CDT_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2095,7 +1595,7 @@
 	)
 	(rectangle
 		(start 69.85 15.24)
-		(end 140.97 45.72)
+		(end 127 35.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -2125,7 +1625,7 @@
 		)
 		(uuid "48be9f2d-b60f-4157-805c-dff3faf83667")
 	)
-	(text "12V Testing supply"
+	(text "5V Testing supply"
 		(exclude_from_sim no)
 		(at 79.502 13.97 0)
 		(effects
@@ -2166,34 +1666,10 @@
 		(uuid "a8c3af33-6a34-4194-ab18-f8201e500246")
 	)
 	(junction
-		(at 96.52 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "918003f4-733d-487f-89c5-a4b177db0dc5")
-	)
-	(junction
 		(at 39.37 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dce2e09-f292-437d-b046-ac93b0355209")
-	)
-	(junction
-		(at 128.27 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac9e9f59-9874-4a75-b3e8-8b9f0581a7dd")
-	)
-	(junction
-		(at 82.55 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afc608fc-82f4-48e4-ae0f-79c8c3096ef5")
-	)
-	(junction
-		(at 109.22 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd5eb23c-a3fb-4538-8e46-b7bcaba96034")
 	)
 	(wire
 		(pts
@@ -2227,16 +1703,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 24.13) (xy 128.27 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "192d33b5-5293-4420-95ff-d6cabd9a1d7d")
-	)
-	(wire
-		(pts
 			(xy 31.75 78.74) (xy 45.72 78.74)
 		)
 		(stroke
@@ -2244,26 +1710,6 @@
 			(type default)
 		)
 		(uuid "1ea2db47-67e5-4635-ab15-186a71313441")
-	)
-	(wire
-		(pts
-			(xy 82.55 25.4) (xy 82.55 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2590235b-ee0e-48eb-b80d-009a5b0a57a2")
-	)
-	(wire
-		(pts
-			(xy 109.22 36.83) (xy 96.52 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "317f9822-d907-4041-964b-934c3f9e9d01")
 	)
 	(wire
 		(pts
@@ -2317,26 +1763,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 24.13) (xy 133.35 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "574f412e-f1de-4283-94ff-a9fa0864a780")
-	)
-	(wire
-		(pts
-			(xy 104.14 24.13) (xy 109.22 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62158cb4-0c96-4622-a7b8-faa112e84028")
-	)
-	(wire
-		(pts
 			(xy 39.37 48.26) (xy 39.37 53.34)
 		)
 		(stroke
@@ -2367,16 +1793,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 24.13) (xy 82.55 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c6cf3c2-1fba-4a91-a6ae-81f8727fdadb")
-	)
-	(wire
-		(pts
 			(xy 31.75 66.04) (xy 45.72 66.04)
 		)
 		(stroke
@@ -2384,6 +1800,16 @@
 			(type default)
 		)
 		(uuid "7e0a8b77-da4b-4e3c-856f-f7fc1dbf039a")
+	)
+	(wire
+		(pts
+			(xy 111.76 21.59) (xy 116.84 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c24e06-8c83-414e-b939-f3492b52055d")
 	)
 	(wire
 		(pts
@@ -2407,36 +1833,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 33.02) (xy 82.55 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5e2bb6b-7e21-4e8f-b546-0d5647519c49")
-	)
-	(wire
-		(pts
-			(xy 109.22 33.02) (xy 109.22 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6162fa8-e0d6-4119-b520-d0dc5150bb22")
-	)
-	(wire
-		(pts
-			(xy 82.55 36.83) (xy 96.52 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b16cfdff-ec55-4579-b0ed-9ca57de7685d")
-	)
-	(wire
-		(pts
 			(xy 31.75 71.12) (xy 45.72 71.12)
 		)
 		(stroke
@@ -2444,16 +1840,6 @@
 			(type default)
 		)
 		(uuid "b1bd48ca-04f1-4905-ba65-1553d1264525")
-	)
-	(wire
-		(pts
-			(xy 82.55 24.13) (xy 88.9 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1d8caa8-838d-4cfb-b7e8-3cb878430fdd")
 	)
 	(wire
 		(pts
@@ -2467,23 +1853,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 24.13) (xy 109.22 25.4)
+			(xy 78.74 21.59) (xy 86.36 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b74afc2e-c5be-48c5-a14b-73d4b2a91f41")
-	)
-	(wire
-		(pts
-			(xy 109.22 24.13) (xy 114.3 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1bc5bf5-ad1e-4702-89f1-26ba6bf9da50")
+		(uuid "eb4568e6-eaa5-435d-8ab3-7e00529fd307")
 	)
 	(wire
 		(pts
@@ -2497,16 +1873,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 30.48) (xy 96.52 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f307b3c0-33ba-4461-94b7-78003e723378")
-	)
-	(wire
-		(pts
 			(xy 171.45 52.07) (xy 177.8 52.07)
 		)
 		(stroke
@@ -2514,16 +1880,6 @@
 			(type default)
 		)
 		(uuid "f5baccae-e61a-4abf-b7a3-91fc3ceddc07")
-	)
-	(wire
-		(pts
-			(xy 128.27 22.86) (xy 128.27 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f763df20-c58f-406e-a007-03c72d89cfef")
 	)
 	(label "CH10_IN"
 		(at 45.72 78.74 0)
@@ -2545,6 +1901,16 @@
 		)
 		(uuid "1df009fc-ac4d-4f0d-93fb-00837d97be2d")
 	)
+	(label "VGATE"
+		(at 116.84 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d3fa391-e462-4718-9f6c-8df71fa4283a")
+	)
 	(label "+24V"
 		(at 45.72 53.34 0)
 		(effects
@@ -2564,16 +1930,6 @@
 			(justify left bottom)
 		)
 		(uuid "51ded2df-14fe-4e49-bc0d-69a9acf22e12")
-	)
-	(label "VGATE"
-		(at 133.35 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d71d902-9fae-4557-8142-8e4cc643ffc9")
 	)
 	(label "+24V"
 		(at 171.45 52.07 180)
@@ -2646,7 +2002,7 @@
 		(uuid "c955c837-adfe-4328-a4f5-5af34e4fda10")
 	)
 	(label "+24V"
-		(at 77.47 24.13 180)
+		(at 78.74 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2850,75 +2206,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:SM4007PL")
-		(at 118.11 24.13 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29d7328d-ac6d-4d47-a7c3-cee8271e2825")
-		(property "Reference" "D1"
-			(at 118.11 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM4007PL"
-			(at 118.11 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
-			(at 118.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/46c9a94b8759dbc6300546e57a2a5c9c/SM4007PL-TP.pdf"
-			(at 118.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOD-123F Diode, Rectifier, 1000V, 1A, Alternate KiCad Library"
-			(at 118.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f63961c9-584f-40df-80ec-b5f425e4667b")
-		)
-		(pin "1"
-			(uuid "fda7d8c7-69c1-4220-bac9-134efc439e90")
-		)
-		(instances
-			(project "solenoid_10"
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 35.56 137.16 270)
 		(unit 1)
@@ -3000,146 +2287,6 @@
 			(project "solenoid_10"
 				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 109.22 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d75a41d-33ec-447c-9941-8ea85c336d40")
-		(property "Reference" "C2"
-			(at 113.03 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 113.03 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.1852 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 109.22 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0116c786-9b52-4985-bb86-d070bb7cec93")
-		)
-		(pin "2"
-			(uuid "5a14c0b0-7064-44c9-942f-1191e21f1d5a")
-		)
-		(instances
-			(project "solenoid_10"
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 82.55 29.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e3ec02d-328b-418a-b666-88c12d3c14d5")
-		(property "Reference" "C1"
-			(at 78.74 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.33u"
-			(at 78.74 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.5848 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 82.55 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91bec4f5-7689-48d2-b7bf-7dcc969538da")
-		)
-		(pin "2"
-			(uuid "974c0ff4-9ffa-4d9d-8fc6-1dafdc352892")
-		)
-		(instances
-			(project ""
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3365,143 +2512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Voltage_Regulator_AKL:L78M12CDT")
-		(at 96.52 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "934fb018-f836-41bc-8163-6c5dda1252c6")
-		(property "Reference" "U1"
-			(at 96.52 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L78M12CDT"
-			(at 96.52 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:TO-252-2"
-			(at 96.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78m.pdf"
-			(at 96.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TO-252 12V 0.5A 3-terminal voltage regulator, Alternate KiCad Library"
-			(at 96.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ad26b02-9019-481f-b450-71d9da0e662e")
-		)
-		(pin "3"
-			(uuid "7f0b3002-1eb9-409b-ac74-0703ed639764")
-		)
-		(pin "1"
-			(uuid "7b7258e5-6fe7-4f69-9d2b-92dbaae8c1dd")
-		)
-		(instances
-			(project ""
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db22c855-ad9c-44df-ae95-9ca7956d9ec6")
-		(property "Reference" "#PWR05"
-			(at 96.52 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55c7729d-a717-4bec-9a28-d58891240bd0")
-		)
-		(instances
-			(project "solenoid_10"
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 101.6 109.22 90)
 		(unit 1)
@@ -3561,72 +2571,6 @@
 			(project "solenoid_10"
 				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 128.27 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e38ebc72-876f-4936-bd7e-393428573b9d")
-		(property "Reference" "#FLG02"
-			(at 128.27 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 128.27 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 128.27 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1c42469-3d3f-4b2d-ae3f-db225451e089")
-		)
-		(instances
-			(project "solenoid_10"
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3945,7 +2889,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "22d9bef0-fbbf-4c96-a1de-b9073d4eab1a")
-		(property "Sheetname" "solenoid_channel"
+		(property "Sheetname" "solenoid_channel1"
 			(at 177.8 50.0884 0)
 			(effects
 				(font
@@ -4002,7 +2946,79 @@
 		)
 	)
 	(sheet
-		(at 139.7 76.2)
+		(at 177.8 68.58)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31dd3f1a-af55-40f0-ad15-494e6c90d7a9")
+		(property "Sheetname" "solenoid_channel2"
+			(at 177.8 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid_channel.kicad_sch"
+			(at 177.8 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "24V" input
+			(at 177.8 69.85 180)
+			(uuid "45b9a5c5-da99-43f4-a24d-c012d8971ad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH_IN" input
+			(at 177.8 72.39 180)
+			(uuid "a93ffe94-5c4f-4469-b8c9-6b76bcf58326")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VGATE" input
+			(at 177.8 74.93 180)
+			(uuid "3b46f082-45aa-46ce-b0aa-e58e0916164e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "solenoid_10"
+				(path "/434e6819-69f9-43cf-b2a3-58457aa05675"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 19.05)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4018,7 +3034,7 @@
 		)
 		(uuid "a48983fa-5ca6-467e-9e84-c08993af2c43")
 		(property "Sheetname" "dc_dc_psu"
-			(at 139.7 75.4884 0)
+			(at 86.36 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +3043,7 @@
 			)
 		)
 		(property "Sheetfile" "dc_dc_psu.kicad_sch"
-			(at 139.7 84.4046 0)
+			(at 86.36 27.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +3052,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 165.1 78.74 0)
+			(at 111.76 21.59 0)
 			(uuid "228b20e5-d73a-4808-be97-105a851a23ff")
 			(effects
 				(font
@@ -4046,7 +3062,7 @@
 			)
 		)
 		(pin "+24V_IN" input
-			(at 139.7 78.74 180)
+			(at 86.36 21.59 180)
 			(uuid "2c8282b2-d3ae-491e-8553-51f8adaa437c")
 			(effects
 				(font
