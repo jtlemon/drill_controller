@@ -24,3 +24,7 @@
 - [X] Source fuses.
 - [X] Add test points.
 - [ ] Add M codes to silkscreen.
+- [ ] Take spade connector dimensions/locations.
+- [ ] Take overall PCB dimensions.
+- [ ] Setup Netclasses.
+- [ ] 
