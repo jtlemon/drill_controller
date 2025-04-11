@@ -8389,7 +8389,7 @@
 	(footprint "PCM_LED_SMD_AKL:LED_1.8mm_GullWing"
 		(layer "F.Cu")
 		(uuid "4369515e-588e-45d7-9ffb-fcdfaa019f37")
-		(at 57.375 22.225)
+		(at 79.75 74.75)
 		(descr "1.8mm subminiature LED, Gull wing leads, 1.8mm diameter, https://www.tme.eu/Document/4f49387584433289ec12a23aabbb9450/OSXX212411C-TR7_VER.A.3.2.pdf, Alternate KiCad Library")
 		(tags "LED gull wing 1.8mm subminiature")
 		(property "Reference" "LED2"
@@ -10041,7 +10041,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "548b0efb-e4fb-4e36-bec7-703c3bfcec3a")
-		(at 27.425 53.95)
+		(at 61.25 69.175)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
@@ -13307,7 +13307,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "79c95745-bf00-447f-84a5-9864ef154110")
-		(at 20.775 53.45)
+		(at 56.3 69.05)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP1"
@@ -16694,7 +16694,7 @@
 	(footprint "PCM_LED_SMD_AKL:LED_1.8mm_GullWing"
 		(layer "F.Cu")
 		(uuid "87ab7da5-82ce-4d16-950e-b678fdeb8652")
-		(at 64.575 33.125)
+		(at 67.45 74.825)
 		(descr "1.8mm subminiature LED, Gull wing leads, 1.8mm diameter, https://www.tme.eu/Document/4f49387584433289ec12a23aabbb9450/OSXX212411C-TR7_VER.A.3.2.pdf, Alternate KiCad Library")
 		(tags "LED gull wing 1.8mm subminiature")
 		(property "Reference" "LED1"
@@ -18890,7 +18890,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "956b1cdc-9611-4cde-920e-55bf4a5e9280")
-		(at 59.2 33.15)
+		(at 62.075 74.85)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -20513,7 +20513,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b49187d8-337c-4c3d-9325-7282f6aaabc5")
-		(at 51.975 22.275)
+		(at 74.35 74.8)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -26294,7 +26294,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "dd537ff8-dcab-44ab-904b-7c02b83b9488")
-		(at 44.2 55.925)
+		(at 65.825 69.225)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP3"
@@ -26309,7 +26309,7 @@
 			)
 		)
 		(property "Value" "CH1"
-			(at -8.5 5.775 90)
+			(at 0.025 1.9 0)
 			(layer "F.Fab")
 			(uuid "12cf4eaf-4290-463a-9cd2-9ee93daf6473")
 			(effects
@@ -36963,6 +36963,17 @@
 			(uuid "325e4f5f-76d5-4a4b-b0aa-8a1bd8fb960f")
 		)
 		(embedded_fonts no)
+	)
+	(gr_rect
+		(start 39.8 66.75)
+		(end 359.55 91.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "4feda77f-2e46-420b-88c1-fa0cad96fb44")
 	)
 	(gr_text "50mm from point is starting of channels"
 		(at 39.5 97.8 0)
