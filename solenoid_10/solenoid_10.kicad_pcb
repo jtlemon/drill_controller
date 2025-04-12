@@ -36995,6 +36995,27 @@
 			(justify left)
 		)
 	)
+	(zone
+		(net 2)
+		(net_name "GND")
+		(layer "In1.Cu")
+		(uuid "ca56a0eb-f4f9-4b8e-8e48-1e82164b5824")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 107.3 65.5) (xy 107.3 112.5) (xy 339.3 112.5) (xy 339.3 65.5)
+			)
+		)
+	)
 	(group ""
 		(uuid "0c899dfc-6f45-4d38-8c3a-c0f2205a3907")
 		(members "18df087c-f45b-4c2d-aa97-10cae0f577c6" "250cf085-9c54-4474-94dd-8a57aefb0cd9"
