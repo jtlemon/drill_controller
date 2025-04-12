@@ -27,7 +27,8 @@
 - [ ] Take spade connector dimensions/locations.
 - [ ] Take overall PCB dimensions.
 - [ ] Setup Netclasses.
-- [ ]
+- [ ] change sheet company name --> "Homewood Creations"
+- [ ] Import logo's onto boards.
 
 ## Dimension Data(Original PCB)
 
