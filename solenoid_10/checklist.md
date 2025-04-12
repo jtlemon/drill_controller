@@ -20,13 +20,13 @@
 - [X] Add OC protection.
 - [X] Source N-CH Mosfet.
 - [X] Source Tactile switch.
-- [ ] Source smd led.
+- [X] Source smd led.
 - [X] Source fuses.
 - [X] Add test points.
 - [ ] Add M codes to silkscreen.
-- [ ] Take spade connector dimensions/locations.
+- [X] Take spade connector dimensions/locations.
 - [ ] Take overall PCB dimensions.
-- [ ] Setup Netclasses.
+- [X] Setup Netclasses.
 - [ ] change sheet company name --> "Homewood Creations"
 - [ ] Import logo's onto boards.
 
