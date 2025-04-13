@@ -13,7 +13,7 @@
 ## TODO
 
 - [X] Add M8 or M12 connector Symbols
-- [ ] Add M8 or M12 connector footprints.
+- [X] Add M8 or M12 connector footprints.
 - [X] Add spade connector Symbols.
 - [X] Add spade connector footprints.
 - [X] Add OV protection.
@@ -23,12 +23,13 @@
 - [X] Source smd led.
 - [X] Source fuses.
 - [X] Add test points.
-- [ ] Add M codes to silkscreen.
+- [X] Add M codes to silkscreen.
 - [X] Take spade connector dimensions/locations.
-- [ ] Take overall PCB dimensions.
+- [X] Take overall PCB dimensions.
 - [X] Setup Netclasses.
-- [ ] change sheet company name --> "Homewood Creations"
+- [X] change sheet company name --> "Homewood Creations"
 - [ ] Import logo's onto boards.
+- [ ] Run DRC rulecheck.
 
 ## Dimension Data(Original PCB)
 
