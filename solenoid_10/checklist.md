@@ -31,7 +31,7 @@
 - [X] Add model for M12 conn.
 - [X] Add model for LED.
 - [X] Add model for button.
-- [ ] Change hole size to 3.5mm
+- [X] Change hole size to 3.5mm
 - [ ] Update C2C of holes to 23mm
 - [ ] Offset hole from edge by 12.859mm
 - [ ] Add mounting holes near M12 connecotr, C2C 32mm, diam: 4.5mm
