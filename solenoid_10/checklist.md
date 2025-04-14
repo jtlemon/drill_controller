@@ -28,9 +28,9 @@
 - [X] Take overall PCB dimensions.
 - [X] Setup Netclasses.
 - [X] change sheet company name --> "Homewood Creations"
-- [ ] Add model for M12 conn.
+- [X] Add model for M12 conn.
 - [X] Add model for LED.
-- [ ] Add model for button.
+- [X] Add model for button.
 - [ ] Change hole size to 3.5mm
 - [ ] Update C2C of holes to 23mm
 - [ ] Offset hole from edge by 12.859mm
