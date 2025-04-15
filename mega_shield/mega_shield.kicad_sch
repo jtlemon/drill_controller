@@ -2647,6 +2647,12 @@
 		(uuid "427cb818-437d-45c6-8942-8d29550b854b")
 	)
 	(junction
+		(at 166.37 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cbdb270-4c50-4ad8-87ff-eadb1953c0ac")
+	)
+	(junction
 		(at 181.61 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2812,6 +2818,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 179.07) (xy 166.37 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed8e243-cfe1-4d65-a3f9-e4086c43d65d")
+	)
+	(wire
+		(pts
 			(xy 181.61 186.69) (xy 182.88 186.69)
 		)
 		(stroke
@@ -2852,6 +2868,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 179.07) (xy 182.88 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d790d09d-a772-423b-8c37-15c9611748e8")
+	)
+	(wire
+		(pts
 			(xy 180.34 196.85) (xy 180.34 199.39)
 		)
 		(stroke
@@ -2871,7 +2897,7 @@
 		(uuid "f13b5a0b-8ec2-484f-9795-f4c68ba8bdc6")
 	)
 	(label "+9V_GRBL"
-		(at 182.88 179.07 180)
+		(at 165.1 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3210,6 +3236,72 @@
 			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 166.37 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "333d6836-a22c-4da8-a372-76fab4d5cdb8")
+		(property "Reference" "#FLG03"
+			(at 166.37 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 166.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "314a35eb-c9b3-421c-a913-2aef063fb245")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
