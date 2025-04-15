@@ -32,10 +32,10 @@
 - [X] Add model for LED.
 - [X] Add model for button.
 - [X] Change hole size to 3.5mm
-- [ ] Update C2C of holes to 23mm
-- [ ] Offset hole from edge by 12.859mm
-- [ ] Add mounting holes near M12 connecotr, C2C 32mm, diam: 4.5mm
-- [ ] Move the Mosfets 2mm right(aka X-axis +2mm)
+- [X] Update C2C of holes to 23mm
+- [X] Offset hole from edge by 12.859mm
+- [X] Add mounting holes near M12 connecotr, C2C 32mm, diam: 4.5mm
+- [X] Move the Mosfets 2mm right(aka X-axis +2mm)
 - [ ] Import logo's onto boards.
 - [ ] Run DRC rulecheck.
 
