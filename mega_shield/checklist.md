@@ -17,7 +17,7 @@
 - [ ] Add M12 connections(sym, fp, step).
 - [X] Add sheets for uC
 - [X] Add X-Axis uc-Labels
-- [ ] Add Y-Axis uc-Labels
+- [X] Add Y-Axis uc-Labels
 - [ ] Add Z-Axis uc-Labels
 - [ ] Add A-Axis uc-Labels
 - [ ] Add B-Axis uc-Labels

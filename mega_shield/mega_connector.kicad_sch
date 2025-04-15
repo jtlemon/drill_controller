@@ -2901,6 +2901,28 @@
 		)
 		(uuid "105b6e7a-2577-4ead-ba07-f5ff8c9519d6")
 	)
+	(hierarchical_label "Y_DIR"
+		(shape output)
+		(at 106.68 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40061a9b-3d82-4a48-8e66-88a189c7e230")
+	)
+	(hierarchical_label "Y_LIM_MIN"
+		(shape input)
+		(at 106.68 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82ddf4ce-40ca-4f35-9dbe-4d0e898c7943")
+	)
 	(hierarchical_label "X_LIM_MIN"
 		(shape input)
 		(at 172.72 44.45 0)
@@ -2911,6 +2933,17 @@
 			(justify left)
 		)
 		(uuid "94db6ef8-ce44-431a-82d4-042de4315ff8")
+	)
+	(hierarchical_label "Y_ERR"
+		(shape input)
+		(at 106.68 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95399026-6307-41ac-9835-dd983fb625c0")
 	)
 	(hierarchical_label "X_STEP"
 		(shape output)
@@ -2933,6 +2966,17 @@
 			(justify right)
 		)
 		(uuid "9c7930e1-014c-4228-9819-9cd50771fd54")
+	)
+	(hierarchical_label "Y_LIM_MAX"
+		(shape input)
+		(at 106.68 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e547bd3-3e92-41ab-9086-0e7c3525a25b")
 	)
 	(hierarchical_label "X_DIR"
 		(shape output)
@@ -2967,6 +3011,28 @@
 		)
 		(uuid "a8b013eb-6a74-490d-8ff7-d81b626603c7")
 	)
+	(hierarchical_label "Y_EN"
+		(shape output)
+		(at 106.68 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b807c842-595b-4cd4-937c-e71a958ff664")
+	)
+	(hierarchical_label "Y_PED"
+		(shape input)
+		(at 106.68 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3032336-76ef-4401-96af-620aa5feafb1")
+	)
 	(hierarchical_label "X_EN"
 		(shape output)
 		(at 172.72 113.03 0)
@@ -2977,6 +3043,17 @@
 			(justify left)
 		)
 		(uuid "c9c3627f-57d6-4b2b-9bc2-343181972523")
+	)
+	(hierarchical_label "Y_STEP"
+		(shape output)
+		(at 106.68 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8961a09-f232-47b6-9e37-4478309cbc1e")
 	)
 	(symbol
 		(lib_id "PCM_arduino-library:Arduino_Mega2560_R3_Shield")
