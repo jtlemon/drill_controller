@@ -195,6 +195,76 @@
 				(justify left)
 			)
 		)
+		(pin "Z_DIR" output
+			(at 165.1 128.27 180)
+			(uuid "21490740-8a67-4295-b9c7-6158b575eda3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_EN" output
+			(at 165.1 130.81 180)
+			(uuid "b505c73a-3f99-487a-b304-1e1589c010d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_ERR" input
+			(at 165.1 133.35 180)
+			(uuid "c01725e2-d143-4e91-a8f1-3aa42ea1e64a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_LIM_MAX" input
+			(at 165.1 135.89 180)
+			(uuid "8b12eff3-c26c-4410-a0fd-4510cbe9259b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_LIM_MIN" input
+			(at 165.1 138.43 180)
+			(uuid "c2c7f1d4-07ea-4d71-a46f-c14aa912bc8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_PED" input
+			(at 165.1 140.97 180)
+			(uuid "4d1797a5-371b-43a6-b4a2-783e009f4400")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_STEP" output
+			(at 165.1 143.51 180)
+			(uuid "f1999f23-9fed-4bd6-afec-1e63041772eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"

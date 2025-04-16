@@ -18,7 +18,7 @@
 - [X] Add sheets for uC
 - [X] Add X-Axis uc-Labels
 - [X] Add Y-Axis uc-Labels
-- [ ] Add Z-Axis uc-Labels
+- [X] Add Z-Axis uc-Labels
 - [ ] Add A-Axis uc-Labels
 - [ ] Add B-Axis uc-Labels
 

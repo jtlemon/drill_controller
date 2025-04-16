@@ -2901,6 +2901,28 @@
 		)
 		(uuid "105b6e7a-2577-4ead-ba07-f5ff8c9519d6")
 	)
+	(hierarchical_label "Z_PED"
+		(shape input)
+		(at 172.72 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1248c5d7-7cf2-49d5-acc0-5ee43b69a754")
+	)
+	(hierarchical_label "Z_EN"
+		(shape output)
+		(at 106.68 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d32023b-3351-4e17-8378-a6ac28a81940")
+	)
 	(hierarchical_label "Y_DIR"
 		(shape output)
 		(at 106.68 92.71 180)
@@ -2911,6 +2933,28 @@
 			(justify right)
 		)
 		(uuid "40061a9b-3d82-4a48-8e66-88a189c7e230")
+	)
+	(hierarchical_label "Z_LIM_MAX"
+		(shape input)
+		(at 172.72 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4620b5b6-1e20-4657-abdc-51a2447cf96a")
+	)
+	(hierarchical_label "Z_LIM_MIN"
+		(shape input)
+		(at 106.68 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a77e9ca-347d-470f-b977-bd2673d95036")
 	)
 	(hierarchical_label "Y_LIM_MIN"
 		(shape input)
@@ -3043,6 +3087,39 @@
 			(justify left)
 		)
 		(uuid "c9c3627f-57d6-4b2b-9bc2-343181972523")
+	)
+	(hierarchical_label "Z_DIR"
+		(shape output)
+		(at 172.72 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e25786c9-2211-4269-8112-9db0023ed988")
+	)
+	(hierarchical_label "Z_STEP"
+		(shape output)
+		(at 172.72 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3713610-2be7-4636-b4d8-84c6ab28d3d6")
+	)
+	(hierarchical_label "Z_ERR"
+		(shape input)
+		(at 106.68 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5e0ba0d-d593-4304-a2a6-4f5e730798bb")
 	)
 	(hierarchical_label "Y_STEP"
 		(shape output)
