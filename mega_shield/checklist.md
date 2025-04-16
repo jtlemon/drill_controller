@@ -23,8 +23,8 @@
 - [X] Add B-Axis uc-Labels
 - [X] Add C-Axis uc-Labels
 - [X] Add remaining uc-Labels
-- [ ] Add Tripped fuse indicator leds.
-- [ ] Create motor driver protection sheet/interface.
+- [X] Add Tripped fuse indicator leds.
+- [X] Create motor driver protection sheet/interface.
 - [ ] Create Spin Interface Sheet.
 - [ ] Create solenoid interface sheet.
 - [ ] Create door interface sheet.
