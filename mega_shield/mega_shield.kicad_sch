@@ -11,6 +11,66 @@
 		(company "Homewood Creations")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 306.07 86.36) (xy 342.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c60cb56-d746-4e3d-9030-5ce6eb892fcd")
+	)
+	(wire
+		(pts
+			(xy 306.07 96.52) (xy 342.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc76c7d-1629-42cb-9b41-51e15cc43d21")
+	)
+	(wire
+		(pts
+			(xy 306.07 93.98) (xy 342.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1321a2f-33ea-4eef-9680-3a1d97f00b27")
+	)
+	(wire
+		(pts
+			(xy 306.07 81.28) (xy 342.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42312dd-6f2f-4c0a-beac-eadb5e99e9a7")
+	)
+	(wire
+		(pts
+			(xy 306.07 83.82) (xy 342.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18a0967-b9f8-4e68-acbd-59c2b5ba549a")
+	)
+	(wire
+		(pts
+			(xy 306.07 91.44) (xy 342.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd01fb5b-22c2-4e79-9388-5dafcccb62a6")
+	)
 	(sheet
 		(at 242.57 76.2)
 		(size 63.5 125.73)
@@ -746,13 +806,12 @@
 		)
 	)
 	(sheet
-		(at 342.9 76.2)
-		(size 21.59 21.59)
+		(at 342.9 100.33)
+		(size 21.59 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -760,9 +819,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "fa2aff00-6b7c-4012-8bde-20724615a437")
-		(property "Sheetname" "servo_interface_"
-			(at 342.9 75.4884 0)
+		(uuid "60dac8cc-38c4-4167-a27d-cdec6a027d6c")
+		(property "Sheetname" "servo_interface_X1"
+			(at 342.646 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +830,128 @@
 			)
 		)
 		(property "Sheetfile" "servo_interface_.kicad_sch"
-			(at 342.9 98.3746 0)
+			(at 364.998 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ALARM" output
+			(at 342.9 106.68 180)
+			(uuid "d287204c-a7d1-493d-a12c-c21e68882d80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIR" input
+			(at 342.9 101.6 180)
+			(uuid "f62bb759-e96d-445b-90dc-51b32ca9e1e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 342.9 104.14 180)
+			(uuid "5a57f1fe-29da-4e9c-b526-0ee943a5584a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HOME" output
+			(at 342.9 111.76 180)
+			(uuid "824cebdd-9f2d-4e07-8c62-ca1ac49c023b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PED" output
+			(at 342.9 114.3 180)
+			(uuid "9bdda110-bedb-432b-8c35-d63ea100e29a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 342.9 116.84 180)
+			(uuid "ac1802c5-ca1c-4cd9-97a4-0e980b1819f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_IN" input
+			(at 364.49 104.14 0)
+			(uuid "e3e93439-cb18-4967-8ebf-c45e1f6a3d3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+36V_IN" input
+			(at 364.49 101.6 0)
+			(uuid "d66d987f-2f5f-459d-aea8-b5e5b0f6a0db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 342.9 80.01)
+		(size 21.59 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa2aff00-6b7c-4012-8bde-20724615a437")
+		(property "Sheetname" "servo_interface_X"
+			(at 342.646 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_interface_.kicad_sch"
+			(at 364.998 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,7 +1020,7 @@
 			)
 		)
 		(pin "+5V_IN" input
-			(at 364.49 81.28 0)
+			(at 364.49 83.82 0)
 			(uuid "cb3a6830-7c9b-42d9-9bc6-7a6ce152b7fb")
 			(effects
 				(font
@@ -850,7 +1030,7 @@
 			)
 		)
 		(pin "+36V_IN" input
-			(at 364.49 78.74 0)
+			(at 364.49 81.28 0)
 			(uuid "cd3e7182-d88f-4dc3-a4b5-375669e2762a")
 			(effects
 				(font

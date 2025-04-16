@@ -2350,6 +2350,10 @@
 		(at 50.8 231.14)
 		(uuid "4f1b193d-655c-40f5-be04-cabd3e3b0667")
 	)
+	(no_connect
+		(at 50.8 243.84)
+		(uuid "e62819d5-b5f3-41f4-b80f-fc7b73ecb814")
+	)
 	(wire
 		(pts
 			(xy 140.97 139.7) (xy 147.32 139.7)
@@ -2762,16 +2766,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 243.84) (xy 63.5 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ab7660e-d740-43fa-beea-9d7b111f7ca1")
-	)
-	(wire
-		(pts
 			(xy 148.59 67.31) (xy 143.51 67.31)
 		)
 		(stroke
@@ -2909,16 +2903,6 @@
 			(type default)
 		)
 		(uuid "9c033a37-4011-4793-bade-939100b13c31")
-	)
-	(wire
-		(pts
-			(xy 50.8 246.38) (xy 63.5 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1def807-9b0e-4b13-bdb8-e44f39bae431")
 	)
 	(wire
 		(pts
@@ -3703,16 +3687,6 @@
 		)
 		(uuid "458d1124-4b8e-46e1-8524-a62fce963337")
 	)
-	(label "+36V_Servo"
-		(at 63.5 246.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69c6c7a0-731f-41e3-9dd0-a2567c5f6376")
-	)
 	(label "+5V_Servo"
 		(at 344.17 156.21 0)
 		(effects
@@ -3744,7 +3718,7 @@
 		(uuid "7b9052b1-c44b-4dd6-9779-888eb499cb15")
 	)
 	(label "+5V_Servo"
-		(at 63.5 243.84 0)
+		(at 50.8 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,31 +4061,35 @@
 			)
 		)
 		(pin "5"
-			(uuid "964c524a-0296-4208-8d35-8de29d571704")
+			(uuid "9b27228a-9084-4307-b2fc-996e14cd63a0")
 		)
 		(pin "2"
-			(uuid "a6932162-87f0-4275-8e3e-aec08a7d1b06")
+			(uuid "20584882-26e8-4d74-927c-31a6cbb7ef0f")
 		)
 		(pin "1"
-			(uuid "3b6c6dee-85f1-4764-ac2a-89ec01e0ca79")
+			(uuid "36ac72ed-1b2a-49c5-bbc8-fde00889554e")
 		)
 		(pin "3"
-			(uuid "f4378fbf-e444-40f0-a07d-f2d54b0ac245")
+			(uuid "62f848f7-c247-4fae-a38c-3764feac9a24")
 		)
 		(pin "4"
-			(uuid "231e8ee0-c2e1-4bc8-8338-cedb9c407ad8")
+			(uuid "63f6342c-4b28-42f8-a541-c8143f848db1")
 		)
 		(pin "6"
-			(uuid "487ccd0d-36cb-4d4c-a086-6f33f31a9b09")
+			(uuid "a2acaeb5-48ba-429c-85d4-da00edf9c3e3")
 		)
 		(pin "7"
-			(uuid "3c4e6cd3-0af9-4093-ad91-a80ac5c034a6")
+			(uuid "4e0a9c21-8a70-42da-944a-f098093b54e8")
 		)
 		(pin "8"
-			(uuid "ce0f6220-82c1-4158-8ffb-d03e65b407db")
+			(uuid "785645c0-b80a-4849-8cda-459389158ada")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "U8")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "U4")
 					(unit 1)
@@ -4129,7 +4107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08519e9b-9651-4052-9a05-69f7161e3384")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR"
 			(at 139.7 114.3 0)
 			(effects
 				(font
@@ -4174,12 +4152,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b68e9575-169c-401d-96d0-832228ef0a6f")
+			(uuid "6b1ca8fe-6d67-4550-9bd1-23a82d709ab7")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "#PWR04")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4195,7 +4173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "087d1e07-7f7b-4b79-b32e-35f106965971")
-		(property "Reference" "J1"
+		(property "Reference" "J"
 			(at 42.545 256.54 0)
 			(effects
 				(font
@@ -4280,45 +4258,45 @@
 			)
 		)
 		(pin "8"
-			(uuid "b382b104-4d26-4ada-809f-e76a92d5cc42")
+			(uuid "0cc5178e-9b11-4799-abd7-d3b7624f5a23")
 		)
 		(pin "6"
-			(uuid "ff0f036a-71c1-4d67-a559-e4d34d32b37b")
+			(uuid "f0ee6faf-5324-4eee-bf7b-63176185aa9b")
 		)
 		(pin "12"
-			(uuid "577fa377-3fce-4a69-9f14-7ebd3346da4d")
+			(uuid "396a2817-06c0-4ba3-bfaa-393e4038c145")
 		)
 		(pin "11"
-			(uuid "0f6c10b7-3833-4e22-bfe8-87aeaabbf2a5")
+			(uuid "810e2b08-8fb1-46d8-aa5a-10df2526d7ad")
 		)
 		(pin "10"
-			(uuid "577d83ff-b9f2-4303-a246-88493ecf93cc")
+			(uuid "c8a70adf-f6f8-4aea-b83d-8b710bd3a5d5")
 		)
 		(pin "2"
-			(uuid "ddd05a0b-404e-49b6-a0be-91eb284a460c")
+			(uuid "1fa74179-afa3-4b1f-98fe-5c36ec9244ed")
 		)
 		(pin "5"
-			(uuid "c456deea-059e-4ef1-9bf0-7e23ee26f8fb")
+			(uuid "b532ead6-69e6-493b-9a63-ece545e6f445")
 		)
 		(pin "1"
-			(uuid "5f93e69f-fc41-4697-8d4e-090e9b4ffdf2")
+			(uuid "bb2facc1-7cac-479d-b525-0fbfdfd1fcc8")
 		)
 		(pin "4"
-			(uuid "3dfd8217-3efd-47f4-9609-2e267db8be41")
+			(uuid "2d8331f8-c91e-4bd9-b14a-46349059ae02")
 		)
 		(pin "3"
-			(uuid "4c025208-2326-49cb-a3cb-2593ab0fbb36")
+			(uuid "01b12280-557d-4e30-86af-3d48266b8eda")
 		)
 		(pin "7"
-			(uuid "0cf55b7b-9604-4e3a-9d0d-1e887c242f80")
+			(uuid "814bb105-5259-4b60-bbd2-efe3475af329")
 		)
 		(pin "9"
-			(uuid "f5cdd6ea-02f8-4daa-80ec-8db23d3927c4")
+			(uuid "5e5235d2-c9b6-497d-acd5-0c5af4cad9df")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "J1")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4379,10 +4357,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "40764d83-8335-46bf-8ec6-3dec234cef6e")
+			(uuid "79b8acdf-6386-4e23-a292-f5ec3403ccdc")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR053")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR027")
 					(unit 1)
@@ -4444,13 +4426,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "1013ef7a-9836-4cd6-897b-4cab8d2a29ab")
+			(uuid "c1c53a7e-73f1-4fd4-943a-d7bb28298852")
 		)
 		(pin "2"
-			(uuid "700dbc5b-f1b6-42ff-8af7-e4d2bb44199d")
+			(uuid "2aca1bf3-6c90-473f-baf2-7bf0d94a0fd4")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "C16")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "C8")
 					(unit 1)
@@ -4514,16 +4500,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "956cabc3-dffd-4ac9-b674-1176af8d06e0")
+			(uuid "20be9055-7785-4b26-9dbb-45a7c914dd47")
 		)
 		(pin "2"
-			(uuid "d2460e40-f757-444b-8556-a0a653a19c56")
+			(uuid "9ef61ddb-4e98-4daa-9377-632ab98ef540")
 		)
 		(pin "3"
-			(uuid "227f71c9-478c-406f-8331-9b14c7e1964f")
+			(uuid "325b3a87-8058-4c59-9970-ae6637dd5024")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "Q10")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "Q4")
 					(unit 1)
@@ -4602,13 +4592,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "50652e33-a8c9-41bf-8df2-8fa89b2a5355")
+			(uuid "3627fd22-af7e-40a1-b694-8597ce2246d0")
 		)
 		(pin "1"
-			(uuid "56b6fe6e-7bfb-47a1-8cf9-d99ad220e968")
+			(uuid "bd00e678-7c52-4d80-86da-12efc20c5f58")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "LED4")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "LED2")
 					(unit 1)
@@ -4672,16 +4666,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "000dc7dc-3054-4f25-90de-34315c9289e9")
+			(uuid "9dbaf5fc-efab-4fc9-9254-cbc444213732")
 		)
 		(pin "2"
-			(uuid "5b14df5d-a7b5-4d03-bfca-5b79f09e5cf9")
+			(uuid "c55ca637-0ea9-4b4e-9048-983fbaa0fb18")
 		)
 		(pin "3"
-			(uuid "074ba28c-b934-413f-86c5-6b3f3514912b")
+			(uuid "cfe4bef9-e0df-4953-a6da-a565899ddd16")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "Q16")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "Q8")
 					(unit 1)
@@ -4744,10 +4742,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fe76e4e-f8f8-47b9-aa97-049631539562")
+			(uuid "00170deb-1356-48f9-94a7-9237a5f2cbd2")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR038")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR014")
 					(unit 1)
@@ -4809,31 +4811,35 @@
 			)
 		)
 		(pin "5"
-			(uuid "1c512993-9a5a-4601-9fb7-bf3bcb48fc39")
+			(uuid "69737176-e4ac-4de1-b36f-75f4284355c1")
 		)
 		(pin "2"
-			(uuid "f27edcdc-b53a-4c75-9cc2-6b91c39be9ef")
+			(uuid "14bca203-4250-4d23-b74f-3a2d85ea8aae")
 		)
 		(pin "1"
-			(uuid "57c23dde-6f8a-4b9e-b5c4-a1c14d6c6408")
+			(uuid "5e55b16b-94f4-4139-8f53-47b3f62b7444")
 		)
 		(pin "3"
-			(uuid "c50e7572-4032-47ae-bafb-a083540722db")
+			(uuid "d25da8ba-3dd9-4915-9620-2c5bf4e68465")
 		)
 		(pin "4"
-			(uuid "28554f76-a664-4f57-bce0-f3ae8d94be3b")
+			(uuid "02f37ab4-366a-4a71-b963-8a0bdb5c82aa")
 		)
 		(pin "6"
-			(uuid "21ba8e50-1eac-4c71-9fea-7e3d9b37db65")
+			(uuid "c0edd3bb-76d0-4980-9ce0-c939ae5a3593")
 		)
 		(pin "7"
-			(uuid "1b3720d6-40bd-4935-859b-42f97c255d78")
+			(uuid "a39f4aa3-2959-464e-9685-ae3441f75b79")
 		)
 		(pin "8"
-			(uuid "0a5e0c56-bb5f-4ebf-b837-c4594b059fb8")
+			(uuid "3ecce71f-11a2-4930-9df4-bc138b4ada89")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "U5")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "U2")
 					(unit 1)
@@ -4896,10 +4902,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee52c1ae-6b61-4bd2-97e4-147bfcc94f6b")
+			(uuid "80c598dd-b7b0-40a8-8e96-1273d0270ee3")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR041")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR06")
 					(unit 1)
@@ -4962,10 +4972,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "805846f4-3adb-4010-ba08-d5d1765863be")
+			(uuid "f9d1064d-808e-402a-97d8-2c3ad2faa172")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR039")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR015")
 					(unit 1)
@@ -5028,10 +5042,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "34c339d8-0433-4597-9795-7a969a9fc2d8")
+			(uuid "9237fe3e-fa7b-4b10-a576-6f8a20efd4f3")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR050")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR020")
 					(unit 1)
@@ -5094,10 +5112,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "aedc284c-2057-4484-808f-2cc9e16127a4")
+			(uuid "094cb18a-06fc-4798-95d6-3a5134fe2d6e")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR035")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR08")
 					(unit 1)
@@ -5161,13 +5183,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "a9388862-9f17-4204-9677-61172eb7a22b")
+			(uuid "07457e55-c269-4e22-9901-0d8984b7a69e")
 		)
 		(pin "1"
-			(uuid "05ea7c36-7cf4-45ed-9145-bbfdacca2d87")
+			(uuid "7cfce6b8-309b-4e9d-ae14-e6155452c585")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R12")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "R4")
 					(unit 1)
@@ -5231,13 +5257,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "a7dfddfe-98d9-4382-849b-6af6d58b7d62")
+			(uuid "0bd65a02-d0c2-4599-9780-0c83e6eae3fe")
 		)
 		(pin "1"
-			(uuid "eb3dcc3e-1665-4e3e-9649-8051edbcc48d")
+			(uuid "bd7a2edd-8d68-4851-b2e9-0438630633ee")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R10")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "R2")
 					(unit 1)
@@ -5299,13 +5329,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "173e1f08-4871-4b91-9189-505731ad72b9")
+			(uuid "b4e903cc-2813-46cb-a67e-508e91e18c83")
 		)
 		(pin "2"
-			(uuid "5c59e1f7-2fc0-4b10-af04-80e23dc568d6")
+			(uuid "c291f9c1-7c96-4220-b129-3d9dd42e1b8d")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "C9")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "C3")
 					(unit 1)
@@ -5367,13 +5401,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2b46886-8f28-4599-992f-d585876fe5cd")
+			(uuid "938fb1e0-49e1-47b6-9a62-ed6efccb9e7c")
 		)
 		(pin "2"
-			(uuid "6c466c5f-b505-4a14-ad0c-6bbb8bbd2911")
+			(uuid "0c266afa-a8b0-4ae1-9e15-fe1abdb47e85")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "C15")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "C6")
 					(unit 1)
@@ -5436,10 +5474,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "58fb32e8-758f-4871-946b-70a399313470")
+			(uuid "44c9291c-6fcd-4fef-88cf-413d6bed184a")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR042")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR016")
 					(unit 1)
@@ -5501,31 +5543,35 @@
 			)
 		)
 		(pin "5"
-			(uuid "ba3ef8de-e881-4d0f-a350-6f377892e029")
+			(uuid "ed5df647-9623-4cd3-8ae4-c073e3a5399b")
 		)
 		(pin "2"
-			(uuid "92a5b882-3fab-4dd2-80d6-53c294588da3")
+			(uuid "d9e7b2e7-5c95-4150-94b8-4ef9e25df365")
 		)
 		(pin "1"
-			(uuid "16028944-60bc-437f-a704-17e6cfc8cbcb")
+			(uuid "1509466d-7cdd-44d9-8618-62060733c123")
 		)
 		(pin "3"
-			(uuid "e59fe071-d7ab-4407-9e95-0221babbe1ef")
+			(uuid "97f71874-1545-446d-b1d2-7bf1cd429e93")
 		)
 		(pin "4"
-			(uuid "27620432-35c1-43fa-a281-d49f3bc51a2a")
+			(uuid "6e9d1f40-71d4-48db-92ef-28e05cc66add")
 		)
 		(pin "6"
-			(uuid "4b174ed4-8a72-4df8-8f87-a21edea167b4")
+			(uuid "fcf42a69-7574-4d4e-8a82-1e5b8f210d2c")
 		)
 		(pin "7"
-			(uuid "6f6a69ec-83bf-4deb-a36c-725d64cfef7e")
+			(uuid "b2ae5d61-e05a-48b8-a241-e746c5c92813")
 		)
 		(pin "8"
-			(uuid "63c44eb1-4782-43b1-b148-1c3205d5a59d")
+			(uuid "d41846dc-930f-4974-8daa-360f6e506475")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "U7")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "U3")
 					(unit 1)
@@ -5587,13 +5633,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "c40232f0-64c3-47ab-8a17-bbbc475654f0")
+			(uuid "27a44573-1ffd-4ac5-acee-ab3adf2cbb10")
 		)
 		(pin "2"
-			(uuid "695e02b5-0013-4017-a83f-deb9bc14d481")
+			(uuid "79054905-0d5d-44e7-99de-fc1231c5215a")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "C11")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "C4")
 					(unit 1)
@@ -5656,10 +5706,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0234421-9bc1-4fb0-a671-95749969dc75")
+			(uuid "1bc28bd6-bb41-4305-8801-daa472b5b462")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR037")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR05")
 					(unit 1)
@@ -5722,10 +5776,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b001ce0-5099-475a-bf69-d925628dffc2")
+			(uuid "06f9eb1e-ba54-4391-a0ad-0e3352bdbe76")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR033")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR09")
 					(unit 1)
@@ -5788,10 +5846,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "361e10f3-68e8-45d8-ab86-6e3ee80d320b")
+			(uuid "31e94652-5e46-4697-97e6-ed6359b2bc23")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR052")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR026")
 					(unit 1)
@@ -5853,13 +5915,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ae87cc1-9412-417f-9ab2-10fae2bff85e")
+			(uuid "7a510ec9-2afd-43f9-92d2-8266e404b049")
 		)
 		(pin "2"
-			(uuid "1339f32e-0bef-4a99-90b9-0bccec0db9db")
+			(uuid "ade15520-36db-4d4a-8c0d-7a36bc811833")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "C12")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "C2")
 					(unit 1)
@@ -5923,16 +5989,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d8a3887-090d-4b39-a384-8526d2157adf")
+			(uuid "f1ba83a2-b432-44dc-81b2-780061d0f6b8")
 		)
 		(pin "2"
-			(uuid "d863c5cc-2e2a-40fd-8c05-8f19522f9200")
+			(uuid "b242ed24-086d-4c85-86a3-4eafbd52dfc9")
 		)
 		(pin "3"
-			(uuid "158c9492-9598-459f-bfaa-c654cb3b6805")
+			(uuid "da6e307d-de2d-4293-920a-4db2c6ebc525")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "Q14")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "Q6")
 					(unit 1)
@@ -5995,10 +6065,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "72167952-6a23-4415-a895-ec28573d5fe9")
+			(uuid "f112917b-5b0b-4c64-8485-0c85587466ff")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR047")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR024")
 					(unit 1)
@@ -6061,10 +6135,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "23f906d1-2fd9-4355-bc1c-271c2744f1f8")
+			(uuid "84c32347-059e-4f05-a0f5-3d250a7bf11c")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR045")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR023")
 					(unit 1)
@@ -6128,16 +6206,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "1956d740-861a-47a8-b993-4eb5565492a5")
+			(uuid "beba01fe-35dd-4eab-a19e-40dda2441395")
 		)
 		(pin "2"
-			(uuid "0eced86b-d3f6-4446-8163-53df2080fe25")
+			(uuid "0571a4ea-817e-499e-867d-502e1e511ce1")
 		)
 		(pin "3"
-			(uuid "29853198-20ed-4ebe-a759-9b35951c9843")
+			(uuid "50c4bf1d-eddc-4b76-81b9-861de5e5d0d5")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "Q9")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "Q3")
 					(unit 1)
@@ -6155,7 +6237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "678a8bce-9324-4212-a661-eb950ccae4f2")
-		(property "Reference" "LED1"
+		(property "Reference" "LED"
 			(at 50.8 58.42 0)
 			(effects
 				(font
@@ -6216,15 +6298,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c69b70cd-6bb8-4d2d-9a81-fc2cab3e7f67")
+			(uuid "854cf19a-5ac9-40ba-aad6-8b231a44c69a")
 		)
 		(pin "1"
-			(uuid "e1c4ccbd-3637-40f4-a842-b0b3a079d9d8")
+			(uuid "2c186fc9-d0f4-458f-971f-18942c962db9")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "LED1")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -6285,10 +6367,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4cf6a97b-c37d-43f2-b244-e27a68da00e3")
+			(uuid "98f46c3e-6e5a-4768-bc0a-d49cf29278ed")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#FLG06")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#FLG05")
 					(unit 1)
@@ -6351,10 +6437,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b3a94bc-8034-4ddc-b0ec-a51e5078ff34")
+			(uuid "96118537-1f20-428c-867e-3d1f0d9b7597")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR029")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR028")
 					(unit 1)
@@ -6416,13 +6506,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "a71655ea-537c-46a0-a0ac-2918490430e4")
+			(uuid "99088dae-7f23-438d-a673-daa28e176b79")
 		)
 		(pin "2"
-			(uuid "d0b9ce10-92c5-418e-8a31-272b969e8b32")
+			(uuid "a5e45aa2-4446-4e96-b35a-042853c34d70")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "C13")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "C5")
 					(unit 1)
@@ -6486,16 +6580,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4cd1b78-b498-43ca-b2b0-8586958578c4")
+			(uuid "4f0773e9-c619-474c-87ac-2bab856336f6")
 		)
 		(pin "2"
-			(uuid "fa42dfad-cbd6-46f2-a84e-9a49cfa271f8")
+			(uuid "ed1dbe20-4130-4778-89b8-00d32dbc0bac")
 		)
 		(pin "3"
-			(uuid "62dc7ca7-418f-4c06-8ecd-b33509150f4e")
+			(uuid "3e0a648a-e94a-4bff-8268-3de16093e68d")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "Q15")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "Q7")
 					(unit 1)
@@ -6557,13 +6655,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "d86f575a-62e4-4e19-933c-a8d2c08460be")
+			(uuid "a7d557c5-1c47-40e1-99e8-9830d251cef8")
 		)
 		(pin "2"
-			(uuid "2fe7a107-a865-4c24-87db-c33a00c9a0cf")
+			(uuid "b8bfd14d-64dd-45c5-95c1-f55a31138681")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "C14")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "C7")
 					(unit 1)
@@ -6626,10 +6728,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffaca395-a406-4549-9adf-e52ba8eee6a6")
+			(uuid "0dc3ef35-1365-412e-8a7e-f5227c26f4d9")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR046")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR018")
 					(unit 1)
@@ -6647,7 +6753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945371e0-5e1f-4524-b92e-0d449d37ea7f")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG"
 			(at 72.39 104.775 0)
 			(effects
 				(font
@@ -6692,12 +6798,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d954c110-b7dc-4ebb-ae8f-624896debcc3")
+			(uuid "f2cd86e7-05f7-4313-bc4c-5edadaa7077d")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "#FLG04")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -6759,16 +6865,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "efd01268-3318-4c37-8e6a-5082d43f242f")
+			(uuid "2c27f830-4b63-4d41-9e74-feba42fb0c75")
 		)
 		(pin "2"
-			(uuid "aba879fb-c291-4595-82ca-c0359f92b78f")
+			(uuid "68ff18d7-c31b-4317-ba23-affa1160bb89")
 		)
 		(pin "3"
-			(uuid "26779a24-8166-41d7-b446-3ba54c590284")
+			(uuid "60a24fd8-d370-4f85-8bf4-731097efc0f6")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "Q12")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "Q2")
 					(unit 1)
@@ -6831,10 +6941,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "09c72899-aabf-4f6a-9748-2a55d68e3484")
+			(uuid "46d82ac7-7746-4e0e-9e4c-3e958525008f")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR048")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR019")
 					(unit 1)
@@ -6852,7 +6966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f8539ea-ed97-4027-bac3-292b1a335efd")
-		(property "Reference" "C1"
+		(property "Reference" "C"
 			(at 152.4 59.69 90)
 			(effects
 				(font
@@ -6896,15 +7010,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "24dcd134-15b2-4d9c-853f-3d8ac9bcf653")
+			(uuid "f686c0ba-d041-46d2-a4bd-020628a18ad5")
 		)
 		(pin "2"
-			(uuid "7fdd6b05-43dc-4092-8cf4-e2e298350306")
+			(uuid "39dc7e15-042c-4f43-89c9-6f350f306ba1")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "C1")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6965,10 +7079,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c715d1c-6754-4c81-83bf-4d360a38b58c")
+			(uuid "cc353fec-a4b3-46f3-833f-ab5f3f818807")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR032")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR011")
 					(unit 1)
@@ -7031,10 +7149,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "880b25a0-55b8-4d27-b13b-eecf3fc49a8d")
+			(uuid "d406cbfb-f88e-44c7-a6af-0a7a7752fe1a")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR043")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR022")
 					(unit 1)
@@ -7052,7 +7174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abcdb611-0fd0-42ba-bfec-0fd26d959ab1")
-		(property "Reference" "R1"
+		(property "Reference" "R"
 			(at 345.44 67.3099 0)
 			(effects
 				(font
@@ -7098,15 +7220,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "13ffc44d-1bf2-4f53-ad85-e9492cf987a8")
+			(uuid "51cc7a47-99de-4ca6-a96d-8675570b7846")
 		)
 		(pin "1"
-			(uuid "984e3225-a703-4ee4-8e8b-07f9c58cfd76")
+			(uuid "e76bc6ed-457a-4ae2-a507-7e57ddd5539d")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "R1")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7166,13 +7288,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "4568247c-e6af-4669-937a-3638915f5a46")
+			(uuid "a5b7abd5-7609-4749-aa28-1dc5d3879415")
 		)
 		(pin "1"
-			(uuid "04263bfa-7c57-4a97-b9ef-bd038dd0ed07")
+			(uuid "05e3ca06-8645-4e21-9875-6f18ceb15324")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R7")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "R5")
 					(unit 1)
@@ -7235,10 +7361,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f71d581-a03a-4b1f-96a5-56b4ae9e74fb")
+			(uuid "af16cfb2-4a63-4f50-89cd-57435492b3d7")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR040")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR07")
 					(unit 1)
@@ -7300,13 +7430,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "1057a22e-8ab2-4a33-acf8-e1325eb7605f")
+			(uuid "0881cca5-1bac-4e0c-9f4a-45d6d31d2356")
 		)
 		(pin "1"
-			(uuid "b5028983-66ac-492f-a818-9ada6c079488")
+			(uuid "e11aed98-0387-418e-bb24-a6806bf3f738")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R8")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "R6")
 					(unit 1)
@@ -7324,7 +7458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c268c22f-b807-4c3e-87e9-7bdcdfe4e3db")
-		(property "Reference" "U1"
+		(property "Reference" "U"
 			(at 168.91 71.12 0)
 			(effects
 				(font
@@ -7368,33 +7502,33 @@
 			)
 		)
 		(pin "5"
-			(uuid "2e865e85-9610-471f-8ea5-7bdccf766e10")
+			(uuid "1620fa97-d507-4bc5-8cad-7ddc657d2895")
 		)
 		(pin "2"
-			(uuid "ba791966-13b9-4c6f-b467-88f70131c20c")
+			(uuid "30354002-a425-4c09-b7b4-3400c831c829")
 		)
 		(pin "1"
-			(uuid "32901fa6-0f3d-4317-b772-1b61ac414401")
+			(uuid "1bc034c0-7f9e-4489-81d6-0f403dfff00f")
 		)
 		(pin "3"
-			(uuid "7e307622-b4ed-49a0-8045-2b615d584ea1")
+			(uuid "a5b8a5ee-0af7-4f1e-b3fa-68518b833e6e")
 		)
 		(pin "4"
-			(uuid "88d7b3c8-43d5-413e-8b23-43004b87eec9")
+			(uuid "a5513cbb-40be-46e8-8029-a5631c24b2fa")
 		)
 		(pin "6"
-			(uuid "74ca385d-e4f7-4c4a-9fcc-02e1cab6638f")
+			(uuid "d3eec8ba-fbcf-4981-aa56-0af8ce206e68")
 		)
 		(pin "7"
-			(uuid "e5537c16-07c3-4c76-a952-4ffb84eda42d")
+			(uuid "68fe7f0a-2298-4ec6-8aec-287f2229b39c")
 		)
 		(pin "8"
-			(uuid "e9af0763-fd38-46bb-8374-3e231522814f")
+			(uuid "55d61a33-1255-431a-916c-60be81ba76fb")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "U1")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7455,10 +7589,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c5049e1-97b3-410a-8c1c-4cd03d53f508")
+			(uuid "b159bf08-8ffc-40eb-b1f3-095d55088093")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR030")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR010")
 					(unit 1)
@@ -7521,10 +7659,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee11562d-89cc-407f-bf10-ab17196d4020")
+			(uuid "d23333b8-52cb-4a5e-a833-d9fb43d376f9")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR049")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR025")
 					(unit 1)
@@ -7587,10 +7729,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a0e5a34-653e-40aa-b494-2a49490992a0")
+			(uuid "8a75a711-9203-45ba-b1f4-e09ba6280e07")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR034")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR012")
 					(unit 1)
@@ -7653,10 +7799,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "37b021a0-ffff-473b-abd4-9d1c55863c9e")
+			(uuid "3fb8c0d4-3702-4d15-83bb-ce0633fdd77b")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR044")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR017")
 					(unit 1)
@@ -7674,7 +7824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1ab55ef-5953-4e94-b950-f4939ab177fe")
-		(property "Reference" "Q1"
+		(property "Reference" "Q"
 			(at 220.98 80.0099 0)
 			(effects
 				(font
@@ -7720,18 +7870,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee44707e-c8f2-4763-bc20-baa1a84613c2")
+			(uuid "f7937a08-f0ed-4989-b37e-ecf893efeeb6")
 		)
 		(pin "2"
-			(uuid "066ad1d4-8942-4c80-a567-21600cabf9a8")
+			(uuid "3936737e-0e70-48fa-93cd-74320e7bda89")
 		)
 		(pin "3"
-			(uuid "ef76a0a6-df1e-42f1-9edf-5b166d38ec16")
+			(uuid "46219dba-e7f9-48cc-b8a2-1e5becf59911")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "Q1")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -7792,10 +7942,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5526ba3e-286a-4f37-8be3-06f196649281")
+			(uuid "a3fe072f-ca19-4918-97f5-012b5d03c8d0")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR036")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR013")
 					(unit 1)
@@ -7859,16 +8013,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6951386-559c-440f-9078-253b2272701c")
+			(uuid "1b91d146-09c3-4a1b-bb50-f74051881321")
 		)
 		(pin "2"
-			(uuid "a731789e-972d-4bb2-9b19-dea5fdc4318a")
+			(uuid "b2f1a1ee-7949-41cb-9532-e75f0068630f")
 		)
 		(pin "3"
-			(uuid "6667c44a-1651-4740-9c8e-3e2c62f2c355")
+			(uuid "7a225c1b-4650-4f21-ad33-8842e167cac9")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "Q13")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "Q5")
 					(unit 1)
@@ -7886,7 +8044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e997ff6c-a7c4-4d65-8fe5-c442d2f2950b")
-		(property "Reference" "F1"
+		(property "Reference" "F"
 			(at 57.15 48.26 90)
 			(effects
 				(font
@@ -7931,15 +8089,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6efe56ce-e010-4ca9-aa61-73e3eba140b4")
+			(uuid "6ac03271-5719-437b-90a2-e95ebf0afd2a")
 		)
 		(pin "1"
-			(uuid "725aede0-8fef-41f8-b7e6-03d976112df3")
+			(uuid "766ed43d-c2e8-494a-98eb-fb2ea3e79caf")
 		)
 		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "F1")
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -8000,13 +8158,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "99b34684-61b0-46b8-9e7b-8dacdf2cb9d3")
+			(uuid "d3a41f1c-387a-41f7-82e1-64ec42afb51f")
 		)
 		(pin "1"
-			(uuid "36e01fe0-6b7f-426c-8f2c-c5bedc1207f7")
+			(uuid "96fd588a-25ab-4eb5-a687-ae70c2265823")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "F4")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "F2")
 					(unit 1)
@@ -8069,10 +8231,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e6dd413-7455-4c1f-8cb2-73dcda4e8a43")
+			(uuid "e0fa3909-09a9-4776-b246-f1f0be008abf")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "#PWR051")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR021")
 					(unit 1)
@@ -8136,13 +8302,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "910e8474-ea6c-4d36-a076-779694993315")
+			(uuid "ac372d4e-9ce8-4d54-85dc-b9799848dc5e")
 		)
 		(pin "1"
-			(uuid "635cbd7b-4b04-4506-9ab3-3e873837fcaf")
+			(uuid "2816fc37-aab2-4b91-b767-24d6c09a495e")
 		)
 		(instances
 			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R11")
+					(unit 1)
+				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "R3")
 					(unit 1)
