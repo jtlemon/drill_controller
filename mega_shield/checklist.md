@@ -23,11 +23,21 @@
 - [X] Add B-Axis uc-Labels
 - [X] Add C-Axis uc-Labels
 - [X] Add remaining uc-Labels
+- [ ] Add Tripped fuse indicator leds.
 - [ ] Create motor driver protection sheet/interface.
 - [ ] Create Spin Interface Sheet.
 - [ ] Create solenoid interface sheet.
 - [ ] Create door interface sheet.
 - [ ] Duplicate sheet accross all motor driver connections.
+
+## Power Protection
+
+Anywhere the 5V/36V lines may iteract will be electrically isolated.
+
+All digitals outputs need to be electricaly isolated and current limited.
+All digital inputs need to be electrically isolated.
+
+
 
 ## servo interface
 
@@ -41,7 +51,7 @@ against short circuit conditions as well as over-voltage/current.
 The original chip used is a DIP package and totally out of stock, it also
 costs a good amount.
 
-Replacement will be done using the 6N137 which is a jellybean component so
+Replacement could be done using the 6N137 which is a jellybean component so
 highly availble from various manufactures.
 
 **NOTE:** Digital isolator's offer higher speed and don't suffer from the slow
@@ -51,3 +61,5 @@ Photodiode based opto-isolators can provide higher speed but still are slower
 than newer digital isolators.
 
 The CS817x22HS in particular seem like a good potential canidate.
+
+
