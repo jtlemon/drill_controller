@@ -63,3 +63,14 @@ than newer digital isolators.
 The CS817x22HS in particular seem like a good potential canidate.
 
 
+## solenoid interface
+
+This section needs fuses as well as ESD protection given that it's dealing
+with solenoids.
+
+Rational behind the ESD chips is the potential for an solenoid's collapsing
+magnetic field to produce a voltage spike if the snubber diodes failed.
+
+
+
+
