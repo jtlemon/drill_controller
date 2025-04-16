@@ -44,4 +44,10 @@ costs a good amount.
 Replacement will be done using the 6N137 which is a jellybean component so
 highly availble from various manufactures.
 
+**NOTE:** Digital isolator's offer higher speed and don't suffer from the slow
+off state that photo-transistors do.
 
+Photodiode based opto-isolators can provide higher speed but still are slower
+than newer digital isolators.
+
+The CS817x22HS in particular seem like a good potential canidate.
