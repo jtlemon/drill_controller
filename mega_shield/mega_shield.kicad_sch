@@ -1352,8 +1352,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 114.3)
-		(size 13.97 12.7)
+		(at 181.61 114.3)
+		(size 21.59 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1368,7 +1368,7 @@
 		)
 		(uuid "2699417b-945f-4287-8f74-1d8b0d60679f")
 		(property "Sheetname" "solenoid_interface"
-			(at 190.5 113.5884 0)
+			(at 181.61 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,12 +1377,42 @@
 			)
 		)
 		(property "Sheetfile" "solenoid_interface.kicad_sch"
-			(at 190.5 127.5846 0)
+			(at 181.61 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V_IN" input
+			(at 181.61 118.11 180)
+			(uuid "b93d2837-1818-48cc-b20b-1bfb6515ed07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V_IN" input
+			(at 181.61 115.57 180)
+			(uuid "3cee1469-ceba-4d2b-ada3-a16742a6a85b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SLND_1" input
+			(at 203.2 115.57 0)
+			(uuid "21ca01a1-b751-4ab8-8dac-89628a66d3db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
