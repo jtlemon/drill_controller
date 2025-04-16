@@ -21,4 +21,6 @@
 - [X] Add Z-Axis uc-Labels
 - [ ] Add A-Axis uc-Labels
 - [ ] Add B-Axis uc-Labels
-
+- [ ] Create motor driver protection sheet/interface.
+- [ ] Duplicate sheet accross all motor driver connections.
+- [ ] 
