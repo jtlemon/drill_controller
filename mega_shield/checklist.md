@@ -28,8 +28,8 @@
 - [ ] Create Spin Interface Sheet.
 - [ ] Create solenoid interface sheet.
 - [ ] Create door interface sheet.
-- [ ] Duplicate sheet accross all motor driver connections.
-- [ ] Remove +36V protection circuit from servo interfaces.
+- [X] Duplicate sheet accross all motor driver connections.
+- [X] Remove +36V protection circuit from servo interfaces.
 - [ ] Add test points to all sheets.
 - [ ] Check/run simulation of servo interface fets.
 
