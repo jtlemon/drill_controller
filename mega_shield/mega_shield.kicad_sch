@@ -1243,6 +1243,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 91.44) (xy 242.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088fcafd-66c6-49ef-a8bd-fdfba582f763")
+	)
+	(wire
+		(pts
 			(xy 306.07 162.56) (xy 342.9 162.56)
 		)
 		(stroke
@@ -1280,6 +1290,16 @@
 			(type default)
 		)
 		(uuid "1560f708-fb2a-4e15-9427-1dadc9f79ef0")
+	)
+	(wire
+		(pts
+			(xy 181.61 90.17) (xy 177.8 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b30bbfe-fb5a-410b-99c5-f8c07f6bfc99")
 	)
 	(wire
 		(pts
@@ -1373,7 +1393,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 162.56) (xy 181.61 162.56)
+			(xy 177.8 162.56) (xy 181.61 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1423,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 162.56) (xy 171.45 158.75)
+			(xy 177.8 162.56) (xy 177.8 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1470,6 +1490,16 @@
 			(type default)
 		)
 		(uuid "52e428d9-a544-4188-adce-05bea73f0b3e")
+	)
+	(wire
+		(pts
+			(xy 242.57 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afa2f89-b986-4e7a-bc9b-0cf20e2c290a")
 	)
 	(wire
 		(pts
@@ -1603,6 +1633,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 90.17) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891856fd-0074-46c7-af63-743d911984bc")
+	)
+	(wire
+		(pts
 			(xy 364.49 142.24) (xy 381 142.24)
 		)
 		(stroke
@@ -1610,6 +1650,16 @@
 			(type default)
 		)
 		(uuid "9d73473c-be53-45ee-8610-07f4de818ccd")
+	)
+	(wire
+		(pts
+			(xy 228.6 78.74) (xy 228.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcd7e8e-6a5c-4b71-8b93-c77fe701bcd7")
 	)
 	(wire
 		(pts
@@ -1813,6 +1863,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 93.98) (xy 242.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6a3bcf-36ae-4627-b704-b88c944e3a36")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 242.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04a2004-187e-42f6-b9a3-33cd7478bb48")
+	)
+	(wire
+		(pts
 			(xy 203.2 137.16) (xy 242.57 137.16)
 		)
 		(stroke
@@ -1891,6 +1961,72 @@
 			(justify right)
 		)
 		(uuid "e7d1f4f9-1740-4628-a4f2-12d877bb8538")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 177.8 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13b3bc4a-f151-45b9-8656-de0c04f7fc01")
+		(property "Reference" "#PWR0142"
+			(at 177.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fb6f97b-6c6e-4dc5-bd51-8d661bda7ccd")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2177,7 +2313,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 171.45 158.75 0)
+		(at 177.8 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2186,7 +2322,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0e24cd7-4342-4674-bcdd-32651a83e169")
 		(property "Reference" "#PWR0135"
-			(at 171.45 162.56 0)
+			(at 177.8 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2331,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 171.45 153.67 0)
+			(at 177.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 158.75 0)
+			(at 177.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 158.75 0)
+			(at 177.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 158.75 0)
+			(at 177.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,6 +2575,72 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 228.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec395232-da44-46a6-aa9d-436a36e9ffbe")
+		(property "Reference" "#PWR0141"
+			(at 228.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d572231-b5f0-47b2-9677-127b5fffe50b")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -3269,8 +3471,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 88.9)
-		(size 12.7 11.43)
+		(at 181.61 88.9)
+		(size 21.59 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3285,7 +3487,7 @@
 		)
 		(uuid "05acfb4b-1f70-4813-b5f6-d6a6759e8a5f")
 		(property "Sheetname" "spin_interface"
-			(at 190.5 88.1884 0)
+			(at 181.61 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,12 +3496,52 @@
 			)
 		)
 		(property "Sheetfile" "spin_interface.kicad_sch"
-			(at 190.5 100.9146 0)
+			(at 181.61 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V_IN" input
+			(at 181.61 90.17 180)
+			(uuid "b3353a1f-edaf-40c0-bdff-0e2cf366fac8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPIN_DIR" input
+			(at 203.2 93.98 0)
+			(uuid "23ece36e-278f-4216-8478-1cace4b61bb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIN_EN" input
+			(at 203.2 91.44 0)
+			(uuid "bd042348-a9d2-4b17-b80f-e1fded761645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPIN_PWM" input
+			(at 203.2 96.52 0)
+			(uuid "ec8afe14-3221-4f8f-a5fc-959824491577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
