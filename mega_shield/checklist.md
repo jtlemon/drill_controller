@@ -31,6 +31,7 @@
 - [ ] Duplicate sheet accross all motor driver connections.
 - [ ] Remove +36V protection circuit from servo interfaces.
 - [ ] Add test points to all sheets.
+- [ ] Check/run simulation of servo interface fets.
 
 ## Power Protection
 
@@ -87,4 +88,7 @@ I think I may design an op-amp circuit to act as a substitue using jellybean
 components instead, this should make it easier to source parts in the
 future as well.
 
+After comparing the datasheets, it's possible the CS817x22HS could be used 
+on the door sheet to replace both the opto-isolator and the schmitt triger IC,
+this would bring down the cost and decrease latancy.
 
