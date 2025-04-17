@@ -83,3 +83,8 @@ Issue is that component isn't availble or in stock on jlcpcb and the
 non-inverting type of schmitt trigger are a lot less common than inverting 
 ones are.
 
+I think I may design an op-amp circuit to act as a substitue using jellybean
+components instead, this should make it easier to source parts in the
+future as well.
+
+
