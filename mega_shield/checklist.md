@@ -29,6 +29,9 @@
 - [ ] Create solenoid interface sheet.
 - [ ] Create door interface sheet.
 - [ ] Duplicate sheet accross all motor driver connections.
+- [ ] Remove +36V protection circuit from servo interfaces.
+- [ ] Add test points to all sheets.
+- [ ] 
 
 ## Power Protection
 
