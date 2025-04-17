@@ -31,7 +31,6 @@
 - [ ] Duplicate sheet accross all motor driver connections.
 - [ ] Remove +36V protection circuit from servo interfaces.
 - [ ] Add test points to all sheets.
-- [ ] 
 
 ## Power Protection
 
@@ -75,5 +74,12 @@ Rational behind the ESD chips is the potential for an solenoid's collapsing
 magnetic field to produce a voltage spike if the snubber diodes failed.
 
 
+## door interface
 
+The door interface in the provided schematics is using a non-inverting 
+schmitt trigger for debouncing I assume.
+
+Issue is that component isn't availble or in stock on jlcpcb and the 
+non-inverting type of schmitt trigger are a lot less common than inverting 
+ones are.
 
