@@ -5,4 +5,56 @@
 	(uuid "00a9a96e-7ef4-4a68-bdf9-c6a4dc816d2f")
 	(paper "A4")
 	(lib_symbols)
+	(label "DOOR_FILT"
+		(at 166.37 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d09b9db-3e2b-4e90-a498-3ad746a256ad")
+	)
+	(label "+5V_DOOR"
+		(at 153.67 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b65bae1d-a184-4e1e-9d4d-c75dd516ff78")
+	)
+	(label "DOOR_IN"
+		(at 125.73 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd9968a0-2583-4d4d-8a02-e356095b2508")
+	)
+	(hierarchical_label "+5V_IN"
+		(shape input)
+		(at 121.92 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97662867-c520-4dde-ba93-7b324e5c11ae")
+	)
+	(hierarchical_label "DOOR_OUT"
+		(shape output)
+		(at 194.31 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eefa8c1a-1b10-49e6-9b00-e7f9edf39512")
+	)
 )
