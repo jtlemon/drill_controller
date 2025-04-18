@@ -26,7 +26,7 @@
 - [X] Add Tripped fuse indicator leds.
 - [X] Create motor driver protection sheet/interface.
 - [ ] Create Spin Interface Sheet.
-- [ ] Create solenoid interface sheet.
+- [X] Create solenoid interface sheet.
 - [ ] Create door interface sheet.
 - [X] Duplicate sheet accross all motor driver connections.
 - [X] Remove +36V protection circuit from servo interfaces.
