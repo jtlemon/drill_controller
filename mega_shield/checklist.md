@@ -14,7 +14,7 @@
 
 - [X] Setup main sheet info.
 - [X] Add mega connectors
-- [ ] Add M12 connections(sym, fp, step).
+- [X] Add M12 connectors(sym, fp, step).
 - [X] Add sheets for uC
 - [X] Add X-Axis uc-Labels
 - [X] Add Y-Axis uc-Labels
@@ -28,6 +28,7 @@
 - [ ] Create Spin Interface Sheet.
 - [X] Create solenoid interface sheet.
 - [ ] Create door interface sheet.
+- [ ] Create homing interface sheet.
 - [X] Duplicate sheet accross all motor driver connections.
 - [X] Remove +36V protection circuit from servo interfaces.
 - [ ] Add test points to all sheets.
