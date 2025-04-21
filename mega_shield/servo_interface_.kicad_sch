@@ -5,6 +5,113 @@
 	(uuid "bda4ca44-3cc0-4a4a-a71f-f5a845f3fd08")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2033,6 +2140,18 @@
 		(uuid 2b129e13-6da0-42ea-93bc-804b3fec4af2)
 	)
 	(rectangle
+		(start 25.4 127)
+		(end 72.39 190.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3254f44b-1463-4515-bdae-2a668a661b60)
+	)
+	(rectangle
 		(start 127 50.8)
 		(end 242.57 190.5)
 		(stroke
@@ -2055,6 +2174,16 @@
 			(type none)
 		)
 		(uuid cfa17bbd-7f02-486d-95bd-eb5282e4d6ec)
+	)
+	(text "Servo Interface Test Points"
+		(exclude_from_sim no)
+		(at 38.608 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19f06108-7858-447f-a204-a307be00e003")
 	)
 	(text "Digitally Isolated Inputs"
 		(exclude_from_sim no)
@@ -3133,6 +3262,16 @@
 		)
 		(uuid "0e150291-26e7-4940-80b5-f35468214582")
 	)
+	(label "PED_IN"
+		(at 38.1 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e37981d-a47e-493e-8dee-e28b9355147d")
+	)
 	(label "+5V_Servo"
 		(at 195.58 67.31 0)
 		(effects
@@ -3163,6 +3302,16 @@
 		)
 		(uuid "44061fbf-2278-44fb-956c-9d486b85ffff")
 	)
+	(label "ALARM_IN"
+		(at 38.1 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4518a430-de9b-4dd6-9d54-2d40a878a57c")
+	)
 	(label "+5V_Servo"
 		(at 193.04 128.27 0)
 		(effects
@@ -3182,6 +3331,16 @@
 			(justify left bottom)
 		)
 		(uuid "47812870-b183-483b-9487-8e2a890edfeb")
+	)
+	(label "EN_OUT"
+		(at 58.42 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e88ee61-43cd-4fa9-930a-6f547af284f3")
 	)
 	(label "AUX_OUT"
 		(at 214.63 158.75 0)
@@ -3253,6 +3412,16 @@
 		)
 		(uuid "99ef0e60-b635-4766-8a96-fe97615008fd")
 	)
+	(label "+5V_Servo"
+		(at 38.1 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2f96b2b-d29e-4be2-9a5c-d420bc4d2a86")
+	)
 	(label "PED_IN"
 		(at 275.59 86.36 180)
 		(effects
@@ -3262,6 +3431,16 @@
 			(justify right bottom)
 		)
 		(uuid "a4c299a3-1602-4734-a604-ea70b930f767")
+	)
+	(label "AUX_OUT"
+		(at 58.42 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a82ea4a9-cd33-41d6-b55a-a8002dea7048")
 	)
 	(label "EN_OUT"
 		(at 63.5 83.82 0)
@@ -3282,6 +3461,16 @@
 			(justify right bottom)
 		)
 		(uuid "aa31069b-f1c4-40e3-b7c1-38a53ad966fd")
+	)
+	(label "STEP_OUT"
+		(at 57.15 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aeec5a70-4f88-4cbd-b026-f4f897ed5aec")
 	)
 	(label "EN_OUT"
 		(at 214.63 137.16 0)
@@ -3314,6 +3503,16 @@
 		(uuid "cbabd9ae-b292-4721-92c0-d03a3be7b9c4")
 	)
 	(label "DIR_OUT"
+		(at 57.15 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfa547af-94fc-4c4f-a7c8-54d09a91e217")
+	)
+	(label "DIR_OUT"
 		(at 217.17 76.2 0)
 		(effects
 			(font
@@ -3333,6 +3532,39 @@
 			(justify right)
 		)
 		(uuid "177e3391-ff0d-42d5-a255-88f198fefca1")
+	)
+	(hierarchical_label "STEP"
+		(shape input)
+		(at 38.1 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2da830e6-0b4d-4003-aed6-eeb11c59c418")
+	)
+	(hierarchical_label "PED"
+		(shape output)
+		(at 58.42 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47e511ec-5ec9-45a3-a120-56141c1ac661")
+	)
+	(hierarchical_label "ALARM"
+		(shape output)
+		(at 58.42 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5348453c-39e9-4959-9b50-93897923dd58")
 	)
 	(hierarchical_label "PED"
 		(shape output)
@@ -3355,6 +3587,28 @@
 			(justify left)
 		)
 		(uuid "5eabfd29-6443-43a9-b14d-fd28513d4dd4")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 38.1 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68e8668f-85a5-48e1-8588-2b0d0bd97423")
+	)
+	(hierarchical_label "DIR"
+		(shape input)
+		(at 38.1 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78acd5f3-7f99-4848-aba1-01c01b3eced4")
 	)
 	(hierarchical_label "STEP"
 		(shape input)
@@ -3388,6 +3642,17 @@
 			(justify right)
 		)
 		(uuid "b66d82d1-3335-4dbe-b957-7e280546d018")
+	)
+	(hierarchical_label "AUX_IN"
+		(shape input)
+		(at 38.1 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2a13592-4d74-4fb2-83a0-40538ef300ed")
 	)
 	(hierarchical_label "+5V_IN"
 		(shape input)
@@ -4353,6 +4618,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cc4bf22-d845-46ad-b4a7-f4d4622678db")
+		(property "Reference" "TP36"
+			(at 55.118 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.118 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "858ddd64-6b47-4ab8-9c45-3ee5ab7c515b")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP40")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP37")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP38")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP39")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 149.86 128.27 90)
 		(unit 1)
@@ -4871,6 +5216,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e3a68d6-f1e1-487a-8e58-f9c4993126cf")
+		(property "Reference" "TP21"
+			(at 53.848 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.848 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1df82e09-e77a-4416-bf2e-0303a292dd94")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP25")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP22")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP23")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "M12P8:T4140012081-000")
 		(at 55.88 86.36 0)
 		(mirror y)
@@ -5182,6 +5608,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52637162-2996-43a2-bd42-144ea9625931")
+		(property "Reference" "TP56"
+			(at 55.118 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.118 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f7696e-5907-4961-b995-adbf24bc84c1")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP60")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP57")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP58")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP59")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:2SK3018")
 		(at 340.36 109.22 0)
 		(mirror x)
@@ -5360,6 +5866,329 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5baca12b-122e-4562-8ef6-b81145dcee75")
+		(property "Reference" "TP11"
+			(at 34.798 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.798 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66cf4082-6a55-4e54-814e-3104c43ee7b4")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP15")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP12")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP13")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e650833-b72b-4846-8405-8dd64106734a")
+		(property "Reference" "TP41"
+			(at 55.118 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.118 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "135a6805-186c-4a78-963b-0a30da7de57b")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP45")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP42")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP43")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP44")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f834590-cb19-4ae2-a67c-e96ac257372c")
+		(property "Reference" "TP1"
+			(at 34.798 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.798 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c6040a3-8112-4ac9-8383-a786bfdd8892")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP2")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP4")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7539490e-197f-4779-ad66-866895b8c32a")
+		(property "Reference" "TP6"
+			(at 34.798 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.798 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fbfc0e3-a30c-45af-9828-867cde2ac5e1")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP10")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP7")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP8")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP9")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 278.13 68.58 90)
 		(unit 1)
@@ -5438,6 +6267,246 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d1db514-2fc9-494a-a987-f9e9097253a6")
+		(property "Reference" "TP26"
+			(at 34.798 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.798 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be38dec-35a8-4de9-9338-7aff34fd3fdf")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP30")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP27")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP28")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP29")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bb7dc18-ade7-4f90-91a1-4012c2d6c7e9")
+		(property "Reference" "TP51"
+			(at 34.798 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.798 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba2e5540-bb9f-4f6b-8036-8ab33844513e")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP55")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP52")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP53")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP54")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ffa629a-c522-4c6d-bd79-36b1a5c86f0e")
+		(property "Reference" "TP31"
+			(at 34.798 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.798 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aa798b6-083d-4bdd-ac0f-af88d50913fa")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP35")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP32")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP33")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP34")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -5945,6 +7014,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a41e996f-3e06-4476-a894-677936267694")
+		(property "Reference" "TP61"
+			(at 55.118 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.118 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c59d6dc9-c468-406b-9cce-81bb626a0bd9")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP65")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP62")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP63")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP64")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 342.9 68.58 0)
 		(unit 1)
@@ -6031,6 +7180,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ed418d-de44-4592-9c16-a5c43ac6135e")
+		(property "Reference" "TP16"
+			(at 53.848 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.848 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56a703f7-5c17-498b-a586-c6059083c636")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP20")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP19")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 86.36 0)
 		(unit 1)
@@ -6107,6 +7337,86 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8a9cedf-7c7a-4951-bf5e-137ea1bc5d2e")
+		(property "Reference" "TP46"
+			(at 34.798 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.798 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f170ff29-21b7-4e6e-bdbf-16e9875722cf")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP50")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP47")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP48")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP49")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP46")
 					(unit 1)
 				)
 			)
