@@ -27,7 +27,7 @@
 - [X] Create motor driver protection sheet/interface.
 - [ ] Create Spin Interface Sheet.
 - [X] Create solenoid interface sheet.
-- [ ] Create door interface sheet.
+- [X] Create door interface sheet.
 - [ ] Create homing interface sheet.
 - [X] Duplicate sheet accross all motor driver connections.
 - [X] Remove +36V protection circuit from servo interfaces.
