@@ -33,7 +33,7 @@
 - [X] Remove +36V protection circuit from servo interfaces.
 - [ ] Add test points to all sheets.
 - [ ] Check/run simulation of servo interface fets.
-- [ ] Remove the I/O Interface sheet.
+- [X] Remove the I/O Interface sheet.
 - [ ] Remove the connectors for the maximum limit sensors.
 
 ## Power Protection
