@@ -522,6 +522,10 @@
 		(uuid "5f232c6d-6a1a-4a9f-9824-4187b677c351")
 	)
 	(no_connect
+		(at 165.1 165.1)
+		(uuid "71a30c5c-6e55-4b9f-905f-45973f484096")
+	)
+	(no_connect
 		(at 228.6 185.42)
 		(uuid "796ee7b0-479b-4fbf-aa46-70245f43350c")
 	)
@@ -594,16 +598,6 @@
 			(type default)
 		)
 		(uuid "149df745-c11f-479a-80d7-dd1f9b5b7ced")
-	)
-	(wire
-		(pts
-			(xy 125.73 165.1) (xy 165.1 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1560f708-fb2a-4e15-9427-1dadc9f79ef0")
 	)
 	(wire
 		(pts
@@ -837,16 +831,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 162.56) (xy 104.14 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ca02af0-9a42-4919-a797-fd30e38c0a01")
-	)
-	(wire
-		(pts
 			(xy 346.71 134.62) (xy 355.6 134.62)
 		)
 		(stroke
@@ -904,16 +888,6 @@
 			(type default)
 		)
 		(uuid "49eddca6-7bb1-458a-bd4f-dc35cbaeb5c8")
-	)
-	(wire
-		(pts
-			(xy 100.33 162.56) (xy 100.33 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c726bfd-4161-4b9c-87b5-41ccee52c399")
 	)
 	(wire
 		(pts
@@ -1774,72 +1748,6 @@
 			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 100.33 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0e24cd7-4342-4674-bcdd-32651a83e169")
-		(property "Reference" "#PWR0135"
-			(at 100.33 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 100.33 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08c56f2d-598a-4eb4-bf7f-1e4e9db6c4b5")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
-					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -3554,68 +3462,6 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 104.14 161.29)
-		(size 21.59 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8e8f1c99-9a41-47b9-930d-77476c883f62")
-		(property "Sheetname" "door_interface"
-			(at 104.14 160.5784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "door_interface.kicad_sch"
-			(at 104.14 168.2246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+5V_IN" input
-			(at 104.14 162.56 180)
-			(uuid "290085b0-64f4-43a0-849d-b9d894502a8b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DOOR_OUT" output
-			(at 125.73 165.1 0)
-			(uuid "bec86203-dfd3-4e45-bd52-0476b7a3ea8e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
-					(page "10")
 				)
 			)
 		)
