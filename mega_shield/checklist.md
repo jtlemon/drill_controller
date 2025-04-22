@@ -27,16 +27,16 @@
 - [X] Add remaining uc-Labels
 - [X] Add Tripped fuse indicator leds.
 - [X] Create motor driver protection sheet/interface.
-- [ ] Create Spin Interface Sheet.
+- [X] Create Spin Interface Sheet.
 - [X] Create solenoid interface sheet.
 - [X] Create door interface sheet.
-- [ ] Create homing interface sheet.
+- [X] Create homing interface sheet.
 - [X] Duplicate sheet accross all motor driver connections.
 - [X] Remove +36V protection circuit from servo interfaces.
 - [ ] Add test points to all sheets.
 - [ ] Check/run simulation of servo interface fets.
 - [X] Remove the I/O Interface sheet.
-- [ ] Remove the connectors for the maximum limit sensors.
+- [X] Remove the connectors for the maximum limit sensors.
 
 ## Power Protection
 
