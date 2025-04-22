@@ -1,5 +1,7 @@
 # Arduino Mega Shield
 
+- Screw terminals > non-screw terminals.
+
 ## Protection
 
 - ESD
