@@ -37,7 +37,7 @@
 - [ ] Check/run simulation of servo interface fets.
 - [X] Remove the I/O Interface sheet.
 - [X] Remove the connectors for the maximum limit sensors.
-- [ ] Add Power supply sections.
+- [X] Add Power supply sections.
 - [X] 9V not needed, mark as not connected.
 
 ## Power Protection
