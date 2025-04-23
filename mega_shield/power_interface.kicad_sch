@@ -155,7 +155,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
+		(symbol "Device:Polyfuse"
 			(pin_numbers
 				(hide yes)
 			)
@@ -166,15 +166,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "F"
-				(at 2.032 0 90)
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -182,11 +182,12 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
@@ -199,7 +200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fuse"
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 				(at 0 0 0)
 				(effects
 					(font
@@ -208,7 +209,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "fuse"
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -217,7 +218,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*Fuse*"
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -226,10 +227,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Fuse_0_1"
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -251,7 +264,7 @@
 					)
 				)
 			)
-			(symbol "Fuse_1_1"
+			(symbol "Polyfuse_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1051,25 +1064,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 83.82 34.29 90)
+		(lib_id "Device:Polyfuse")
+		(at 83.82 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e5fe548-dced-4c83-a87d-755327e7bcfa")
-		(property "Reference" "F10"
-			(at 83.82 27.94 90)
+		(uuid "34674b68-647a-4086-abb2-4002a2542fda")
+		(property "Reference" "F12"
+			(at 83.82 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.5A"
-			(at 83.82 30.48 90)
+		(property "Value" "SMD1812P200TF/30"
+			(at 83.82 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,16 +1090,17 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 36.068 90)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 34.29 0)
+			(at 83.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,25 +1108,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 83.82 34.29 0)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 83.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "c54a754d-291b-4918-9b48-d8ece2fd5995")
 		)
 		(pin "1"
-			(uuid "6311b040-1442-4dfa-a671-9eb6050d75ae")
+			(uuid "8752f242-4024-4347-9244-859219898f94")
+		)
+		(pin "2"
+			(uuid "160285f1-1da5-4629-b62d-1134702d5901")
 		)
 		(instances
-			(project ""
+			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "F10")
+					(reference "F12")
 					(unit 1)
 				)
 			)
@@ -1383,25 +1397,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 83.82 85.09 90)
+		(lib_id "Device:Polyfuse")
+		(at 83.82 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8414186a-39f1-479e-a34e-3a72fbf18535")
+		(uuid "ace1331e-73ec-4b5e-b9de-c31e10c7ea18")
 		(property "Reference" "F11"
-			(at 83.82 78.74 90)
+			(at 83.82 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.5A"
-			(at 83.82 81.28 90)
+		(property "Value" "SMD1812P200TF/30"
+			(at 83.82 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,16 +1423,17 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 86.868 90)
+			(at 88.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 85.09 0)
+			(at 83.82 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,23 +1441,23 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 83.82 85.09 0)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 83.82 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "114f0b40-ca62-4876-8c48-fee60f824875")
 		)
 		(pin "1"
-			(uuid "b35ae93c-8f24-4056-af96-9d582e2f5a8e")
+			(uuid "0f7121d3-108f-46f8-a309-cb4d69efca28")
+		)
+		(pin "2"
+			(uuid "9788be18-865d-4168-80e4-eba4bdb05608")
 		)
 		(instances
-			(project "mega_shield"
+			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
 					(reference "F11")
 					(unit 1)
