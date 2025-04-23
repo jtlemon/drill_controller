@@ -39,7 +39,7 @@
 - [X] Remove the connectors for the maximum limit sensors.
 - [X] Add Power supply sections.
 - [ ] Add 10V connection to spindle.
-- [ ] 
+- [ ] Run ERC on schematics.
 
 ## Power Protection
 
