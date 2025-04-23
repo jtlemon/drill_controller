@@ -38,7 +38,7 @@
 - [X] Remove the I/O Interface sheet.
 - [X] Remove the connectors for the maximum limit sensors.
 - [X] Add Power supply sections.
-- [X] 9V not needed, mark as not connected.
+- [ ] Add 10V connection to spindle.
 
 ## Power Protection
 
