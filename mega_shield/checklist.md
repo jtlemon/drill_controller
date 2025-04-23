@@ -33,12 +33,13 @@
 - [X] Create homing interface sheet.
 - [X] Duplicate sheet accross all motor driver connections.
 - [X] Remove +36V protection circuit from servo interfaces.
-- [ ] Add test points to all sheets.
+- [X] Add test points to all sheets.
 - [ ] Check/run simulation of servo interface fets.
 - [X] Remove the I/O Interface sheet.
 - [X] Remove the connectors for the maximum limit sensors.
 - [X] Add Power supply sections.
 - [ ] Add 10V connection to spindle.
+- [ ] 
 
 ## Power Protection
 
