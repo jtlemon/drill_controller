@@ -2237,7 +2237,7 @@
 	)
 	(text_box "The iHS57/60 List a typical logic current of 10mA with a maximum of 16mA.\n\nFor this reason we are going to use small fets on the output signals to boost their\ncurrent capability to 100mA maximum."
 		(exclude_from_sim no)
-		(at 127 15.24 0)
+		(at 228.6 12.7 0)
 		(size 63.5 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2254,6 +2254,26 @@
 			(justify left top)
 		)
 		(uuid "11ae2858-dcfa-4029-a92c-5fb3d44410eb")
+	)
+	(text_box "Ideally the +5V from the micro-controller would be used on one side of the isolation\nand the +5V from the external power supply would be on the other.\n\nHowever it sounds like the power supply is intended to power both."
+		(exclude_from_sim no)
+		(at 127 12.7 0)
+		(size 63.5 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3efa02f7-a794-481d-8feb-0406622cd319")
 	)
 	(junction
 		(at 342.9 104.14)
