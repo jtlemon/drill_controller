@@ -778,16 +778,16 @@
 		(uuid "1f2f632c-d33b-430b-8014-c1050ccdcfe3")
 	)
 	(junction
+		(at 90.17 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e1341cf-2bcd-4acf-bdcd-b2e8da996458")
+	)
+	(junction
 		(at 95.25 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8abd115-3998-4198-a5b7-891db107d976")
-	)
-	(junction
-		(at 90.17 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d727aa5f-e76d-44ea-84fc-96ab76622c66")
 	)
 	(junction
 		(at 95.25 34.29)
@@ -837,6 +837,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 85.09) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33733adb-92d8-4a80-ab51-a654132a4ccd")
+	)
+	(wire
+		(pts
 			(xy 44.45 85.09) (xy 80.01 85.09)
 		)
 		(stroke
@@ -857,23 +867,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 95.25 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "700fe87e-5735-4e1a-9ccf-fa60658d0c1a")
-	)
-	(wire
-		(pts
 			(xy 87.63 85.09) (xy 90.17 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "867af6b5-ee9f-45f5-9c57-b6d4337fad53")
+		(uuid "700fe87e-5735-4e1a-9ccf-fa60658d0c1a")
 	)
 	(wire
 		(pts
@@ -1064,6 +1064,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 90.17 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26bad0e2-0a38-4182-bc37-3e460db117ce")
+		(property "Reference" "D2"
+			(at 92.71 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27V"
+			(at 92.71 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlcpcb" "C2943770"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "792b3d22-1466-4233-86be-fdd07e6f0d9c")
+		)
+		(pin "1"
+			(uuid "a956fccc-8813-4265-b97f-d0b2c73bec6d")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 83.82 85.09 90)
 		(unit 1)
@@ -1115,6 +1201,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5188720"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1450,6 +1544,14 @@
 				(hide yes)
 			)
 		)
+		(property "jlcpcb" "C5188720"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f7121d3-108f-46f8-a309-cb4d69efca28")
 		)
@@ -1592,7 +1694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 90.17 38.1 0)
 			(effects
 				(font
@@ -1617,6 +1719,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlcpcb" "C19077488"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1695,76 +1813,6 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
 					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 90.17 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcfa5596-72f4-4a81-a84c-aa6ff9fe53c8")
-		(property "Reference" "D2"
-			(at 92.71 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.6V"
-			(at 92.71 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a326ddc-4982-42ec-b487-e4e43226cfcf")
-		)
-		(pin "1"
-			(uuid "0b37240b-1b1e-4ceb-bb87-0ee754a427ed")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "D2")
 					(unit 1)
 				)
 			)
