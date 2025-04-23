@@ -630,7 +630,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 116.84) (xy 78.74 119.38)
+			(xy 90.17 116.84) (xy 90.17 119.38)
 		)
 		(stroke
 			(width 0)
@@ -787,6 +787,16 @@
 			(type default)
 		)
 		(uuid "42feca6e-5255-4f06-a6a4-7a3cb02b0102")
+	)
+	(wire
+		(pts
+			(xy 52.07 29.21) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aa1e65-0950-4448-8f78-baf514755abb")
 	)
 	(wire
 		(pts
@@ -1000,6 +1010,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 26.67) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823acfbb-3295-4d49-bb0c-3c7a17cff156")
+	)
+	(wire
+		(pts
 			(xy 100.33 90.17) (xy 100.33 86.36)
 		)
 		(stroke
@@ -1107,16 +1127,6 @@
 			(type default)
 		)
 		(uuid "bba4dfff-66a0-4de3-9b22-4c3008fd35e9")
-	)
-	(wire
-		(pts
-			(xy 92.71 110.49) (xy 93.98 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea732b7-026b-432c-9680-ba372e151bd4")
 	)
 	(wire
 		(pts
@@ -1260,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 119.38) (xy 104.14 119.38)
+			(xy 90.17 119.38) (xy 104.14 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1378,16 +1388,6 @@
 		)
 		(uuid "fd52bb02-abeb-4dba-b465-f26ebbdf6008")
 	)
-	(label "+24V_SAFE"
-		(at 92.71 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "126ccab5-e7fa-44df-8744-b6e2cdd29004")
-	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 100.33 86.36 0)
@@ -1449,6 +1449,139 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
 					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "582545d3-1032-407e-b8f7-37e3a78550e4")
+		(property "Reference" "#PWR0149"
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 67.31 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e95cc89-afb2-40bd-849d-b2788845e358")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 93.98 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7de121e4-2f88-4e29-be21-01ebc8406f7e")
+		(property "Reference" "#PWR054"
+			(at 93.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f994308-8558-48ed-aa00-3e1a5d46fc8c")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1587,17 +1720,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 78.74 116.84 0)
+		(lib_id "power:+24V")
+		(at 63.5 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fcd1e455-2854-42f9-9f5c-6a91a3bda224")
-		(property "Reference" "#PWR0136"
-			(at 78.74 120.65 0)
+		(uuid "e8d7dd28-24cb-4da9-84e3-6b6f5ef5a2c5")
+		(property "Reference" "#PWR049"
+			(at 59.69 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,16 +1738,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 78.74 111.76 0)
+		(property "Value" "+24V"
+			(at 67.31 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 116.84 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1757,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 116.84 0)
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c449b99-1346-40cb-bbbe-8e42e4edcade")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 90.17 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcd1e455-2854-42f9-9f5c-6a91a3bda224")
+		(property "Reference" "#PWR0136"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 78.74 116.84 0)
+			(at 90.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3258,7 @@
 	)
 	(sheet
 		(at 25.4 25.4)
-		(size 26.67 25.4)
+		(size 26.67 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3082,7 +3282,7 @@
 			)
 		)
 		(property "Sheetfile" "power_interface.kicad_sch"
-			(at 25.4 51.3846 0)
+			(at 25.4 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
