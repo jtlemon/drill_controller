@@ -2641,28 +2641,22 @@
 		(uuid "27c2736b-3885-481b-83f2-ae38f74f04e0")
 	)
 	(junction
+		(at 101.6 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56badbf3-f3a0-41f9-9f42-6c0d54f9623b")
+	)
+	(junction
 		(at 104.14 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "689d41d7-80cf-4149-956c-ea05d5a58d7e")
 	)
 	(junction
-		(at 90.17 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82a42b6c-516a-4c57-9a10-0b6d8ab08e54")
-	)
-	(junction
 		(at 104.14 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b508179-1da2-496a-b212-41b91e62d4f1")
-	)
-	(junction
-		(at 90.17 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4d262b0-b285-494b-bc01-1ddbd6c88ee0")
 	)
 	(junction
 		(at 104.14 148.59)
@@ -2713,6 +2707,10 @@
 	(no_connect
 		(at 138.43 30.48)
 		(uuid "b37b414f-fdd0-47bb-af69-fcf7f5b14d9d")
+	)
+	(no_connect
+		(at 106.68 115.57)
+		(uuid "b5f79be6-9672-4ae8-9a52-02e38434f17b")
 	)
 	(no_connect
 		(at 135.89 30.48)
@@ -2776,16 +2774,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 135.89) (xy 105.41 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a5910e6-b064-4121-9f8a-307d2edaae26")
-	)
-	(wire
-		(pts
 			(xy 105.41 133.35) (xy 105.41 135.89)
 		)
 		(stroke
@@ -2846,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 151.13) (xy 101.6 152.4)
+			(xy 101.6 151.13) (xy 101.6 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2876,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 135.89) (xy 90.17 135.89)
+			(xy 88.9 135.89) (xy 105.41 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2886,23 +2874,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 138.43) (xy 106.68 138.43)
+			(xy 88.9 138.43) (xy 106.68 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb729719-1eda-4c24-a79b-27121fd4640a")
-	)
-	(wire
-		(pts
-			(xy 88.9 138.43) (xy 90.17 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc887e90-4bee-446b-9918-22cbca486d97")
 	)
 	(wire
 		(pts
@@ -3670,6 +3648,73 @@
 		(uuid "fa79fbb1-b260-4a4e-b37a-49e09fa5ecb7")
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0122ad96-1103-44bf-9970-82a175f3b390")
+		(property "Reference" "#FLG02"
+			(at 99.695 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 97.79 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 101.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2d9bc86-d426-4d41-9ee3-69985d92718c")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/02fc7425-ece1-4292-86d4-346700d4242c"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_arduino-library:Arduino_Mega2560_R3_Shield")
 		(at 139.7 96.52 0)
 		(unit 1)
@@ -4138,72 +4183,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 90.17 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "719d9be4-dc0a-4bc6-a2c4-7ad8d54f69f2")
-		(property "Reference" "#FLG03"
-			(at 90.17 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 90.17 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 90.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54deb633-6211-4a96-b5f7-8198ebb4741e")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/02fc7425-ece1-4292-86d4-346700d4242c"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 88.9 135.89 90)
 		(unit 1)
@@ -4272,7 +4251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 152.4 0)
+		(at 101.6 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4281,7 +4260,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7451de8-e424-48af-930a-dac736b8ad99")
 		(property "Reference" "#PWR010"
-			(at 101.6 158.75 0)
+			(at 101.6 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 157.48 0)
+			(at 101.6 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 152.4 0)
+			(at 101.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 152.4 0)
+			(at 101.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 152.4 0)
+			(at 101.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,72 +4310,6 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/02fc7425-ece1-4292-86d4-346700d4242c"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 90.17 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e07f6831-0bcc-401b-ab54-2ca3ff6a0a47")
-		(property "Reference" "#FLG02"
-			(at 90.17 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 90.17 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 90.17 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12433cfc-aa41-4dcc-96e5-6811f2c624ef")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/02fc7425-ece1-4292-86d4-346700d4242c"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
