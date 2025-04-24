@@ -36,9 +36,9 @@
 - [X] Add Power supply sections.
 - [X] Add 10V connection to spindle.
 - [X] Run footprint assignment tool for all components.
-- [ ] Run ERC on schematics.
-- [ ] Bulk edit all components to ensure JLCPCB number assignment.
-- [ ] Find substitute Connectors that are in stock.
+- [X] Run ERC on schematics.
+- [X] Bulk edit all components to ensure JLCPCB number assignment.
+- [X] Find substitute Connectors that are in stock.
 - [ ] Create Net classes.
 - [ ] Assign Net classes.
 - [ ] Setup PCB constraints for JLCPCB manufacturing.
