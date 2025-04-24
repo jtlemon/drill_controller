@@ -38,10 +38,11 @@
 - [X] Remove the I/O Interface sheet.
 - [X] Remove the connectors for the maximum limit sensors.
 - [X] Add Power supply sections.
-- [ ] Add 10V connection to spindle.
-- [ ] Run footprint assignment tool for all components.
+- [X] Add 10V connection to spindle.
+- [X] Run footprint assignment tool for all components.
 - [ ] Run ERC on schematics.
 - [ ] Bulk edit all components to ensure JLCPCB number assignment.
+- [ ] 
 
 ## Power Protection
 
