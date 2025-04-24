@@ -9,9 +9,6 @@
 - OCP
 - Opto-isolation
 
-
-
-
 ## TODO
 
 - [X] Setup main sheet info.
@@ -31,10 +28,9 @@
 - [X] Create solenoid interface sheet.
 - [X] Create door interface sheet.
 - [X] Create homing interface sheet.
-- [X] Duplicate sheet accross all motor driver connections.
+- [X] Duplicate sheet across all motor driver connections.
 - [X] Remove +36V protection circuit from servo interfaces.
 - [X] Add test points to all sheets.
-- [ ] Check/run simulation of servo interface fets.
 - [X] Remove the I/O Interface sheet.
 - [X] Remove the connectors for the maximum limit sensors.
 - [X] Add Power supply sections.
@@ -42,20 +38,32 @@
 - [X] Run footprint assignment tool for all components.
 - [ ] Run ERC on schematics.
 - [ ] Bulk edit all components to ensure JLCPCB number assignment.
-- [ ] 
+- [ ] Find substitute Connectors that are in stock.
+- [ ] Create Net classes.
+- [ ] Assign Net classes.
+- [ ] Setup PCB constraints for JLCPCB manufacturing.
+
+
+## PCB design requirements
+
+
+**Questions:**
+
+- What are the maximum allowable dimensions of the board?
+- What is the needed mounting hole diameters?
+- How many mounting holes are needed?
+
+
+
 
 ## Power Protection
 
-Anywhere the 5V/36V lines may iteract will be electrically isolated.
-
-All digitals outputs need to be electricaly isolated and current limited.
+All digitals outputs need to be electrically isolated and current limited.
 All digital inputs need to be electrically isolated.
 
 
 
 ## servo interface
-
-The servo interface takes in a +36v and +5v supply line.
 
 All the interfaces need to have opto-isolators and be fused or protected
 against short circuit conditions as well as over-voltage/current.
@@ -74,7 +82,7 @@ off state that photo-transistors do.
 Photodiode based opto-isolators can provide higher speed but still are slower
 than newer digital isolators.
 
-The CS817x22HS in particular seem like a good potential canidate.
+The CS817x22HS in particular seem like a good potential candidate.
 
 
 ## solenoid interface
@@ -84,22 +92,4 @@ with solenoids.
 
 Rational behind the ESD chips is the potential for an solenoid's collapsing
 magnetic field to produce a voltage spike if the snubber diodes failed.
-
-
-## door interface
-
-The door interface in the provided schematics is using a non-inverting 
-schmitt trigger for debouncing I assume.
-
-Issue is that component isn't availble or in stock on jlcpcb and the 
-non-inverting type of schmitt trigger are a lot less common than inverting 
-ones are.
-
-I think I may design an op-amp circuit to act as a substitue using jellybean
-components instead, this should make it easier to source parts in the
-future as well.
-
-After comparing the datasheets, it's possible the CS817x22HS could be used 
-on the door sheet to replace both the opto-isolator and the schmitt triger IC,
-this would bring down the cost and decrease latancy.
 
