@@ -52,6 +52,10 @@
 - [ ] Add some filter capacitors to the power interface.
 - [ ] Double check all bypass capacitors for ideal resonance frequencies.
 - [ ] Re-update the JLCPCB numbers.
+- [ ] Add symbols/footprints for XT30 connectors.
+- [ ] Add symbols/footprints for JST-XH connectors.
+- [ ] Change the 5V power connector to the JST 2pos connector.
+- [ ] Change the 24V power conector to the XT30 connector.
 
 
 ## PCB design requirements
