@@ -44,7 +44,7 @@
 - [ ] Setup PCB constraints for JLCPCB manufacturing.
 - [ ] Figure out probe connection.
 - [ ] Create a couple of solenoid drivers onto the board.
-- [ ] Add local solenoid driver sheet.
+- [X] Add local solenoid driver sheet.
 - [X] Move all proxy sensors to one side.
 - [X] Move all screw terminals to the other side.
 - [X] Add mounting holes, basic square pattern.
@@ -52,10 +52,10 @@
 - [ ] Add some filter capacitors to the power interface.
 - [ ] Double check all bypass capacitors for ideal resonance frequencies.
 - [ ] Re-update the JLCPCB numbers.
-- [ ] Add symbols/footprints for XT30 connectors.
+- [X] Add symbols/footprints for XT30 connectors.
 - [ ] Add symbols/footprints for JST-XH connectors.
 - [ ] Change the 5V power connector to the JST 2pos connector.
-- [ ] Change the 24V power conector to the XT30 connector.
+- [X] Change the 24V power connector to the XT30 connector.
 
 
 ## PCB design requirements
