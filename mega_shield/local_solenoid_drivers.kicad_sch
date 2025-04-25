@@ -1452,6 +1452,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TERM_BLOCK_HDR_2POS_3.81MM:1803277"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -6.85 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1803277"
+				(at -6.35 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprints:PHOENIX_1803277"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1803277/Phoenix+Contact/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Pluggable Header 3.81mm 16AWG 160V 8A 2 Position COMBICON MC Series | Phoenix Contact 1803277"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "1803277"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/1803277/Phoenix+Contact/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1803277_0_0"
+				(rectangle
+					(start -6.35 -2.54)
+					(end 6.35 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 2.2225)
+					(end -4.1275 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.715 -0.3175)
+					(end -4.1275 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1575,10 +1781,10 @@
 		(uuid "b216494f-7e65-47a8-ae49-fda8089804b2")
 	)
 	(junction
-		(at 152.4 64.77)
+		(at 139.7 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02bdfbcb-2127-4b10-a4be-e6dd5ac66972")
+		(uuid "48814b51-4ae3-4105-99d5-f057f1afe99f")
 	)
 	(junction
 		(at 152.4 50.8)
@@ -1616,6 +1822,12 @@
 		(color 0 0 0 0)
 		(uuid "de893620-c1fc-4636-89ae-0c12bb454643")
 	)
+	(junction
+		(at 139.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1a79cf3-b4ed-4f5f-ac44-399a7f843cbd")
+	)
 	(wire
 		(pts
 			(xy 152.4 50.8) (xy 152.4 53.34)
@@ -1625,16 +1837,6 @@
 			(type default)
 		)
 		(uuid "0090d6cf-dc38-4e1a-838b-905dcd332f9e")
-	)
-	(wire
-		(pts
-			(xy 152.4 71.12) (xy 152.4 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b8f3b5-c23a-4535-b76a-05a110dd91c3")
 	)
 	(wire
 		(pts
@@ -1655,6 +1857,16 @@
 			(type default)
 		)
 		(uuid "33143dc2-f531-4dd5-a077-6dfc55a480fb")
+	)
+	(wire
+		(pts
+			(xy 128.27 60.96) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3559a853-55a6-411e-b9ef-7b51d53dca66")
 	)
 	(wire
 		(pts
@@ -1738,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 38.1) (xy 152.4 38.1)
+			(xy 128.27 38.1) (xy 152.4 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1758,6 +1970,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fed9344-ca73-42d5-937f-44c516197cbf")
+	)
+	(wire
+		(pts
 			(xy 147.32 88.9) (xy 149.86 88.9)
 		)
 		(stroke
@@ -1765,6 +1987,16 @@
 			(type default)
 		)
 		(uuid "834fa14a-6a59-472a-abf1-8884ce51e466")
+	)
+	(wire
+		(pts
+			(xy 128.27 63.5) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941c4196-8e43-4a38-855b-cb84a861f5c3")
 	)
 	(wire
 		(pts
@@ -1848,6 +2080,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d11b55-4d1a-43bb-932b-f793aa4c7307")
+	)
+	(wire
+		(pts
 			(xy 152.4 38.1) (xy 152.4 40.64)
 		)
 		(stroke
@@ -1899,7 +2141,7 @@
 	)
 	(hierarchical_label "24V"
 		(shape input)
-		(at 139.7 38.1 180)
+		(at 128.27 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2315,6 +2557,155 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
 					(reference "Q43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TERM_BLOCK_HDR_2POS_3.81MM:1803277")
+		(at 118.11 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54d9380d-c8e2-46d5-99bd-aa55da62e650")
+		(property "Reference" "J7"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1803277"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:PHOENIX_1803277"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1803277/Phoenix+Contact/view-part/?ref=snap"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pluggable Header 3.81mm 16AWG 160V 8A 2 Position COMBICON MC Series | Phoenix Contact 1803277"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Phoenix Contact"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1803277"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1803277/Phoenix+Contact/view-part/?ref=eda"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "01"
+			(uuid "fa9f091b-861d-4320-bfcc-e127466b67b2")
+		)
+		(pin "02"
+			(uuid "21e434bb-c449-493f-8f40-aea6a9678fdc")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
+					(reference "J7")
 					(unit 1)
 				)
 			)
