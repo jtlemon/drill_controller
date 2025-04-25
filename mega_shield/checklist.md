@@ -39,9 +39,13 @@
 - [X] Run ERC on schematics.
 - [X] Bulk edit all components to ensure JLCPCB number assignment.
 - [X] Find substitute Connectors that are in stock.
-- [ ] Create Net classes.
-- [ ] Assign Net classes.
+- [X] Create Net classes.
+- [X] Assign Net classes.
 - [ ] Setup PCB constraints for JLCPCB manufacturing.
+- [ ] Figure out probe connection.
+- [ ] Move all proxy sensors to one side.
+- [ ] Move all screw terminals to the other side.
+- [ ] Add mounting holes.
 
 
 ## PCB design requirements
