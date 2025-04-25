@@ -45,7 +45,7 @@
 - [ ] Figure out probe connection.
 - [ ] Move all proxy sensors to one side.
 - [ ] Move all screw terminals to the other side.
-- [ ] Add mounting holes.
+- [ ] Add mounting holes, basic square pattern.
 
 
 ## PCB design requirements
