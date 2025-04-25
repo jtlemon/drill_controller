@@ -569,6 +569,18 @@
 		(uuid "26958045-3d24-40b6-ae91-49f4f1de5063")
 	)
 	(junction
+		(at 90.17 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "280b3f8b-da90-4fb8-9cc0-c245a9fb05a4")
+	)
+	(junction
+		(at 93.98 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c18af27-f59f-4752-8284-4b0ab86dadeb")
+	)
+	(junction
 		(at 303.53 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -609,6 +621,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4f2119e-2072-409c-bc8f-f795fdd977c7")
+	)
+	(junction
+		(at 90.17 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f76d2a53-2c1f-46a3-8c3b-51004055dae0")
 	)
 	(no_connect
 		(at 165.1 187.96)
@@ -760,7 +778,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 100.33 90.17)
+			(xy 104.14 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -860,16 +878,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 116.84) (xy 90.17 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e62247-cd33-42de-80a5-99a4754df856")
-	)
-	(wire
-		(pts
 			(xy 228.6 157.48) (xy 321.31 157.48)
 		)
 		(stroke
@@ -897,6 +905,26 @@
 			(type default)
 		)
 		(uuid "2d825120-377a-4a60-bcf4-9a2a41de9284")
+	)
+	(wire
+		(pts
+			(xy 101.6 148.59) (xy 93.98 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ead123b-c6bf-4af0-8d15-d95bcef72376")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 93.98 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346dc01e-5ca6-4961-be21-8b13cfe4ac07")
 	)
 	(wire
 		(pts
@@ -1150,6 +1178,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 119.38) (xy 90.17 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8816af-c7a8-455d-be70-f4fd0180d2b7")
+	)
+	(wire
+		(pts
 			(xy 303.53 63.5) (xy 303.53 81.28)
 		)
 		(stroke
@@ -1250,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 100.33 86.36)
+			(xy 90.17 90.17) (xy 90.17 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1290,6 +1328,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 151.13) (xy 90.17 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fb5f58-fcf6-4e5f-8733-725cf1a804ac")
+	)
+	(wire
+		(pts
 			(xy 228.6 129.54) (xy 265.43 129.54)
 		)
 		(stroke
@@ -1320,16 +1368,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 93.98 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b477e028-599b-44cf-ae0a-ef10881a3b79")
-	)
-	(wire
-		(pts
 			(xy 303.53 184.15) (xy 303.53 162.56)
 		)
 		(stroke
@@ -1357,6 +1395,16 @@
 			(type default)
 		)
 		(uuid "bba4dfff-66a0-4de3-9b22-4c3008fd35e9")
+	)
+	(wire
+		(pts
+			(xy 93.98 110.49) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5824f1-a4da-450f-b7d5-8d7e4c22dd92")
 	)
 	(wire
 		(pts
@@ -1487,6 +1535,16 @@
 			(type default)
 		)
 		(uuid "e18a0967-b9f8-4e68-acbd-59c2b5ba549a")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 90.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1914ba6-497a-407b-8d80-6aa6c8c84495")
 	)
 	(wire
 		(pts
@@ -1686,7 +1744,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 100.33 86.36 0)
+		(at 90.17 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1695,7 +1753,7 @@
 		(fields_autoplaced yes)
 		(uuid "13b3bc4a-f151-45b9-8656-de0c04f7fc01")
 		(property "Reference" "#PWR05"
-			(at 100.33 90.17 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1762,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 100.33 81.28 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 86.36 0)
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 86.36 0)
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 86.36 0)
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,72 +2606,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 90.17 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcd1e455-2854-42f9-9f5c-6a91a3bda224")
-		(property "Reference" "#PWR03"
-			(at 90.17 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 90.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bab5bb9-b783-43b2-847c-3fa6428918f5")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 165.1 76.2)
 		(size 63.5 125.73)
@@ -3390,7 +3382,7 @@
 	)
 	(sheet
 		(at 104.14 115.57)
-		(size 21.59 34.29)
+		(size 21.59 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3414,7 +3406,7 @@
 			)
 		)
 		(property "Sheetfile" "solenoid_interface.kicad_sch"
-			(at 104.14 150.4446 0)
+			(at 104.14 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,6 +4255,88 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 147.32)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5800b9f-f464-4485-8ad8-035cc7cf2bac")
+		(property "Sheetname" "local_solenoid_drivers"
+			(at 101.6 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "local_solenoid_drivers.kicad_sch"
+			(at 101.6 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SLND_DRV_1" input
+			(at 125.73 148.59 0)
+			(uuid "77e97d57-1fc1-4927-ac13-11c8c8fc0ee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SLND_DRV_2" input
+			(at 125.73 151.13 0)
+			(uuid "abed902e-2680-474c-abee-d3c466f97ee0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_IN" input
+			(at 101.6 151.13 180)
+			(uuid "efdb9852-b06e-4f0f-8579-ddeaf51cd2b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V_IN" input
+			(at 101.6 148.59 180)
+			(uuid "64f47f44-48f1-48ff-9294-2742d176d33c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
