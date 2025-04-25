@@ -43,6 +43,7 @@
 - [X] Assign Net classes.
 - [ ] Setup PCB constraints for JLCPCB manufacturing.
 - [ ] Figure out probe connection.
+- [ ] Create a couple of solenoid drivers onto the board.
 - [ ] Move all proxy sensors to one side.
 - [ ] Move all screw terminals to the other side.
 - [ ] Add mounting holes, basic square pattern.
