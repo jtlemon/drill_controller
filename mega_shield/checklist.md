@@ -48,6 +48,9 @@
 - [X] Move all proxy sensors to one side.
 - [X] Move all screw terminals to the other side.
 - [X] Add mounting holes, basic square pattern.
+- [ ] Change the +5V power connector to different size than the +24V connection.
+- [ ] Add some filter capacitors to the power interface.
+- [ ] Double check all bypass capacitors for ideal resonance frequencies.
 
 
 ## PCB design requirements
