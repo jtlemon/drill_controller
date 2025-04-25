@@ -42,7 +42,7 @@
 - [X] Create Net classes.
 - [X] Assign Net classes.
 - [ ] Setup PCB constraints for JLCPCB manufacturing.
-- [ ] Figure out probe connection.
+- [X] Figure out probe connection.
 - [ ] Create a couple of solenoid drivers onto the board.
 - [X] Add local solenoid driver sheet.
 - [X] Move all proxy sensors to one side.
@@ -53,8 +53,8 @@
 - [ ] Double check all bypass capacitors for ideal resonance frequencies.
 - [ ] Re-update the JLCPCB numbers.
 - [X] Add symbols/footprints for XT30 connectors.
-- [ ] Add symbols/footprints for JST-XH connectors.
-- [ ] Change the 5V power connector to the JST 2pos connector.
+- [X] Add symbols/footprints for JST-XH connectors.
+- [X] Change the 5V power connector to the JST 2pos connector.
 - [X] Change the 24V power connector to the XT30 connector.
 
 
