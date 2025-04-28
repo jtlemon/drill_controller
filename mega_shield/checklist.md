@@ -57,6 +57,7 @@
 - [X] Change the 5V power connector to the JST 2pos connector.
 - [X] Change the 24V power connector to the XT30 connector.
 - [ ] Isolate the +5V of the Arduino from external +5V power.
+- [ ] Add the solenoid driver connections inside the mega interface.
 
 
 ## PCB design requirements
