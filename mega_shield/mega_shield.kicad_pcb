@@ -81613,8 +81613,31 @@
 		)
 		(polygon
 			(pts
-				(xy 151.5 188.75) (xy 136.75 188.75) (xy 136.75 209) (xy 48 209) (xy 48 35) (xy 208.25 35) (xy 208.25 55.25)
+				(xy 151.5 188.75) (xy 136.75 188.75) (xy 136.75 209) (xy 45 209) (xy 45 33) (xy 208.25 33) (xy 208.25 55.25)
 				(xy 72.25 55.25) (xy 72.5 177.25) (xy 151.5 177.25)
+			)
+		)
+	)
+	(zone
+		(net 55)
+		(net_name "+5V")
+		(layer "In1.Cu")
+		(uuid "53c64273-2879-4ba9-88fa-03fd687893ec")
+		(hatch edge 0.5)
+		(priority 2)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 211 199.75) (xy 211 210) (xy 276 210) (xy 276 33) (xy 210 33) (xy 210 56.25) (xy 73 56.25) (xy 73.25 176)
+				(xy 153 176.25) (xy 153 199.75)
 			)
 		)
 	)
