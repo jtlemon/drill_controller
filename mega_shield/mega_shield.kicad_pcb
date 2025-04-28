@@ -81596,6 +81596,29 @@
 		(uuid "bcff2737-48f1-408a-975e-830bcaabdf96")
 	)
 	(zone
+		(net 98)
+		(net_name "+24V")
+		(layer "In1.Cu")
+		(uuid "20b07e0c-74ed-49be-84e0-c7fe2e7aa802")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 151.5 188.75) (xy 136.75 188.75) (xy 136.75 209) (xy 48 209) (xy 48 35) (xy 208.25 35) (xy 208.25 55.25)
+				(xy 72.25 55.25) (xy 72.5 177.25) (xy 151.5 177.25)
+			)
+		)
+	)
+	(zone
 		(net 2)
 		(net_name "GND")
 		(layer "In2.Cu")
