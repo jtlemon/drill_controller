@@ -58,6 +58,7 @@
 - [X] Change the 24V power connector to the XT30 connector.
 - [X] Isolate the +5V of the Arduino from external +5V power.
 - [X] Add the solenoid driver connections inside the mega interface.
+- [ ] Remove net-tie for the +5V spin interface, serves minimal/no purpose.
 
 
 ## PCB design requirements
