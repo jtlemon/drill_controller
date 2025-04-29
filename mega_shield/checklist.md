@@ -41,9 +41,9 @@
 - [X] Find substitute Connectors that are in stock.
 - [X] Create Net classes.
 - [X] Assign Net classes.
-- [ ] Setup PCB constraints for JLCPCB manufacturing.
+- [X] Setup PCB constraints for JLCPCB manufacturing.
 - [X] Figure out probe connection.
-- [ ] Create a couple of solenoid drivers onto the board.
+- [X] Create a couple of solenoid drivers onto the board.
 - [X] Add local solenoid driver sheet.
 - [X] Move all proxy sensors to one side.
 - [X] Move all screw terminals to the other side.
@@ -61,14 +61,6 @@
 
 
 ## PCB design requirements
-
-
-**Questions:**
-
-- What are the maximum allowable dimensions of the board?
-- What is the needed mounting hole diameters?
-- How many mounting holes are needed?
-
 
 
 
