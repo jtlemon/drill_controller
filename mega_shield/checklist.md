@@ -16,7 +16,7 @@
 - [ ] Bulk edit all components to ensure JLCPCB number assignment.
 - [ ] Add some filter capacitors to the power interface.
 - [ ] Double check all bypass capacitors for ideal resonance frequencies.
-- [ ] Re-update the JLCPCB numbers.
+- [X] Re-update the JLCPCB numbers.
 - [ ] Add GPIO for 24V control, setup for low-side digital switching.
 - [ ] Add pull-down resistors to all fets, mega pins could be in input on reset causing fets to pulse trigger during resets.
 
