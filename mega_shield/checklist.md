@@ -59,6 +59,9 @@
 - [X] Isolate the +5V of the Arduino from external +5V power.
 - [X] Add the solenoid driver connections inside the mega interface.
 - [X] Remove net-tie for the +5V spin interface, serves minimal/no purpose.
+- [ ] Add GPIO for 24V control, setup for low-side digital switching.
+- [ ] Add pull-down resistors to all fets, mega pins could be in input on reset causing fets to pulse trigger during resets.
+- [ ] 
 
 
 ## PCB design requirements
