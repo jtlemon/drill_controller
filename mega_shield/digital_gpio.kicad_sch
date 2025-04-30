@@ -2262,10 +2262,10 @@
 		)
 		(uuid "f38faa2c-0951-4cd8-9683-91401f42ce33")
 	)
-	(text_box "Selected N-Channel MOSFET: AO4486\nContinuous Drain Current(T_ambiant = 25C): 4.2A\nContinuous Drain Current(T_ambiant = 70C): 3.4A"
+	(text_box "Selected N-Channel MOSFET: AO4486\nContinuous Drain Current(T_ambiant = 25C): 4.2A\nContinuous Drain Current(T_ambiant = 70C): 3.4A\n\nFor safety the current is limited through the polyfuses approximatly 4A\nunder ideal conditions."
 		(exclude_from_sim no)
-		(at 198.12 12.7 0)
-		(size 50.8 10.16)
+		(at 101.6 152.4 0)
+		(size 50.8 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2309,10 +2309,22 @@
 		(uuid "0136dfed-980d-485e-9f7d-42e13e2a311f")
 	)
 	(junction
+		(at 195.58 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "180df7c6-37ae-4b76-b913-f700ae4a8178")
+	)
+	(junction
 		(at 223.52 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19012eaa-71b3-46a6-9622-ba471d4a72cb")
+	)
+	(junction
+		(at 195.58 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c353336-e3e6-4b0c-93a0-3425b7bf4312")
 	)
 	(junction
 		(at 223.52 49.53)
@@ -2325,6 +2337,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b123cec-b0d7-46a2-8257-e140cee30a88")
+	)
+	(junction
+		(at 203.2 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3907f6b6-d71f-431e-aac9-7654072ede21")
 	)
 	(junction
 		(at 116.84 68.58)
@@ -2343,6 +2361,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61c31b75-d54f-4062-8e26-efa022baa0c9")
+	)
+	(junction
+		(at 203.2 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75778971-0715-4da5-a38a-104f43ff0486")
 	)
 	(junction
 		(at 132.08 68.58)
@@ -2704,6 +2728,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 45.72) (xy 195.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b610a2a-e677-44c8-920a-0d9cfb21f8c7")
+	)
+	(wire
+		(pts
 			(xy 102.87 68.58) (xy 116.84 68.58)
 		)
 		(stroke
@@ -2781,6 +2815,16 @@
 			(type default)
 		)
 		(uuid "667004d7-a5bb-45ba-89c2-4400c70f5642")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 195.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742933eb-d370-4652-b7bd-dfc8ee44313c")
 	)
 	(wire
 		(pts
@@ -3124,6 +3168,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 113.03) (xy 203.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39c8f5e-9b60-41a4-ab04-11c21e8135ee")
+	)
+	(wire
+		(pts
 			(xy 132.08 95.25) (xy 132.08 97.79)
 		)
 		(stroke
@@ -3131,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "d5580a1e-cd08-4ae1-9ade-2591624217a0")
+	)
+	(wire
+		(pts
+			(xy 203.2 45.72) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8483635-ca03-4073-b7e9-5edd671df50b")
 	)
 	(wire
 		(pts
@@ -3151,16 +3215,6 @@
 			(type default)
 		)
 		(uuid "db42fc9a-72f6-4ae5-b7bc-89edace382f3")
-	)
-	(wire
-		(pts
-			(xy 193.04 116.84) (xy 195.58 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db4edf9d-d325-4cad-a4f4-7cb57796a101")
 	)
 	(wire
 		(pts
@@ -3322,6 +3376,16 @@
 		)
 		(uuid "fe6a5f0f-3f0d-46db-9f3a-9ec25a4f7278")
 	)
+	(wire
+		(pts
+			(xy 195.58 113.03) (xy 195.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed3578b-1784-4437-bbbb-a5a7b66bf763")
+	)
 	(label "vgate_B"
 		(at 149.86 109.22 0)
 		(effects
@@ -3417,6 +3481,17 @@
 		)
 		(uuid "56e2644e-5b80-479a-8fc9-6c81a3c4e450")
 	)
+	(hierarchical_label "+24V_IN"
+		(shape input)
+		(at 193.04 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e114653-80f6-46e5-8894-35171104227a")
+	)
 	(hierarchical_label "digital_out1"
 		(shape input)
 		(at 43.18 85.09 180)
@@ -3438,17 +3513,6 @@
 			(justify right)
 		)
 		(uuid "9720b424-8db9-4dbe-84f6-0ff4a8e29c90")
-	)
-	(hierarchical_label "+24V_IN"
-		(shape input)
-		(at 193.04 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed242235-e632-4198-bfbc-6a7d88a5189d")
 	)
 	(symbol
 		(lib_id "TERM_BLOCK_HDR_2POS_3.81MM:1803277")
@@ -3792,9 +3856,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e63f085-b5fd-4f3d-af79-618ff44a978d")
-		(property "Reference" "F15"
+		(uuid "22d45f86-05cd-4b2b-b445-3a2ebf31cf58")
+		(property "Reference" "F17"
 			(at 199.39 123.19 90)
 			(effects
 				(font
@@ -3802,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Value" "SMD1812P030TF"
+		(property "Value" "SMD1812P200TF/30"
 			(at 199.39 120.65 90)
 			(effects
 				(font
@@ -3810,7 +3873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 204.47 118.11 0)
 			(effects
 				(font
@@ -3838,8 +3901,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C20995"
-			(at 199.39 116.84 0)
+		(property "jlcpcb" "C5188720"
+			(at 199.39 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,15 +3910,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9b5cb2c4-8a7a-4bdf-bb93-97df413b3b16")
+			(uuid "7ee765c7-7f92-4d54-bfc9-265f07dac8fd")
 		)
 		(pin "1"
-			(uuid "374cb84b-b81f-4a1d-9f92-f89a82110ea5")
+			(uuid "66c2957a-4b9a-4090-bd89-cd2d3394c396")
 		)
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/32d6b15b-5472-4f1d-a1b7-d12adc0e25c3"
-					(reference "F15")
+					(reference "F17")
 					(unit 1)
 				)
 			)
@@ -4381,9 +4444,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "669f4875-9517-462a-8c72-e7579c183713")
-		(property "Reference" "F14"
+		(uuid "5e375496-ebe0-4a73-80b0-c8dc1db9a8f0")
+		(property "Reference" "F15"
 			(at 199.39 55.88 90)
 			(effects
 				(font
@@ -4391,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Value" "SMD1812P030TF"
+		(property "Value" "SMD1812P200TF/30"
 			(at 199.39 53.34 90)
 			(effects
 				(font
@@ -4399,7 +4461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 204.47 50.8 0)
 			(effects
 				(font
@@ -4427,8 +4489,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C20995"
-			(at 199.39 49.53 0)
+		(property "jlcpcb" "C5188720"
+			(at 199.39 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,15 +4498,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b4d6b5fb-42fe-46d2-97ce-50f8cc4d52ad")
+			(uuid "bd278041-5e0a-4571-8d42-7c00ade8f571")
 		)
 		(pin "1"
-			(uuid "843f8143-0a01-4b04-b1d4-9faf541c8da0")
+			(uuid "4f119090-6154-4ae2-8bde-699e35801520")
 		)
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/32d6b15b-5472-4f1d-a1b7-d12adc0e25c3"
-					(reference "F14")
+					(reference "F15")
 					(unit 1)
 				)
 			)
@@ -5216,6 +5278,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 199.39 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d40cef37-05df-4dd2-a40a-a6f666cc001c")
+		(property "Reference" "F14"
+			(at 199.39 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD1812P200TF/30"
+			(at 199.39 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 199.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5188720"
+			(at 199.39 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a2a9880-5ecc-4be0-9391-07cd3c20a0ea")
+		)
+		(pin "1"
+			(uuid "ba2112a1-b082-4af8-a72a-935efcaa93d3")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/32d6b15b-5472-4f1d-a1b7-d12adc0e25c3"
+					(reference "F14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Transistor_BJT_AKL:MMBT3906")
 		(at 129.54 115.57 0)
 		(unit 1)
@@ -5357,6 +5495,82 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/32d6b15b-5472-4f1d-a1b7-d12adc0e25c3"
 					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 199.39 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea0b1829-819b-4837-8d71-03c840d86140")
+		(property "Reference" "F16"
+			(at 199.39 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD1812P200TF/30"
+			(at 199.39 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 199.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5188720"
+			(at 199.39 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f62e186-c636-4614-8bfd-019e88a79c37")
+		)
+		(pin "1"
+			(uuid "61870ea8-8263-48ab-aebd-d5a62331e989")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/32d6b15b-5472-4f1d-a1b7-d12adc0e25c3"
+					(reference "F16")
 					(unit 1)
 				)
 			)
