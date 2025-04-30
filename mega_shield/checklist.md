@@ -11,57 +11,14 @@
 
 ## TODO
 
-- [X] Setup main sheet info.
-- [X] Add mega connectors
-- [X] Add M12 connectors(sym, fp, step).
-- [X] Add sheets for uC
-- [X] Add X-Axis uc-Labels
-- [X] Add Y-Axis uc-Labels
-- [X] Add Z-Axis uc-Labels
-- [X] Add A-Axis uc-Labels
-- [X] Add B-Axis uc-Labels
-- [X] Add C-Axis uc-Labels
-- [X] Add remaining uc-Labels
-- [X] Add Tripped fuse indicator leds.
-- [X] Create motor driver protection sheet/interface.
-- [X] Create Spin Interface Sheet.
-- [X] Create solenoid interface sheet.
-- [X] Create door interface sheet.
-- [X] Create homing interface sheet.
-- [X] Duplicate sheet across all motor driver connections.
-- [X] Remove +36V protection circuit from servo interfaces.
-- [X] Add test points to all sheets.
-- [X] Remove the I/O Interface sheet.
-- [X] Remove the connectors for the maximum limit sensors.
-- [X] Add Power supply sections.
-- [X] Add 10V connection to spindle.
-- [X] Run footprint assignment tool for all components.
-- [X] Run ERC on schematics.
-- [X] Bulk edit all components to ensure JLCPCB number assignment.
-- [X] Find substitute Connectors that are in stock.
-- [X] Create Net classes.
-- [X] Assign Net classes.
-- [X] Setup PCB constraints for JLCPCB manufacturing.
-- [X] Figure out probe connection.
-- [X] Create a couple of solenoid drivers onto the board.
-- [X] Add local solenoid driver sheet.
-- [X] Move all proxy sensors to one side.
-- [X] Move all screw terminals to the other side.
-- [X] Add mounting holes, basic square pattern.
-- [X] Change the +5V power connector to different size than the +24V connection.
+- [ ] Add test points to all sheets.
+- [ ] Run ERC on schematics.
+- [ ] Bulk edit all components to ensure JLCPCB number assignment.
 - [ ] Add some filter capacitors to the power interface.
 - [ ] Double check all bypass capacitors for ideal resonance frequencies.
 - [ ] Re-update the JLCPCB numbers.
-- [X] Add symbols/footprints for XT30 connectors.
-- [X] Add symbols/footprints for JST-XH connectors.
-- [X] Change the 5V power connector to the JST 2pos connector.
-- [X] Change the 24V power connector to the XT30 connector.
-- [X] Isolate the +5V of the Arduino from external +5V power.
-- [X] Add the solenoid driver connections inside the mega interface.
-- [X] Remove net-tie for the +5V spin interface, serves minimal/no purpose.
 - [ ] Add GPIO for 24V control, setup for low-side digital switching.
 - [ ] Add pull-down resistors to all fets, mega pins could be in input on reset causing fets to pulse trigger during resets.
-- [ ] 
 
 
 ## PCB design requirements
@@ -86,7 +43,7 @@ The original chip used is a DIP package and totally out of stock, it also
 costs a good amount.
 
 Replacement could be done using the 6N137 which is a jellybean component so
-highly availble from various manufactures.
+highly available from various manufactures.
 
 **NOTE:** Digital isolator's offer higher speed and don't suffer from the slow
 off state that photo-transistors do.
