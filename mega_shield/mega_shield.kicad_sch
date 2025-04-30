@@ -689,10 +689,6 @@
 		(uuid "5f232c6d-6a1a-4a9f-9824-4187b677c351")
 	)
 	(no_connect
-		(at 165.1 165.1)
-		(uuid "71a30c5c-6e55-4b9f-905f-45973f484096")
-	)
-	(no_connect
 		(at 228.6 185.42)
 		(uuid "796ee7b0-479b-4fbf-aa46-70245f43350c")
 	)
@@ -747,6 +743,16 @@
 			(type default)
 		)
 		(uuid "0351bc9c-94d4-47a4-9792-1b9a1bf821ca")
+	)
+	(wire
+		(pts
+			(xy 125.73 168.91) (xy 165.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05682c7e-0724-4cbc-89ff-d6f9701df04f")
 	)
 	(wire
 		(pts
@@ -1317,6 +1323,16 @@
 			(type default)
 		)
 		(uuid "75b5ffeb-2491-4742-9a96-d96037ff3e8f")
+	)
+	(wire
+		(pts
+			(xy 125.73 166.37) (xy 165.1 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c7a0d0-a414-4465-8448-a016afed95d2")
 	)
 	(wire
 		(pts
@@ -3382,16 +3398,6 @@
 				(justify left)
 			)
 		)
-		(pin "SAFETY_DOOR" input
-			(at 165.1 165.1 180)
-			(uuid "8d2e273c-68df-4eb1-a381-bf31d3571dd2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SPIN_DIR" output
 			(at 165.1 93.98 180)
 			(uuid "a1d07e3b-e701-456d-9759-403044076edc")
@@ -3450,6 +3456,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+3V3_Mega" output
+			(at 165.1 83.82 180)
+			(uuid "0950e092-7110-4c6c-9f1f-a4821ebd0c16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_Mega" output
+			(at 165.1 81.28 180)
+			(uuid "43a00e97-7141-4fb5-86d1-ec4b323f6786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digital_out1" output
+			(at 165.1 166.37 180)
+			(uuid "d72a320f-da15-4c91-94df-bf9429720982")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digital_out2" output
+			(at 165.1 168.91 180)
+			(uuid "a647008b-51c5-4e33-a052-59461c56175c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3788,7 +3834,7 @@
 	)
 	(sheet
 		(at 101.6 165.1)
-		(size 25.4 12.7)
+		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3841,7 +3887,7 @@
 			)
 		)
 		(pin "digital_out1" input
-			(at 127 166.37 0)
+			(at 125.73 166.37 0)
 			(uuid "0414bd0e-f054-42ac-b8df-22d6291179a2")
 			(effects
 				(font
@@ -3851,7 +3897,7 @@
 			)
 		)
 		(pin "digital_out2" input
-			(at 127 168.91 0)
+			(at 125.73 168.91 0)
 			(uuid "a235295e-1ac5-4add-8337-83ed47559631")
 			(effects
 				(font

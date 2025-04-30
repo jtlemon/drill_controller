@@ -2445,10 +2445,6 @@
 		(uuid "87ce7e41-8be9-4403-849b-0a8dcad0c90a")
 	)
 	(no_connect
-		(at 172.72 72.39)
-		(uuid "a106a7e8-462d-4d99-a8fd-84ae21e95641")
-	)
-	(no_connect
 		(at 138.43 30.48)
 		(uuid "b37b414f-fdd0-47bb-af69-fcf7f5b14d9d")
 	)
@@ -2465,16 +2461,16 @@
 		(uuid "c9d6407f-2ade-4cd4-91c4-4bbf251b66a1")
 	)
 	(no_connect
+		(at 106.68 105.41)
+		(uuid "cdfe0273-78f4-4896-96f3-77afd5d2ad09")
+	)
+	(no_connect
 		(at 106.68 123.19)
 		(uuid "ee70da6d-d292-4c13-9d6e-3788e442c613")
 	)
 	(no_connect
 		(at 106.68 69.85)
 		(uuid "f32b70a0-5dda-46f6-a8f6-1af89733c9af")
-	)
-	(no_connect
-		(at 172.72 74.93)
-		(uuid "fd03a823-0618-4518-b2e7-fd53f6433e56")
 	)
 	(wire
 		(pts
@@ -3008,6 +3004,17 @@
 		)
 		(uuid "94db6ef8-ce44-431a-82d4-042de4315ff8")
 	)
+	(hierarchical_label "digital_out1"
+		(shape output)
+		(at 172.72 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "951290eb-b79a-4a46-8cb9-5f47f395f679")
+	)
 	(hierarchical_label "Y_ERR"
 		(shape input)
 		(at 106.68 62.23 180)
@@ -3217,6 +3224,17 @@
 		)
 		(uuid "c3032336-76ef-4401-96af-620aa5feafb1")
 	)
+	(hierarchical_label "digital_out2"
+		(shape output)
+		(at 172.72 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3d4d4d2-8dd6-4f2e-ad39-81771c24161c")
+	)
 	(hierarchical_label "OUT_11"
 		(shape output)
 		(at 172.72 130.81 0)
@@ -3348,17 +3366,6 @@
 			(justify left)
 		)
 		(uuid "ebdd8eb7-666e-439c-bf07-d8b7044cd809")
-	)
-	(hierarchical_label "SAFETY_DOOR"
-		(shape input)
-		(at 106.68 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed885481-08e1-40c8-9fd1-16e190dc4f21")
 	)
 	(hierarchical_label "PROBE"
 		(shape input)
