@@ -557,6 +557,12 @@
 		(uuid "06ffbc44-56cf-47b4-9b89-8e9df46bf244")
 	)
 	(junction
+		(at 90.17 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "181ce5c3-0d31-4870-97d8-84bc066ce47f")
+	)
+	(junction
 		(at 303.53 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -627,6 +633,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4f2119e-2072-409c-bc8f-f795fdd977c7")
+	)
+	(junction
+		(at 96.52 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0801326-2865-43b5-8208-c1b88d271234")
 	)
 	(junction
 		(at 96.52 148.59)
@@ -898,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 187.96) (xy 96.52 148.59)
+			(xy 96.52 187.96) (xy 96.52 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1178,6 +1190,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 166.37) (xy 101.6 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604865b6-fbbd-4f2d-98e2-e633d761e53f")
+	)
+	(wire
+		(pts
 			(xy 303.53 162.56) (xy 287.02 162.56)
 		)
 		(stroke
@@ -1205,6 +1227,16 @@
 			(type default)
 		)
 		(uuid "643a4da5-9c0d-40e6-96c3-1d283416c1e6")
+	)
+	(wire
+		(pts
+			(xy 90.17 168.91) (xy 90.17 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64560f07-aa1d-4d06-aa20-3394d4deedf7")
 	)
 	(wire
 		(pts
@@ -1388,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 190.5) (xy 90.17 151.13)
+			(xy 90.17 190.5) (xy 90.17 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1445,6 +1477,16 @@
 			(type default)
 		)
 		(uuid "a97871bc-cd0f-4c67-bbb8-f5b32f891aa4")
+	)
+	(wire
+		(pts
+			(xy 96.52 166.37) (xy 96.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d9591f-ce0f-488c-bd0a-98063909c4b0")
 	)
 	(wire
 		(pts
@@ -1785,6 +1827,16 @@
 			(type default)
 		)
 		(uuid "fd52bb02-abeb-4dba-b465-f26ebbdf6008")
+	)
+	(wire
+		(pts
+			(xy 90.17 168.91) (xy 101.6 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6725be-fd2b-43ce-9044-7c9fb9806d4c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3730,6 +3782,88 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
 					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 165.1)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32d6b15b-5472-4f1d-a1b7-d12adc0e25c3")
+		(property "Sheetname" "digital_gpio"
+			(at 101.6 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_gpio.kicad_sch"
+			(at 101.6 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_IN" input
+			(at 101.6 168.91 180)
+			(uuid "c86c1458-1333-40b4-8142-419a84830921")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V_IN" input
+			(at 101.6 166.37 180)
+			(uuid "8ec662ba-7e34-4477-80db-c5b6b02f4b1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digital_out1" input
+			(at 127 166.37 0)
+			(uuid "0414bd0e-f054-42ac-b8df-22d6291179a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "digital_out2" input
+			(at 127 168.91 0)
+			(uuid "a235295e-1ac5-4add-8337-83ed47559631")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4"
+					(page "18")
 				)
 			)
 		)
