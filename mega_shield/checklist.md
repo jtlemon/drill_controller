@@ -23,7 +23,7 @@
 - [ ] Ensure digital outputs in low-side mode.
 - [ ] Check V_gs is setup for correct Vmax
 - [X] Add both models of the digital isolator IC.
-- [ ] Add alternate digital isolators.
+- [X] Add alternate digital isolators.
 
 
 ## PCB design requirements
