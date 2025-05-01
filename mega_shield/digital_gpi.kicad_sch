@@ -907,7 +907,7 @@
 	)
 	(rectangle
 		(start 100.33 50.8)
-		(end 222.25 127)
+		(end 179.07 127)
 		(stroke
 			(width 0)
 			(type default)
@@ -949,6 +949,26 @@
 		)
 		(uuid "f86648bb-ddd2-408a-8287-449143c7fbda")
 	)
+	(text_box "Isolated Outputs at 5.0V are capabl eof 4mA of output which should be sufficient to\ngive a good reading to the micro-controller."
+		(exclude_from_sim no)
+		(at 180.34 50.8 0)
+		(size 57.15 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5f1503bc-e30d-47a5-8265-d0ba0734d83d")
+	)
 	(junction
 		(at 90.17 96.52)
 		(diameter 0)
@@ -964,16 +984,6 @@
 			(type default)
 		)
 		(uuid "0ce3d202-c89a-40c3-95eb-75658ef51c1d")
-	)
-	(wire
-		(pts
-			(xy 180.34 86.36) (xy 160.02 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc710e8-184f-4443-9676-fd1e9701dce5")
 	)
 	(wire
 		(pts
@@ -994,16 +1004,6 @@
 			(type default)
 		)
 		(uuid "25fd8bcf-686b-4c21-8b5c-91d9b09f1d2c")
-	)
-	(wire
-		(pts
-			(xy 160.02 93.98) (xy 180.34 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d327761-aa4b-4e46-b9e8-9067ff017a80")
 	)
 	(wire
 		(pts
@@ -1157,17 +1157,6 @@
 	)
 	(hierarchical_label "+5V_IN"
 		(shape output)
-		(at 189.23 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b3182da-7abf-4ce7-94da-64cc5ee88782")
-	)
-	(hierarchical_label "+5V_IN"
-		(shape output)
 		(at 167.64 68.58 0)
 		(effects
 			(font
@@ -1176,17 +1165,6 @@
 			(justify left)
 		)
 		(uuid "583611a0-8774-4afa-8273-2fa6fa9135b2")
-	)
-	(hierarchical_label "+5V_IN"
-		(shape output)
-		(at 189.23 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5a503787-760a-40ab-afb3-630f1f3d8b39")
 	)
 	(hierarchical_label "+24_IN"
 		(shape input)
@@ -1201,7 +1179,7 @@
 	)
 	(hierarchical_label "5V_digital_input1"
 		(shape output)
-		(at 203.2 72.39 0)
+		(at 160.02 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1212,7 +1190,7 @@
 	)
 	(hierarchical_label "5V_digital_input2"
 		(shape output)
-		(at 203.2 104.14 0)
+		(at 160.02 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
