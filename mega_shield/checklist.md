@@ -24,6 +24,8 @@
 - [ ] Check V_gs is setup for correct Vmax
 - [X] Add both models of the digital isolator IC.
 - [X] Add alternate digital isolators.
+- [ ] Change isolator in spindle interface.
+- [ ] Change isolator in digital inputs/outputs.
 
 
 ## PCB design requirements
