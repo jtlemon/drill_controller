@@ -251,130 +251,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "M8P3:T4040014031-000"
 			(pin_names
 				(offset 0.254)
@@ -869,269 +745,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Transistor_MOSFET_AKL:2SK3018"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2SK3018"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-323_SC-70"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/b7f69991697dc3f1bab7ef8aaf2c7541/2SK3018.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SOT-323 N-MOSFET enchancement mode transistor, 30V, 100mA, 200mW, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet 2SK3018"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2SK3018_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2SK3018_1_1"
-				(pin input line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1723,7 +1336,7 @@
 	)
 	(rectangle
 		(start 127 38.1)
-		(end 242.57 114.3)
+		(end 204.47 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -1865,18 +1478,6 @@
 		)
 		(uuid "7ed75c05-3382-4f6e-8d94-93db7ab67860")
 	)
-	(junction
-		(at 215.9 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ae78ac0-f45c-477a-957d-a146f64715e6")
-	)
-	(junction
-		(at 215.9 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b2a3de5-566f-4b7a-82b9-21f3cc24f076")
-	)
 	(wire
 		(pts
 			(xy 142.24 55.88) (xy 142.24 67.31)
@@ -1886,16 +1487,6 @@
 			(type default)
 		)
 		(uuid "00179f3f-c102-437b-9d44-358ab3067951")
-	)
-	(wire
-		(pts
-			(xy 215.9 59.69) (xy 229.87 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07675873-3d18-468f-8868-98410abd4c2c")
 	)
 	(wire
 		(pts
@@ -1936,16 +1527,6 @@
 			(type default)
 		)
 		(uuid "12c6a1a4-bfb8-46fc-89ed-9779b9486830")
-	)
-	(wire
-		(pts
-			(xy 207.01 63.5) (xy 207.01 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1548c83d-f42e-46cc-ada5-c2ab9f8bdb85")
 	)
 	(wire
 		(pts
@@ -2009,26 +1590,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 229.87 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b19a2f-db73-4a8d-b575-0146aae90651")
-	)
-	(wire
-		(pts
-			(xy 207.01 95.25) (xy 207.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae038d2-16a6-4611-90d7-4e878f70476e")
-	)
-	(wire
-		(pts
 			(xy 138.43 87.63) (xy 138.43 96.52)
 		)
 		(stroke
@@ -2036,26 +1597,6 @@
 			(type default)
 		)
 		(uuid "7d431e73-1dc6-458c-adfb-44b21d84cbf4")
-	)
-	(wire
-		(pts
-			(xy 209.55 95.25) (xy 207.01 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d48150a-a54e-4c5a-867f-64939531c630")
-	)
-	(wire
-		(pts
-			(xy 207.01 73.66) (xy 186.69 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93ecf048-7238-4194-b19f-f11d596f7918")
 	)
 	(wire
 		(pts
@@ -2099,16 +1640,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 81.28) (xy 207.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd27b54-7569-4d2d-b096-5a17b475f149")
-	)
-	(wire
-		(pts
 			(xy 92.71 49.53) (xy 67.31 49.53)
 		)
 		(stroke
@@ -2136,16 +1667,6 @@
 			(type default)
 		)
 		(uuid "eaded26b-d45a-400a-9d27-6ee8a5bced63")
-	)
-	(wire
-		(pts
-			(xy 209.55 63.5) (xy 207.01 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f43fdc0b-2c3b-42e2-8aee-891a2642eeb0")
 	)
 	(wire
 		(pts
@@ -2279,7 +1800,7 @@
 	)
 	(hierarchical_label "LIM_MIN"
 		(shape output)
-		(at 229.87 59.69 0)
+		(at 186.69 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2287,17 +1808,6 @@
 			(justify left)
 		)
 		(uuid "09beebaf-1d0a-4573-9799-8bb916019116")
-	)
-	(hierarchical_label "+5V_IN"
-		(shape output)
-		(at 215.9 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b77bcf3-96ef-40fe-87b1-2d799d0342f1")
 	)
 	(hierarchical_label "+5V_IN"
 		(shape output)
@@ -2309,17 +1819,6 @@
 			(justify left)
 		)
 		(uuid "7f86ea33-e0a6-4cb9-911d-7b6a4f281165")
-	)
-	(hierarchical_label "+5V_IN"
-		(shape output)
-		(at 215.9 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d6adf6b-6cb3-4c14-a179-1bee1e032319")
 	)
 	(hierarchical_label "LIM_MAX"
 		(shape output)
@@ -2345,7 +1844,7 @@
 	)
 	(hierarchical_label "LIM_MAX"
 		(shape output)
-		(at 229.87 91.44 0)
+		(at 186.69 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2364,88 +1863,6 @@
 			(justify left)
 		)
 		(uuid "fddea270-aa71-4c74-a032-7dede8c84619")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ea28913-1951-4004-88ca-00260f4f7bde")
-		(property "Reference" "#PWR0124"
-			(at 215.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46562bc9-b3e6-435e-bab5-0c3c8be7edb2")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "#PWR0146")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2720,100 +2137,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 215.9 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "223bb1a1-8ba0-4436-b93f-7b235eb503db")
-		(property "Reference" "R33"
-			(at 218.44 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 218.44 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 214.122 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 215.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C21190"
-			(at 215.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "60b15949-124a-46a3-976f-f0ef1d0a149d")
-		)
-		(pin "1"
-			(uuid "8ebd899f-7e9e-4ca9-9363-6f2ef78e5a2d")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "R35")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "R33")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "R39")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "R41")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 55.88 0)
 		(unit 1)
@@ -2972,185 +2295,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
 					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3219c9fc-3994-4936-9837-e1fa14b29573")
-		(property "Reference" "#PWR0123"
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00ef8cf1-a050-40e1-861c-69e2b6b8ad96")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "#PWR0145")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "#PWR0151")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:2SK3018")
-		(at 213.36 64.77 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33e631f4-8509-4e3f-a85d-3969aa037d12")
-		(property "Reference" "Q33"
-			(at 219.71 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SK3018"
-			(at 219.71 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-323_SC-70"
-			(at 218.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b7f69991697dc3f1bab7ef8aaf2c7541/2SK3018.pdf"
-			(at 213.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-323 N-MOSFET enchancement mode transistor, 30V, 100mA, 200mW, Alternate KiCAD Library"
-			(at 213.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C20069149"
-			(at 213.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2791046f-d72f-4209-b752-b03f1ed4a0cb")
-		)
-		(pin "2"
-			(uuid "c55fcaa0-e2c4-4183-bd26-54c9986c379b")
-		)
-		(pin "3"
-			(uuid "f5427908-96eb-498b-aa16-bc77798a1469")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "Q35")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "Q33")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "Q39")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "Q41")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "Q37")
 					(unit 1)
 				)
 			)
@@ -3910,100 +3054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 215.9 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db3b4476-a50a-45aa-98c6-1ce83b11827a")
-		(property "Reference" "R32"
-			(at 218.44 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 218.44 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 214.122 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 215.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C21190"
-			(at 215.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bdae07c9-dcfe-42ba-9ab0-1e915d7c43a8")
-		)
-		(pin "1"
-			(uuid "39b4d2e6-8c48-4f73-93ac-6caf053ecd8c")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "R34")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "R32")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "R38")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 36.83 129.54 90)
 		(unit 1)
@@ -4160,103 +3210,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
 					(reference "TP87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:2SK3018")
-		(at 213.36 96.52 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecadccee-0d86-4529-86ca-b8c4640f9588")
-		(property "Reference" "Q34"
-			(at 219.71 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SK3018"
-			(at 219.71 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-323_SC-70"
-			(at 218.44 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b7f69991697dc3f1bab7ef8aaf2c7541/2SK3018.pdf"
-			(at 213.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-323 N-MOSFET enchancement mode transistor, 30V, 100mA, 200mW, Alternate KiCAD Library"
-			(at 213.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C20069149"
-			(at 213.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "370bcbbb-3c23-4f94-883b-24c9aae417da")
-		)
-		(pin "2"
-			(uuid "dfd20253-98c4-4355-9c4b-4d43e59b7ef1")
-		)
-		(pin "3"
-			(uuid "5eaa84c8-8b50-4703-919d-0d2a2ccf5176")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "Q36")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "Q34")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "Q40")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "Q42")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "Q38")
 					(unit 1)
 				)
 			)
