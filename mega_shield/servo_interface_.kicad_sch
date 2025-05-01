@@ -2272,7 +2272,7 @@
 	)
 	(rectangle
 		(start 254 50.8)
-		(end 369.57 127)
+		(end 332.74 127)
 		(stroke
 			(width 0)
 			(type default)
@@ -2402,23 +2402,31 @@
 		)
 		(uuid "7633d961-5a30-4d47-b6a2-22844355c198")
 	)
-	(junction
-		(at 342.9 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24590ea0-4e12-4869-8089-e13d76831492")
+	(text_box "The CS817x22HS model has a default output of HIGH. With an input/output on per side. The\nCS817x20HS model has both inputs and outputs per respective side which is better for use\nwhere we only have inputs/outputs for the channels."
+		(exclude_from_sim no)
+		(at 254 139.7 0)
+		(size 78.74 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ae04a658-8a2f-4814-b764-8c01516ce170")
 	)
 	(junction
 		(at 39.37 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "487fb867-0423-4cb7-9029-ceb54f7c8a3d")
-	)
-	(junction
-		(at 342.9 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aae3041-283f-4c3f-80b2-8c41cffff1ff")
 	)
 	(junction
 		(at 69.85 36.83)
@@ -2538,16 +2546,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 76.2) (xy 334.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32462ef1-5b89-4037-95db-e17d270014b0")
-	)
-	(wire
-		(pts
 			(xy 269.24 80.01) (xy 275.59 80.01)
 		)
 		(stroke
@@ -2595,16 +2593,6 @@
 			(type default)
 		)
 		(uuid "479f04cf-978d-49fb-8eef-a29cac3ae914")
-	)
-	(wire
-		(pts
-			(xy 313.69 93.98) (xy 334.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce931a9-1e8d-4643-b49e-c5a95b58cd89")
 	)
 	(wire
 		(pts
@@ -2788,26 +2776,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 72.39) (xy 356.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9380c964-9de9-4de5-826b-0d9ac7da6383")
-	)
-	(wire
-		(pts
-			(xy 334.01 76.2) (xy 334.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9543c681-f594-437a-9333-236f350657fc")
-	)
-	(wire
-		(pts
 			(xy 210.82 80.01) (xy 208.28 80.01)
 		)
 		(stroke
@@ -2918,16 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 107.95) (xy 334.01 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf274dfd-ab98-48f0-b637-e242902d16d3")
-	)
-	(wire
-		(pts
 			(xy 208.28 162.56) (xy 205.74 162.56)
 		)
 		(stroke
@@ -2958,16 +2916,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 86.36) (xy 313.69 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc253c3-43e4-4ff1-9aa4-6c2b39277d77")
-	)
-	(wire
-		(pts
 			(xy 208.28 140.97) (xy 205.74 140.97)
 		)
 		(stroke
@@ -2978,16 +2926,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 107.95) (xy 334.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d99b01c1-b99b-47b6-b19e-93cfd72a541b")
-	)
-	(wire
-		(pts
 			(xy 147.32 160.02) (xy 137.16 160.02)
 		)
 		(stroke
@@ -2995,16 +2933,6 @@
 			(type default)
 		)
 		(uuid "e005667d-64bf-45c9-a028-0ee0ef25a341")
-	)
-	(wire
-		(pts
-			(xy 342.9 104.14) (xy 356.87 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaddf7ec-26a8-4a01-a61a-05051a8416fb")
 	)
 	(wire
 		(pts
@@ -3389,16 +3317,6 @@
 		)
 		(uuid "01fd8047-afe7-4915-b8d8-9e885abfb6f6")
 	)
-	(label "+5V_Servo"
-		(at 342.9 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "020c571c-7d1a-4035-b8ea-de89c6b87669")
-	)
 	(label "PED_IN"
 		(at 63.5 86.36 0)
 		(effects
@@ -3518,16 +3436,6 @@
 			(justify left bottom)
 		)
 		(uuid "75ba34f4-3e59-42f2-b982-f5cee21a202f")
-	)
-	(label "+5V_Servo"
-		(at 342.9 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b9052b1-c44b-4dd6-9779-888eb499cb15")
 	)
 	(label "ALARM_IN"
 		(at 275.59 93.98 180)
@@ -3715,7 +3623,7 @@
 	)
 	(hierarchical_label "PED"
 		(shape output)
-		(at 356.87 72.39 0)
+		(at 313.69 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3726,7 +3634,7 @@
 	)
 	(hierarchical_label "ALARM"
 		(shape output)
-		(at 356.87 104.14 0)
+		(at 313.69 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4450,88 +4358,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 342.9 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2353533a-27e3-4c92-897e-f8072c065566")
-		(property "Reference" "#PWR028"
-			(at 342.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 342.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b643d30-b504-4f2f-b5a8-e4262caa12db")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "#PWR047")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "#PWR095")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 181.61 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4689,100 +4515,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 342.9 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26953567-b8d7-4ece-a44f-65816b48f11f")
-		(property "Reference" "R3"
-			(at 345.44 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 345.44 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 341.122 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 342.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 342.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C21190"
-			(at 342.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "55c30773-889c-437b-966d-7447f0556f27")
-		)
-		(pin "1"
-			(uuid "4d5cdf3f-d0b8-4db7-9453-cf3a8dcecac1")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6075,103 +5807,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:2SK3018")
-		(at 340.36 109.22 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52b2307c-4cfe-4181-8fd3-c747972e6532")
-		(property "Reference" "Q6"
-			(at 346.71 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SK3018"
-			(at 346.71 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-323_SC-70"
-			(at 345.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b7f69991697dc3f1bab7ef8aaf2c7541/2SK3018.pdf"
-			(at 340.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-323 N-MOSFET enchancement mode transistor, 30V, 100mA, 200mW, Alternate KiCAD Library"
-			(at 340.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C20069149"
-			(at 340.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9183856a-cf4c-4af8-922a-5f8f7aae725e")
-		)
-		(pin "2"
-			(uuid "70d198f1-ed66-4bc1-985c-6482aca28905")
-		)
-		(pin "3"
-			(uuid "c7c330ff-d031-4d5a-94f2-65532b748bbc")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "Q32")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "Q12")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "Q20")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "Q26")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7527,100 +7162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 342.9 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abcdb611-0fd0-42ba-bfec-0fd26d959ab1")
-		(property "Reference" "R2"
-			(at 345.44 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 345.44 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 341.122 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 342.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 342.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C21190"
-			(at 342.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "24cd06e8-b06e-4d1a-8f85-dc0f2ef9739d")
-		)
-		(pin "1"
-			(uuid "aef7d09c-45fc-4f3a-917d-8592ab5aedf2")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "R15")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 133.35 223.52 0)
 		(unit 1)
@@ -8655,103 +8196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:2SK3018")
-		(at 340.36 77.47 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7c480cf-5518-4876-8f70-148a2f54b1d1")
-		(property "Reference" "Q5"
-			(at 346.71 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SK3018"
-			(at 346.71 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-323_SC-70"
-			(at 345.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b7f69991697dc3f1bab7ef8aaf2c7541/2SK3018.pdf"
-			(at 340.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-323 N-MOSFET enchancement mode transistor, 30V, 100mA, 200mW, Alternate KiCAD Library"
-			(at 340.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C20069149"
-			(at 340.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "69e45204-2cf5-4bff-a5b0-b48e60461719")
-		)
-		(pin "2"
-			(uuid "560ed1f3-4d72-4b82-9485-b8947a6009d2")
-		)
-		(pin "3"
-			(uuid "57e8169c-bc53-471b-8bc0-9ffd53849d19")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "Q31")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "Q11")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "Q19")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "Q25")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 54.61 36.83 90)
 		(unit 1)
@@ -8839,88 +8283,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 342.9 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb17c317-7600-44eb-b412-06aba415238a")
-		(property "Reference" "#PWR029"
-			(at 342.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 342.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "640b2354-189b-4026-8953-b13567f73539")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "#PWR048")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "#PWR096")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
