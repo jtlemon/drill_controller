@@ -2413,10 +2413,6 @@
 		(uuid "12f71c56-13da-4a87-8842-99eeff197be7")
 	)
 	(no_connect
-		(at 172.72 85.09)
-		(uuid "16b06381-5f10-42fd-9222-863fc652ae33")
-	)
-	(no_connect
 		(at 106.68 67.31)
 		(uuid "181e63fd-9305-4171-b0ab-a5a5158e4197")
 	)
@@ -2439,10 +2435,6 @@
 	(no_connect
 		(at 133.35 30.48)
 		(uuid "6d61a9de-ebaa-460c-a7af-d2f106eee128")
-	)
-	(no_connect
-		(at 172.72 80.01)
-		(uuid "87ce7e41-8be9-4403-849b-0a8dcad0c90a")
 	)
 	(no_connect
 		(at 138.43 30.48)
@@ -2806,6 +2798,17 @@
 		)
 		(uuid "40061a9b-3d82-4a48-8e66-88a189c7e230")
 	)
+	(hierarchical_label "digital_input2"
+		(shape input)
+		(at 172.72 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4151492f-170b-47ee-b07d-ebc4e818e906")
+	)
 	(hierarchical_label "Z_LIM_MAX"
 		(shape input)
 		(at 172.72 97.79 0)
@@ -2937,6 +2940,17 @@
 			(justify right)
 		)
 		(uuid "6a77e9ca-347d-470f-b977-bd2673d95036")
+	)
+	(hierarchical_label "digital_input1"
+		(shape input)
+		(at 172.72 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fc02c9b-7d10-4afe-8d67-b3b3e73a29c4")
 	)
 	(hierarchical_label "SPIN_EN"
 		(shape output)
