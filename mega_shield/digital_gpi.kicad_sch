@@ -350,6 +350,334 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mega_shield:ADUM1200ARZ-RL7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADuM1200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADUM1200ARZ-RL7_0_1"
+				(rectangle
+					(start -13.97 7.62)
+					(end 13.97 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ADUM1200ARZ-RL7_1_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 107 255 69 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 107 255 69 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -5.08 3.81) (xy -5.08 1.27) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 107 255 69 1)
+					)
+					(fill
+						(type color)
+						(color 107 255 69 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -5.08 -1.27) (xy -5.08 -3.81) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 107 255 69 1)
+					)
+					(fill
+						(type color)
+						(color 107 255 69 1)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 14 14 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 239 51 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 239 51 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 3.81) (xy 3.81 1.27) (xy 6.35 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 239 51 1)
+					)
+					(fill
+						(type color)
+						(color 255 239 51 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 3.81 -1.27) (xy 3.81 -3.81) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 239 51 1)
+					)
+					(fill
+						(type color)
+						(color 255 239 51 1)
+					)
+				)
+				(pin power_in line
+					(at -16.51 6.35 0)
+					(length 2.54)
+					(name "VDD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 2.54 0)
+					(length 2.54)
+					(name "Vin_a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -2.54 0)
+					(length 2.54)
+					(name "Vin_a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -6.35 0)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 6.35 180)
+					(length 2.54)
+					(name "VDD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 2.54 180)
+					(length 2.54)
+					(name "Vout_b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "Vout_a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -6.35 180)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -517,24 +845,26 @@
 		(uuid "5f1503bc-e30d-47a5-8265-d0ba0734d83d")
 	)
 	(junction
+		(at 86.36 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b51215-7b6e-4997-82a3-d53dea49eeae")
+	)
+	(junction
 		(at 90.17 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf1ebdf0-7052-48ac-b014-1d5e8a011155")
 	)
-	(wire
-		(pts
-			(xy 86.36 93.98) (xy 121.92 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ce3d202-c89a-40c3-95eb-75658ef51c1d")
+	(junction
+		(at 90.17 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d52a9d7f-d6b6-48fd-bbeb-9e806b75db41")
 	)
 	(wire
 		(pts
-			(xy 160.02 100.33) (xy 168.91 100.33)
+			(xy 157.48 92.71) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
@@ -544,7 +874,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 111.76 109.22)
+			(xy 86.36 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d95f82-a3c2-4a52-b076-997081626d02")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -554,7 +894,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 80.01) (xy 121.92 80.01)
+			(xy 90.17 83.82) (xy 86.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c38a251-9dc5-4653-a0f1-e8db456282d1")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -574,7 +924,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 111.76 100.33)
+			(xy 124.46 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -584,33 +934,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 80.01) (xy 160.02 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ebdee88-4e20-4a7c-96e5-52c61519a0fc")
-	)
-	(wire
-		(pts
-			(xy 86.36 83.82) (xy 90.17 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5ea9f5-512e-4978-ba0a-b362802e81dd")
-	)
-	(wire
-		(pts
-			(xy 168.91 109.22) (xy 168.91 100.33)
+			(xy 166.37 101.6) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b76d6d5-76b7-46e3-849b-624fb2d7a900")
+	)
+	(wire
+		(pts
+			(xy 86.36 83.82) (xy 86.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b1fb24-8a74-4635-8b76-8f472e5da7f6")
 	)
 	(wire
 		(pts
@@ -634,13 +974,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 86.36) (xy 121.92 86.36)
+			(xy 86.36 88.9) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd9bbbf1-54a0-4302-b042-67268542bc35")
+		(uuid "cd43d6b9-976c-4e19-9baa-394b552c45bf")
+	)
+	(wire
+		(pts
+			(xy 90.17 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92da302-16fa-4765-bf59-5a3a219bb8ed")
 	)
 	(wire
 		(pts
@@ -674,6 +1024,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 80.01) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ed811e-021c-420e-917e-31ea8bebe791")
+	)
+	(wire
+		(pts
 			(xy 90.17 96.52) (xy 90.17 105.41)
 		)
 		(stroke
@@ -683,7 +1043,7 @@
 		(uuid "f7061f20-61b8-40dc-9178-119d6a377b69")
 	)
 	(label "24V_digital_input1"
-		(at 121.92 86.36 180)
+		(at 124.46 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -693,7 +1053,7 @@
 		(uuid "0a2c24af-b1b0-4afe-813a-f22fd9eae4e1")
 	)
 	(label "24V_digital_input2"
-		(at 121.92 93.98 180)
+		(at 119.38 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -726,7 +1086,7 @@
 	)
 	(hierarchical_label "digital_input1"
 		(shape output)
-		(at 160.02 86.36 0)
+		(at 157.48 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -737,7 +1097,7 @@
 	)
 	(hierarchical_label "digital_input2"
 		(shape output)
-		(at 160.02 93.98 0)
+		(at 157.48 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1021,34 +1381,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 168.91 109.22 0)
+		(lib_id "mega_shield:ADUM1200ARZ-RL7")
+		(at 140.97 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc0a8f7d-907b-4deb-8e44-78d918cbc51c")
-		(property "Reference" "#PWR0186"
-			(at 168.91 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 114.3 0)
+		(uuid "c45a0811-bfc0-424c-8407-da54476763cc")
+		(property "Reference" "U11"
+			(at 140.97 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.91 109.22 0)
+		(property "Value" "ADuM1200"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+			(at 140.97 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1416,94 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 109.22 0)
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "3f3227c1-b091-4896-ba07-04ef97b6c7a0")
+		)
+		(pin "8"
+			(uuid "c29af359-2252-430b-a0bd-66881281505b")
+		)
+		(pin "2"
+			(uuid "05b235a4-8c83-41eb-b095-4bb367e5f683")
+		)
+		(pin "1"
+			(uuid "76cad764-01aa-4810-a310-ec90879f96cf")
+		)
+		(pin "4"
+			(uuid "419ce006-6b83-4bbf-85e2-0b15da29f14f")
+		)
+		(pin "6"
+			(uuid "202b1f83-3f05-4a17-9e8d-3b7fd89aa857")
+		)
+		(pin "3"
+			(uuid "ad213ac3-a8c7-4a14-bbaa-cd61eb14989f")
+		)
+		(pin "5"
+			(uuid "72b79cc7-8071-4745-95dd-4dc526fc4fc9")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4443c59e-c01d-4253-ab50-7467fe3f72ca"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc0a8f7d-907b-4deb-8e44-78d918cbc51c")
+		(property "Reference" "#PWR0186"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 109.22 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1534,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 109.22 0)
+		(at 114.3 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1097,7 +1543,7 @@
 		(fields_autoplaced yes)
 		(uuid "d28f0f23-080d-4f67-affd-cc6a4bd490cc")
 		(property "Reference" "#PWR0175"
-			(at 111.76 115.57 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 114.3 0)
+			(at 114.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 109.22 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 109.22 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,7 +1578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 109.22 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
