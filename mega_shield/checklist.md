@@ -26,6 +26,7 @@
 - [X] Add alternate digital isolators.
 - [ ] Change isolator in spindle interface.
 - [ ] Change isolator in digital inputs/outputs.
+- [ ] Add voltage dividers for the new isolators.
 
 
 ## PCB design requirements
