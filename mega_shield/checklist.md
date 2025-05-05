@@ -27,6 +27,7 @@
 - [ ] Change isolator in spindle interface.
 - [ ] Change isolator in digital inputs/outputs.
 - [ ] Add voltage dividers for the new isolators.
+- [ ] Swap all proximity sensors to using opto isolation(cheaper for low speed.)
 
 
 ## PCB design requirements
