@@ -2050,6 +2050,18 @@
 		)
 	)
 	(rectangle
+		(start 29.21 119.38)
+		(end 50.8 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47983e41-f1c7-4ea2-bf6b-a022454cbec0)
+	)
+	(rectangle
 		(start 25.4 50.8)
 		(end 99.06 114.3)
 		(stroke
@@ -2126,6 +2138,16 @@
 			)
 		)
 		(uuid "9a27c87e-3749-4a3d-bb77-e93b5a40224a")
+	)
+	(text "Voltage Divider"
+		(exclude_from_sim no)
+		(at 36.83 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6ebb6cd-d25e-41da-9944-f025bdae8ef2")
 	)
 	(text "Digital Isolator(Channels A/B)"
 		(exclude_from_sim no)
@@ -2713,6 +2735,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 137.16) (xy 38.1 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740129cc-0721-404b-8532-ba63b3f44292")
+	)
+	(wire
+		(pts
 			(xy 193.04 116.84) (xy 195.58 116.84)
 		)
 		(stroke
@@ -2850,6 +2882,16 @@
 			(type default)
 		)
 		(uuid "93f180f3-7818-407e-acd5-022d6d782a73")
+	)
+	(wire
+		(pts
+			(xy 38.1 149.86) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948dee6d-3763-4b76-816b-89deb11dcc12")
 	)
 	(wire
 		(pts
@@ -3301,6 +3343,26 @@
 		)
 		(uuid "11767aad-72c0-4591-b528-05bf3c6047a8")
 	)
+	(label "+5V_DIV"
+		(at 38.1 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d9ec0dc-b036-4034-942f-946913b9b110")
+	)
+	(label "+5V_DIV"
+		(at 88.9 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86e01877-7efd-4dbf-aa30-0519c4af1fc0")
+	)
 	(label "vgate_A"
 		(at 149.86 68.58 0)
 		(effects
@@ -3331,17 +3393,6 @@
 			(justify right)
 		)
 		(uuid "16925269-bda0-4a14-b5db-f12000f6e44a")
-	)
-	(hierarchical_label "+24V_IN"
-		(shape input)
-		(at 88.9 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a596ec7-09a2-48fc-92e2-7310100a07b2")
 	)
 	(hierarchical_label "+5V_IN"
 		(shape input)
@@ -3386,6 +3437,17 @@
 			(justify right)
 		)
 		(uuid "5e114653-80f6-46e5-8894-35171104227a")
+	)
+	(hierarchical_label "+24V_IN"
+		(shape input)
+		(at 38.1 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b773aef-aa89-4b87-9810-2c74f48dac64")
 	)
 	(hierarchical_label "digital_out1"
 		(shape input)
@@ -4133,6 +4195,72 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a07a8f3-bb6f-4e89-83e4-946b60183981")
+		(property "Reference" "#PWR0204"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0e2b344-e492-4f52-8d04-a85390bcb9f2")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -4986,6 +5114,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 38.1 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3f2dabe-4a95-43f6-b637-aee6222bb75f")
+		(property "Reference" "R63"
+			(at 40.64 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 40.64 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.322 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7ecc53c-1293-42af-b759-ab9829afc53a")
+		)
+		(pin "1"
+			(uuid "35b34f87-684d-4918-a7b6-0a6d98d9e8a3")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 68.58 0)
 		(unit 1)
@@ -5710,6 +5908,76 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
 					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd3f3989-0feb-4fb9-8700-0ef42400e7ba")
+		(property "Reference" "R62"
+			(at 40.64 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k8"
+			(at 40.64 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.322 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c46cc6df-ec4c-4a8b-9f18-8aab5cb617b3")
+		)
+		(pin "1"
+			(uuid "b965efe8-c46e-4568-9be5-e889538f9134")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "R62")
 					(unit 1)
 				)
 			)
