@@ -1,21 +1,36 @@
-ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
+ERC report (2025-05-05T13:19:53-0700, Encoding UTF8)
 
 ***** Sheet /
-[hier_label_mismatch]: Sheet pin +5_IN has no matching hierarchical label inside the sheet
-    ; error
-    @(101.60 mm, 181.61 mm): Hierarchical Sheet Pin +5_IN
-[hier_label_mismatch]: Sheet pin SLND_DRV_2 has no matching hierarchical label inside the sheet
-    ; error
-    @(125.73 mm, 151.13 mm): Hierarchical Sheet Pin SLND_DRV_2
-[hier_label_mismatch]: Sheet pin SLND_DRV_1 has no matching hierarchical label inside the sheet
-    ; error
-    @(125.73 mm, 148.59 mm): Hierarchical Sheet Pin SLND_DRV_1
 
 ***** Sheet /mega_connector/
 [pin_to_pin]: Pins of type Power output and Power output are connected
     ; error
     @(101.60 mm, 151.13 mm): Symbol #FLG02 Pin 1 [Power output, Line]
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(172.72 mm, 62.23 mm): Hierarchical Label 'COOL_FLOOD'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(172.72 mm, 59.69 mm): Hierarchical Label 'COOL_MIST'
+[hier_label_mismatch]: Hierarchical label COOL_FLOOD has no matching sheet pin in the parent sheet
+    ; error
+    @(172.72 mm, 62.23 mm): Hierarchical Label 'COOL_FLOOD'
+[hier_label_mismatch]: Hierarchical label COOL_MIST has no matching sheet pin in the parent sheet
+    ; error
+    @(172.72 mm, 59.69 mm): Hierarchical Label 'COOL_MIST'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(172.72 mm, 72.39 mm): Hierarchical Label 'digital_out1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(172.72 mm, 74.93 mm): Hierarchical Label 'digital_out2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(172.72 mm, 85.09 mm): Hierarchical Label 'digital_input2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(172.72 mm, 80.01 mm): Hierarchical Label 'digital_input1'
 [hier_label_mismatch]: Hierarchical label RESET has no matching sheet pin in the parent sheet
     ; error
     @(106.68 mm, 97.79 mm): Hierarchical Label 'RESET'
@@ -34,36 +49,6 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
 [hier_label_mismatch]: Hierarchical label FEED_HOLD has no matching sheet pin in the parent sheet
     ; error
     @(106.68 mm, 100.33 mm): Hierarchical Label 'FEED_HOLD'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(172.72 mm, 85.09 mm): Hierarchical Label 'digital_input2'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(172.72 mm, 80.01 mm): Hierarchical Label 'digital_input1'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(172.72 mm, 74.93 mm): Hierarchical Label 'digital_out2'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(172.72 mm, 130.81 mm): Hierarchical Label 'OUT_11'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(172.72 mm, 135.89 mm): Hierarchical Label 'OUT_12'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(172.72 mm, 72.39 mm): Hierarchical Label 'digital_out1'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(172.72 mm, 59.69 mm): Hierarchical Label 'COOL_MIST'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(172.72 mm, 62.23 mm): Hierarchical Label 'COOL_FLOOD'
-[hier_label_mismatch]: Hierarchical label COOL_FLOOD has no matching sheet pin in the parent sheet
-    ; error
-    @(172.72 mm, 62.23 mm): Hierarchical Label 'COOL_FLOOD'
-[hier_label_mismatch]: Hierarchical label COOL_MIST has no matching sheet pin in the parent sheet
-    ; error
-    @(172.72 mm, 59.69 mm): Hierarchical Label 'COOL_MIST'
 
 ***** Sheet /servo_interface_X/
 
@@ -140,87 +125,35 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; error
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [multiple_net_names]: Both V_Proxy and +24V_IN are attached to the same items; V_Proxy will be used in the netlist
     ; warning (excluded)
     @(36.83 mm, 114.30 mm): Label 'V_Proxy'
     @(38.10 mm, 25.40 mm): Hierarchical Label '+24V_IN'
     Yes, that was the purpose of the net tie.
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
@@ -243,12 +176,40 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
     @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
@@ -265,6 +226,30 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
     @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
 
 ***** Sheet /homing_interface_Y/
 [pin_to_pin]: Pins of type Power output and Power output are connected
@@ -319,87 +304,35 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; error
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [multiple_net_names]: Both V_Proxy and +24V_IN are attached to the same items; V_Proxy will be used in the netlist
     ; warning (excluded)
     @(36.83 mm, 114.30 mm): Label 'V_Proxy'
     @(38.10 mm, 25.40 mm): Hierarchical Label '+24V_IN'
     Yes, that was the purpose of the net tie.
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
@@ -422,12 +355,40 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
     @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
@@ -444,6 +405,30 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
     @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
 
 ***** Sheet /homing_interface_Z/
 [pin_to_pin]: Pins of type Power output and Power output are connected
@@ -498,87 +483,35 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; error
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [multiple_net_names]: Both V_Proxy and +24V_IN are attached to the same items; V_Proxy will be used in the netlist
     ; warning (excluded)
     @(36.83 mm, 114.30 mm): Label 'V_Proxy'
     @(38.10 mm, 25.40 mm): Hierarchical Label '+24V_IN'
     Yes, that was the purpose of the net tie.
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
@@ -601,12 +534,40 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
     @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
@@ -623,6 +584,30 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
     @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
 
 ***** Sheet /power_interface/
 [multiple_net_names]: Both +24V_EXTERN and +24V_OUT are attached to the same items; +24V_EXTERN will be used in the netlist
@@ -687,87 +672,35 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; error
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [multiple_net_names]: Both V_Proxy and +24V_IN are attached to the same items; V_Proxy will be used in the netlist
     ; warning (excluded)
     @(36.83 mm, 114.30 mm): Label 'V_Proxy'
     @(38.10 mm, 25.40 mm): Hierarchical Label '+24V_IN'
     Yes, that was the purpose of the net tie.
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
@@ -790,12 +723,40 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
     @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
@@ -812,14 +773,32 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
     @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
 
 ***** Sheet /local_solenoid_drivers/
-[hier_label_mismatch]: Hierarchical label SLND_12 has no matching sheet pin in the parent sheet
-    ; error
-    @(50.80 mm, 81.28 mm): Hierarchical Label 'SLND_12'
-[hier_label_mismatch]: Hierarchical label SLND_11 has no matching sheet pin in the parent sheet
-    ; error
-    @(50.80 mm, 66.04 mm): Hierarchical Label 'SLND_11'
 
 ***** Sheet /homing_interface_B/
 [pin_to_pin]: Pins of type Power output and Power output are connected
@@ -874,87 +853,35 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; error
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
     @(247.65 mm, 96.52 mm): Symbol U5 Pin 5 [GND2, Power output, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
-[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
-    ; warning (excluded)
-    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
-    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [multiple_net_names]: Both V_Proxy and +24V_IN are attached to the same items; V_Proxy will be used in the netlist
     ; warning (excluded)
     @(36.83 mm, 114.30 mm): Label 'V_Proxy'
     @(38.10 mm, 25.40 mm): Hierarchical Label '+24V_IN'
     Yes, that was the purpose of the net tie.
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
-    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
@@ -977,12 +904,40 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
+    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning (excluded)
+    @(67.31 mm, 46.99 mm): Symbol J18 Pin 1 [1, Unspecified, Line]
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 67.31 mm): Symbol J19 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 129.54 mm): Symbol TP96 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
     @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
     @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
-    @(67.31 mm, 49.53 mm): Symbol J18 Pin 4 [4, Unspecified, Line]
-    @(92.71 mm, 49.53 mm): Symbol C54 Pin 2 [Passive, Line]
+    @(67.31 mm, 52.07 mm): Symbol J18 Pin 3 [3, Unspecified, Line]
+    @(36.83 mm, 121.92 mm): Symbol TP95 Pin 1 [1, Passive, Line]
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
@@ -999,23 +954,62 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; warning (excluded)
     @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
     @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 62.23 mm): Symbol J19 Pin 1 [1, Unspecified, Line]
+    @(92.71 mm, 57.15 mm): Symbol C55 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning (excluded)
+    @(67.31 mm, 64.77 mm): Symbol J19 Pin 4 [4, Unspecified, Line]
+    @(92.71 mm, 64.77 mm): Symbol C55 Pin 2 [Passive, Line]
 
 ***** Sheet /probe_interface/
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(186.69 mm, 95.25 mm): Horizontal Wire, length 8.89 mm
-[label_dangling]: Label not connected to anything
-    ; error
-    @(148.59 mm, 81.28 mm): Label 'PROBE_IN'
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(142.24 mm, 74.93 mm): Horizontal Wire, length 6.35 mm
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(148.59 mm, 95.25 mm): Horizontal Wire, length 10.16 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(194.31 mm, 74.93 mm): Horizontal Wire, length 7.62 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(142.24 mm, 74.93 mm): Horizontal Wire, length 6.35 mm
+[label_dangling]: Label not connected to anything
+    ; error
+    @(148.59 mm, 81.28 mm): Label 'PROBE_IN'
 [no_connect_dangling]: Unconnected "no connection" flag
     ; warning
     @(148.59 mm, 88.90 mm): No Connect
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(186.69 mm, 88.90 mm): No Connect
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(207.01 mm, 81.28 mm): Horizontal Wire, length 20.32 mm
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(209.55 mm, 71.12 mm): Symbol Q45 Pin 1 [G, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(209.55 mm, 71.12 mm): Symbol Q45 Pin 1 [G, Input, Line]
 [multiple_net_names]: Both V_Proxy and +24V_IN are attached to the same items; V_Proxy will be used in the netlist
     ; warning
     @(63.50 mm, 33.02 mm): Label 'V_Proxy'
@@ -1032,21 +1026,6 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     ; warning
     @(67.31 mm, 54.61 mm): Symbol J22 Pin 1 [1, Unspecified, Line]
     @(92.71 mm, 49.53 mm): Symbol C58 Pin 1 [Passive, Line]
-[pin_not_driven]: Input pin not driven by any Output pins
-    ; error
-    @(209.55 mm, 71.12 mm): Symbol Q45 Pin 1 [G, Input, Line]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(194.31 mm, 74.93 mm): Horizontal Wire, length 7.62 mm
-[pin_not_connected]: Pin not connected
-    ; error
-    @(209.55 mm, 71.12 mm): Symbol Q45 Pin 1 [G, Input, Line]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(207.01 mm, 81.28 mm): Horizontal Wire, length 20.32 mm
-[no_connect_dangling]: Unconnected "no connection" flag
-    ; warning
-    @(186.69 mm, 88.90 mm): No Connect
 
 ***** Sheet /digital_gpo/
 [unconnected_wire_endpoint]: Unconnected wire endpoint
@@ -1080,19 +1059,10 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
     @(115.57 mm, 80.01 mm): Horizontal Wire, length 6.35 mm
 [label_dangling]: Label not connected to anything
     ; error
-    @(167.64 mm, 68.58 mm): Hierarchical Label '+5V_IN'
-[hier_label_mismatch]: Hierarchical label +5V_IN has no matching sheet pin in the parent sheet
-    ; error
-    @(167.64 mm, 68.58 mm): Hierarchical Label '+5V_IN'
-[label_dangling]: Label not connected to anything
-    ; error
     @(121.92 mm, 93.98 mm): Label '24V_digital_input2'
 [label_dangling]: Label not connected to anything
     ; error
     @(121.92 mm, 86.36 mm): Label '24V_digital_input1'
-[label_dangling]: Label not connected to anything
-    ; error
-    @(160.02 mm, 93.98 mm): Hierarchical Label 'digital_input2'
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(121.92 mm, 100.33 mm): Horizontal Wire, length 10.16 mm
@@ -1105,5 +1075,8 @@ ERC report (2025-05-05T13:18:31-0700, Encoding UTF8)
 [label_dangling]: Label not connected to anything
     ; error
     @(160.02 mm, 86.36 mm): Hierarchical Label 'digital_input1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(160.02 mm, 93.98 mm): Hierarchical Label 'digital_input2'
 
- ** ERC messages: 278  Errors 100  Warnings 178
+ ** ERC messages: 269  Errors 91  Warnings 178
