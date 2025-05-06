@@ -11,8 +11,8 @@
 
 ## TODO
 
-- [ ] Add test points to all sheets.
-- [ ] Run ERC on schematics.
+- [X] Add test points to all sheets.
+- [X] Run ERC on schematics.
 - [ ] Bulk edit all components to ensure JLCPCB number assignment.
 - [ ] Add some filter capacitors to the power interface.
 - [ ] Double check all bypass capacitors for ideal resonance frequencies.
