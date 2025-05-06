@@ -13,21 +13,21 @@
 
 - [X] Add test points to all sheets.
 - [X] Run ERC on schematics.
-- [ ] Bulk edit all components to ensure JLCPCB number assignment.
+- [X] Bulk edit all components to ensure JLCPCB number assignment.
 - [ ] Add some filter capacitors to the power interface.
 - [ ] Double check all bypass capacitors for ideal resonance frequencies.
 - [X] Re-update the JLCPCB numbers.
 - [ ] Add GPIO for 24V control, setup for low-side digital switching.
-- [ ] Add pull-down resistors to all fets, mega pins could be in input on reset causing fets to pulse trigger during resets.
-- [ ] Duplicate/re-factor solenoids as general purpose outputs(More flexibility.).
+- [X] Add pull-down resistors to all fets, mega pins could be in input on reset causing fets to pulse trigger during resets.
+- [X] Duplicate/re-factor solenoids as general purpose outputs(More flexibility.).
 - [ ] Ensure digital outputs in low-side mode.
 - [ ] Check V_gs is setup for correct Vmax
 - [X] Add both models of the digital isolator IC.
 - [X] Add alternate digital isolators.
-- [ ] Change isolator in spindle interface.
-- [ ] Change isolator in digital inputs/outputs.
-- [ ] Add voltage dividers for the new isolators.
-- [ ] Swap all proximity sensors to using opto isolation(cheaper for low speed.)
+- [X] Change isolator in spindle interface.
+- [X] Change isolator in digital inputs/outputs.
+- [X] Add voltage dividers for the new isolators.
+- [X] Swap all proximity sensors to using opto isolation(cheaper for low speed.)
 
 
 ## PCB design requirements
