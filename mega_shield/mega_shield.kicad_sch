@@ -671,6 +671,10 @@
 		(uuid "2fcd2869-42c7-42bd-b294-05d71eacaf2a")
 	)
 	(no_connect
+		(at 165.1 208.28)
+		(uuid "3168f3bf-3907-4b31-a28a-4f17aac16007")
+	)
+	(no_connect
 		(at 165.1 198.12)
 		(uuid "35c486f3-446e-4e9b-8fbb-bcf4aa2c6d19")
 	)
@@ -687,6 +691,10 @@
 		(uuid "796ee7b0-479b-4fbf-aa46-70245f43350c")
 	)
 	(no_connect
+		(at 165.1 215.9)
+		(uuid "7d7b094c-aca7-4c7f-92c9-bb72652237dd")
+	)
+	(no_connect
 		(at 165.1 83.82)
 		(uuid "9a99867a-046e-4a21-a377-7460228a9ba3")
 	)
@@ -699,8 +707,16 @@
 		(uuid "a3f4949e-6ed4-433f-98f5-6c145ea43640")
 	)
 	(no_connect
+		(at 165.1 205.74)
+		(uuid "b701c14a-2115-4fe7-8d12-065c58d0ff58")
+	)
+	(no_connect
 		(at 165.1 78.74)
 		(uuid "ba689bb7-a59b-45c8-a308-d5eeda8ec84a")
+	)
+	(no_connect
+		(at 165.1 210.82)
+		(uuid "cdecd0f7-f843-493a-bb76-b1d9465ae710")
 	)
 	(no_connect
 		(at 287.02 172.72)
@@ -713,6 +729,10 @@
 	(no_connect
 		(at 228.6 190.5)
 		(uuid "ecfad908-5214-4d99-b548-1b3e22d3208e")
+	)
+	(no_connect
+		(at 165.1 213.36)
+		(uuid "f9b80a3b-899f-4779-b7d5-96e9ca4759ef")
 	)
 	(no_connect
 		(at 287.02 91.44)
@@ -2820,7 +2840,7 @@
 	)
 	(sheet
 		(at 165.1 76.2)
-		(size 63.5 125.73)
+		(size 63.5 144.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2844,7 +2864,7 @@
 			)
 		)
 		(property "Sheetfile" "mega_connector.kicad_sch"
-			(at 165.1 202.5146 0)
+			(at 165.1 221.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,6 +3515,56 @@
 		(pin "digital_input2" input
 			(at 165.1 181.61 180)
 			(uuid "b9ec9f44-2d1d-44e9-9188-32b24ed2aa91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COOL_FLOOD" output
+			(at 165.1 205.74 180)
+			(uuid "0c4db985-fd5b-42c2-bd71-f5ef7a12c082")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COOL_MIST" output
+			(at 165.1 208.28 180)
+			(uuid "0012d7ed-b8cb-489c-80b3-c6e3a179c578")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CYCLE_START" input
+			(at 165.1 210.82 180)
+			(uuid "d5636612-0540-4093-9258-20c34dffee38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FEED_HOLD" input
+			(at 165.1 213.36 180)
+			(uuid "6660778e-7513-4c36-b566-66ece925e113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 165.1 215.9 180)
+			(uuid "8877a9bd-8475-4fc7-a3b6-d9029d20392a")
 			(effects
 				(font
 					(size 1.27 1.27)
