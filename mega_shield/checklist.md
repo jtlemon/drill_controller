@@ -28,6 +28,10 @@
 - [X] Change isolator in digital inputs/outputs.
 - [X] Add voltage dividers for the new isolators.
 - [X] Swap all proximity sensors to using opto isolation(cheaper for low speed.)
+- [ ] Create layout for digital inputs.
+- [ ] Create layout for solenoid interface.
+- [ ] Re-Route all traces.
+- [ ] Run checks/tests.
 
 
 ## PCB design requirements
