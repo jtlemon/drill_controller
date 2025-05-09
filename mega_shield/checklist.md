@@ -20,7 +20,7 @@
 - [ ] Add GPIO for 24V control, setup for low-side digital switching.
 - [X] Add pull-down resistors to all fets, mega pins could be in input on reset causing fets to pulse trigger during resets.
 - [X] Duplicate/re-factor solenoids as general purpose outputs(More flexibility.).
-- [ ] Ensure digital outputs in low-side mode.
+- [X] Ensure digital outputs in low-side mode.
 - [ ] Check V_gs is setup for correct Vmax
 - [X] Add both models of the digital isolator IC.
 - [X] Add alternate digital isolators.
@@ -31,7 +31,7 @@
 - [X] Create layout for digital inputs.
 - [X] Create layout for solenoid interface.
 - [X] Re-Route all traces.
-- [ ] Run checks/tests.
+- [X] Run checks/tests.
 - [X] edit labels (silkscreen) for the servo interfaces.
 
 
