@@ -14,7 +14,7 @@
 - [X] Add test points to all sheets.
 - [X] Run ERC on schematics.
 - [X] Bulk edit all components to ensure JLCPCB number assignment.
-- [ ] Add some filter capacitors to the power interface.
+- [X] Add some filter capacitors to the power interface.
 - [ ] Double check all bypass capacitors for ideal resonance frequencies.
 - [X] Re-update the JLCPCB numbers.
 - [ ] Add GPIO for 24V control, setup for low-side digital switching.
