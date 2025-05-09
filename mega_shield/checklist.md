@@ -30,7 +30,7 @@
 - [X] Swap all proximity sensors to using opto isolation(cheaper for low speed.)
 - [X] Create layout for digital inputs.
 - [X] Create layout for solenoid interface.
-- [ ] Re-Route all traces.
+- [X] Re-Route all traces.
 - [ ] Run checks/tests.
 - [ ] edit labels (silkscreen) for the servo interfaces.
 
