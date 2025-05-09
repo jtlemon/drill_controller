@@ -32,7 +32,7 @@
 - [X] Create layout for solenoid interface.
 - [X] Re-Route all traces.
 - [ ] Run checks/tests.
-- [ ] edit labels (silkscreen) for the servo interfaces.
+- [X] edit labels (silkscreen) for the servo interfaces.
 
 
 ## PCB design requirements
