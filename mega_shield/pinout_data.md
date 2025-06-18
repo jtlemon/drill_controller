@@ -65,11 +65,11 @@ D26 --> STEP
 
 ### B-Axis
 
---> DIR
---> EN
---> ALARM(ERR)
---> PED
---> STEP
+D34 --> DIR
+D30 --> EN
+D12 --> ALARM(ERR)
+D52 --> PED
+D36 --> STEP
 
 ## Probe Interface
 
