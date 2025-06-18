@@ -41,11 +41,11 @@ A0  --> STEP
 
 ### Y-Axis
 
---> DIR
---> EN
---> ALARM(ERR)
---> PED
---> STEP
+A7  --> DIR
+A2  --> EN
+D20 --> ALARM(ERR)
+A14 --> PED
+A6  --> STEP
 
 ### Z-Axis
 
