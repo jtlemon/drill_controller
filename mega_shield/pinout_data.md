@@ -11,8 +11,8 @@ D3  --> MIN
 
 ### Y-Axis
 
---> MAX
---> MIN
+D15 --> MAX
+D14 --> MIN
 
 ### Z-Axis
 
