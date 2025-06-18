@@ -57,11 +57,11 @@ D46 --> STEP
 
 ### A-Axis
 
---> DIR
---> EN
---> ALARM(ERR)
---> PED
---> STEP
+D28 --> DIR
+D24 --> EN
+D11 --> ALARM(ERR)
+D50 --> PED
+D26 --> STEP
 
 ### B-Axis
 
