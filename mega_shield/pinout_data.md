@@ -6,8 +6,8 @@
 
 ### X-Axis
 
---> MAX
---> MIN
+D2  --> MAX
+D3  --> MIN
 
 ### Y-Axis
 
