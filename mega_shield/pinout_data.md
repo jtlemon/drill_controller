@@ -33,33 +33,33 @@
 
 ### X-Axis
 
+A1  --> DIR
+D38 --> EN
+D21 --> ALARM(ERR)
+A13 --> PED
+A0  --> STEP
+
+### Y-Axis
+
 --> DIR
 --> EN
 --> ALARM(ERR)
 --> PED
 --> STEP
 
-### Y-Axis
-
---> DIR
---> EN
---> ALARM
---> PED
---> STEP
-
 ### Z-Axis
 
---> DIR
---> EN
---> ALARM
---> PED
---> STEP
+D48 --> DIR
+A8  --> EN
+D19 --> ALARM(ERR)
+D13 --> PED
+D46 --> STEP
 
 ### A-Axis
 
 --> DIR
 --> EN
---> ALARM
+--> ALARM(ERR)
 --> PED
 --> STEP
 
@@ -67,7 +67,7 @@
 
 --> DIR
 --> EN
---> ALARM
+--> ALARM(ERR)
 --> PED
 --> STEP
 
