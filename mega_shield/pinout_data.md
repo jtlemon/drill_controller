@@ -75,6 +75,22 @@ D36 --> STEP
 
 ## Solenoid Interface
 
+### 10 Channel Interface
+
+D6   -->  SLND2
+D35  -->  SLND3
+D7   -->  SLND4
+D16  -->  SLND5
+D17  -->  SLND6
+D39  -->  SLND7
+D33  -->  SLND8
+D41  -->  SLND9
+D43  -->  SLND10
+
+### On-Board Drivers 
+
+D45 --> SLND11
+D47 --> SLND12
 
 
 ## Digital Outputs
