@@ -16,18 +16,18 @@ D14 --> MIN
 
 ### Z-Axis
 
---> MAX
---> MIN
+D32 --> MAX
+D18 --> MIN
 
 ### A-Axis
 
---> MAX
---> MIN
+D40 --> MAX
+D42 --> MIN
 
 ### B-Axis
 
---> MAX
---> MIN
+A5  --> MAX
+D44 --> MIN
 
 ## Stepper Motor Interfaces
 
@@ -75,8 +75,14 @@ D36 --> STEP
 
 ## Solenoid Interface
 
+
+
 ## Digital Outputs
+
+D22 --> OUT1
+D23 --> OUT2
 
 ## Digital Inputs
 
-
+D25 --> IN1
+D27 --> IN2
