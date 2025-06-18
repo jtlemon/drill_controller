@@ -2,6 +2,10 @@
 
 ## Power Connections
 
++24V DC:
+
++5V DC:
+
 ## Homing Interfaces
 
 ### X-Axis
@@ -73,6 +77,8 @@ D36 --> STEP
 
 ## Probe Interface
 
+A15: PROBE
+
 ## Solenoid Interface
 
 ### 10 Channel Interface
@@ -102,3 +108,10 @@ D23 --> OUT2
 
 D25 --> IN1
 D27 --> IN2
+
+## Spindle Interface:
+
+D4  --> SPIN_EN
+D5  --> SPIN_DIR
+D8  --> SPIN_PWM
+
