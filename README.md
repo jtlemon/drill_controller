@@ -1,7 +1,7 @@
 # Drill Controller
 
 This repository contains the drill controller PCB design and schematic files
-for both the pneumatic breakout and the shield pcb.
+for both the pneumatic breakout, motor driver board and the shield pcb.
 
 ## Pneumatic
 
@@ -20,5 +20,10 @@ assuming data sheet accuracy are:
 Note: Most the protection circuitry should be on the shield itself, such as
 optical isolation of signals and ESD protection. Larger fuses will be located
 externally for the higher voltage components.
+
+## Servo Adapter board
+
+The board to adapter the servo motors to use a standardized set of connectors
+accross the machine.
 
 
