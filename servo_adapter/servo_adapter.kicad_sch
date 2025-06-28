@@ -1524,7 +1524,7 @@
 		)
 		(uuid "460580c6-3b52-4d0f-b332-4b2b354c8b3b")
 	)
-	(label "PUL"
+	(label "STEP_IN"
 		(at 26.67 137.16 180)
 		(effects
 			(font
@@ -1564,7 +1564,7 @@
 		)
 		(uuid "96480b40-c478-4244-99b2-57862c7e6928")
 	)
-	(label "DIR"
+	(label "DIR_IN"
 		(at 26.67 111.76 180)
 		(effects
 			(font
@@ -1573,6 +1573,16 @@
 			(justify right bottom)
 		)
 		(uuid "9e9cc64f-b9cf-4816-9ef4-5ab066234723")
+	)
+	(label "+5V_Servo"
+		(at 123.19 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eaa0ad5-dd58-471e-b8d9-c56c0cbb40b6")
 	)
 	(label "STEP_IN"
 		(at 48.26 22.86 0)
@@ -1614,17 +1624,7 @@
 		)
 		(uuid "c6c671df-0f35-4bdb-b4a0-854499e53756")
 	)
-	(label "ENA"
-		(at 26.67 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c8c4cac3-083f-4932-a618-e57d466f211e")
-	)
-	(label "AUX"
+	(label "AUX_IN"
 		(at 26.67 162.56 180)
 		(effects
 			(font
@@ -1653,6 +1653,16 @@
 			(justify left bottom)
 		)
 		(uuid "f6fa03de-9edc-4fc2-9794-e865e710908c")
+	)
+	(label "EN_IN"
+		(at 26.67 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa01179b-b877-4641-a8ca-e801f07fcc96")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2075,7 +2085,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 177.8 151.13 0)
+		(at 123.19 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2084,25 +2094,23 @@
 		(fields_autoplaced yes)
 		(uuid "879688ea-673b-4be4-bf44-29193e04e7fe")
 		(property "Reference" "TP1"
-			(at 180.34 146.5579 0)
+			(at 119.888 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 180.34 149.0979 0)
+			(at 119.888 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 151.13 0)
+			(at 123.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 151.13 0)
+			(at 123.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2128,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 151.13 0)
+			(at 123.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,6 +2342,71 @@
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd4c8bc9-bbcb-4ed7-9c71-ffdc6ac20fd5")
+		(property "Reference" "TP2"
+			(at 119.888 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 119.888 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bf78931-71d1-4674-abbd-3acb8295f83e")
+		)
+		(instances
+			(project "servo_adapter"
+				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
