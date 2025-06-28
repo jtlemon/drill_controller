@@ -3,7 +3,7 @@
 
 ## Schematic
 - [ ] Add the servo motor to adapter power connector.
-- [ ] Add the servo motor to adapter signal connector:
+- [X] Add the servo motor to adapter signal connector:
 - [ ] Add the servo motor to shield power connector.
 - [X] Add the servo motor to shield signal connector.
 - [ ] Add mounting holes.
