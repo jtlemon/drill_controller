@@ -5,7 +5,7 @@
 - [ ] Add the servo motor to adapter power connector.
 - [ ] Add the servo motor to adapter signal connector:
 - [ ] Add the servo motor to shield power connector.
-- [ ] Add the servo motor to shield signal connector.
+- [X] Add the servo motor to shield signal connector.
 - [ ] Add mounting holes.
 - [ ] Add all needed JLCPCB numbers.
 - [ ]  
