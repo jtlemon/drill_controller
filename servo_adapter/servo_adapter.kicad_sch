@@ -1008,6 +1008,190 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MUN5233T1G:MUN5233T1G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 25.4 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MUN5233T1G"
+				(at 25.4 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "MUN5233T1G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MUN5233T1G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-323-3_2P2X1P35_ONS SOT-323-3_2P2X1P35_ONS-M SOT-323-3_2P2X1P35_ONS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MUN5233T1G_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 43.18 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -7.62) (xy 43.18 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "BASE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "COLLECTOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "EMITTER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1105,438 +1289,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Transistor_BJT_Pre-Biased_AKL:MUN5233"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.715 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MUN5233"
-				(at 5.715 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-323_SC-70"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/b08ae4714e93e014b0577ddbeff4caf4/MMUN2233.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN SOT-323 Pre-Biased transistor, 50V, 100mA, 202mW, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NPN BRT pre-biased MUN5233"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MUN5233_0_1"
-				(rectangle
-					(start -4.445 1.905)
-					(end -1.27 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.635 0)
-					(end 0.635 -3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MUN5233_0_2"
-				(polyline
-					(pts
-						(xy -4.318 1.27) (xy -4.064 1.778) (xy -3.556 0.762) (xy -3.048 1.778) (xy -2.54 0.762) (xy -2.032 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 1.778) (xy -1.524 0.762) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.889) (xy 0.508 -0.381) (xy 0 -0.127)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.175) (xy -0.508 -2.921) (xy 0.508 -2.413) (xy -0.508 -1.905) (xy 0.508 -1.397) (xy -0.508 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MUN5233_1_0"
-				(rectangle
-					(start -6.35 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 1.27) (xy -6.35 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.175) (xy 0 -3.81) (xy 3.81 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 2.794) (xy 1.905 -0.254)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0.635) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.508) (xy 3.048 0) (xy 3.556 -1.016) (xy 2.54 -0.508) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(text "4.7k"
-					(at -2.794 2.794 0)
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(text "47k"
-					(at -1.524 -1.524 900)
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-			(symbol "MUN5233_1_1"
-				(pin input line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 7.62 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -7.62 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MUN5233_1_2"
-				(pin input line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 7.62 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -7.62 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2863,8 +2615,8 @@
 		(uuid a9b55f6d-d3d2-4b88-8273-0e2e3d680c85)
 	)
 	(rectangle
-		(start 13.97 68.58)
-		(end 64.77 195.58)
+		(start 13.97 54.61)
+		(end 90.17 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -2906,7 +2658,7 @@
 	)
 	(text "Servo Driver Transistors"
 		(exclude_from_sim no)
-		(at 25.654 67.564 0)
+		(at 26.416 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2935,12 +2687,6 @@
 		(uuid "dfc79b98-cbfd-4e0e-8c64-cf9e4a2c9001")
 	)
 	(junction
-		(at 52.07 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1537d21a-fd7f-4084-b6ce-ab878d305fed")
-	)
-	(junction
 		(at 241.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2953,10 +2699,10 @@
 		(uuid "3ad9e419-625f-4770-a3e0-39afc5a3aa27")
 	)
 	(junction
-		(at 52.07 171.45)
+		(at 82.55 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7edfb2f0-0d47-4a45-aed2-a37366e29d0e")
+		(uuid "576596b2-a1b9-4dfb-90cb-9f6a2a801b94")
 	)
 	(junction
 		(at 228.6 60.96)
@@ -2977,12 +2723,6 @@
 		(uuid "cf62c1a1-35f3-47c8-aeed-9291d8907eca")
 	)
 	(junction
-		(at 52.07 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d67efd3f-da77-45f2-996e-a30a7bdffdb0")
-	)
-	(junction
 		(at 228.6 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2993,6 +2733,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e79aa34e-3cea-482d-bd09-21ea4788f672")
+	)
+	(junction
+		(at 82.55 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e98d6850-e4ee-42e2-8986-cd0e86d3983f")
+	)
+	(junction
+		(at 82.55 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd155d84-2c48-4231-b102-7230731b1be9")
 	)
 	(no_connect
 		(at 241.3 31.75)
@@ -3007,6 +2759,16 @@
 			(type default)
 		)
 		(uuid "0a1e19dd-fd07-4804-99b6-b8ef8a3e46f0")
+	)
+	(wire
+		(pts
+			(xy 72.39 130.81) (xy 82.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a96fe04-87bb-4f2e-ab12-a21fa5faa570")
 	)
 	(wire
 		(pts
@@ -3030,13 +2792,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 171.45) (xy 52.07 146.05)
+			(xy 82.55 90.17) (xy 82.55 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16c6b51b-881b-4ec9-86c8-a482f40c3035")
+		(uuid "187aea35-91ce-4cf5-ae2a-5fbf4b4728ae")
 	)
 	(wire
 		(pts
@@ -3050,13 +2812,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 120.65) (xy 52.07 120.65)
+			(xy 82.55 130.81) (xy 82.55 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cca7727-f2b0-49c2-ba88-e7a9de75cd6e")
+		(uuid "282fc706-6acc-493e-85ff-3d7eb77a7f05")
 	)
 	(wire
 		(pts
@@ -3067,6 +2829,16 @@
 			(type default)
 		)
 		(uuid "2e17f391-8480-428b-906f-5f82bead9ffa")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e67c0f6-a21d-4cc6-9ea8-acf9da9fa596")
 	)
 	(wire
 		(pts
@@ -3087,16 +2859,6 @@
 			(type default)
 		)
 		(uuid "37400e76-b81a-4677-8862-5c46a8872f45")
-	)
-	(wire
-		(pts
-			(xy 52.07 95.25) (xy 39.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "448eda1d-9411-4d6a-bb7d-9aea7f107a2b")
 	)
 	(wire
 		(pts
@@ -3160,6 +2922,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 110.49) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679134ee-d086-4deb-ab40-4c62e23b9d98")
+	)
+	(wire
+		(pts
 			(xy 241.3 90.17) (xy 241.3 86.36)
 		)
 		(stroke
@@ -3167,6 +2939,16 @@
 			(type default)
 		)
 		(uuid "6e7bdbcf-433c-4fa2-b4f5-7626c68b7fd4")
+	)
+	(wire
+		(pts
+			(xy 72.39 90.17) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee6ceb2-43c9-4acf-b2be-d02589cb2142")
 	)
 	(wire
 		(pts
@@ -3180,33 +2962,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 146.05) (xy 52.07 120.65)
+			(xy 82.55 110.49) (xy 82.55 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8885d691-890f-49b1-8d10-90ecc4ead1af")
-	)
-	(wire
-		(pts
-			(xy 39.37 146.05) (xy 52.07 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fcb287f-7607-43db-a73e-d01b1e5be4e6")
-	)
-	(wire
-		(pts
-			(xy 39.37 171.45) (xy 52.07 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974a231f-dbd0-4dbc-ba86-3da8673cb348")
+		(uuid "97385f0a-8440-40e5-891e-7e3c61fc09ac")
 	)
 	(wire
 		(pts
@@ -3240,26 +3002,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 182.88) (xy 52.07 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d48510-a17b-4eef-9ce8-bb84c4076017")
-	)
-	(wire
-		(pts
-			(xy 52.07 120.65) (xy 52.07 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c86662a4-788c-4572-988e-a6e338d39fe5")
-	)
-	(wire
-		(pts
 			(xy 261.62 55.88) (xy 228.6 55.88)
 		)
 		(stroke
@@ -3287,6 +3029,16 @@
 			(type default)
 		)
 		(uuid "d6dcc19c-40bc-4040-95ca-62aa387a9bd3")
+	)
+	(wire
+		(pts
+			(xy 82.55 69.85) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cc8eea-de6d-4968-a96e-dc4ebe1f7f49")
 	)
 	(wire
 		(pts
@@ -3368,6 +3120,16 @@
 		)
 		(uuid "1e8520d1-17fb-4ce8-922b-6f3e28a33288")
 	)
+	(label "AUX-"
+		(at 72.39 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cec1cf1-723b-4dfd-8505-a37ae9519ff5")
+	)
 	(label "ALARM+"
 		(at 261.62 71.12 180)
 		(effects
@@ -3418,16 +3180,6 @@
 		)
 		(uuid "460580c6-3b52-4d0f-b332-4b2b354c8b3b")
 	)
-	(label "STEP_IN"
-		(at 26.67 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58190b40-ad01-4802-9586-f0046ab32f16")
-	)
 	(label "PUL-"
 		(at 261.62 53.34 180)
 		(effects
@@ -3437,26 +3189,6 @@
 			(justify right bottom)
 		)
 		(uuid "5c0fd4f0-1f5f-4573-b0fd-960f07563daa")
-	)
-	(label "PUL-"
-		(at 39.37 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68fec5a3-3952-4721-8b7f-0b8f3c26315c")
-	)
-	(label "AUX-"
-		(at 39.37 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79b277c0-5f5f-400c-a7d3-c600f9fb5140")
 	)
 	(label "PED+"
 		(at 261.62 66.04 180)
@@ -3478,6 +3210,16 @@
 		)
 		(uuid "92934683-f9dd-4e7f-acc4-5f7519856195")
 	)
+	(label "STEP_IN"
+		(at 21.59 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93ec7e36-0e1d-45f6-bf81-0bc8f18128ff")
+	)
 	(label "+5V_Servo"
 		(at 55.88 38.1 0)
 		(effects
@@ -3487,16 +3229,6 @@
 			(justify left bottom)
 		)
 		(uuid "96480b40-c478-4244-99b2-57862c7e6928")
-	)
-	(label "DIR_IN"
-		(at 26.67 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e9cc64f-b9cf-4816-9ef4-5ab066234723")
 	)
 	(label "+5V_Servo"
 		(at 265.43 110.49 0)
@@ -3519,14 +3251,14 @@
 		(uuid "a44384aa-e0f5-4e0c-8576-314719315a11")
 	)
 	(label "ENA-"
-		(at 39.37 80.01 0)
+		(at 72.39 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a5932a98-de69-4730-ab8b-8d7b67f1b8af")
+		(uuid "a6a3642c-3f0c-462e-915d-054bc1ff4ef8")
 	)
 	(label "PED_OUT"
 		(at 48.26 30.48 0)
@@ -3538,6 +3270,16 @@
 		)
 		(uuid "b10665ea-2358-4489-90f9-da41cd88afaf")
 	)
+	(label "EN_IN"
+		(at 21.59 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b81b0dd6-9a5f-4306-9266-c0161f9908e2")
+	)
 	(label "ENA-"
 		(at 261.62 63.5 180)
 		(effects
@@ -3548,15 +3290,25 @@
 		)
 		(uuid "c353081b-61e1-43fd-bfec-110b7af8a092")
 	)
-	(label "DIR-"
-		(at 39.37 105.41 0)
+	(label "DIR_IN"
+		(at 21.59 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4be4e17-2a82-4f79-91d5-08b5278e0d60")
+	)
+	(label "PUL-"
+		(at 72.39 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c6c671df-0f35-4bdb-b4a0-854499e53756")
+		(uuid "c9eb9b18-008e-4245-8bc5-b0824ac5d03b")
 	)
 	(label "PED-"
 		(at 97.79 25.4 0)
@@ -3568,15 +3320,15 @@
 		)
 		(uuid "cee0ed76-1cd8-4273-99f9-b4b3ce6f2412")
 	)
-	(label "AUX_IN"
-		(at 26.67 162.56 180)
+	(label "DIR-"
+		(at 72.39 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "d7b491ec-22a9-4444-80b5-d748d925cc47")
+		(uuid "d0c79eab-a425-4f55-890b-473324b925c8")
 	)
 	(label "+48V"
 		(at 265.43 118.11 0)
@@ -3597,6 +3349,16 @@
 			(justify right bottom)
 		)
 		(uuid "db78aa67-614e-4b52-a7b7-fd03e205847a")
+	)
+	(label "AUX_IN"
+		(at 21.59 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd557f6f-6a21-4c51-8a26-cb6cb4961a6b")
 	)
 	(label "ALARM_OUT"
 		(at 48.26 33.02 0)
@@ -3628,16 +3390,6 @@
 		)
 		(uuid "f6fa03de-9edc-4fc2-9794-e865e710908c")
 	)
-	(label "EN_IN"
-		(at 26.67 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa01179b-b877-4641-a8ca-e801f07fcc96")
-	)
 	(label "DIR+"
 		(at 261.62 55.88 180)
 		(effects
@@ -3647,6 +3399,79 @@
 			(justify right bottom)
 		)
 		(uuid "fb17df30-c73e-4e09-b310-aba2f07163a3")
+	)
+	(symbol
+		(lib_id "MUN5233T1G:MUN5233T1G")
+		(at 21.59 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0198962f-3fd9-438c-a61a-6f28e7bab15c")
+		(property "Reference" "U3"
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MUN5233T1G"
+			(at 46.99 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+			(at 21.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MUN5233T1G"
+			(at 21.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "31ce67cf-b177-44a7-a73f-7e7e5c0d2154")
+		)
+		(pin "2"
+			(uuid "903fd5b9-6917-4b26-98eb-8a4cc7a6b7d7")
+		)
+		(pin "1"
+			(uuid "f1ad49fd-1768-4e48-903c-4eb3d228ba8a")
+		)
+		(instances
+			(project "servo_adapter"
+				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3719,35 +3544,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_BJT_Pre-Biased_AKL:MUN5233")
-		(at 35.56 163.83 0)
+		(lib_id "power:GND")
+		(at 82.55 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1bfc752c-b52d-4f85-98a9-fa69b9a92e88")
-		(property "Reference" "Q4"
-			(at 41.91 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MUN5233"
-			(at 41.91 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 35.56 163.83 0)
+		(uuid "27a9ada3-60a3-4664-b349-1bb69c777508")
+		(property "Reference" "#PWR04"
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,8 +3562,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/b08ae4714e93e014b0577ddbeff4caf4/MMUN2233.PDF"
-			(at 35.56 163.83 0)
+		(property "Value" "GND"
+			(at 82.55 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,8 +3579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN SOT-323 Pre-Biased transistor, 50V, 100mA, 202mW, Alternate KiCAD Library"
-			(at 35.56 163.83 0)
+		(property "Datasheet" ""
+			(at 82.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,92 +3588,168 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "03fe237b-3c88-4be8-a8fc-55cf25eafdf3")
-		)
-		(pin "3"
-			(uuid "e8c7952f-c862-4f9e-923b-1d457d908f2e")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4fb868b4-ff78-4a8e-938c-8f7d1fbe3b03")
+			(uuid "a6e13ccc-a287-4f7f-8b47-bdcb4e84fe2c")
 		)
 		(instances
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "Q4")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_BJT_Pre-Biased_AKL:MUN5233")
-		(at 35.56 113.03 0)
+		(lib_id "MUN5233T1G:MUN5233T1G")
+		(at 21.59 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4420307a-84a3-4d51-80ff-e66995caa97c")
-		(property "Reference" "Q2"
-			(at 41.91 111.7599 0)
+		(uuid "2e901e96-b48c-43ec-940c-92b186cb7707")
+		(property "Reference" "U1"
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MUN5233T1G"
+			(at 46.99 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+			(at 21.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "MUN5233"
-			(at 41.91 114.2999 0)
+		(property "Datasheet" "MUN5233T1G"
+			(at 21.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 35.56 113.03 0)
+		(property "Description" ""
+			(at 21.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b08ae4714e93e014b0577ddbeff4caf4/MMUN2233.PDF"
-			(at 35.56 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN SOT-323 Pre-Biased transistor, 50V, 100mA, 202mW, Alternate KiCAD Library"
-			(at 35.56 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "998ef64e-e5a4-40a1-bd4c-9e5a6287bb8e")
 		)
 		(pin "3"
-			(uuid "710904c1-f755-44e8-a21d-94785e91f4e3")
+			(uuid "be01af1b-f4bd-4851-a122-abbcea3f5a3b")
+		)
+		(pin "2"
+			(uuid "8d42794a-7c99-4465-82f2-5c054230116b")
 		)
 		(pin "1"
-			(uuid "208e742d-096d-43ce-9273-97ca72361075")
+			(uuid "4c8e5494-d12f-45bc-bea0-951022f36ccd")
+		)
+		(instances
+			(project ""
+				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MUN5233T1G:MUN5233T1G")
+		(at 21.59 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32c562db-7837-4b2e-b427-4c79d7b708ab")
+		(property "Reference" "U4"
+			(at 46.99 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MUN5233T1G"
+			(at 46.99 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+			(at 21.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MUN5233T1G"
+			(at 21.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd49ffcc-b961-4d7d-9353-07103ff8723f")
+		)
+		(pin "2"
+			(uuid "ec512d48-64a7-4f55-90bf-7dc671dbbad9")
+		)
+		(pin "1"
+			(uuid "833b2c33-ee32-4975-8bfe-30e26ccd2b5b")
 		)
 		(instances
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "Q2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5035,6 +4926,79 @@
 		)
 	)
 	(symbol
+		(lib_id "MUN5233T1G:MUN5233T1G")
+		(at 21.59 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d719f58e-d86e-4e72-a949-b7b1898831f1")
+		(property "Reference" "U2"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MUN5233T1G"
+			(at 46.99 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT-323-3_2P2X1P35_ONS"
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MUN5233T1G"
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7606a7b-0b9b-4798-a63e-36e9e7d49b51")
+		)
+		(pin "2"
+			(uuid "8b57aee3-c0be-4aaa-8e5f-9ba3e7004aee")
+		)
+		(pin "1"
+			(uuid "ecd9ae06-2a5e-454f-a2cc-2f2c9b669cd1")
+		)
+		(instances
+			(project "servo_adapter"
+				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 90.17 0)
 		(unit 1)
@@ -5101,152 +5065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_BJT_Pre-Biased_AKL:MUN5233")
-		(at 35.56 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e662ba90-1c8e-4113-a840-43e85abc664f")
-		(property "Reference" "Q3"
-			(at 41.91 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MUN5233"
-			(at 41.91 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b08ae4714e93e014b0577ddbeff4caf4/MMUN2233.PDF"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN SOT-323 Pre-Biased transistor, 50V, 100mA, 202mW, Alternate KiCAD Library"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8263d845-e757-4048-918c-08c592644c20")
-		)
-		(pin "3"
-			(uuid "b79e3e4d-4425-4f1f-853d-0b153053d243")
-		)
-		(pin "1"
-			(uuid "dadfa255-6db0-4c15-95d9-56c9018b1378")
-		)
-		(instances
-			(project "servo_adapter"
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Transistor_BJT_Pre-Biased_AKL:MUN5233")
-		(at 35.56 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0243b52-ea75-4908-b14a-725cceac9271")
-		(property "Reference" "Q1"
-			(at 41.91 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MUN5233"
-			(at 41.91 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 35.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b08ae4714e93e014b0577ddbeff4caf4/MMUN2233.PDF"
-			(at 35.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN SOT-323 Pre-Biased transistor, 50V, 100mA, 202mW, Alternate KiCAD Library"
-			(at 35.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28c330ce-7895-4012-995d-9b3e0c2ac53b")
-		)
-		(pin "3"
-			(uuid "a7cd38f1-1f35-4c87-ba36-ba2b66ef757e")
-		)
-		(pin "1"
-			(uuid "ebfcc05c-9653-4efc-9f17-f46325821518")
-		)
-		(instances
-			(project ""
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 236.22 31.75 0)
 		(unit 1)
@@ -5307,72 +5125,6 @@
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f18252aa-3445-401e-839e-9ad44f366588")
-		(property "Reference" "#PWR01"
-			(at 52.07 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d20a2628-4985-4bc5-b8c4-633e3a0227b2")
-		)
-		(instances
-			(project ""
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
