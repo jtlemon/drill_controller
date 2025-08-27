@@ -7,7 +7,7 @@
 - [X] Add the servo motor to shield power connector.
 - [X] Add the servo motor to shield signal connector.
 - [X] Add mounting holes.
-- [ ] Add all needed JLCPCB numbers.
+- [X] Add all needed JLCPCB numbers.
 - [ ]  
 - [ ] Pass electrical rules check.
 
