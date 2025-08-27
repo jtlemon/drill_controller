@@ -8,7 +8,6 @@
 - [X] Add the servo motor to shield signal connector.
 - [X] Add mounting holes.
 - [X] Add all needed JLCPCB numbers.
-- [ ]  
 - [ ] Pass electrical rules check.
 
 ## PCB
@@ -19,3 +18,4 @@
 - [ ] Add power plane.
 - [ ] Add connector info to front and back silkscreen layer.
 - [ ] Add version number to silkscreen layer.
+- [X] Import Components into PCB editor
