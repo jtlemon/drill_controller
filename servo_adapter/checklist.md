@@ -14,7 +14,7 @@
 
 - [X] Extract the needed dimensions from the step file.
 - [X] Setup PCB as 4-layer for extra EMI resistance.
-- [ ] Add ground plane.
+- [X] Add ground plane.
 - [ ] Add power plane.
 - [ ] Add connector info to front and back silkscreen layer.
 - [ ] Add version number to silkscreen layer.
