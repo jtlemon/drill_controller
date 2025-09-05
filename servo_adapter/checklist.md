@@ -12,10 +12,11 @@
 
 ## PCB
 
-- [ ] Extract the needed dimensions from the step file.
+- [X] Extract the needed dimensions from the step file.
 - [ ] Setup PCB as 4-layer for extra EMI resistance.
 - [ ] Add ground plane.
 - [ ] Add power plane.
 - [ ] Add connector info to front and back silkscreen layer.
 - [ ] Add version number to silkscreen layer.
 - [X] Import Components into PCB editor
+- [ ] Fix issue with rotated 3D model. 
