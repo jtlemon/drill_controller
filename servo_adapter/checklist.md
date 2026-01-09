@@ -1,5 +1,7 @@
 # Servo Adapter Checklist
 
+*Note:* Step file is the correct or accurate file to base it off of. 
+
 
 ## Schematic
 - [X] Add the servo motor to adapter power connector.
