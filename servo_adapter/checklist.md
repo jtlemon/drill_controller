@@ -5,11 +5,11 @@
 
 ## Schematic
 - [X] Add the servo motor to adapter power connector.
-- [ ] Add the servo motor to adapter signal connector:
+- [X] Add the servo motor to adapter signal connector:
 - [X] Add the servo motor to shield power connector.
 - [X] Add the servo motor to shield signal connector.
 - [X] Add mounting holes.
-- [ ] Add all needed JLCPCB numbers.
+- [X] Add all needed JLCPCB numbers.
 - [X] Pass electrical rules check.
 
 ## PCB
@@ -26,6 +26,12 @@
 
 ## Components
 
+The design has been updated again as I've added 22uF capacitors that have a 
+high voltage rating for their chemistry.
+
+The capacitor's in question are aluminum polymer caps that should last for
+the life of the system even under high temperatures.
+
 The design's given from the 2022 REV.B show what looks like du-pont 2.54mm
 pin sockets for both the connectors that go into the servo motors.
 
@@ -38,5 +44,6 @@ found.
 
 My thoughts are that the connector needs to be changed, but it may be that
 it's been checked and found compatible with the 2.54mm spacing?
+
 
 
