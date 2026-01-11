@@ -18,8 +18,8 @@
 - [X] Setup PCB as 4-layer for extra EMI resistance.
 - [X] Add ground plane.
 - [X] Add power plane.
-- [ ] Add connector info to front and back silkscreen layer.
-- [ ] Add version number to silkscreen layer.
+- [X] Add connector info to front and back silkscreen layer.
+- [X] Add version number to silkscreen layer.
 - [X] Import Components into PCB editor
 - [X] Fix issue with rotated 3D model. 
 
