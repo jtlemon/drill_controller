@@ -1097,6 +1097,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -4315,7 +4398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c66dbf5-d0d7-4ec7-b164-fe59395078e9")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -4365,7 +4448,7 @@
 		(instances
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4433,73 +4516,6 @@
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 228.6 110.49 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53cd0904-4348-4a9b-b8ac-8473acd6d980")
-		(property "Reference" "H1"
-			(at 231.14 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 231.14 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 228.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86fbab4a-0340-4868-9449-e7a75d3a2a2c")
-		)
-		(instances
-			(project ""
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5060,73 +5076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 228.6 125.73 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8904dc37-7fc2-42da-908e-f40c18f9dcb7")
-		(property "Reference" "H2"
-			(at 231.14 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 231.14 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 228.6 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 228.6 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a64b520-6776-462e-8b92-7547f3265d8a")
-		)
-		(instances
-			(project "servo_adapter"
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "T4141L12051-000:T4141012051-000")
 		(at 38.1 30.48 0)
 		(unit 1)
@@ -5217,7 +5166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90cd1842-fd25-407c-a6be-0bb6bcaae86b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 271.78 96.52 0)
 			(effects
 				(font
@@ -5267,7 +5216,7 @@
 		(instances
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5283,7 +5232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e37703e-eeb4-4917-8f32-8500e3442572")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 241.3 35.56 0)
 			(effects
 				(font
@@ -5333,7 +5282,71 @@
 		(instances
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#PWR010")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 228.6 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e37b9e4-ca91-499c-8830-b500266bc3e2")
+		(property "Reference" "H2"
+			(at 231.14 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 231.14 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "servo_adapter"
+				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5413,72 +5426,6 @@
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f229bbb-4d59-48dd-841c-4f2e4087b32f")
-		(property "Reference" "#PWR07"
-			(at 228.6 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c23a812-2a97-4602-91e1-e6dabe32e90a")
-		)
-		(instances
-			(project "servo_adapter"
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5682,72 +5629,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b23d42d5-c161-4922-906b-816573a47ebc")
-		(property "Reference" "#PWR06"
-			(at 228.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7368e4d4-f232-44fd-9f26-96b45b82b7c0")
-		)
-		(instances
-			(project "servo_adapter"
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 265.43 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5756,7 +5637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a97919-3243-4b6f-a86a-b0565a375d92")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 265.43 132.08 0)
 			(effects
 				(font
@@ -5806,7 +5687,7 @@
 		(instances
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5961,6 +5842,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 228.6 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d75314fd-85cf-4dd4-9f63-beceee65b301")
+		(property "Reference" "H1"
+			(at 231.14 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 231.14 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 228.6 156.21 0)
 		(unit 1)
@@ -5970,7 +5915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e063ee99-0c51-4258-a8d7-3965a9cf982a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 228.6 162.56 0)
 			(effects
 				(font
@@ -6020,7 +5965,7 @@
 		(instances
 			(project "servo_adapter"
 				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
