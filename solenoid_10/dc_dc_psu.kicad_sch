@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "b5954552-dda0-4774-b2f1-c13364819d0f")
 	(paper "A4")
+	(title_block
+		(title "Solenoid_10")
+		(rev "0.1.0")
+		(company "Homewood Creations")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -467,26 +472,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Polyfuse"
+		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "F"
-				(at -2.54 0 90)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -494,12 +500,11 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -512,7 +517,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(property "Description" "Net tie, 2 pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -521,7 +526,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+			(property "ki_keywords" "net tie short"
 				(at 0 0 0)
 				(effects
 					(font
@@ -530,7 +535,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
+			(property "ki_fp_filters" "Net*Tie*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -539,22 +544,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Polyfuse_0_1"
+			(symbol "NetTie_2_0_1"
 				(polyline
 					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+						(xy -1.27 0) (xy 1.27 0)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -563,24 +557,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "Polyfuse_1_1"
+			(symbol "NetTie_2_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -596,9 +578,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -848,716 +830,6 @@
 				(pin passive line
 					(at 2.54 2.54 180)
 					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Diode_Zener_AKL:BZT52-C5V6"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "DZ"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BZT52-C5V6"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/a15379e40d52fd7ecbec36fd5b36d1bc/BZT52Cxx_ser.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SOD-123 Zener diode, 5.6V, 500mW, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode zener BZT52"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BZT52-C5V6_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BZT52-C5V6_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy -0.381 1.397)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BZT52-C5V6_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BZT52-C5V6_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Elektuur:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Indicator" "+"
-				(at -3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "W"
-				(at 2.54 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_1_1"
-				(polyline
-					(pts
-						(xy -1.524 -3.429) (xy 1.524 -3.429) (xy 1.524 3.429) (xy -1.524 3.429) (xy -1.524 -3.429) (xy -1.27 -3.175)
-						(xy -1.27 3.175) (xy 1.27 3.175) (xy 1.27 -3.175) (xy -1.27 -3.175) (xy -1.524 -3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.651)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.651)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_1_2"
-				(polyline
-					(pts
-						(xy -0.508 -3.429) (xy 1.524 -3.429) (xy 1.524 3.429) (xy -0.508 3.429) (xy -0.508 3.175) (xy 1.27 3.175)
-						(xy 1.27 -3.175) (xy -0.508 -3.175) (xy -0.508 -3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.651)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.651)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_1_3"
-				(polyline
-					(pts
-						(xy 0 3.4798) (xy 0 3.2004) (xy 0.7112 2.794) (xy -1.1938 1.6764) (xy 0.7112 0.5588) (xy -1.1938 -0.5588)
-						(xy 0.7112 -1.6764) (xy -1.1938 -2.794) (xy 0 -3.4798) (xy 0 -3.2004) (xy -0.7112 -2.794) (xy 1.1938 -1.6764)
-						(xy -0.7112 -0.5588) (xy 1.1938 0.5588) (xy -0.7112 1.6764) (xy 1.1938 2.794) (xy 0 3.4798)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.6002)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.6002)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_1_4"
-				(polyline
-					(pts
-						(xy 0 4.5466) (xy 0 4.2672) (xy 0.0508 4.2418) (xy 1.016 3.683) (xy -1.524 2.2098) (xy 1.016 0.7366)
-						(xy -1.524 -0.7366) (xy 1.016 -2.2098) (xy -1.524 -3.683) (xy -0.0762 -4.5212) (xy 0 -4.5466)
-						(xy 0 -4.2672) (xy -0.0508 -4.2418) (xy -1.016 -3.683) (xy 1.524 -2.2098) (xy -1.016 -0.7366)
-						(xy 1.524 0.7366) (xy -1.016 2.2098) (xy 1.524 3.683) (xy 0.0762 4.5212) (xy 0 4.5466)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 0.5334)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 0.5334)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Thyristor_AKL:BT148W-600R"
-			(pin_names
-				(offset 0.002)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BT148W-600R"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/80cdab31f97a9d122c41e556605390d8/BT148W-600R.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SOT-223 Thyristor, Silicon controlled rectifier, 600V, 1A, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SCR thyristor BT148W-600R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BT148W-600R_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BT148W-600R_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -3.81 90)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
 					(name "K"
 						(effects
 							(font
@@ -2009,18 +1281,6 @@
 		)
 	)
 	(rectangle
-		(start 166.37 41.91)
-		(end 242.57 81.28)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 26502c90-04ba-44a5-b16f-5a240c83412a)
-	)
-	(rectangle
 		(start 46.99 41.91)
 		(end 163.83 88.9)
 		(stroke
@@ -2042,16 +1302,6 @@
 		)
 		(uuid "1dc790b4-99b1-4abf-ab5c-741a96ac6405")
 	)
-	(text "Over-Voltage & Over-Current Crowbar"
-		(exclude_from_sim no)
-		(at 185.42 40.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "20172050-ff04-43d5-80ba-1cab0215d741")
-	)
 	(text_box "24V input, Caps should be rated for 36v just in case."
 		(exclude_from_sim no)
 		(at 46.99 91.44 0)
@@ -2071,26 +1321,6 @@
 			(justify left top)
 		)
 		(uuid "4a154946-91d5-4609-84cf-c8b3153fe661")
-	)
-	(text_box "I_Hold: 0.750A\nI_Trip: 1.5A\nVMax: 33V"
-		(exclude_from_sim no)
-		(at 167.64 58.42 0)
-		(size 22.86 10.16)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "80eda52d-6d41-4c00-b450-1b98fbf1d864")
 	)
 	(text_box "5.0v Output at maximum 2A for configuration"
 		(exclude_from_sim no)
@@ -2113,58 +1343,22 @@
 		(uuid "97c867e4-7217-47a7-ae42-1e3331c72fc2")
 	)
 	(junction
+		(at 139.7 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eafc42a-36f6-4545-ad56-8f2d35d08b34")
+	)
+	(junction
 		(at 50.8 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2714d19c-0b0d-4748-8610-14432f8fc251")
 	)
 	(junction
-		(at 250.19 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32df2b74-9f2e-4588-b69c-24a57bd7b739")
-	)
-	(junction
-		(at 139.7 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47813dc7-83ff-4c1a-9b54-41d4f3c3fbc4")
-	)
-	(junction
-		(at 222.25 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48982690-06dd-4ea3-b60f-c83898557ec6")
-	)
-	(junction
-		(at 152.4 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49f523fe-b165-4cfb-9bdf-0d8bd26cfc0a")
-	)
-	(junction
-		(at 196.85 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cf6cc78-601a-4f38-808d-ad0cffa2f185")
-	)
-	(junction
 		(at 95.25 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5896dbb1-c66e-48ee-be53-46b08f65d624")
-	)
-	(junction
-		(at 196.85 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a97eb80-6eec-4647-b92c-1136ed5566cd")
-	)
-	(junction
-		(at 196.85 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "611e9f5c-15e7-425e-942e-e2c3af6faa83")
 	)
 	(junction
 		(at 127 50.8)
@@ -2179,12 +1373,6 @@
 		(uuid "83b1e2f2-a135-451d-8b78-609900b7d707")
 	)
 	(junction
-		(at 152.4 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b00acf9b-894c-4f5e-b147-975aa3695524")
-	)
-	(junction
 		(at 63.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2197,20 +1385,22 @@
 		(uuid "e141e582-df8f-46ba-a309-0db9abab31e5")
 	)
 	(junction
+		(at 152.4 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ee8e21-fc4a-4725-bd05-b197f4bcd719")
+	)
+	(junction
 		(at 63.5 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb8b8ab9-664c-41a4-8ffe-f2a8edb40c6e")
 	)
-	(wire
-		(pts
-			(xy 222.25 76.2) (xy 196.85 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003143ec-5c24-4325-b116-b426eab31305")
+	(junction
+		(at 250.19 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc4d86e1-b4f7-4158-8f29-e44af369dafc")
 	)
 	(wire
 		(pts
@@ -2274,6 +1464,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 50.8) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345af53c-2af6-4cbc-87b5-54c2ad6b79ec")
+	)
+	(wire
+		(pts
 			(xy 95.25 63.5) (xy 95.25 76.2)
 		)
 		(stroke
@@ -2281,26 +1481,6 @@
 			(type default)
 		)
 		(uuid "35339f7f-8948-431c-97ae-209ab17df2d6")
-	)
-	(wire
-		(pts
-			(xy 139.7 60.96) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a09f3fb-6458-4dda-918e-40a0af0a6a79")
-	)
-	(wire
-		(pts
-			(xy 181.61 50.8) (xy 196.85 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44358c46-6955-480c-b608-4d7c02c37902")
 	)
 	(wire
 		(pts
@@ -2314,33 +1494,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 50.8) (xy 250.19 50.8)
+			(xy 152.4 50.8) (xy 250.19 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52052b22-2026-44e6-839d-6342718f533f")
-	)
-	(wire
-		(pts
-			(xy 222.25 50.8) (xy 222.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "592ce5af-f767-495d-9312-5a5558215131")
-	)
-	(wire
-		(pts
-			(xy 196.85 59.69) (xy 196.85 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c5ed9e2-d118-46f4-9371-962d530cd51e")
+		(uuid "5a788b20-2922-4854-9216-ae8d58872456")
 	)
 	(wire
 		(pts
@@ -2374,16 +1534,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 50.8) (xy 196.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76923871-3a3d-43ee-8113-a9665cf1f283")
-	)
-	(wire
-		(pts
 			(xy 127 59.69) (xy 127 76.2)
 		)
 		(stroke
@@ -2404,17 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 196.85 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90ba0a70-7214-4a00-95dc-221eeb0d71c2")
-	)
-	(wire
-		(pts
-			(xy 107.95 60.96) (xy 139.7 60.96)
+			(xy 107.95 62.23) (xy 139.7 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 107.95 60.96)
+			(xy 107.95 58.42) (xy 107.95 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2434,13 +1574,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 62.23) (xy 196.85 64.77)
+			(xy 139.7 50.8) (xy 152.4 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a920d8ba-d6dc-49f8-9129-b429aea8cfbb")
+		(uuid "a5c2c756-065e-4ab6-99c4-d360b73a2523")
 	)
 	(wire
 		(pts
@@ -2451,16 +1591,6 @@
 			(type default)
 		)
 		(uuid "ac93f80b-6b2d-4da8-903e-53043dc36b97")
-	)
-	(wire
-		(pts
-			(xy 152.4 50.8) (xy 173.99 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb00188-35b6-49a7-b31c-8ef8a284f35b")
 	)
 	(wire
 		(pts
@@ -2484,16 +1614,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 62.23) (xy 218.44 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "affce5ab-9cd4-45ec-a6b4-35b7f504b427")
-	)
-	(wire
-		(pts
 			(xy 95.25 76.2) (xy 95.25 80.01)
 		)
 		(stroke
@@ -2501,6 +1621,16 @@
 			(type default)
 		)
 		(uuid "b0978503-f540-4890-890c-795ea4863f1d")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b200f9eb-0d6c-45cc-bdd1-fba10fe97081")
 	)
 	(wire
 		(pts
@@ -2514,16 +1644,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 74.93) (xy 196.85 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc46e3d1-e831-45d7-9b3b-7b77baf7fb09")
-	)
-	(wire
-		(pts
 			(xy 107.95 50.8) (xy 127 50.8)
 		)
 		(stroke
@@ -2534,26 +1654,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 64.77) (xy 222.25 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf51e1ee-d89b-476f-8622-e6592e16be34")
-	)
-	(wire
-		(pts
-			(xy 139.7 50.8) (xy 152.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d4eda0-33ba-4333-98a2-12f3a2c8c698")
-	)
-	(wire
-		(pts
 			(xy 85.09 58.42) (xy 81.28 58.42)
 		)
 		(stroke
@@ -2561,16 +1661,6 @@
 			(type default)
 		)
 		(uuid "ca4a3c69-b1b5-4f78-9630-c36ae5210397")
-	)
-	(wire
-		(pts
-			(xy 196.85 50.8) (xy 222.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb62a8a1-62b2-4992-9b5c-b8fa579e1c2b")
 	)
 	(wire
 		(pts
@@ -2663,12 +1753,12 @@
 		(uuid "fdd546dd-c540-4a55-a7bc-1d751497a45f")
 	)
 	(label "Feedback"
-		(at 139.7 60.96 0)
+		(at 139.7 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "75c445ad-844f-4108-be77-3d6f1e6155d4")
 	)
@@ -2773,43 +1863,44 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 177.8 50.8 90)
+		(lib_id "Device:NetTie_2")
+		(at 139.7 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13c50f24-9dfd-46a2-a1e2-db4ff71c8d18")
-		(property "Reference" "F2"
-			(at 177.8 44.45 90)
+		(uuid "04785d8b-3b51-4ddd-a8a0-8b6631e7cc96")
+		(property "Reference" "NT1"
+			(at 140.97 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SMD1812P075TF/33"
-			(at 177.8 46.99 90)
+		(property "Value" "NetTie_2"
+			(at 140.97 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 182.88 49.53 0)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 50.8 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,113 +1908,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 177.8 50.8 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C20997"
-			(at 177.8 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
-			(uuid "1096da2b-cca8-46a4-9c00-3a394d99e6ed")
+			(uuid "3c8df25c-84e7-47ad-b7aa-70fa1f9b9be1")
 		)
 		(pin "2"
-			(uuid "1ba5c188-f49b-4768-8215-9c97a74e9013")
+			(uuid "ceef39c4-778e-4db9-9043-a800a37389f2")
 		)
 		(instances
 			(project ""
 				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/a48983fa-5ca6-467e-9e84-c08993af2c43"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Thyristor_AKL:BT148W-600R")
-		(at 222.25 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19b21b38-cd48-4576-9563-6b3976daa513")
-		(property "Reference" "Q2"
-			(at 224.79 60.9601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BT148W-600R"
-			(at 224.79 58.4201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
-			(at 222.25 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/80cdab31f97a9d122c41e556605390d8/BT148W-600R.pdf"
-			(at 222.25 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-223 Thyristor, Silicon controlled rectifier, 600V, 1A, Alternate KiCAD Library"
-			(at 222.25 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C256433"
-			(at 222.25 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bd262206-93b8-4bc1-a757-a244d63ef38d")
-		)
-		(pin "3"
-			(uuid "06e8c1b1-b737-4c33-80f4-e2cc7b744a52")
-		)
-		(pin "2"
-			(uuid "8bc3044e-f5f7-4f03-b2a5-92ff78d9e636")
-		)
-		(instances
-			(project ""
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/a48983fa-5ca6-467e-9e84-c08993af2c43"
-					(reference "Q2")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -3001,103 +2004,6 @@
 			(project "solenoid_10"
 				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/a48983fa-5ca6-467e-9e84-c08993af2c43"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 196.85 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27e2a2f0-f58f-4afc-8d48-2e9384ebb716")
-		(property "Reference" "R5"
-			(at 199.39 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 199.39 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 193.675 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 199.39 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C17513"
-			(at 196.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "93748d93-48f0-4061-899a-8a6ef8af5bdc")
-		)
-		(pin "1"
-			(uuid "91c7c939-f54d-4fea-8694-34236f377825")
-		)
-		(instances
-			(project ""
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/a48983fa-5ca6-467e-9e84-c08993af2c43"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3555,84 +2461,6 @@
 			(project ""
 				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/a48983fa-5ca6-467e-9e84-c08993af2c43"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_Zener_AKL:BZT52-C5V6")
-		(at 196.85 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e709c509-832c-49ce-8a18-1df8f10f45da")
-		(property "Reference" "DZ1"
-			(at 199.39 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BZT52-C5V6"
-			(at 199.39 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/a15379e40d52fd7ecbec36fd5b36d1bc/BZT52Cxx_ser.pdf"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOD-123 Zener diode, 5.6V, 500mW, Alternate KiCAD Library"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C313486"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b6164313-03f8-4d36-bf32-5142a6ba0cca")
-		)
-		(pin "1"
-			(uuid "4c8fa202-c396-42f8-9402-25a5b8f5d5d3")
-		)
-		(instances
-			(project ""
-				(path "/434e6819-69f9-43cf-b2a3-58457aa05675/a48983fa-5ca6-467e-9e84-c08993af2c43"
-					(reference "DZ1")
 					(unit 1)
 				)
 			)
