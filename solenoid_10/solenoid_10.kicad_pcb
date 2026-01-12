@@ -207,12 +207,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d5a1de9f-ed33-43eb-8e8b-9d42bb1177b0")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -448,12 +449,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP8"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9fc03585-ebcb-488b-b9db-d1257491378c")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -618,7 +620,7 @@
 		(layer "F.Cu")
 		(uuid "09a6c898-357b-4f9c-8eee-be8b4a5ca72e")
 		(at 159.913376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F4"
 			(at 0 -2.65 90)
@@ -626,8 +628,8 @@
 			(uuid "f92088f5-5a26-4a86-b6c2-5e7958001caf")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -644,7 +646,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdf33b96-dd59-478c-aec0-b614c8398601")
@@ -657,7 +658,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50de5f56-5149-442e-a109-d3842e3bd64f")
@@ -694,7 +694,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "826d2cc6-0a25-498c-b87b-a9b79374fafa")
+			(uuid "29accac4-d73a-4013-981f-728355526461")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -704,47 +704,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2bce69ce-fc66-4fd5-9065-95e67ebd7a7d")
+			(uuid "d61b6717-f2cf-4ffb-b018-59a0e37bd4b3")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6c235552-8441-434f-b834-351610e83bc2")
+			(uuid "99153dfc-ad3a-4fbc-9f30-0e8883b1d486")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "61542d74-6764-4c18-babb-61165f10f033")
+			(uuid "7870343c-81df-43bb-b372-2b9f635a5b0a")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "51bb7829-fbf8-4846-b2a8-c9b0f095974b")
+			(uuid "d07e850e-e3a8-4e44-909d-cccb81dad824")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f8f6b806-089b-4bef-9bc3-30f3928c3286")
+			(uuid "ff5002cc-2a2d-4550-8316-35eb44de7152")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -754,7 +754,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7bb4b71e-34fb-45b2-b6e6-4344b1e49b63")
+			(uuid "99b0b132-7daa-41ab-92e3-d198933e85de")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -764,7 +764,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a7975525-f873-4d03-9045-15e71974f8dc")
+			(uuid "1681ffcf-ade7-49fd-86e2-3406e235957d")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -774,7 +774,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ff8b5701-ac25-4734-aac7-beea1d18d2e6")
+			(uuid "6744da8e-14d1-4be3-979f-540bd0e39f6f")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -784,7 +784,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "08a6d0d3-7f5e-4e7e-a13d-d059d6cc234a")
+			(uuid "f28a25b2-178c-4f01-a5ba-edd580cb3919")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -816,7 +816,7 @@
 			(uuid "c1f86998-e2d7-4a54-8bca-98a81d4ddc67")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -832,7 +832,7 @@
 		(layer "F.Cu")
 		(uuid "0a255864-df0e-443d-a4ff-f07c9b127777")
 		(at 297.913376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F10"
 			(at 0 -2.65 90)
@@ -840,8 +840,8 @@
 			(uuid "8343a9d4-ff0f-46c7-89b0-f19c0d028102")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -858,7 +858,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b0faaf6-929d-4015-b3de-30a293aae340")
@@ -871,7 +870,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d4e41d0-1a40-42fd-9497-233d2cb9a8d8")
@@ -908,7 +906,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "80eb498f-ee13-47b0-98be-b769985999ac")
+			(uuid "9a25372f-b562-4ea6-9ce4-e1d2175db42a")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -918,47 +916,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "db6f38c2-33c4-43f8-8580-50ff72570173")
+			(uuid "ac5ba23e-f6f8-466f-a475-774cadb63117")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3ca90e31-9823-47a5-b4fd-dc350ceebabc")
+			(uuid "a615cae6-bc99-4746-a990-8207c767077c")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b2a8bca0-2a83-402e-90a8-86643e346305")
+			(uuid "90a6cdb2-4711-490a-a56b-3444dd9c4651")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "089b4405-269a-4ed5-b2e7-c9165be121a1")
+			(uuid "93293954-272b-4bcb-b932-3b605383c66e")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8f25e1bc-c642-491f-9ec0-31f2225ba243")
+			(uuid "764c61a7-47c4-4b64-af37-2525d3ed8d4b")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -968,7 +966,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "06b75b5f-f075-4854-a141-32c581764d8d")
+			(uuid "10c045ef-f1ef-4188-a5d4-d845d9c2c543")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -978,7 +976,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "68095502-dcaf-4d45-aa48-89d8d09bf326")
+			(uuid "6df48f58-390a-4a59-bbea-6defe68d03b7")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -988,7 +986,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "47ffc35c-c934-49ff-b174-ee31b318e623")
+			(uuid "de5b9d3d-179c-4437-bb07-cc71c3c6a71a")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -998,7 +996,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c162057c-0fd4-490c-beae-3358a58abb3e")
+			(uuid "51dc6547-1d3c-426b-ade3-b91aa7ed696b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -1030,7 +1028,7 @@
 			(uuid "ebdc3ce7-3c82-4f26-8902-f3d10b853f26")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1050,12 +1048,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1d724ebe-daef-4041-9821-a4bff4c93af1")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1291,12 +1290,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q3"
 			(at 0 3.761624 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ce4991a2-af5a-49f5-8f83-406db5680de7")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1866,7 +1866,7 @@
 		(layer "F.Cu")
 		(uuid "0d652ffc-4194-40b2-ab94-5f7a2dc48f8e")
 		(at 228.913376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F7"
 			(at 0 -2.65 90)
@@ -1874,8 +1874,8 @@
 			(uuid "8c8f3b62-fa59-46e5-b59a-223ae2ffe275")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1892,7 +1892,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68ce361b-2b67-4281-b602-2880a28ef7b4")
@@ -1905,7 +1904,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b7c75e87-eea2-43dd-90b7-a7fb697acf3a")
@@ -1942,7 +1940,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "99d8c6f1-e20b-40eb-b982-f51e74498bf4")
+			(uuid "667f1658-79ba-48eb-b719-42c1fa611d84")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -1952,47 +1950,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "872405b2-7dea-43c8-a006-d560c77c9c61")
+			(uuid "aab3d7e0-fdfc-4bc1-81ca-7da5d4809ad7")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "07ec734d-d415-463d-b4c1-a38862f5531c")
+			(uuid "efb0a63c-1219-4e28-b8a1-6f1b4878407b")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1c01a793-180b-44fd-beef-88945641ab01")
+			(uuid "9d7ecfc6-cb40-4645-94a6-35ea73330cae")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "70e1f94a-cf6b-474c-a070-7f03abd05bfe")
+			(uuid "c4560734-a679-473a-8f7c-550ae09f9de8")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5f222dd4-237d-4118-84ad-c7f0ae7fdfb3")
+			(uuid "5976e76a-5a96-4e16-a989-7d9161a280fe")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -2002,7 +2000,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e572ef5a-ccb0-4255-a889-a9c171b2a50c")
+			(uuid "2aeaa3e7-f34f-463d-a376-68a3f9f1e0e2")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -2012,7 +2010,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "00ace637-c755-4c12-93b1-c700143930e3")
+			(uuid "d8790598-a36c-41f5-aaaf-2f4ca79d9536")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -2022,7 +2020,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "889c382a-bdcb-4dff-a425-c952c13343ec")
+			(uuid "45738dec-7597-4a97-8981-b62cadefdc4b")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -2032,7 +2030,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bd6b5d1b-84ac-4cc4-bc97-e0d8c2b9a7c9")
+			(uuid "8aa7354f-391d-4a83-9e2f-594bf0f6fe93")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -2064,7 +2062,7 @@
 			(uuid "090df84a-cc76-4f65-81c8-f1a790c7f9db")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2084,12 +2082,13 @@
 		(tags "SOD-123")
 		(property "Reference" "D2"
 			(at 0 -2.4 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c078ddb5-7570-478e-a20c-3c5c49c1f847")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2424,12 +2423,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP7"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "90db2313-487a-4920-9306-60ec4efdd280")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2598,12 +2598,13 @@
 		(tags "LED")
 		(property "Reference" "LED5"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "437a7614-df49-4de0-9bdf-2254f130b9e9")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2903,12 +2904,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0a6b9486-717e-4fb9-b441-0599e4e6b50e")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3143,12 +3145,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S2"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1051040e-1f28-4557-bca8-6d3f28f3d0c8")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3546,12 +3549,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H4"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a92ec16d-b6df-4fff-85c2-53e94478ade9")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3673,12 +3677,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q9"
 			(at 0 3.686624 270)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "94e6a916-a941-4291-bd01-49abe32e0f7d")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4252,12 +4257,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H6"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "083a8dfc-5ebd-4e93-9046-f65ed50fc8bf")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4379,12 +4385,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q7"
 			(at 0 3.786624 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0c278ba2-7ca1-4c6c-b262-f236e69e6d74")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4958,12 +4965,13 @@
 		(tags "LED")
 		(property "Reference" "LED3"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "714e4030-b39d-4bf0-86ab-84a8af5b3392")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5263,12 +5271,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7467d23c-384f-4629-a2e1-c3fa7f21b149")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5504,12 +5513,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6da4fb17-7074-4df9-a519-2e57c0fe31d4")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -5745,12 +5755,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D10"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c4e8d2f0-8f87-4d3d-9dc2-f015dc317fae")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6075,12 +6086,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "897de0f9-aa81-4f15-b0d8-627e6ce14bde")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6316,12 +6328,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0504c7f8-2e0f-469e-aae5-e93278ccbb80")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6557,12 +6570,13 @@
 		(tags "LED")
 		(property "Reference" "LED6"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6d272bf0-9e89-4a5c-b250-0595a179a4f6")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -6862,12 +6876,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "18e823ba-2a0c-4f39-bbe8-81c7166a5d14")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7103,12 +7118,13 @@
 		(tags "capacitor electrolyic nonpolar")
 		(property "Reference" "C1"
 			(at 0 -6.2 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "eccb6917-5d70-404b-bc97-b5488159cfca")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7607,12 +7623,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D3"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c9f364e9-a076-4ed3-8b42-d3be71e05ae4")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7937,12 +7954,13 @@
 		(tags "LED")
 		(property "Reference" "LED9"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6f9770df-d883-47ec-9b2a-0cfa061e7ed4")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8242,12 +8260,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f6f0f538-468a-4012-b201-e5d8fee8017b")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8483,12 +8502,13 @@
 		(tags "LED")
 		(property "Reference" "LED2"
 			(at 0 -1.83 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "80f58d07-0e0c-4821-bd5d-4c13dfc75247")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -8774,12 +8794,13 @@
 		(tags "LED")
 		(property "Reference" "LED4"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f90c5fd5-be6c-496e-ae6d-d9cf753538b9")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9079,12 +9100,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H2"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cc589829-02af-4da1-b602-2b35ceccd691")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9202,7 +9224,7 @@
 		(layer "F.Cu")
 		(uuid "4cdcc765-d821-4796-b551-25b29036aa15")
 		(at 182.913376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F5"
 			(at 0 -2.65 90)
@@ -9210,8 +9232,8 @@
 			(uuid "41000a9c-77e8-4dbb-aa32-1d6fd09ceca6")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9228,7 +9250,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "809b2f72-9a78-4b15-a992-1f6765c7a246")
@@ -9241,7 +9262,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdb5ea5b-ff8c-4035-b939-a1598243dd0f")
@@ -9278,7 +9298,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "11b9c204-5bfc-4411-ac02-7c5794ec6fd8")
+			(uuid "1657281b-91d7-4799-8c57-9d38752b724d")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -9288,47 +9308,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "65b8f732-4fed-43a2-9769-cf3f095aaa34")
+			(uuid "5dce934b-5d4f-4c48-bd7a-5e9ddcbacf64")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1277bd93-8484-4317-a98a-d278a93a5d52")
+			(uuid "4b4d45c9-8637-47cb-91d4-6815e7fe0652")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f0414807-dc7c-4c73-a05c-28bc989755f7")
+			(uuid "2146b134-19d5-4925-bbf7-cdfb94c790f8")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a94dd5cf-3bb4-42b3-b71a-89c05b816c19")
+			(uuid "005dd135-0bab-4a7c-96cc-5685c45b4e33")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "04da6263-13dc-4eb8-a8b3-34e3d3d2a888")
+			(uuid "514134c5-2104-47ad-ab1a-e588edfff4e3")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -9338,7 +9358,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c998300c-3876-4dc2-ab37-1857918ebf78")
+			(uuid "177117cc-9410-4387-bd0b-542d6b9db9ed")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -9348,7 +9368,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "55628439-b2ad-46ff-8eb5-099e636b200c")
+			(uuid "95217016-6983-4865-8c99-3c26daac086b")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -9358,7 +9378,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "509767e1-7d93-404e-ad27-4eaf5436bcbc")
+			(uuid "44491105-5313-48b1-bae6-b337bf025304")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -9368,7 +9388,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "29de2242-1638-429f-b59c-146b88427d10")
+			(uuid "b6ada1ce-c587-4386-b4f6-20b45b013ac2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -9400,7 +9420,7 @@
 			(uuid "089a125d-92f7-4587-9926-1fc8f3a8a0dd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9420,12 +9440,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0cb6f404-18fe-4b80-addc-c57c3a4a6dde")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -9657,7 +9678,7 @@
 		(layer "F.Cu")
 		(uuid "513931e9-f29d-41ce-997d-280f4030904d")
 		(at 274.913376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F9"
 			(at 0 -2.65 90)
@@ -9665,8 +9686,8 @@
 			(uuid "17817535-b9f3-44e5-b25d-96454ef7d0d4")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9683,7 +9704,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63ab6def-d0ce-49f7-b95d-ff9be5d542f1")
@@ -9696,7 +9716,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af84e635-f391-41df-981a-06742f42517b")
@@ -9733,7 +9752,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8ce36c78-a82c-495f-8dbe-af0307773332")
+			(uuid "84fbf155-1678-4e54-9d7f-19a74a630b1b")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -9743,47 +9762,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f43e32b4-c47a-4388-abc8-5a342ecd1a0f")
+			(uuid "c79ffe57-84e9-402a-b228-189acf853959")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "504d6011-4998-43e1-aef4-5b8abadbe22a")
+			(uuid "22e66828-ea7d-40b9-89e9-e5cdbfa63640")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d92bb58a-8ee5-4ca8-867b-3c6298a910f8")
+			(uuid "dd44f256-78bf-4376-bc1f-0ec39019778d")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bbbbdbee-1e5e-4630-99b9-2824806eaf99")
+			(uuid "e2886a83-f37c-4ba5-beaf-ea523e180d32")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6093babc-8662-4cf0-b447-9ba014dcccf4")
+			(uuid "8368a87c-b23a-41af-a21c-220bc54b973c")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -9793,7 +9812,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2cecb1ad-53aa-4578-9339-c33b6789099a")
+			(uuid "454e9a0e-2087-4448-a460-0fcf1a948157")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -9803,7 +9822,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bc238f59-0e72-428a-9e96-b7c4ebf4052c")
+			(uuid "65e554c8-0c2f-4ebe-a91b-4a7218872f8a")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -9813,7 +9832,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f2da2d42-e64f-469f-9e24-66359bb28301")
+			(uuid "ed2350fd-e817-4403-afb8-4b4e5348ef3a")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -9823,7 +9842,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ead877f3-b67d-4bec-8e56-9c0cf82827b5")
+			(uuid "2247a3dc-7179-4671-a78d-bdeedfce2b98")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -9855,7 +9874,7 @@
 			(uuid "ac507367-28a9-4754-a77a-b9fb2e8afac5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9875,12 +9894,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "11c36906-c8cb-4b59-b6dc-8d537ef31018")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10049,12 +10069,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H5"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "88de2990-a9bb-4bbb-85ba-feec3bf0f6eb")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10176,12 +10197,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D5"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "54aff16c-4431-4a0a-be1d-6237991d52e5")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10505,12 +10527,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S9"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c367366c-bd89-4577-945e-d2e819ce9bfe")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -10907,12 +10930,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S7"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9d5de652-fea3-4585-92c1-2a30117d01b8")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11310,12 +11334,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H9"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "71ea311d-abe2-4567-8ad8-68843bc29f13")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11436,12 +11461,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S6"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ea34ce31-1d9e-41c6-ba14-f32daa42742d")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11839,12 +11865,13 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
 			(at 0 -1.68 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "796dd363-8467-4afa-a5ee-4dba3ac35d2c")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12052,12 +12079,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S10"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b4e67976-5749-4280-88fc-3293c95cd93e")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12455,12 +12483,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP6"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "466416a2-13d1-4a27-a3e6-d0d58ef5a319")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12625,7 +12654,7 @@
 		(layer "F.Cu")
 		(uuid "6bcab667-0637-4d84-ab4d-e8082343be21")
 		(at 320.788376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F11"
 			(at 0 -2.65 90)
@@ -12633,8 +12662,8 @@
 			(uuid "8a57537d-7c69-4fd4-a512-47be74e85977")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12651,7 +12680,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ad28ffc-258d-4237-bf65-86a45990ee0d")
@@ -12664,7 +12692,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59df384a-2e00-4bab-8474-b2e5feb3ed0b")
@@ -12701,7 +12728,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "773a5723-c426-42ff-a92b-a541a888b5fb")
+			(uuid "9e484e7f-f7ee-4d5f-91b9-12fccad3738c")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -12711,47 +12738,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d23b4eb0-30f8-43fd-bb6c-b6e8fc43ba43")
+			(uuid "471ed766-6418-4414-827d-e11733aea37f")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "106ea9b7-2619-472c-a7e9-610b2f589237")
+			(uuid "c444d67d-de50-4bfb-bb71-330100a15161")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "33349d57-9bfe-465f-b0f6-28080236114d")
+			(uuid "27d1fb2e-1086-4a58-8130-47411e5605c3")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "70c49ac3-55b1-4263-ac12-0fcbc216a81c")
+			(uuid "dbf86d95-f91c-412e-a30f-9f0fa236b8f9")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "785f40a9-6573-4f84-a8a2-f74456885eaa")
+			(uuid "fa0887b7-b8c9-46d3-b512-9c3837fa0e46")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -12761,7 +12788,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2dae41b8-bc60-4b82-a1f8-a0536d4fcc28")
+			(uuid "b6e2dfc7-1ecb-4c9c-92ac-19f93eb06709")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -12771,7 +12798,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "943bd8b3-8eb5-4f7b-b9c1-4aae3bec6aff")
+			(uuid "7dcc459b-9f33-4700-9d2b-a5dc672507c3")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -12781,7 +12808,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "73d21d87-dab7-4b7c-9a1b-d594e5044961")
+			(uuid "2c59045e-8db3-4515-ad6b-6faae59e1136")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -12791,7 +12818,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "18b5c646-8dc5-49b1-bee0-237ef4bf387e")
+			(uuid "28fda2da-bf7a-45c5-b3f7-446fd5d37704")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -12823,7 +12850,7 @@
 			(uuid "3701b58f-e291-41a6-92a5-bff2fb6e0a15")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12843,12 +12870,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H7"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "018d2f30-5663-4ec4-8b68-94b0ca01e131")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12966,7 +12994,7 @@
 		(layer "F.Cu")
 		(uuid "77d141de-8e4c-42e1-8251-aeba85824b2f")
 		(at 113.913375 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F1"
 			(at 0 -2.65 90)
@@ -12974,8 +13002,8 @@
 			(uuid "26091a38-cc56-4c85-8e73-d2ab2c984ba0")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12992,7 +13020,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b552fdca-aff3-44b4-9e8e-459e54f6235e")
@@ -13005,7 +13032,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "027c652f-4523-4b22-b98c-14898a2e1f35")
@@ -13042,7 +13068,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1f1d551b-a8fb-40b6-8011-6aae6a58bc24")
+			(uuid "017b8eed-5a4f-498a-be4d-27c88678cc6e")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -13052,47 +13078,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "05c6a34c-b3bd-4dbe-ad39-a3b04a967ec1")
+			(uuid "a365b8a4-867c-49c0-b584-4a1da388fa76")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "49be492d-887c-41e4-a2c8-a44aa1db9122")
+			(uuid "eaba2e40-f873-460b-8889-0995f6f0823f")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e10e0da2-1233-4e25-960b-d4b98cee9ac9")
+			(uuid "5ba67a6d-9a25-4251-9dc7-92af212444c1")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f295d826-60b7-4cfa-b8bd-a1e8bb5a7356")
+			(uuid "d70536c4-a34e-4996-8216-639c8266143f")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "13cf7acc-7723-4c64-a8d4-4997cdf96a3b")
+			(uuid "074554fd-b132-40a7-aeb0-1c80fd4e20b9")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -13102,7 +13128,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "345637c4-4b8c-4bd7-ba25-7ddeb75eff58")
+			(uuid "2251c7d0-7d9f-468a-8e3a-67da7b64bbce")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -13112,7 +13138,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f98649f0-8ca2-47bd-a239-a38d97affc7f")
+			(uuid "966fb80a-3e61-4bbf-8927-086176868d03")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -13122,7 +13148,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cc339c32-8711-4419-b944-91da0ec985a4")
+			(uuid "9da60f39-ce2c-4c73-8526-0e996ab83df5")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -13132,7 +13158,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "49c832f9-9cfc-4c32-808c-e7ea3cab9a2f")
+			(uuid "412bee85-b2c5-4c18-9f9a-6dd996c661bd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -13164,7 +13190,7 @@
 			(uuid "490a7f2b-47ac-4f0d-84f0-a842d1f9c196")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13184,12 +13210,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP1"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6a30e595-8077-49cd-b817-531aa77e291e")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13358,12 +13385,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5c44552e-495e-4d12-9ad4-6398db4ecb9a")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13599,12 +13627,13 @@
 		(tags "LED")
 		(property "Reference" "LED7"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "812ea738-e327-4bc2-8201-67cb73586d11")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13904,13 +13933,14 @@
 		(tags "net tie")
 		(property "Reference" "NT1"
 			(at 0 -1.2 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "73112472-bf9e-47bd-bc6b-a8058b1391fb")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -13998,12 +14028,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H1"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ac69cfeb-720a-47fd-aa4a-89607904edae")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14125,12 +14156,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q1"
 			(at 0 3.661625 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a53e320a-652c-457a-ade1-384e57a2dcea")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14704,12 +14736,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H8"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a8495890-931c-4faf-aba8-e6956c3137cd")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14831,12 +14864,13 @@
 		(tags "mounting hole 4.5mm no annular")
 		(property "Reference" "H11"
 			(at 0 -5.5 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5bead72f-10a0-488f-922c-70c076723a3c")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14945,12 +14979,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D8"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "546982fb-b602-448a-904a-61cd80eed82d")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -15275,12 +15310,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q10"
 			(at 0 3.811624 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "27c33ac5-8ac3-44c9-a389-eca92db8e7a6")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -15854,12 +15890,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D9"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6f7c9539-b31b-4956-ac58-85f91ce8ccf7")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16184,12 +16221,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d76914b6-cf07-4e8a-a290-f1280833a03e")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16425,12 +16463,13 @@
 		(tags "LED")
 		(property "Reference" "LED1"
 			(at 0 -1.83 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "312de294-65f6-4921-a721-fb703c36b743")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -16716,12 +16755,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D4"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d9a99e6f-88e0-4ae9-8bbd-8365b7b9d0b5")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17046,12 +17086,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "91a8e979-79d8-49bf-bbb3-8d0197fe9e12")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17287,12 +17328,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q8"
 			(at -0.0155 3.636624 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e8967770-e192-4ea6-a452-df34f37d7543")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -17866,12 +17908,13 @@
 		(tags "SOIC SO")
 		(property "Reference" "U1"
 			(at 0 -3.4 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1d71cf18-0b14-4dff-86d2-c1dd9af4440c")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -18182,12 +18225,13 @@
 		(tags "capacitor electrolytic")
 		(property "Reference" "C3"
 			(at 0 -4.35 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "533e63a2-e8a0-4a19-9c30-56d612f485e8")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -18627,12 +18671,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "48171a3e-7fae-4a90-aa6a-b4bdf9380bdf")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -18868,12 +18913,13 @@
 		(tags "LED")
 		(property "Reference" "LED8"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "40e92b44-b842-4b5c-9216-b5483967e31f")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19173,12 +19219,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R22"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e425907c-4702-4247-a8de-fbcd1a5b5f95")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19414,12 +19461,13 @@
 		(tags "LED")
 		(property "Reference" "LED10"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0b6aff41-5bb8-4b38-90bd-461b579b2eac")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19719,12 +19767,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R23"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3c04a44a-faf8-43b2-85ae-6054c6ddfe46")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -19960,12 +20009,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D6"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "dc5f71b0-1d1b-42a7-acb1-e86bbeb15c67")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20290,12 +20340,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cb84698c-4db5-4153-8c71-59d5e1e24e9d")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20531,12 +20582,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q6"
 			(at 0.0095 3.686624 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "15f3b362-7718-4529-9fec-e40e4d16c0ab")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21106,7 +21158,7 @@
 		(layer "F.Cu")
 		(uuid "b62163cb-25e8-4ae7-8fe8-55b1742bf507")
 		(at 205.913376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F6"
 			(at 0 -2.65 90)
@@ -21114,8 +21166,8 @@
 			(uuid "a5bbd5ef-2f6f-4235-b520-db5a719192e0")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21132,7 +21184,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "93817d58-7c86-4a69-81db-f0178d13706a")
@@ -21145,7 +21196,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57dde3c6-a1db-431e-9aee-5c2ac3ed3e64")
@@ -21182,7 +21232,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1d2db48d-2db3-4c68-af91-5ce0a071a898")
+			(uuid "3c8cb063-5d9b-4a9e-bd18-cab2865ebddc")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -21192,47 +21242,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1eefa2b7-1a4d-47fb-b377-643571c97b1f")
+			(uuid "6ddb4d71-9f75-4a00-b030-847c84d772b9")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d76c2f45-8cfd-497a-8ffe-5295eadd4de8")
+			(uuid "e0da6b5e-5235-4099-80b9-fd3ba032ba27")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e315a010-d929-416c-a022-d1645e6c72cb")
+			(uuid "122f63a9-34f0-45e8-9c72-20d9911b1df6")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "33951727-d0d1-4610-9210-02872414b775")
+			(uuid "cf8e346c-714e-4455-af6f-b53e09096d26")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "979a0113-c4bb-4517-9da4-241f503f299b")
+			(uuid "289c9d06-fd02-4268-901b-0e822aa3f0b0")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -21242,7 +21292,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f3058378-294c-4642-a267-9be3a1e29b71")
+			(uuid "4a713920-03b0-4c4a-87bb-d60fac1af691")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -21252,7 +21302,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "166bd67f-d34a-4fa2-888b-3f27389ccf6a")
+			(uuid "acc706ee-923d-4a59-9f73-49292d2dc61c")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -21262,7 +21312,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "87af4d20-4adb-4f1d-81a2-f9cffc991825")
+			(uuid "33c3cd6f-6c9a-49f5-95ac-d0705c854838")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -21272,7 +21322,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d7a4bf58-5739-4ac0-a725-359568a5a906")
+			(uuid "c65565cc-0f56-42a0-a165-5a33b595b535")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -21304,7 +21354,7 @@
 			(uuid "9764eb93-be02-4607-9aa2-5b7dea04a708")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21322,12 +21372,13 @@
 		(at 130 103 -45)
 		(property "Reference" "J22"
 			(at -7.778175 -7.778175 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5556a595-a547-4ec4-95f9-577acdeb5077")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21668,12 +21719,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cb09f029-f54c-49dc-9d96-6d2fb390f127")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21909,12 +21961,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5e0b3867-f554-4e5d-b8fe-ac2e3fa5d6c0")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22150,12 +22203,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f538712f-df8a-450d-a377-4baa5a620817")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22391,12 +22445,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP9"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a9530521-fdc7-42ef-9d62-8ff20cad74c1")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22565,12 +22620,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H10"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c8006ea5-836e-4fad-92b7-787d9e7782d2")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22692,12 +22748,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP10"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "71d4f390-e96c-4541-8582-6d15924d824d")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22865,12 +22922,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S4"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "81a6a496-9aaf-4b54-b3ff-69b2520aae2c")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23268,12 +23326,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "199ad0be-477e-4024-9e47-b74c3ddd5f6c")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23509,12 +23568,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D7"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c149630b-9a77-4b72-afd3-9d3889e2b7ee")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23839,12 +23899,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP12"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "26d1cf84-2871-423b-91cb-50780a3736dc")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24013,12 +24074,13 @@
 		(tags "LED")
 		(property "Reference" "LED12"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "123b7b7d-c5d0-4ab0-87e7-411b55ba94a5")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24317,12 +24379,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S5"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1f9ddef6-906f-4186-9bf6-c80ea4dce2f1")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24720,12 +24783,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D1"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0b426613-e553-4f8d-940c-1ebaeb21e4a2")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25050,12 +25114,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q11"
 			(at 5.8345 2.311624 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7954aa4e-c5f7-474f-ae28-111444665e46")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25625,7 +25690,7 @@
 		(layer "F.Cu")
 		(uuid "d2e106d1-4b4f-494c-96a9-797b115ea8ee")
 		(at 251.913376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F8"
 			(at 0 -2.65 90)
@@ -25633,8 +25698,8 @@
 			(uuid "9045e101-c2c7-4186-bf3e-66b321fae65d")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25651,7 +25716,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de245527-e82c-4584-87c7-2bf8964e49e5")
@@ -25664,7 +25728,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1a941030-8a2e-4180-b327-2e3e6370053b")
@@ -25701,7 +25764,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5b8507ef-d63d-407c-bf96-8f91fdb83c21")
+			(uuid "bfcf3078-0603-4f17-afbe-184b92bd5963")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -25711,47 +25774,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2fd24b6f-751d-45b6-ac90-3a7612b48949")
+			(uuid "2722c49c-d1c6-4542-af41-af46fdee8734")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c8634333-e1ba-4a4b-994a-212d9e743f5e")
+			(uuid "ba7281d4-2a40-4855-849c-6cf1e6a5338a")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "640712d8-8335-4d6b-b683-537739a21e9f")
+			(uuid "848f2a52-d4bc-47b9-bd6e-1af78fa01e90")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2c522f97-45a8-4481-b823-2d9d8da4bb26")
+			(uuid "2f4adebe-455a-431f-916e-01023c619350")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9b9dd12d-faa1-4196-a4f0-f53609a8a7ee")
+			(uuid "e342e914-2b04-4332-b8d8-0e8028bcdaa5")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -25761,7 +25824,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bea60736-33b5-40a6-a5f2-f25e97d91122")
+			(uuid "1ef0ca94-62a0-42ff-b213-02c203d18daf")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -25771,7 +25834,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2a37afa4-4644-42a1-8041-0bda85b2d7e9")
+			(uuid "6d1ad627-0fa7-41cf-a659-60c10caf1e68")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -25781,7 +25844,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2e86aa5e-eef4-490f-b765-891f456ea52e")
+			(uuid "b0f48342-f84d-4e5f-b4a2-2ee52a1f145f")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -25791,7 +25854,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7e7f5190-abd3-4216-939e-93d5cafcec3f")
+			(uuid "f8961bd4-67db-4dee-ae6c-1f9605fba61c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -25823,7 +25886,7 @@
 			(uuid "651ecbeb-7eea-41b1-a4bf-3a53565cc79e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25843,12 +25906,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP4"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "54edcffa-ad07-43a1-8dbd-48cd131deb9e")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26017,12 +26081,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP5"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3a50b8ef-a368-4c50-9e46-1b433bafbace")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26191,12 +26256,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP3"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2a7c9043-3184-4db9-84bf-f16913fd176c")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26365,12 +26431,13 @@
 		(tags "mounting hole 4.5mm no annular")
 		(property "Reference" "H12"
 			(at 0 -5.5 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "35eff34e-aec7-41e9-8731-4ac9bf8a18b7")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26479,12 +26546,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q4"
 			(at 0 3.811624 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8a4aaf79-2f3d-46d0-b728-b6029879f741")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -27058,12 +27126,13 @@
 		(tags "mounting hole 3.5mm no annular")
 		(property "Reference" "H3"
 			(at 0 -2.7845 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0ead9f64-d273-49c9-8ce7-a5ae6f7a9539")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -27185,12 +27254,13 @@
 		(tags "D_SOD-123F")
 		(property "Reference" "D11"
 			(at 0 -2.159 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "02c264fd-b8b6-4ec1-9190-20924fe8c1c8")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -27515,12 +27585,13 @@
 		(tags "LED")
 		(property "Reference" "LED11"
 			(at 0 -1.25 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c91f4c0f-0975-4a2f-808c-1bcd7c656251")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -27819,12 +27890,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S3"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b598e813-915e-4f48-96fd-e92817cfc99f")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -28221,12 +28293,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S8"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2de7cea0-ab34-4978-87ad-2e4da54bc24f")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -28624,12 +28697,13 @@
 		(tags "Shielded Inductors Bourns SMD SRP7028A")
 		(property "Reference" "L1"
 			(at 0 -4.2 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "06344d70-de01-4fb3-ba6b-2f92995c59b3")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -29045,12 +29119,13 @@
 		(descr "http://www.omron.com/ecb/products/pdf/en-b3f.pdf")
 		(property "Reference" "S1"
 			(at 3.2512 6.7511 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2945a933-5bd9-479d-bb29-19a69c199464")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -29444,7 +29519,7 @@
 		(layer "F.Cu")
 		(uuid "f5e26240-f8cc-4d6b-8682-a9d42f7cc4d9")
 		(at 136.913376 79.0095 90)
-		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F3"
 			(at 0 -2.65 90)
@@ -29452,8 +29527,8 @@
 			(uuid "0b67c2cf-a343-4ca8-9835-411d4629d51b")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -29470,7 +29545,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c75d9f0-c035-4111-a31f-00b28999c366")
@@ -29483,7 +29557,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6c26cdd-f24f-4041-86f5-e3b24a6c9022")
@@ -29520,7 +29593,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5c34dad2-36bc-48cf-aaec-e5b97d009db7")
+			(uuid "8e1465f1-aa7c-4f98-9ca5-b114414422e3")
 		)
 		(fp_line
 			(start -1.386252 1.71)
@@ -29530,47 +29603,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4c3828eb-1a7a-403d-a711-440417d7ede9")
+			(uuid "621249f3-86f0-40fe-8a81-dabe0f51d675")
 		)
 		(fp_line
-			(start 3.12 -1.95)
-			(end 3.12 1.95)
+			(start 3.13 -1.95)
+			(end 3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "57955ab3-d53b-4061-9eed-8dbc5778c0f0")
+			(uuid "8cca92a9-51b8-426d-81ca-c05a85722ba1")
 		)
 		(fp_line
-			(start -3.12 -1.95)
-			(end 3.12 -1.95)
+			(start -3.13 -1.95)
+			(end 3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1368c5a2-bc08-411c-b3b6-ee2041790a58")
+			(uuid "3966ecf2-97a8-4e6f-b93c-8f4975275cbf")
 		)
 		(fp_line
-			(start 3.12 1.95)
-			(end -3.12 1.95)
+			(start 3.13 1.95)
+			(end -3.13 1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d5ca53fd-25aa-4be6-b1f5-3090fb2145e2")
+			(uuid "e6af1b47-15fe-4cec-9d12-8fdaade3f599")
 		)
 		(fp_line
-			(start -3.12 1.95)
-			(end -3.12 -1.95)
+			(start -3.13 1.95)
+			(end -3.13 -1.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "89c88bbc-897e-431e-b3c7-78750fd9876b")
+			(uuid "2668daef-8861-48ac-b04c-c539cb957e0a")
 		)
 		(fp_line
 			(start 2.25 -1.6)
@@ -29580,7 +29653,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "46ad3a10-c339-4632-95ca-31f51c4c30ca")
+			(uuid "b4aaadf6-69d1-4a35-b654-23f82396e4e5")
 		)
 		(fp_line
 			(start -2.25 -1.6)
@@ -29590,7 +29663,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2da36471-4c4f-43cc-9c9f-c263e7e39f70")
+			(uuid "0af07b86-4220-43ba-a270-1eb2a2d01d29")
 		)
 		(fp_line
 			(start 2.25 1.6)
@@ -29600,7 +29673,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "263f01b9-058c-4b47-8921-0149fbee797e")
+			(uuid "9544f20d-082e-43b0-b111-e0a243232dc9")
 		)
 		(fp_line
 			(start -2.25 1.6)
@@ -29610,7 +29683,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b4d6a284-1d83-4cbc-a4fb-83319ce8769c")
+			(uuid "44c10fed-9633-45d9-bcf7-93bd33b692ce")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -29642,7 +29715,7 @@
 			(uuid "05dc8267-c59d-41bd-b31a-87e0ea74dc35")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29662,12 +29735,13 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP11"
 			(at 0 -1.448 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "12a37f48-657c-4bf2-9bc1-06640e631b47")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -29836,12 +29910,13 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
 			(at 0 -1.65 0)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0a3dac1f-9d7e-480a-a40e-4c64fdc4a76f")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -30077,12 +30152,13 @@
 		(tags "SO SO")
 		(property "Reference" "Q5"
 			(at 0 3.736624 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7c2e1234-7f7f-435b-8a2a-ea69167d9f4d")
 			(effects
 				(font
-					(size 1.25 1.25)
-					(thickness 0.153)
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -36669,8 +36745,8 @@
 		(uuid "1e3b2eb9-def2-43fa-aa5f-565c573bde22")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -36681,8 +36757,8 @@
 		(uuid "2a37d7c6-fd9e-49a7-89c7-30a5214656ab")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36693,8 +36769,8 @@
 		(uuid "2d661c94-a2a9-427f-a397-2a76dd6397c0")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36705,8 +36781,8 @@
 		(uuid "74282a5a-91bd-405f-bc08-adf537e997ca")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36717,8 +36793,8 @@
 		(uuid "7801a401-f7a7-4151-8c2b-7076cf62ad88")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36729,8 +36805,8 @@
 		(uuid "899811ea-41bc-4976-ab28-c1e0f0e40e88")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36741,8 +36817,8 @@
 		(uuid "8dcc7e9b-452e-4439-b999-2d4272e3ff18")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36753,8 +36829,8 @@
 		(uuid "8e7958c4-77d4-45c5-8cee-dc98c15ce14e")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36765,8 +36841,8 @@
 		(uuid "957c4d3f-0766-489b-8ccf-245016fa4ebd")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -36777,8 +36853,8 @@
 		(uuid "96807106-1386-47ae-a2f6-3889b8c3692f")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -36790,8 +36866,8 @@
 		(uuid "a1ff3634-15b9-400a-a407-b7e54aee9425")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36802,8 +36878,8 @@
 		(uuid "ce04a95c-9efc-4a77-a3e0-c25864a9d9ec")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -36815,8 +36891,8 @@
 		(uuid "d84e1160-536a-4301-9725-74d1789afdf5")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36827,8 +36903,8 @@
 		(uuid "e23af510-e2b0-4bc3-a590-ef840c34b71d")
 		(effects
 			(font
-				(size 1.25 1.25)
-				(thickness 0.153)
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -36848,7 +36924,7 @@
 		)
 		(border yes)
 		(stroke
-			(width 0.153)
+			(width 0.1)
 			(type solid)
 		)
 	)
