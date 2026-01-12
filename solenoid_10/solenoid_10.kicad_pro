@@ -202,6 +202,7 @@
         0.254,
         0.3,
         0.4,
+        0.5,
         0.8
       ],
       "tuning_pattern_settings": {
@@ -525,7 +526,7 @@
         "microvia_drill": 0.15,
         "name": "+24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.5,
@@ -541,7 +542,7 @@
         "microvia_drill": 0.15,
         "name": "CH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
@@ -556,38 +557,6 @@
         "microvia_diameter": 0.4,
         "microvia_drill": 0.15,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.15,
-        "name": "Solenoid_N",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.15,
-        "name": "Solenoid_P",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -605,9 +574,41 @@
         "microvia_drill": 0.15,
         "name": "VGATE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.15,
+        "name": "solenoid_N",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.15,
+        "name": "solenoid_P",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -620,32 +621,32 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "solenoid_P",
+        "pattern": "/solenoid_channel*/solenoid_P"
+      },
+      {
+        "netclass": "solenoid_N",
+        "pattern": "/solenoid_channel*/solenoid_N"
+      },
+      {
+        "netclass": "CH",
+        "pattern": "/CH*_IN"
+      },
+      {
         "netclass": "+24V",
-        "pattern": "+24V*"
-      },
-      {
-        "netclass": "Solenoid_N",
-        "pattern": "Solenoid_N*"
-      },
-      {
-        "netclass": "Solenoid_P",
-        "pattern": "Solenoid_P*"
-      },
-      {
-        "netclass": "VGATE",
-        "pattern": "VGATE*"
+        "pattern": "/+24V"
       },
       {
         "netclass": "GND",
-        "pattern": "GND*"
+        "pattern": "GND"
       },
       {
-        "netclass": "CH",
-        "pattern": "CH?_IN"
+        "netclass": "VGATE",
+        "pattern": "/VGATE"
       },
       {
-        "netclass": "CH",
-        "pattern": "CH1?_IN"
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
@@ -940,5 +941,7 @@
       "solenoid_channel10"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "VERSION": "0.1.0"
+  }
 }

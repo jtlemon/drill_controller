@@ -46,10 +46,9 @@ layer is also another good change.
 - [X] Add mounting holes near M12 connecotr, C2C 32mm, diam: 4.5mm
 - [X] Move the Mosfets 2mm right(aka X-axis +2mm)
 - [ ] Import logo's onto boards.
-- [ ] Run DRC rulecheck.
-- [ ] Update pcb constraints for lower cost jlcPCB options.
-- [ ] Update silk-screen with variables
-- [ ] Change out test points for RH5000 compatabile versions.
+- [X] Run DRC rulecheck.
+- [X] Update pcb constraints for lower cost jlcPCB options.
+- [X] Update silk-screen with variables
 
 
 ## Dimension Data(Original PCB)
