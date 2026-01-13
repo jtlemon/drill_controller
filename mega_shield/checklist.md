@@ -9,6 +9,11 @@
 - OCP
 - Opto-isolation
 
+I'm going to rework the input protection sections of the board to use 
+some active protection that can react faster than the polyfuse and SCR setup.
+
+
+
 ## TODO
 
 - [X] Add test points to all sheets.
@@ -33,6 +38,16 @@
 - [X] Re-Route all traces.
 - [X] Run checks/tests.
 - [X] edit labels (silkscreen) for the servo interfaces.
+- [ ] Update PCB Design Constraints for reduced jlcpcb cost.
+- [ ] Change test points to use loop TP(RH5000).
+- [ ] Clean up the .gitignore setup more.
+- [ ] Update all Vias to minimum size of (0.3mm/0.45mm).
+- [ ] Add via stitching patterns to reduce impeadance near caps and power.
+- [ ] Check all components in BOM for stock and alternatives.
+- [ ] Change out input secion by adding(FET based):
+    - [ ] Reverse polarity protection.
+    - [ ] Over current Protection.
+    - [ ] Over Voltage protection.
 
 
 ## PCB design requirements
