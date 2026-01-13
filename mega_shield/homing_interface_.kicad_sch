@@ -1474,6 +1474,26 @@
 		)
 		(uuid "31c48d22-d783-4b0f-8501-0b7debe627ea")
 	)
+	(text_box "Assuming the input voltage is 24V~30V we need to current limit the I_f value for\nthe optoisolator to approximatly 2mA."
+		(exclude_from_sim no)
+		(at 139.7 109.22 0)
+		(size 72.39 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5db65dcc-ce14-4620-b05a-e457811ed8f9")
+	)
 	(text_box "ALTERNATE PART NUMBERS(Connector):\nM8-P3A-GPB M8-GK, JLCPCB: C19108956\n"
 		(exclude_from_sim no)
 		(at 25.4 139.7 0)
@@ -3136,7 +3156,7 @@
 				)
 			)
 		)
-		(property "Value" "2k5"
+		(property "Value" "15k"
 			(at 162.56 50.8 90)
 			(effects
 				(font
@@ -3144,7 +3164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 162.56 52.832 90)
 			(effects
 				(font
@@ -3171,7 +3191,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C25804"
+		(property "jlcpcb" "C17475"
 			(at 162.56 54.61 0)
 			(effects
 				(font
@@ -3238,7 +3258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.182 88.9 90)
 			(effects
 				(font
@@ -3265,7 +3285,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C1226"
+		(property "jlcpcb" "C17557"
 			(at 187.96 88.9 0)
 			(effects
 				(font
@@ -3506,7 +3526,7 @@
 				)
 			)
 		)
-		(property "Value" "2k5"
+		(property "Value" "15k"
 			(at 162.56 87.63 90)
 			(effects
 				(font
@@ -3514,7 +3534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 162.56 89.662 90)
 			(effects
 				(font
@@ -3541,7 +3561,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C25804"
+		(property "jlcpcb" "C17475"
 			(at 162.56 91.44 0)
 			(effects
 				(font
@@ -3770,7 +3790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.182 52.07 90)
 			(effects
 				(font
@@ -3797,7 +3817,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C1226"
+		(property "jlcpcb" "C17557"
 			(at 187.96 52.07 0)
 			(effects
 				(font
