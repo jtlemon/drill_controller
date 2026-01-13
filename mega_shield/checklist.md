@@ -38,7 +38,8 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [X] Re-Route all traces.
 - [X] Run checks/tests.
 - [X] edit labels (silkscreen) for the servo interfaces.
-- [ ] Update PCB Design Constraints for reduced jlcpcb cost.
+- [X] Update PCB Design Constraints for reduced jlcpcb cost.
+- [ ] Change out footprints for default options where possible.
 - [ ] Change test points to use loop TP(RH5000).
 - [ ] Clean up the .gitignore setup more.
 - [ ] Update all Vias to minimum size of (0.3mm/0.45mm).
