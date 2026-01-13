@@ -5,7 +5,7 @@
       "defaults": {
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
-        "apply_defaults_to_fp_text": false,
+        "apply_defaults_to_fp_text": true,
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
@@ -41,11 +41,11 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.153,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.153,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -56,16 +56,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.2,
-          "via_gap": 0.25,
-          "width": 0.2
-        },
-        {
-          "gap": 0.2,
-          "via_gap": 0.3,
-          "width": 0.25
         }
       ],
       "drc_exclusions": [
@@ -154,11 +144,11 @@
           "Ignore connector/box silkscreen conflict."
         ],
         [
-          "unconnected_items|131980000|150800000|9fb3fb34-2fe6-47ef-8160-4efdcde0565e|b8113248-ed8e-4f80-bd2a-9c2edd8af71c",
+          "unconnected_items|131980000|150800000|F.Cu|4|9fb3fb34-2fe6-47ef-8160-4efdcde0565e|b8113248-ed8e-4f80-bd2a-9c2edd8af71c",
           "This connection is made on the Mega controller itself."
         ],
         [
-          "unconnected_items|76100000|102540000|c672c42b-d984-419c-bba0-20627c02dd71|9fb3fb34-2fe6-47ef-8160-4efdcde0565e",
+          "unconnected_items|76100000|102540000|F.Cu|4|c672c42b-d984-419c-bba0-20627c02dd71|9fb3fb34-2fe6-47ef-8160-4efdcde0565e",
           "This connection is made on the Mega controller itself."
         ]
       ],
@@ -230,18 +220,18 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.2,
-        "min_microvia_diameter": 0.25,
-        "min_microvia_drill": 0.15,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.15,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -292,10 +282,13 @@
       "track_widths": [
         0.0,
         0.2,
-        0.254,
+        0.25,
         0.3,
-        0.4,
-        0.8
+        0.35,
+        0.5,
+        0.75,
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -330,18 +323,14 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.5,
           "drill": 0.3
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.5,
+          "drill": 0.35
+        },
+        {
+          "diameter": 0.55,
           "drill": 0.4
         }
       ],
@@ -577,6 +566,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
