@@ -1515,16 +1515,40 @@
 		(uuid "7ed75c05-3382-4f6e-8d94-93db7ab67860")
 	)
 	(junction
+		(at 82.55 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0597af29-ee82-4f5f-9ff3-4d932e741555")
+	)
+	(junction
 		(at 187.96 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "611fba29-dff4-4979-b688-01a5a7dceba8")
 	)
 	(junction
+		(at 82.55 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb90a9b1-f711-432b-956a-afd6100c3b58")
+	)
+	(junction
+		(at 82.55 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf379406-ff96-4948-aa6b-a9c5422a9906")
+	)
+	(junction
 		(at 187.96 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c51e3bfc-4f11-4376-b8f7-74a1cefe991f")
+	)
+	(junction
+		(at 82.55 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3fd3901-5f08-471c-9c10-a19f0f106b9a")
 	)
 	(no_connect
 		(at 181.61 91.44)
@@ -1533,6 +1557,16 @@
 	(no_connect
 		(at 181.61 54.61)
 		(uuid "f71b8194-2f64-4730-9b7e-5be48aef238f")
+	)
+	(wire
+		(pts
+			(xy 82.55 49.53) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026af9d1-6dc5-4688-8707-a0317d369fbe")
 	)
 	(wire
 		(pts
@@ -1616,6 +1650,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36004a95-bc05-4af6-ac54-17cd2b57b8f0")
+	)
+	(wire
+		(pts
 			(xy 182.88 96.52) (xy 181.61 96.52)
 		)
 		(stroke
@@ -1656,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 41.91) (xy 92.71 41.91)
+			(xy 78.74 41.91) (xy 82.55 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1696,6 +1740,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 57.15) (xy 92.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3ae9a3-46ff-4f2a-8968-16e3f7e41230")
+	)
+	(wire
+		(pts
 			(xy 165.1 96.52) (xy 166.37 96.52)
 		)
 		(stroke
@@ -1703,6 +1757,16 @@
 			(type default)
 		)
 		(uuid "a051c96e-08d2-47a7-8bd5-6599c7016b26")
+	)
+	(wire
+		(pts
+			(xy 82.55 64.77) (xy 67.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08015ce-6b7c-436e-b37c-ecd71aae5787")
 	)
 	(wire
 		(pts
@@ -1716,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 57.15) (xy 92.71 57.15)
+			(xy 78.74 57.15) (xy 82.55 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 49.53) (xy 67.31 49.53)
+			(xy 92.71 49.53) (xy 82.55 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 64.77) (xy 67.31 64.77)
+			(xy 92.71 64.77) (xy 82.55 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2159,27 +2223,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1899ec5f-3405-4c10-b208-77b2341da273")
-		(property "Reference" "C19"
-			(at 88.9 59.6899 0)
+		(uuid "25e2e6fb-5b0e-494b-88ca-e7985fa51d2c")
+		(property "Reference" "C21"
+			(at 89.916 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 88.9 62.2299 0)
+		(property "Value" "10u/50V"
+			(at 89.916 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 91.7448 64.77 0)
 			(effects
 				(font
@@ -2206,7 +2267,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C6119901"
+		(property "jlcpcb" "C440198"
 			(at 92.71 60.96 0)
 			(effects
 				(font
@@ -2214,127 +2275,32 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "cedc3821-d292-4f45-bedd-2d11a4890efc")
-		)
 		(pin "1"
-			(uuid "7d9405b6-380d-4708-a49f-32d4821446ee")
+			(uuid "39e40a41-359e-40f2-b124-432687f0abbf")
+		)
+		(pin "2"
+			(uuid "7230ccb4-f97d-478b-a5d1-07f92209febc")
 		)
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "C21")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "C19")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
 					(reference "C25")
 					(unit 1)
 				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 92.71 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d59c5a7-7e5d-4396-a286-4b06b8265c53")
-		(property "Reference" "C18"
-			(at 88.9 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 88.9 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 91.7448 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C6119901"
-			(at 92.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70b2ecf7-1646-46d0-8cf0-52fbbc988447")
-		)
-		(pin "1"
-			(uuid "ff927b19-513d-4484-8315-292be476e089")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "C20")
-					(unit 1)
-				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "C18")
+					(reference "C21")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "C24")
+					(reference "C37")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "C26")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "C22")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -3339,6 +3305,190 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 92.71 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdac5a8b-2e06-4a8f-a9c9-8b38f4386407")
+		(property "Reference" "C20"
+			(at 89.916 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u/50V"
+			(at 89.916 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 91.7448 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C440198"
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06771452-4b8b-4698-9299-f3b18f185e2b")
+		)
+		(pin "2"
+			(uuid "8b98cffc-1c1f-4f5b-bb33-8f04bdc467f6")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbe67803-eaed-4bb0-aab1-1fd6999c98d6")
+		(property "Reference" "C19"
+			(at 79.756 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u/50V"
+			(at 79.756 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 81.5848 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C440198"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a77c5698-0361-43a5-a065-a1f32d2ee77b")
+		)
+		(pin "2"
+			(uuid "eb58fb2f-ac8c-45c1-b0b5-9717e116abb1")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 162.56 91.44 270)
 		(unit 1)
@@ -3681,6 +3831,98 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f98788d6-92e3-4969-8205-b78bab7fd6bd")
+		(property "Reference" "C18"
+			(at 79.756 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u/50V"
+			(at 79.756 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 81.5848 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C440198"
+			(at 82.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b32d51a4-8772-49a8-a8c0-a7af684ec48e")
+		)
+		(pin "2"
+			(uuid "d571ed7c-012c-464f-a585-9b238623e1a1")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
+					(reference "C26")
 					(unit 1)
 				)
 			)
