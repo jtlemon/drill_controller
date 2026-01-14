@@ -64,7 +64,7 @@ some active protection that can react faster than the polyfuse and SCR setup.
     - [ ] Reverse polarity protection.
     - [ ] Over current Protection.
     - [ ] Over Voltage protection.
-
+- [ ] Check/confirm digital isolation for Servo interfaces for I/O
 
 ## PCB design requirements
 
