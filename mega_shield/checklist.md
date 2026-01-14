@@ -2,6 +2,20 @@
 
 - Screw terminals > non-screw terminals.
 
+## Test point color coding
+
+Mostly following the ATX power supply color code here.
+
+Orange: +3.3V
+Red: +5V
+Yellow: +12V
+Grey/White: +24V
+Black: GND
+
+All the test points with the possible exception of grounds will use the 
+keystone style test points/loops 2.5mm.
+
+
 ## Protection
 
 - ESD
