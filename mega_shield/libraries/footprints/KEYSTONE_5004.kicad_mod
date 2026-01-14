@@ -1,0 +1,107 @@
+(footprint "KEYSTONE_5004"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.032 -2.2064 0)
+		(layer "F.SilkS")
+		(uuid "3298a8c5-5ba4-4719-b1bd-902205dcf5c3")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_5004"
+		(at 3.2832 2.2064 0)
+		(layer "F.Fab")
+		(uuid "1f4f6234-f01f-43c9-aabf-ea2d1ba97573")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0047793b-d398-4f4b-9f66-c3d82f0a8306")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3310ae36-66d0-4769-af10-92f8dba6c316")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "27d028ca-e0e7-40e0-ba6c-a6a1be22d17b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.52 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f46111b7-6386-490a-84ef-78fea691ef5b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "94ef93df-2118-419f-9514-4d536049e929")
+	)
+	(pad "TP" thru_hole circle
+		(at 0 0)
+		(size 1.53 1.53)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "dcb25b92-142d-42c3-bf1d-23d8ad57fb1a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3D/5004.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
