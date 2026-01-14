@@ -11,6 +11,7 @@ Red: +5V
 Yellow: +12V
 Grey/White: +24V
 Black: GND
+Blue: Assembly dependent.(5117)
 
 All the test points with the possible exception of grounds will use the 
 keystone style test points/loops 2.5mm.
@@ -55,7 +56,7 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [X] Update PCB Design Constraints for reduced jlcpcb cost.
 - [ ] Change out footprints for default options where possible.
 - [ ] Add clamping/gate protection diode to 2N7002 fets.
-- [ ] Change test points to use loop TP(RH5000).
+- [X] Change test points to use loop TP(RH5000).
 - [ ] Clean up the .gitignore setup more.
 - [ ] Update all Vias to minimum size of (0.3mm/0.45mm).
 - [ ] Add via stitching patterns to reduce impeadance near caps and power.
@@ -65,6 +66,8 @@ some active protection that can react faster than the polyfuse and SCR setup.
     - [ ] Over current Protection.
     - [ ] Over Voltage protection.
 - [ ] Check/confirm digital isolation for Servo interfaces for I/O
+- [ ] Add (un)populated 0ohm resistors for servo interfaces as option of 5v/24V.
+- [ ] Look into gate drivers for spindle mosfets, could just be resistos etc. 
 
 ## PCB design requirements
 

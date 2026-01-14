@@ -1821,7 +1821,7 @@
 		(uuid "96c47f1d-1e69-45be-b51c-056039530880")
 	)
 	(label "PROBE_IN"
-		(at 36.83 115.57 0)
+		(at 63.5 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1985,7 +1985,7 @@
 		(at 63.5 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1998,7 +1998,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5000"
 			(at 60.198 113.03 90)
 			(effects
 				(font
@@ -2026,6 +2026,15 @@
 		)
 		(property "Description" "test point"
 			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 63.5 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,6 +2115,73 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/e56aebf0-16bd-4ef0-8607-05648fa38946"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fed7fb6-77f9-434a-a7f8-b798c0a633c2")
+		(property "Reference" "#PWR0130"
+			(at 43.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da9c86f4-17dd-4554-8a56-045711e9eddf")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/e56aebf0-16bd-4ef0-8607-05648fa38946"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -2276,12 +2352,11 @@
 		(at 36.83 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "845e0fe8-fedb-407a-8018-a5b3ae68b30a")
-		(property "Reference" "TP100"
+		(uuid "75dcf02c-a12d-49d2-8a98-14e532e03f4a")
+		(property "Reference" "TP116"
 			(at 33.528 110.49 90)
 			(effects
 				(font
@@ -2289,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5001"
 			(at 33.528 113.03 90)
 			(effects
 				(font
@@ -2317,6 +2392,89 @@
 		)
 		(property "Description" "test point"
 			(at 36.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199801"
+			(at 36.83 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdb44a2b-5a80-4462-b905-d2d7fb146bb3")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/e56aebf0-16bd-4ef0-8607-05648fa38946"
+					(reference "TP116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "845e0fe8-fedb-407a-8018-a5b3ae68b30a")
+		(property "Reference" "TP100"
+			(at 60.198 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RH-5002"
+			(at 60.198 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199802"
+			(at 63.5 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2575,7 @@
 		(at 36.83 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2430,7 +2588,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5002"
 			(at 33.528 105.41 90)
 			(effects
 				(font
@@ -2458,6 +2616,15 @@
 		)
 		(property "Description" "test point"
 			(at 36.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199802"
+			(at 36.83 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2230,7 +2230,7 @@
 	)
 	(rectangle
 		(start 25.4 139.7)
-		(end 77.47 177.8)
+		(end 77.47 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -3312,7 +3312,7 @@
 		(at 63.5 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3325,7 +3325,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5009"
 			(at 60.198 157.48 90)
 			(effects
 				(font
@@ -3353,6 +3353,15 @@
 		)
 		(property "Description" "test point"
 			(at 63.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277088"
+			(at 63.5 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3452,7 @@
 		(at 63.5 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3456,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5009"
 			(at 60.198 165.1 90)
 			(effects
 				(font
@@ -3484,6 +3493,15 @@
 		)
 		(property "Description" "test point"
 			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277088"
+			(at 63.5 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +3800,7 @@
 		(at 38.1 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3795,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5000"
 			(at 34.798 165.1 90)
 			(effects
 				(font
@@ -3823,6 +3841,15 @@
 		)
 		(property "Description" "test point"
 			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 38.1 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4127,7 @@
 		(at 38.1 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4113,7 +4140,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5000"
 			(at 34.798 149.86 90)
 			(effects
 				(font
@@ -4148,6 +4175,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcpcb" "C5277086"
+			(at 38.1 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ffd70cc-b65b-4e91-9040-c9cba1e32c3c")
 		)
@@ -4165,7 +4201,7 @@
 		(at 63.5 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4178,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5009"
 			(at 60.198 149.86 90)
 			(effects
 				(font
@@ -4213,6 +4249,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcpcb" "C5277088"
+			(at 63.5 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5e2d3d5-0d74-4b14-bbfb-2ec6dfe11ce2")
 		)
@@ -4220,6 +4265,79 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f"
 					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c16f937-8427-4a7a-8cba-b6850560e0d9")
+		(property "Reference" "TP114"
+			(at 34.798 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RH-5001"
+			(at 34.798 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 38.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199801"
+			(at 38.1 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c090f72-bba1-452a-bf6f-02462d61e962")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f"
+					(reference "TP114")
 					(unit 1)
 				)
 			)
@@ -4507,7 +4625,7 @@
 		(at 63.5 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4520,7 +4638,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5009"
 			(at 60.198 172.72 90)
 			(effects
 				(font
@@ -4555,6 +4673,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcpcb" "C5277088"
+			(at 63.5 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b92b0ebf-110f-4892-a66f-c008f5ff39ba")
 		)
@@ -4572,7 +4699,7 @@
 		(at 38.1 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4585,7 +4712,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5000"
 			(at 34.798 172.72 90)
 			(effects
 				(font
@@ -4613,6 +4740,15 @@
 		)
 		(property "Description" "test point"
 			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 38.1 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5288,7 @@
 		(at 38.1 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5165,7 +5301,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RH-5000"
 			(at 34.798 157.48 90)
 			(effects
 				(font
@@ -5193,6 +5329,15 @@
 		)
 		(property "Description" "test point"
 			(at 38.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 38.1 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,6 +5648,73 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc1f1d35-e3cb-44cd-9a13-f89dd85e54a2")
+		(property "Reference" "#PWR0128"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cb28d1c-85dd-45d5-b39f-401cd67eeac4")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
