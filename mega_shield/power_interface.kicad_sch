@@ -316,6 +316,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XT30PW-M:XT30PW-M"
 			(pin_names
 				(offset 1.016)
@@ -1320,10 +1444,10 @@
 		)
 		(uuid "094aa87c-8490-433b-b765-aaf685e38d16")
 	)
-	(text_box "The 5V DC system is what supplies the board except for the MCU itself,\nas the system operates using the +5V USB rail.\n\nThe ground is shared accross power domains and the \"ideal diode\" is here to prevent\nbackfeeding the external +5V power supply."
+	(text_box "The 5V DC system is what supplies the board except for the MCU itself,\nas the system operates using the +5V USB rail.\n\nThe ground is shared accross power domains and the \"ideal diode\" is here to prevent\nbackfeeding the external +5V power supply.\n\nThe zero ohm resistor is for bypassing the CH213K if needed."
 		(exclude_from_sim no)
 		(at 68.58 57.15 0)
-		(size 71.12 19.05)
+		(size 71.12 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1359,6 +1483,12 @@
 		(uuid "1ef82f1c-24bc-43cf-8c1e-b5e0fb2f7293")
 	)
 	(junction
+		(at 101.6 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fe74554-980c-4606-a46c-1b643e203f04")
+	)
+	(junction
 		(at 90.17 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1369,6 +1499,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9432ba2d-82c9-4ff0-b4a3-311bc42b103b")
+	)
+	(junction
+		(at 73.66 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7dac453-f080-408d-94c3-632fca19d62c")
 	)
 	(junction
 		(at 95.25 110.49)
@@ -1400,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 35.56) (xy 60.96 35.56)
+			(xy 73.66 43.18) (xy 60.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1417,6 +1553,16 @@
 			(type default)
 		)
 		(uuid "0f7696f6-c56b-42e1-9a4b-d3a2c78f36b5")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 73.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f92485b-f479-475e-b7af-8e9470656306")
 	)
 	(wire
 		(pts
@@ -1437,6 +1583,16 @@
 			(type default)
 		)
 		(uuid "1474b362-1dde-41be-bc04-8ab4cb7d6535")
+	)
+	(wire
+		(pts
+			(xy 82.55 30.48) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17029757-07d3-4e28-8144-b84904b86677")
 	)
 	(wire
 		(pts
@@ -1500,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 36.83) (xy 101.6 36.83)
+			(xy 99.06 44.45) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1517,6 +1673,16 @@
 			(type default)
 		)
 		(uuid "5c163255-e22e-4c57-bccf-c65bebbf69cb")
+	)
+	(wire
+		(pts
+			(xy 90.17 30.48) (xy 101.6 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aca54ca-93c5-43f2-9c15-6f2700ea8168")
 	)
 	(wire
 		(pts
@@ -1540,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 34.29) (xy 101.6 33.02)
+			(xy 101.6 41.91) (xy 101.6 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1560,16 +1726,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 36.83) (xy 101.6 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae17cf0c-2425-419c-bcf0-e35478ce3e77")
-	)
-	(wire
-		(pts
 			(xy 101.6 110.49) (xy 101.6 115.57)
 		)
 		(stroke
@@ -1577,6 +1733,16 @@
 			(type default)
 		)
 		(uuid "b0ab4f6c-50d0-4aad-8b43-df5f6b029fb5")
+	)
+	(wire
+		(pts
+			(xy 101.6 30.48) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56beb15-7ece-4c71-a9d4-3f43d7486ebc")
 	)
 	(wire
 		(pts
@@ -1590,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 34.29) (xy 101.6 34.29)
+			(xy 99.06 41.91) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 35.56) (xy 60.96 34.29)
+			(xy 60.96 43.18) (xy 60.96 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1690,7 +1856,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "00204702-b140-4888-80e1-31988c2ec06f")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 108.204 42.672 90)
 			(effects
 				(font
@@ -1752,7 +1918,7 @@
 		(instances
 			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -1768,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a80ef9-a454-4c17-9a7f-d372f6585e60")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG012"
 			(at 114.3 29.845 0)
 			(effects
 				(font
@@ -1818,7 +1984,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "#FLG011")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -1912,7 +2078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26bad0e2-0a38-4182-bc37-3e460db117ce")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 92.71 113.0299 90)
 			(effects
 				(font
@@ -1982,7 +2148,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1998,7 +2164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "390a7b01-ed78-42cc-8057-696e5086ae74")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0101"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -2048,7 +2214,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "#PWR0100")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2064,7 +2230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513bfb6f-e9cc-48ee-bca5-042280a48f9e")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG011"
 			(at 95.25 107.315 0)
 			(effects
 				(font
@@ -2114,7 +2280,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "#FLG012")
+					(reference "#FLG011")
 					(unit 1)
 				)
 			)
@@ -2395,7 +2561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d8de5b-9209-426d-a564-8ab98c5788ac")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0100"
 			(at 90.17 129.54 0)
 			(effects
 				(font
@@ -2445,7 +2611,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "#PWR0101")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -2460,7 +2626,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "cf3929c4-7da5-4424-81ad-89a45482b727")
-		(property "Reference" "C33"
+		(property "Reference" "C31"
 			(at 115.316 121.412 90)
 			(effects
 				(font
@@ -2522,7 +2688,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "C33")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2530,7 +2696,7 @@
 	)
 	(symbol
 		(lib_id "mega_shield:CH213K")
-		(at 86.36 35.56 0)
+		(at 86.36 43.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2538,8 +2704,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd6b697d-7e44-4141-86f3-d7b52a0a65d8")
-		(property "Reference" "U29"
-			(at 86.36 26.67 0)
+		(property "Reference" "U20"
+			(at 86.36 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2713,7 @@
 			)
 		)
 		(property "Value" "CH213K"
-			(at 86.36 29.21 0)
+			(at 86.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2721,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 86.36 35.56 0)
+			(at 86.36 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 35.56 0)
+			(at 86.36 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2739,7 @@
 			)
 		)
 		(property "Description" "WCH 5V 0.5A low voltage drop diode chip (Ideal diode w/ current limiting)"
-			(at 86.36 35.56 0)
+			(at 86.36 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2748,7 @@
 			)
 		)
 		(property "jlcpcb" "C5456874"
-			(at 86.36 35.56 0)
+			(at 86.36 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2768,7 @@
 		(instances
 			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "U29")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -2771,6 +2937,82 @@
 			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "edec7046-b6c6-4177-9068-ca8ad5e5c199")
+		(property "Reference" "R34"
+			(at 86.36 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 86.36 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C119982"
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb5a89b2-e20a-4388-af72-a0b16ae71ead")
+		)
+		(pin "1"
+			(uuid "e678a3b3-3c34-480c-9b5c-2820ef60cf72")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
+					(reference "R34")
 					(unit 1)
 				)
 			)
