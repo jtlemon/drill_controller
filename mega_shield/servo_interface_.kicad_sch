@@ -5,52 +5,42 @@
 	(uuid "bda4ca44-3cc0-4a4a-a71f-f5a845f3fd08")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "5000:5000"
 			(pin_names
-				(offset 0.762)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 6.858 0)
+				(at -2.5444 2.5415 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "5000"
+				(at -2.55 -5.0866 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
+			(property "Footprint" "footprints:KEYSTONE_5000"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,21 +58,142 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "MF" "Keystone Electronics"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Test Point Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "5000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated Red PhosBronze/Silver | Keystone Electronics 5000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5000_0_0"
 				(circle
-					(center 0 3.302)
-					(radius 0.762)
+					(center 0 0)
+					(radius 0.635)
 					(stroke
-						(width 0)
+						(width 1.27)
 						(type default)
 					)
 					(fill
@@ -90,21 +201,679 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1_1"
+			(symbol "5000_1_0"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
+					(at -5.08 0 0)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5001:5001"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5001"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprints:KEYSTONE_5001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Keystone Electronics Corp."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/5001/Keystone/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/5001/Keystone/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "5001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "PC TEST POINT MINIATURE BLACK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5001_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5002:5002"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5002"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprints:KEYSTONE_5002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Keystone Electronics Corp."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "NON STANDARD-1 Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/5002/Keystone/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/5002/Keystone/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "5002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7223942&manufacturer=Keystone Electronics Corp.&part_name=5002&search_term=keystone 5002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated White PhosBronze/Silver | Keystone Electronics 5002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5002_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "5117:5117"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5117"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprints:KEYSTONE_5117"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "5117"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Test Point Mini THM PC .300 L .100OD Heat Resistant Nylon 46 Blue | Keystone Electronics 5117"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5117_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2495,7 +3264,7 @@
 	)
 	(rectangle
 		(start 25.4 127)
-		(end 72.39 196.85)
+		(end 72.39 201.93)
 		(stroke
 			(width 0)
 			(type default)
@@ -3323,7 +4092,7 @@
 		(uuid "0e150291-26e7-4940-80b5-f35468214582")
 	)
 	(label "PED_IN"
-		(at 38.1 177.8 0)
+		(at 38.1 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3373,7 +4142,7 @@
 		(uuid "44061fbf-2278-44fb-956c-9d486b85ffff")
 	)
 	(label "ALARM_IN"
-		(at 38.1 185.42 0)
+		(at 38.1 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3393,7 +4162,7 @@
 		(uuid "47812870-b183-483b-9487-8e2a890edfeb")
 	)
 	(label "EN_OUT"
-		(at 58.42 162.56 0)
+		(at 55.88 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3453,7 +4222,7 @@
 		(uuid "96c8baef-9c97-4b7c-8240-e5b64c4b3b15")
 	)
 	(label "+5V_Servo"
-		(at 38.1 139.7 0)
+		(at 38.1 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3463,7 +4232,7 @@
 		(uuid "a2f96b2b-d29e-4be2-9a5c-d420bc4d2a86")
 	)
 	(label "AUX_OUT"
-		(at 58.42 170.18 0)
+		(at 55.88 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3483,7 +4252,7 @@
 		(uuid "a99e6581-54b8-47fc-91a1-a0e4e0131dcc")
 	)
 	(label "STEP_OUT"
-		(at 57.15 154.94 0)
+		(at 55.88 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3513,7 +4282,7 @@
 		(uuid "cad6e041-e11f-41c9-b4c1-ed7af31f3016")
 	)
 	(label "DIR_OUT"
-		(at 57.15 147.32 0)
+		(at 55.88 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3555,7 +4324,7 @@
 	)
 	(hierarchical_label "STEP"
 		(shape input)
-		(at 38.1 147.32 0)
+		(at 38.1 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3566,7 +4335,7 @@
 	)
 	(hierarchical_label "PED"
 		(shape output)
-		(at 58.42 177.8 0)
+		(at 55.88 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3577,7 +4346,7 @@
 	)
 	(hierarchical_label "ALARM"
 		(shape output)
-		(at 58.42 185.42 0)
+		(at 55.88 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3610,7 +4379,7 @@
 	)
 	(hierarchical_label "DIR"
 		(shape input)
-		(at 38.1 154.94 0)
+		(at 38.1 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3654,7 +4423,7 @@
 	)
 	(hierarchical_label "AUX_IN"
 		(shape input)
-		(at 38.1 170.18 0)
+		(at 38.1 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4295,95 +5064,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 58.42 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2cc4bf22-d845-46ad-b4a7-f4d4622678db")
-		(property "Reference" "TP11"
-			(at 55.118 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5117"
-			(at 55.118 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5117"
-			(at 58.42 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5199807"
-			(at 58.42 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "858ddd64-6b47-4ab8-9c45-3ee5ab7c515b")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP76")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP25")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP48")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP62")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 148.59 91.44 90)
 		(unit 1)
@@ -4558,6 +5238,227 @@
 		)
 	)
 	(symbol
+		(lib_id "5000:5000")
+		(at 50.8 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33500c29-9b33-41d6-94d3-ac79f59f72f6")
+		(property "Reference" "TP13"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5000"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5000"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Test Point Keystone Electronics"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=eda"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=snap"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5000"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated Red PhosBronze/Silver | Keystone Electronics 5000"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 50.8 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "573eec9b-25d9-40cb-ab3a-9936cd6c88db")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP78")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP27")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP50")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP64")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 133.35 220.98 0)
 		(unit 1)
@@ -4717,96 +5618,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 57.15 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e3a68d6-f1e1-487a-8e58-f9c4993126cf")
-		(property "Reference" "TP10"
-			(at 53.848 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5117"
-			(at 53.848 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5117"
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 57.15 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5199807"
-			(at 57.15 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1df82e09-e77a-4416-bf2e-0303a292dd94")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP75")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP24")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP47")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP61")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -4974,32 +5785,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 58.42 177.8 90)
+		(lib_id "5117:5117")
+		(at 50.8 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "52637162-2996-43a2-bd42-144ea9625931")
-		(property "Reference" "TP13"
-			(at 55.118 172.72 90)
+		(fields_autoplaced yes)
+		(uuid "432cdf72-2ea6-447e-8984-28cd98202487")
+		(property "Reference" "TP9"
+			(at 50.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RH-5000"
-			(at 55.118 175.26 90)
+		(property "Value" "5117"
+			(at 50.8 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:KEYSTONE_5000"
-			(at 58.42 172.72 0)
+		(property "Footprint" "footprints:KEYSTONE_5117"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,8 +5829,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 58.42 172.72 0)
+		(property "Description" ""
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,17 +5838,138 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 58.42 177.8 0)
+		(property "MF" "Keystone Electronics"
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C5277086"
-			(at 58.42 177.8 90)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=eda"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=snap"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5117"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Mini THM PC .300 L .100OD Heat Resistant Nylon 46 Blue | Keystone Electronics 5117"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199807"
+			(at 50.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,28 +5978,470 @@
 			)
 		)
 		(pin "1"
-			(uuid "20f7696e-5907-4961-b995-adbf24bc84c1")
+			(uuid "23dc7e6f-f095-4264-801f-ed7cce421625")
 		)
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP78")
+					(reference "TP74")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP27")
+					(reference "TP23")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP50")
+					(reference "TP46")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP64")
+					(reference "TP60")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP13")
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5000:5000")
+		(at 50.8 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5b677b-1988-4b7d-a8cb-d9786586e1a5")
+		(property "Reference" "TP14"
+			(at 50.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5000"
+			(at 50.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5000"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Test Point Keystone Electronics"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=eda"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=snap"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5000"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated Red PhosBronze/Silver | Keystone Electronics 5000"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b18d2953-1f38-40fb-a6c2-ead9c7a15abe")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP79")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP28")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP51")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP65")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5000:5000")
+		(at 33.02 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "531b6057-9100-4e14-becb-4237ca48ba6d")
+		(property "Reference" "TP3"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5000"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5000"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Test Point Keystone Electronics"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=eda"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=snap"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5000"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated Red PhosBronze/Silver | Keystone Electronics 5000"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d06d7130-ee97-41d5-9f66-bd90b450ec35")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP68")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP40")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP54")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5160,204 +6545,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 154.94 90)
+		(lib_id "5000:5000")
+		(at 33.02 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5baca12b-122e-4562-8ef6-b81145dcee75")
-		(property "Reference" "TP3"
-			(at 34.798 149.86 90)
+		(uuid "7864bcd5-40c5-4c5e-84dc-fd26df39c9a7")
+		(property "Reference" "TP5"
+			(at 33.02 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RH-5000"
-			(at 34.798 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5000"
-			(at 38.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 38.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5277086"
-			(at 38.1 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66cf4082-6a55-4e54-814e-3104c43ee7b4")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP68")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP17")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP40")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP54")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 58.42 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e650833-b72b-4846-8405-8dd64106734a")
-		(property "Reference" "TP12"
-			(at 55.118 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5117"
-			(at 55.118 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5117"
-			(at 58.42 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5199807"
-			(at 58.42 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "135a6805-186c-4a78-963b-0a30da7de57b")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP77")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP26")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP49")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP63")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f834590-cb19-4ae2-a67c-e96ac257372c")
-		(property "Reference" "TP1"
-			(at 34.798 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5000"
-			(at 34.798 137.16 90)
+		(property "Value" "5000"
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +6571,17 @@
 			)
 		)
 		(property "Footprint" "footprints:KEYSTONE_5000"
-			(at 38.1 134.62 0)
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,8 +6589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 134.62 0)
+		(property "Description" ""
+			(at 33.02 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,17 +6598,138 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 38.1 139.7 0)
+		(property "MF" "Keystone Electronics"
+			(at 33.02 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Test Point Keystone Electronics"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=eda"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=snap"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5000"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated Red PhosBronze/Silver | Keystone Electronics 5000"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 33.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "jlcpcb" "C5277086"
-			(at 38.1 139.7 90)
+			(at 33.02 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,207 +6738,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c6040a3-8112-4ac9-8383-a786bfdd8892")
-		)
-		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP66")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP15")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP38")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP52")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7539490e-197f-4779-ad66-866895b8c32a")
-		(property "Reference" "TP2"
-			(at 34.798 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5000"
-			(at 34.798 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5000"
-			(at 38.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 38.1 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5277086"
-			(at 38.1 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fbfc0e3-a30c-45af-9828-867cde2ac5e1")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP67")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP16")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP39")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP53")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d1db514-2fc9-494a-a987-f9e9097253a6")
-		(property "Reference" "TP4"
-			(at 34.798 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5000"
-			(at 34.798 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5000"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 38.1 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5277086"
-			(at 38.1 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3be38dec-35a8-4de9-9338-7aff34fd3fdf")
+			(uuid "4181e460-f29f-4e93-883c-9e751710bf27")
 		)
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP69")
+					(reference "TP70")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP18")
+					(reference "TP19")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP41")
+					(reference "TP42")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP55")
+					(reference "TP56")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -5690,24 +6848,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 185.42 90)
+		(lib_id "5002:5002")
+		(at 33.02 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8bb7dc18-ade7-4f90-91a1-4012c2d6c7e9")
-		(property "Reference" "TP7"
-			(at 34.798 180.34 90)
+		(fields_autoplaced yes)
+		(uuid "8634ac9a-b3bd-404e-8d81-b140122522a0")
+		(property "Reference" "TP6"
+			(at 33.02 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RH-5002"
-			(at 34.798 182.88 90)
+		(property "Value" "5002"
+			(at 33.02 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +6874,17 @@
 			)
 		)
 		(property "Footprint" "footprints:KEYSTONE_5002"
-			(at 38.1 180.34 0)
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,8 +6892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 180.34 0)
+		(property "Description" ""
+			(at 33.02 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,17 +6901,148 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 38.1 185.42 0)
+		(property "MF" "Keystone Electronics Corp."
+			(at 33.02 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD-1 Keystone"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5002/Keystone/view-part/?ref=eda"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5002/Keystone/view-part/?ref=snap"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5002"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7223942&manufacturer=Keystone Electronics Corp.&part_name=5002&search_term=keystone 5002"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated White PhosBronze/Silver | Keystone Electronics 5002"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "jlcpcb" "C5199802"
-			(at 38.1 185.42 90)
+			(at 33.02 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,28 +7051,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba2e5540-bb9f-4f6b-8036-8ab33844513e")
+			(uuid "9d6cd1d0-498b-40f7-8fe3-99fcb9097d6e")
 		)
 		(instances
-			(project "mega_shield"
+			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP72")
+					(reference "TP71")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP21")
+					(reference "TP20")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP44")
+					(reference "TP43")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP58")
+					(reference "TP57")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP7")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -5921,24 +7221,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 170.18 90)
+		(lib_id "5000:5000")
+		(at 33.02 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8ffa629a-c522-4c6d-bd79-36b1a5c86f0e")
-		(property "Reference" "TP5"
-			(at 34.798 165.1 90)
+		(fields_autoplaced yes)
+		(uuid "907106a8-345f-4a77-bf9e-ab187b04405e")
+		(property "Reference" "TP1"
+			(at 33.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RH-5000"
-			(at 34.798 167.64 90)
+		(property "Value" "5000"
+			(at 33.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +7247,17 @@
 			)
 		)
 		(property "Footprint" "footprints:KEYSTONE_5000"
-			(at 38.1 165.1 0)
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,8 +7265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 165.1 0)
+		(property "Description" ""
+			(at 33.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,17 +7274,138 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 38.1 170.18 0)
+		(property "MF" "Keystone Electronics"
+			(at 33.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Test Point Keystone Electronics"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=eda"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=snap"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5000"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated Red PhosBronze/Silver | Keystone Electronics 5000"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "jlcpcb" "C5277086"
-			(at 38.1 170.18 90)
+			(at 33.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,28 +7414,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aa798b6-083d-4bdd-ac0f-af88d50913fa")
+			(uuid "440e49aa-93e8-4172-952a-0417c4b0cbe5")
 		)
 		(instances
-			(project "mega_shield"
+			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP70")
+					(reference "TP66")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP19")
+					(reference "TP15")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP42")
+					(reference "TP38")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP56")
+					(reference "TP52")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6189,184 +7621,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 193.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cb48a00-c14e-4e6e-ac17-3013abf795ad")
-		(property "Reference" "TP8"
-			(at 34.798 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5001"
-			(at 34.798 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5001"
-			(at 38.1 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 38.1 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5199801"
-			(at 38.1 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16e7844d-d297-4477-96da-2c6f5410e049")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP73")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP22")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP45")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP59")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 58.42 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a41e996f-3e06-4476-a894-677936267694")
-		(property "Reference" "TP14"
-			(at 55.118 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5000"
-			(at 55.118 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5000"
-			(at 58.42 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5277086"
-			(at 58.42 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c59d6dc9-c468-406b-9cce-81bb626a0bd9")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP79")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP28")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP51")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP65")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 133.35 223.52 0)
 		(unit 1)
@@ -6449,96 +7703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 57.15 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6ed418d-de44-4592-9c16-a5c43ac6135e")
-		(property "Reference" "TP9"
-			(at 53.848 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5117"
-			(at 53.848 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5117"
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 57.15 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5199807"
-			(at 57.15 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56a703f7-5c17-498b-a586-c6059083c636")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP74")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP23")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP46")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP60")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 241.3 99.06 0)
 		(unit 1)
@@ -6615,95 +7779,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 177.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8a9cedf-7c7a-4951-bf5e-137ea1bc5d2e")
-		(property "Reference" "TP6"
-			(at 34.798 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RH-5002"
-			(at 34.798 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:KEYSTONE_5002"
-			(at 38.1 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 38.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C5199802"
-			(at 38.1 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f170ff29-21b7-4e6e-bdbf-16e9875722cf")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "TP71")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "TP20")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "TP43")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "TP57")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6894,6 +7969,669 @@
 		)
 	)
 	(symbol
+		(lib_id "5001:5001")
+		(at 33.02 199.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf7a658c-94c2-4ad5-9c4a-e2dccef0ab01")
+		(property "Reference" "TP8"
+			(at 33.02 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5001"
+			(at 33.02 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5001"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics Corp."
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5001/Keystone/view-part/?ref=eda"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5001/Keystone/view-part/?ref=snap"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5001"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PC TEST POINT MINIATURE BLACK"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199801"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1359cac4-62fe-4809-b773-50ec2862e9ba")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP73")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP22")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP45")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP59")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5117:5117")
+		(at 50.8 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8b09633-6b64-49f4-8078-eaa86d8fdbd9")
+		(property "Reference" "TP11"
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5117"
+			(at 50.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5117"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=eda"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=snap"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5117"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Mini THM PC .300 L .100OD Heat Resistant Nylon 46 Blue | Keystone Electronics 5117"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199807"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00a39f6c-e013-4477-9a41-2f21043d38c8")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP76")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP25")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP48")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP62")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5117:5117")
+		(at 50.8 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc5bc896-be0d-46a5-90e6-b50cb31d9100")
+		(property "Reference" "TP12"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5117"
+			(at 50.8 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5117"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=eda"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=snap"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5117"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Mini THM PC .300 L .100OD Heat Resistant Nylon 46 Blue | Keystone Electronics 5117"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199807"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc4edd6e-ad3d-4bd2-a7ab-95245470e051")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP77")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP26")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP49")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP63")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 134.62 0)
 		(unit 1)
@@ -6970,6 +8708,237 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5002:5002")
+		(at 33.02 189.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df17f02b-7db2-48b9-9475-44f3964c543a")
+		(property "Reference" "TP7"
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5002"
+			(at 33.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5002"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics Corp."
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD-1 Keystone"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5002/Keystone/view-part/?ref=eda"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5002/Keystone/view-part/?ref=snap"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5002"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=7223942&manufacturer=Keystone Electronics Corp.&part_name=5002&search_term=keystone 5002"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated White PhosBronze/Silver | Keystone Electronics 5002"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199802"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "481b2584-a92f-4a3e-8a0f-aaedfb477357")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP72")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP21")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP44")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP58")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7156,7 +9125,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 193.04 90)
+		(at 38.1 199.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7165,7 +9134,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2e6bf7d-f2ee-4217-b451-24cba7f1b0c7")
 		(property "Reference" "#PWR012"
-			(at 44.45 193.04 0)
+			(at 44.45 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +9143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 193.0399 90)
+			(at 41.91 199.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +9152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 193.04 0)
+			(at 38.1 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +9161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 193.04 0)
+			(at 38.1 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +9170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 193.04 0)
+			(at 38.1 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,6 +9201,448 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5000:5000")
+		(at 33.02 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e57b0969-b52b-42fe-89a8-ff3b5acbb274")
+		(property "Reference" "TP4"
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5000"
+			(at 33.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5000"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Test Point Keystone Electronics"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=eda"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=snap"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5000"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated Red PhosBronze/Silver | Keystone Electronics 5000"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23c0b720-ce6c-47ef-9912-0c7b0eed5855")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP69")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP41")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP55")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5000:5000")
+		(at 33.02 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5dedf36-5cb4-4ac8-884d-d806defde957")
+		(property "Reference" "TP2"
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5000"
+			(at 33.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5000"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Test Point Keystone Electronics"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=eda"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5000/Keystone/view-part/?ref=snap"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5000"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Miniature THM H .300 Nylon 46 Insulated Red PhosBronze/Silver | Keystone Electronics 5000"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5277086"
+			(at 33.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31c1d6cc-9b75-4d63-bf69-b41587ae51e6")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP67")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP16")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP39")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP53")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7325,6 +9736,227 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5117:5117")
+		(at 50.8 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2d90189-6ee4-4fc9-8c66-5bb79c484f36")
+		(property "Reference" "TP10"
+			(at 50.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5117"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:KEYSTONE_5117"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=eda"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5117/Keystone/view-part/?ref=snap"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "5117"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Test Point Mini THM PC .300 L .100OD Heat Resistant Nylon 46 Blue | Keystone Electronics 5117"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5199807"
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf49bb72-9502-4fe3-9462-ff8a5f7f4ff2")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "TP75")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "TP47")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "TP61")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
