@@ -3105,12 +3105,6 @@
 		(uuid "7e68c4e2-a9ea-4594-baea-b36ff592cb25")
 	)
 	(junction
-		(at 25.4 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f39af99-ef3d-4475-be7b-b859426f3c9d")
-	)
-	(junction
 		(at 243.84 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3338,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 30.48) (xy 38.1 30.48)
+			(xy 20.32 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3545,16 +3539,6 @@
 			(type default)
 		)
 		(uuid "e2592dcf-6867-45ac-93cb-1552dfcc08ce")
-	)
-	(wire
-		(pts
-			(xy 20.32 30.48) (xy 25.4 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1d7e1e-befe-4bd5-ba7a-faf88a3c94ed")
 	)
 	(wire
 		(pts
@@ -3907,72 +3891,6 @@
 		(uuid "fd5fa99d-0a10-414f-8589-184df6fbe6b5")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 25.4 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00109b05-044f-457b-9d15-510158f83e7c")
-		(property "Reference" "#FLG01"
-			(at 25.4 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 25.4 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 25.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1c09149-4629-489c-9526-d47b88b6f3a5")
-		)
-		(instances
-			(project "servo_adapter"
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MUN5233T1G:MUN5233T1G")
 		(at 20.32 142.24 0)
 		(unit 1)
@@ -4286,9 +4204,9 @@
 		(at 20.32 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "32c562db-7837-4b2e-b427-4c79d7b708ab")
 		(property "Reference" "U4"
