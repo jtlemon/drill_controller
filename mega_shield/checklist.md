@@ -58,11 +58,12 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [ ] Add clamping/gate protection diode to 2N7002 fets.
 - [X] Change test points to use loop TP(RH5000).
 - [ ] Clean up the .gitignore setup more.
-- [ ] Update all Vias to minimum size of (0.3mm/0.45mm).
-- [ ] Add via stitching patterns to reduce impeadance near caps and power.
-- [ ] Check all components in BOM for stock and alternatives.
-- [ ] Change out input secion by adding(FET based):
-    - [ ] Reverse polarity protection.
+- [X] Update all Vias to minimum size of (0.3mm/0.45mm).
+- [X] Add via stitching patterns to reduce impeadance near caps and power.
+- [X] Check all components in BOM for stock and alternatives.
+- [.] Change out input secion by adding(FET based):
+    - [X] Reverse polarity protection.
+    - [X] ESD protection.
     - [ ] Over current Protection.
     - [ ] Over Voltage protection.
 - [ ] Check/confirm digital isolation for Servo interfaces for I/O
