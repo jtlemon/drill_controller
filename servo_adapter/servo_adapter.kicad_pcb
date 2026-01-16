@@ -628,7 +628,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "MountingHole"
 			(at 0 4.45 90)
 			(layer "F.Fab")
 			(uuid "9d72e90b-d7fb-4c77-b8e9-03ba52771116")
@@ -651,7 +651,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -663,8 +663,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/8904dc37-7fc2-42da-908e-f40c18f9dcb7")
+		(property ki_fp_filters "MountingHole*")
+		(path "/9e37b9e4-ca91-499c-8830-b500266bc3e2")
 		(sheetname "/")
 		(sheetfile "servo_adapter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -728,7 +728,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "MountingHole"
 			(at 0 4.45 90)
 			(layer "F.Fab")
 			(uuid "a72bf737-0ab1-4648-b96c-a898cd6a2313")
@@ -751,7 +751,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -763,8 +763,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/53cd0904-4348-4a9b-b8ac-8473acd6d980")
+		(property ki_fp_filters "MountingHole*")
+		(path "/d75314fd-85cf-4dd4-9f63-beceee65b301")
 		(sheetname "/")
 		(sheetfile "servo_adapter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -4177,7 +4177,7 @@
 		(path "/e5ee9b77-76c3-4ddf-9234-82ac91b2dc0b")
 		(sheetname "/")
 		(sheetfile "servo_adapter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_circle
 			(center -3.5 0)
 			(end -3.119 0)
@@ -4519,6 +4519,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB" "C5189077"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c70599e-f975-4040-9378-200fcc95149e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
