@@ -54,7 +54,7 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [X] Run checks/tests.
 - [X] edit labels (silkscreen) for the servo interfaces.
 - [X] Update PCB Design Constraints for reduced jlcpcb cost.
-- [ ] Change out footprints for default options where possible.
+- [X] Change out footprints for default options where possible.
 - [ ] Add clamping/gate protection diode to 2N7002 fets.
 - [X] Change test points to use loop TP(RH5000).
 - [ ] Clean up the .gitignore setup more.
