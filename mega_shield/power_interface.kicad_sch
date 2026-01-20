@@ -5,7 +5,7 @@
 	(uuid "49da4f91-18c3-405d-a7fd-e3b015014d5e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Current:INA180A2"
+		(symbol "Amplifier_Current:INA180A4"
 			(pin_names
 				(offset 0.127)
 			)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "INA180A2"
+			(property "Value" "INA180A4"
 				(at 3.81 -2.54 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5"
+			(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 200 V/V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INA180A2_0_1"
+			(symbol "INA180A4_0_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
@@ -89,7 +89,7 @@
 					)
 				)
 			)
-			(symbol "INA180A2_1_1"
+			(symbol "INA180A4_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2505,6 +2505,12 @@
 		(uuid "37ebc887-481e-4b20-b4c0-9a83cdcc0b88")
 	)
 	(junction
+		(at 177.8 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40def055-6bbc-4644-b4d1-fabeb4ba22f5")
+	)
+	(junction
 		(at 96.52 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2682,6 +2688,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 160.02) (xy 177.8 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173f8eab-0e41-4407-ba2f-e1c8f7a7acf6")
+	)
+	(wire
+		(pts
+			(xy 195.58 139.7) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283496a7-f768-4786-99fe-fbf9569a1e97")
+	)
+	(wire
+		(pts
 			(xy 177.8 148.59) (xy 177.8 160.02)
 		)
 		(stroke
@@ -2699,6 +2725,16 @@
 			(type default)
 		)
 		(uuid "2b4a46fc-5428-4663-be00-0685b8996e0c")
+	)
+	(wire
+		(pts
+			(xy 190.5 139.7) (xy 190.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be47411-9c18-4a6a-8a33-7cebd55c4563")
 	)
 	(wire
 		(pts
@@ -2872,6 +2908,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 140.97) (xy 187.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce8d62e-1494-419e-825f-a6eb8eb273e9")
+	)
+	(wire
+		(pts
 			(xy 177.8 133.35) (xy 177.8 123.19)
 		)
 		(stroke
@@ -2919,6 +2965,16 @@
 			(type default)
 		)
 		(uuid "96103f8f-b504-4d98-bb0d-def14601af71")
+	)
+	(wire
+		(pts
+			(xy 203.2 151.13) (xy 203.2 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d47e5c-0697-4402-978d-efd0c2a64ed4")
 	)
 	(wire
 		(pts
@@ -3099,6 +3155,16 @@
 			(type default)
 		)
 		(uuid "e28bc5df-d1bb-415a-a405-5db882129fe3")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 203.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2176a1-397e-4de8-8a9f-5d291f2f1a3f")
 	)
 	(wire
 		(pts
@@ -3756,6 +3822,151 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 199.39 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47c3a73e-22b0-47b8-a346-74fc09f815b0")
+		(property "Reference" "R62"
+			(at 199.39 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 199.39 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb7a540-f520-4f50-89e6-a81a99ec5aad")
+		)
+		(pin "2"
+			(uuid "981faed3-0dad-4133-8ae9-6c215d4399bf")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Current:INA180A4")
+		(at 180.34 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a54fcec-c14c-4e3b-ac00-2438c9b5e787")
+		(property "Reference" "U33"
+			(at 191.77 134.5498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA180A4"
+			(at 191.77 137.0898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
+			(at 184.15 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 200 V/V, SOT-23-5"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d5dcf593-900f-4334-80c4-dc9684cde402")
+		)
+		(pin "2"
+			(uuid "ef236bbc-098b-4116-ad99-52d61404a633")
+		)
+		(pin "1"
+			(uuid "039b80d4-935d-47e0-93cd-9cfd3ddc9665")
+		)
+		(pin "5"
+			(uuid "87617dfc-a4e7-4197-9d33-b10eb7541589")
+		)
+		(pin "4"
+			(uuid "246c307c-cfb6-466c-9fab-a8d9e3128ec8")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 50.8 110.49 0)
 		(unit 1)
@@ -4048,91 +4259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Current:INA180A2")
-		(at 180.34 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6208bf87-2204-4e2e-973c-20a3a6b7ca8b")
-		(property "Reference" "U31"
-			(at 191.77 134.5498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA180A2"
-			(at 191.77 137.0898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 181.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 184.15 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5"
-			(at 180.34 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C48533471"
-			(at 180.34 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e4501e28-484d-4ab6-9f46-d1e6352a6946")
-		)
-		(pin "2"
-			(uuid "fa7691a7-1ae6-4988-9e6a-455708525232")
-		)
-		(pin "1"
-			(uuid "38122aae-5cf3-4c42-9e5d-9711b0386328")
-		)
-		(pin "5"
-			(uuid "e686000f-8b5b-4ed4-b9f9-50d7d9d14e65")
-		)
-		(pin "4"
-			(uuid "d0d00a5e-670d-4d59-9559-5b23ede727bc")
-		)
-		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "U31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 52.07 40.64 0)
 		(unit 1)
@@ -4258,6 +4384,76 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87b84152-9ef2-4790-84c0-e64c9f7baa6e")
+		(property "Reference" "C45"
+			(at 207.01 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 207.01 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.1652 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7d2fd43-ae19-45f6-a962-b0b95cd777be")
+		)
+		(pin "2"
+			(uuid "0d19ff36-97f7-403b-b996-865203a220d3")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
+					(reference "C45")
 					(unit 1)
 				)
 			)
