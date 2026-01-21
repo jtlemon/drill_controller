@@ -485,7 +485,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SD36_SOD323"
+		(symbol "Diode:SD24_SOD323"
 			(pin_numbers
 				(hide yes)
 			)
@@ -504,7 +504,7 @@
 					)
 				)
 			)
-			(property "Value" "SD36_SOD323"
+			(property "Value" "SD24_SOD323"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -530,7 +530,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "36V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(property "Description" "24V, 450W Discrete Bidirectional TVS Diode, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -557,7 +557,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SD36_SOD323_0_1"
+			(symbol "SD24_SOD323_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
@@ -607,7 +607,7 @@
 					)
 				)
 			)
-			(symbol "SD36_SOD323_1_1"
+			(symbol "SD24_SOD323_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2749,6 +2749,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SD24_SOD323")
+		(at 69.85 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09afb2d3-1fbb-4bd4-8009-abbbe422dfab")
+		(property "Reference" "D6"
+			(at 72.39 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD24_SOD323"
+			(at 72.39 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 74.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C502530"
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "974e6a4e-b256-46ef-89dd-149e311964d4")
+		)
+		(pin "1"
+			(uuid "00031765-61ef-4672-8837-d6d093284444")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 115.57 120.65 0)
 		(mirror y)
@@ -3837,76 +3916,6 @@
 			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
 					(reference "U20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD36_SOD323")
-		(at 69.85 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e22649b8-44c7-43e8-9e1e-9a80a7f59066")
-		(property "Reference" "D1"
-			(at 72.39 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD36_SOD323"
-			(at 72.39 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 74.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "36V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "07f9d27d-3521-4912-982c-f968fb7f734a")
-		)
-		(pin "1"
-			(uuid "72d0f519-ab26-4d9b-9c46-4736e7d5e1a6")
-		)
-		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "D1")
 					(unit 1)
 				)
 			)
