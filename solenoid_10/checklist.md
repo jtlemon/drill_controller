@@ -12,6 +12,7 @@ layer is also another good change.
 
 ## Ideas
 
+- Move the power supply pins +24V and GND to pins 1/2 for thicker power paths.
 - Conformal coating for PCB protection?
 - Per channel Polyfuses?
 - Indicator LEDs?
