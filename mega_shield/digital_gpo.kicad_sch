@@ -1520,6 +1520,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:L78L05_SOT89"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L78L05_SOT89"
+				(at -0.635 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L78L05_SOT89_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "L78L05_SOT89_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TERM_BLOCK_HDR_2POS_3.81MM:1803277"
 			(pin_names
 				(offset 1.016)
@@ -2258,8 +2399,8 @@
 		)
 	)
 	(rectangle
-		(start 29.21 119.38)
-		(end 62.23 160.02)
+		(start 25.4 119.38)
+		(end 76.2 143.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -2369,7 +2510,7 @@
 		)
 		(uuid "9a27c87e-3749-4a3d-bb77-e93b5a40224a")
 	)
-	(text "Voltage Divider"
+	(text "5V Voltage Regulator"
 		(exclude_from_sim no)
 		(at 36.83 118.11 0)
 		(effects
@@ -2456,12 +2597,6 @@
 		(uuid "0136dfed-980d-485e-9f7d-42e13e2a311f")
 	)
 	(junction
-		(at 38.1 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b0e0999-c8d0-4485-a903-a89a3f894134")
-	)
-	(junction
 		(at 195.58 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2472,6 +2607,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19012eaa-71b3-46a6-9622-ba471d4a72cb")
+	)
+	(junction
+		(at 52.07 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1af707bd-a1d6-4e39-95ee-92db8d1714e0")
 	)
 	(junction
 		(at 195.58 116.84)
@@ -2514,12 +2655,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61c31b75-d54f-4062-8e26-efa022baa0c9")
-	)
-	(junction
-		(at 52.07 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cec7adb-9518-463d-80f8-08a850b47402")
 	)
 	(junction
 		(at 203.2 116.84)
@@ -2797,16 +2932,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 139.7) (xy 52.07 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef49aaa-7b61-4324-bd0a-e9b3bc1ad27e")
-	)
-	(wire
-		(pts
 			(xy 78.74 87.63) (xy 100.33 87.63)
 		)
 		(stroke
@@ -2947,6 +3072,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 129.54) (xy 52.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61164cbf-f367-4b18-858f-0dc679ac075f")
+	)
+	(wire
+		(pts
 			(xy 100.33 68.58) (xy 100.33 82.55)
 		)
 		(stroke
@@ -2987,16 +3122,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 137.16) (xy 38.1 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "740129cc-0721-404b-8532-ba63b3f44292")
-	)
-	(wire
-		(pts
 			(xy 193.04 116.84) (xy 195.58 116.84)
 		)
 		(stroke
@@ -3004,16 +3129,6 @@
 			(type default)
 		)
 		(uuid "742933eb-d370-4652-b7bd-dfc8ee44313c")
-	)
-	(wire
-		(pts
-			(xy 38.1 139.7) (xy 38.1 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76a967ee-b17a-4a30-860b-3e4a9692b56e")
 	)
 	(wire
 		(pts
@@ -3147,16 +3262,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 149.86) (xy 38.1 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "948dee6d-3763-4b76-816b-89deb11dcc12")
-	)
-	(wire
-		(pts
 			(xy 124.46 62.23) (xy 124.46 68.58)
 		)
 		(stroke
@@ -3214,6 +3319,16 @@
 			(type default)
 		)
 		(uuid "a31779ca-0bc2-4e71-b400-15b5ec9a684b")
+	)
+	(wire
+		(pts
+			(xy 52.07 129.54) (xy 52.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32ade8f-cc76-432e-b55b-5d974b679bf5")
 	)
 	(wire
 		(pts
@@ -3467,16 +3582,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 139.7) (xy 52.07 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6f73562-c8f7-4796-b4b3-0c567cd6e6a0")
-	)
-	(wire
-		(pts
 			(xy 132.08 80.01) (xy 132.08 81.28)
 		)
 		(stroke
@@ -3544,6 +3649,16 @@
 			(type default)
 		)
 		(uuid "ede6308f-6fc5-41fd-8f96-f22aa7f6db86")
+	)
+	(wire
+		(pts
+			(xy 58.42 127) (xy 52.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84bc5c6-cd96-4d2e-b5c7-683d56c25cd0")
 	)
 	(wire
 		(pts
@@ -3636,16 +3751,6 @@
 		(uuid "20175ccf-cccd-46a4-b3a2-36385e7aa596")
 	)
 	(label "+5V_DIV"
-		(at 53.34 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d9ec0dc-b036-4034-942f-946913b9b110")
-	)
-	(label "+5V_DIV"
 		(at 88.9 68.58 0)
 		(effects
 			(font
@@ -3684,6 +3789,16 @@
 			(justify left bottom)
 		)
 		(uuid "a2e5b7fe-a30b-47a0-936c-de527b112403")
+	)
+	(label "+5V_DIV"
+		(at 58.42 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a979ad3f-7470-4263-a510-9678ada1142e")
 	)
 	(hierarchical_label "+24V_IN"
 		(shape input)
@@ -3742,12 +3857,12 @@
 	)
 	(hierarchical_label "+24V_IN"
 		(shape input)
-		(at 38.1 129.54 90)
+		(at 36.83 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6b773aef-aa89-4b87-9810-2c74f48dac64")
 	)
@@ -3772,72 +3887,6 @@
 			(justify right)
 		)
 		(uuid "9720b424-8db9-4dbe-84f6-0ff4a8e29c90")
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 52.07 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00bd26f0-1396-4f04-bd70-eb8050d246f9")
-		(property "Reference" "#FLG013"
-			(at 52.07 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 52.07 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93f2f250-62ad-4d5e-a930-11974bcc6588")
-		)
-		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#FLG013")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "TERM_BLOCK_HDR_2POS_3.81MM:1803277")
@@ -4967,72 +5016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 38.1 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a07a8f3-bb6f-4e89-83e4-946b60183981")
-		(property "Reference" "#PWR0117"
-			(at 38.1 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0e2b344-e492-4f52-8d04-a85390bcb9f2")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 45.72 68.58 90)
 		(unit 1)
@@ -5645,6 +5628,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:L78L05_SOT89")
+		(at 44.45 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65636be1-4345-4ca9-8686-be00a5675cfc")
+		(property "Reference" "U31"
+			(at 44.45 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L78L05_SOT89"
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+			(at 44.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C71136"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "872cd983-e8c9-40ba-b811-560a75561ac0")
+		)
+		(pin "3"
+			(uuid "f662acc7-5f68-4685-a5c5-266e957d12ab")
+		)
+		(pin "2"
+			(uuid "5a9fd0f9-3f22-4049-8c9a-5692c8b89587")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "U31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:AO4486")
 		(at 213.36 68.58 0)
 		(unit 1)
@@ -5959,6 +6023,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 44.45 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d85b948-24b1-40f5-a0cd-d46162434ad9")
+		(property "Reference" "#PWR0131"
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84836f3d-3c3b-49d6-8f42-c82edaa2c093")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 132.08 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6231,111 +6361,6 @@
 			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
 					(reference "Q26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3f2dabe-4a95-43f6-b637-aee6222bb75f")
-		(property "Reference" "R52"
-			(at 40.64 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 40.64 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 36.322 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C17513"
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 38.1 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7ecc53c-1293-42af-b759-ab9829afc53a")
-		)
-		(pin "1"
-			(uuid "35b34f87-684d-4918-a7b6-0a6d98d9e8a3")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -7166,6 +7191,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f059a2b5-b040-404f-9268-19914676430e")
+		(property "Reference" "#FLG014"
+			(at 57.785 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.69 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6ecb137-0350-4698-8462-419984b90ae6")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "#FLG014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 78.74 68.58 90)
 		(unit 1)
@@ -7329,111 +7421,6 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd3f3989-0feb-4fb9-8700-0ef42400e7ba")
-		(property "Reference" "R51"
-			(at 40.64 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k9"
-			(at 40.64 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 36.322 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C17614"
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c46cc6df-ec4c-4a8b-9f18-8aab5cb617b3")
-		)
-		(pin "1"
-			(uuid "b965efe8-c46e-4568-9be5-e889538f9134")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "R51")
 					(unit 1)
 				)
 			)
