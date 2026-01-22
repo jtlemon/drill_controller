@@ -68,7 +68,8 @@ some active protection that can react faster than the polyfuse and SCR setup.
     - [ ] Over Voltage protection.
 - [ ] Check/confirm digital isolation for Servo interfaces for I/O
 - [ ] Add (un)populated 0ohm resistors for servo interfaces as option of 5v/24V.
-- [ ] Look into gate drivers for spindle mosfets, could just be resistos etc. 
+- [ ] Look into gate drivers for spindle mosfets, could just be resistos etc.
+- [ ] Change out voltage dividers for LDO voltage regulator +5V DC on digital gpo.
 
 ## PCB design requirements
 
