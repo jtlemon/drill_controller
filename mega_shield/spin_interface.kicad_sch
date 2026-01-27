@@ -2284,9 +2284,9 @@
 		)
 		(uuid "121c7fac-55d3-4311-a9a5-d2a310999a5c")
 	)
-	(text "PWM signal filter\n"
+	(text "PWM signal filter(slow rise time)\n"
 		(exclude_from_sim no)
-		(at 34.29 62.738 0)
+		(at 41.656 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2364,7 +2364,7 @@
 		)
 		(uuid "5910ea17-923e-467f-ae33-0d7eb674c97e")
 	)
-	(text_box "LMV321: Vos = 0.8mV, Ios = 10pA, Ib = 10pA\n\nFcutoff = 1/(2*Pi*R*C)\nFcutoff = 1.5Hz = 1/(2*Pi*10k*C)\nC = 10uF\n\n2Pole RC filter, C1 = C2 = 10uF/2, accounting for extra trace len etc.\nC1 = C2 = 4.7uF"
+	(text_box "LMV321: Vos = 0.8mV, Ios = 10pA, Ib = 10pA\n\nFcutoff = 1/(2*Pi*R*C)\nFcutoff = 1.5Hz = 1/(2*Pi*20k*C)\nC = 5.3uF\n\n2Pole RC filter, C1 = C2 = 10uF/2, accounting for extra trace len etc.\nC1 = C2 = 5.3uF"
 		(exclude_from_sim no)
 		(at 26.67 105.41 0)
 		(size 49.53 20.32)
@@ -3554,7 +3554,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 44.45 85.09 90)
 			(effects
 				(font
@@ -3789,7 +3789,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 57.15 85.09 90)
 			(effects
 				(font
