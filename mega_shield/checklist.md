@@ -59,17 +59,18 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [X] Change test points to use loop TP(RH5000).
 - [ ] Clean up the .gitignore setup more.
 - [X] Update all Vias to minimum size of (0.3mm/0.45mm).
-- [X] Add via stitching patterns to reduce impeadance near caps and power.
+- [X] Add via stitching patterns to reduce impedance near caps and power.
 - [X] Check all components in BOM for stock and alternatives.
-- [.] Change out input secion by adding(FET based):
+- [.] Change out input section by adding(FET based):
     - [X] Reverse polarity protection.
     - [X] ESD protection.
     - [ ] Over current Protection.
     - [ ] Over Voltage protection.
 - [ ] Check/confirm digital isolation for Servo interfaces for I/O
 - [ ] Add (un)populated 0ohm resistors for servo interfaces as option of 5v/24V.
-- [ ] Look into gate drivers for spindle mosfets, could just be resistos etc.
+- [ ] Look into gate drivers for spindle mosfets, could just be resistors etc.
 - [ ] Change out voltage dividers for LDO voltage regulator +5V DC on digital gpo.
+- [ ] Swap all M8/M12 connectors for female versions/numbers.
 
 ## PCB design requirements
 
