@@ -2484,6 +2484,26 @@
 		)
 		(uuid "41a851d8-147e-42d1-a14c-5645bc00e5fd")
 	)
+	(text_box "The 2N7002 N-Channel mosfets contain their own built in soruce drain diode.\n\nNo extra external components are needed for that particular issue."
+		(exclude_from_sim no)
+		(at 139.7 143.51 0)
+		(size 76.2 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "57af9994-7ae6-4b43-bc8c-319246eddb00")
+	)
 	(text_box "Huanyang VFD requires parameters to be set for this\nconfiguration.\n\n(Datasheet page)\nPage 8: basic connnections\n\nPage 13 PD070 Analog Input - default 0 = 0-10V\ninput, 1 = 0-5V\n\nPage 21 of datasheet the second example shows setting\nof PD001, PD044, PD045 to use the two inputs as\nenable and direction."
 		(exclude_from_sim no)
 		(at 203.2 25.4 0)
@@ -2684,16 +2704,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 219.71 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26f45e3b-5c75-48fe-90a5-1a1f19e64163")
-	)
-	(wire
-		(pts
 			(xy 205.74 118.11) (xy 205.74 109.22)
 		)
 		(stroke
@@ -2734,23 +2744,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 105.41) (xy 217.17 105.41)
+			(xy 215.9 109.22) (xy 215.9 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3355ddb3-1cd0-4629-ab73-50f316085f5a")
-	)
-	(wire
-		(pts
-			(xy 217.17 120.65) (xy 217.17 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348c3715-17b7-425e-ae3b-324f19e51ead")
+		(uuid "2fa13e9a-3e20-4c95-822a-97f17df9ccfe")
 	)
 	(wire
 		(pts
@@ -2844,6 +2844,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 99.06) (xy 215.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a79a3c9-d3c9-44b9-b16b-859181e8b785")
+	)
+	(wire
+		(pts
+			(xy 215.9 88.9) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4f5275-e4c1-432c-8dff-ff5ce0e6cfee")
+	)
+	(wire
+		(pts
 			(xy 101.6 88.9) (xy 104.14 88.9)
 		)
 		(stroke
@@ -2914,16 +2934,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 120.65) (xy 217.17 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68bbc7c5-fcb4-46a3-863b-059745e96401")
-	)
-	(wire
-		(pts
 			(xy 114.3 76.2) (xy 109.22 76.2)
 		)
 		(stroke
@@ -2964,6 +2974,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 116.84) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77544652-8319-4ade-823c-505e1019d50b")
+	)
+	(wire
+		(pts
 			(xy 74.93 88.9) (xy 63.5 88.9)
 		)
 		(stroke
@@ -2984,6 +3004,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 120.65) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823227e3-c290-4f04-84b2-13aca92b0c7e")
+	)
+	(wire
+		(pts
 			(xy 198.12 85.09) (xy 204.47 85.09)
 		)
 		(stroke
@@ -2991,16 +3021,6 @@
 			(type default)
 		)
 		(uuid "823a57a4-8288-483a-b6ff-8f51b118f5c9")
-	)
-	(wire
-		(pts
-			(xy 219.71 88.9) (xy 219.71 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847cb7c9-334e-4bb2-8705-1413d5fd2a94")
 	)
 	(wire
 		(pts
@@ -3084,6 +3104,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 100.33) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d7e181-2a47-427e-932e-a05f43bc8cdc")
+	)
+	(wire
+		(pts
 			(xy 157.48 41.91) (xy 165.1 41.91)
 		)
 		(stroke
@@ -3111,6 +3141,16 @@
 			(type default)
 		)
 		(uuid "c0443e30-e2ae-4f7a-bcba-457ebba4f2a2")
+	)
+	(wire
+		(pts
+			(xy 222.25 88.9) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ad0fa8-1980-4073-a928-48f7ed4a5b2b")
 	)
 	(wire
 		(pts
@@ -3214,16 +3254,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 100.33) (xy 196.85 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec98b54-0e89-4a47-8a2d-6d3d07d86042")
-	)
-	(wire
-		(pts
 			(xy 196.85 109.22) (xy 205.74 109.22)
 		)
 		(stroke
@@ -3241,6 +3271,16 @@
 			(type default)
 		)
 		(uuid "f45e2364-6fbd-4ace-88a4-1ec43065a5d9")
+	)
+	(wire
+		(pts
+			(xy 215.9 105.41) (xy 196.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a45c5f-f8b2-4d42-a237-7863920c7be1")
 	)
 	(wire
 		(pts
@@ -3331,16 +3371,6 @@
 			(justify left bottom)
 		)
 		(uuid "57e76eb4-c7c6-4921-9b99-7799d718f9fa")
-	)
-	(label "+5V_SPIN"
-		(at 157.48 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5deefe8d-ee44-4517-8d5f-db43d5ee5303")
 	)
 	(label "SPIN_DIR_OC"
 		(at 242.57 85.09 0)
@@ -3518,6 +3548,17 @@
 			(justify left)
 		)
 		(uuid "dbc27ffb-77a2-4cc6-81c4-93b3818d7889")
+	)
+	(hierarchical_label "+5V_IN"
+		(shape input)
+		(at 157.48 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8dc7258-6bab-43bd-bb1d-7825ce4761fe")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -4325,6 +4366,76 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c9629f-43e1-449b-9176-41f1596e67ea")
+		(property "Reference" "R60"
+			(at 218.44 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 218.44 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.678 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23ceb876-f487-4096-903d-e363e9db61b8")
+		)
+		(pin "1"
+			(uuid "31ec48a1-9f2c-4892-a8ee-a46f8aea10bd")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f"
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -5356,6 +5467,76 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f"
 					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86010b23-744e-4d0f-80f4-722d4b9616ae")
+		(property "Reference" "R59"
+			(at 218.44 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 218.44 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.678 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad6e5ead-3efe-4d20-89ae-8a06a68ee115")
+		)
+		(pin "1"
+			(uuid "115e1d73-9c86-4983-834d-0d5f90a7b68f")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f"
+					(reference "R59")
 					(unit 1)
 				)
 			)
