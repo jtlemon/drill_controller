@@ -70,6 +70,7 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [ ] Look into gate drivers for spindle mosfets, could just be resistors etc.
 - [ ] Change out voltage dividers for LDO voltage regulator +5V DC on digital gpo.
 - [ ] Swap all M8/M12 connectors for female versions/numbers.
+- [ ] Check connections between boards.
 
 ## PCB design requirements
 
