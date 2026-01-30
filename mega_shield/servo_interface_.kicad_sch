@@ -3498,6 +3498,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 143.51) (xy 218.44 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e0244b-5ef7-457f-9942-06aebeb37692")
+	)
+	(wire
+		(pts
 			(xy 35.56 36.83) (xy 39.37 36.83)
 		)
 		(stroke
@@ -3518,6 +3528,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 67.31) (xy 234.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcdb429-4f3f-4ca1-a058-d991834e52f6")
+	)
+	(wire
+		(pts
 			(xy 185.42 91.44) (xy 187.96 91.44)
 		)
 		(stroke
@@ -3525,6 +3545,16 @@
 			(type default)
 		)
 		(uuid "4ea9e549-fb56-4bf4-acfe-73c74058d3db")
+	)
+	(wire
+		(pts
+			(xy 207.01 92.71) (xy 218.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d9edf0-1e90-4744-8ab9-af1768cfbc4c")
 	)
 	(wire
 		(pts
@@ -3568,6 +3598,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 118.11) (xy 234.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fab215d-bd0d-4422-b754-973b04d31a3d")
+	)
+	(wire
+		(pts
 			(xy 69.85 36.83) (xy 73.66 36.83)
 		)
 		(stroke
@@ -3608,13 +3648,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 67.31) (xy 234.95 67.31)
+			(xy 226.06 92.71) (xy 234.95 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "857ba794-9d11-4585-88ff-f3ffece38ed8")
+		(uuid "79c91125-c109-42dd-95bd-84956579eabb")
 	)
 	(wire
 		(pts
@@ -3628,23 +3668,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 92.71) (xy 234.95 92.71)
+			(xy 226.06 143.51) (xy 234.95 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "950d108e-6f0b-4297-ab55-a56d55fdae8a")
-	)
-	(wire
-		(pts
-			(xy 207.01 118.11) (xy 234.95 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3440e8b-08d7-43ef-92ba-06c29b6a567e")
+		(uuid "a07dbfcb-855a-4ab7-a529-afc6894acc5d")
 	)
 	(wire
 		(pts
@@ -3678,6 +3708,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 118.11) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6c72e3-1a3a-4567-93b3-0b604463eed3")
+	)
+	(wire
+		(pts
 			(xy 142.24 129.54) (xy 142.24 134.62)
 		)
 		(stroke
@@ -3698,16 +3738,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 143.51) (xy 234.95 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edade5d2-6198-4aba-86cd-2cf4db82a230")
-	)
-	(wire
-		(pts
 			(xy 69.85 36.83) (xy 69.85 49.53)
 		)
 		(stroke
@@ -3715,6 +3745,16 @@
 			(type default)
 		)
 		(uuid "ef4c78aa-abab-4b3e-b2b6-b5c5e3b2da0b")
+	)
+	(wire
+		(pts
+			(xy 203.2 67.31) (xy 218.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc589912-5388-404d-8c62-48aaedb8f97f")
 	)
 	(wire
 		(pts
@@ -4090,16 +4130,6 @@
 		)
 	)
 	(label "PED_IN"
-		(at 50.8 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e150291-26e7-4940-80b5-f35468214582")
-	)
-	(label "PED_IN"
 		(at 38.1 180.34 0)
 		(effects
 			(font
@@ -4108,6 +4138,36 @@
 			(justify left bottom)
 		)
 		(uuid "0e37981d-a47e-493e-8dee-e28b9355147d")
+	)
+	(label "+5V_Servo"
+		(at 50.8 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1415b58b-8e82-41a6-aebf-b5f62ec64ed4")
+	)
+	(label "AUX_OUT"
+		(at 50.8 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25dc8f79-8cf3-40a7-ae65-3c450208795b")
+	)
+	(label "ALARM_IN"
+		(at 50.8 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30139515-ec9b-48ea-a39c-3b0b710962c6")
 	)
 	(label "+5V_Servo"
 		(at 142.24 91.44 180)
@@ -4139,16 +4199,6 @@
 		)
 		(uuid "3fc77de6-cecb-4975-88ad-1a0c4da7c1d9")
 	)
-	(label "AUX_OUT"
-		(at 50.8 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44061fbf-2278-44fb-956c-9d486b85ffff")
-	)
 	(label "ALARM_IN"
 		(at 38.1 189.23 0)
 		(effects
@@ -4159,15 +4209,15 @@
 		)
 		(uuid "4518a430-de9b-4dd6-9d54-2d40a878a57c")
 	)
-	(label "ALARM_IN"
-		(at 50.8 86.36 0)
+	(label "EN_OUT"
+		(at 50.8 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "47812870-b183-483b-9487-8e2a890edfeb")
+		(uuid "4e1bcf84-0ee1-4b04-b118-e0b8c50f1390")
 	)
 	(label "EN_OUT"
 		(at 55.88 153.67 0)
@@ -4190,16 +4240,6 @@
 		(uuid "55affc91-b772-4708-bdf7-9fda0bf373b4")
 	)
 	(label "DIR_OUT"
-		(at 50.8 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6672bf81-6fc5-4fa4-94a2-525580c88429")
-	)
-	(label "+5V_Servo"
 		(at 50.8 81.28 0)
 		(effects
 			(font
@@ -4207,7 +4247,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "75ba34f4-3e59-42f2-b982-f5cee21a202f")
+		(uuid "6b560cc9-6762-4984-8903-cb010cfccc8e")
 	)
 	(label "+5V_Servo"
 		(at 187.96 91.44 0)
@@ -4239,6 +4279,16 @@
 		)
 		(uuid "a2f96b2b-d29e-4be2-9a5c-d420bc4d2a86")
 	)
+	(label "PED_IN"
+		(at 50.8 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3982fc7-c732-45cc-b9f2-586e73e82f43")
+	)
 	(label "AUX_OUT"
 		(at 55.88 162.56 0)
 		(effects
@@ -4248,16 +4298,6 @@
 			(justify left bottom)
 		)
 		(uuid "a82ea4a9-cd33-41d6-b55a-a8002dea7048")
-	)
-	(label "EN_OUT"
-		(at 50.8 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a99e6581-54b8-47fc-91a1-a0e4e0131dcc")
 	)
 	(label "STEP_OUT"
 		(at 55.88 144.78 0)
@@ -5147,6 +5187,99 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c14ab6e-f68f-4438-ad8f-0081b7c3f66e")
+		(property "Reference" "R5"
+			(at 222.25 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 222.25 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 222.25 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C17408"
+			(at 222.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b31ed448-7b5d-4768-aced-d450b8e5f229")
+		)
+		(pin "1"
+			(uuid "7f73df4d-44a0-4922-8082-6907513d59fb")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6681,6 +6814,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 222.25 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55600430-4bbc-40ec-b5ab-93ee88ffaac3")
+		(property "Reference" "R3"
+			(at 222.25 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 222.25 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 222.25 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C17408"
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57e78f67-f091-41b1-88ed-004c4e1086d1")
+		)
+		(pin "1"
+			(uuid "13de25ac-c662-433b-9318-dcabd57882b0")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:2SK3018")
 		(at 238.76 119.38 0)
 		(mirror x)
@@ -6799,6 +7025,192 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56e1774b-98ef-4a9d-b81b-44813de001c1")
+		(property "Reference" "R2"
+			(at 222.25 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 222.25 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 222.25 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C17408"
+			(at 222.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7e3b6fa-527b-4c1e-aab6-4f2b7ef174af")
+		)
+		(pin "1"
+			(uuid "9a3a6309-b88d-47db-bdd5-aa84343c5b93")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "754e930d-b8fc-433a-b741-b5dcde9da889")
+		(property "Reference" "R4"
+			(at 222.25 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 222.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 222.25 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C17408"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "144bbea1-b136-4224-b488-f06b1c62155a")
+		)
+		(pin "1"
+			(uuid "e21882ee-bbf9-4e6c-84a0-0cc252f5fa1f")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8276,19 +8688,19 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/48beda80-76ca-4f49-9215-034afc6013b0"
-					(reference "R9")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/60dac8cc-38c4-4167-a27d-cdec6a027d6c"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/8af2ab12-86f3-4750-9b6f-9fe6810fd117"
-					(reference "R7")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/eda7baa6-daec-4ca4-afdf-9fae7ddc238a"
-					(reference "R8")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/fa2aff00-6b7c-4012-8bde-20724615a437"
