@@ -1304,7 +1304,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_"
+		(symbol "mega_shield:B2B-XH-A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1312,43 +1312,34 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -2.54 -1.27 0)
+				(at -2.54 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "B2B-XH-A_LF__SN_"
-				(at 1.27 -3.81 0)
+			(property "Value" "B2B-XH-A"
+				(at -2.54 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm"
-				(at 5.08 5.08 0)
+			(property "Footprint" "footprints:JST_B2B-XH-A"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN HEADER VERT 2POS 2.5MM"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1357,97 +1348,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digi-Key_PN" "455-2247-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "B2B-XH-A(LF)(SN)"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Connectors, Interconnects"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "Rectangular Connectors - Headers, Male Pins"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CONN HEADER VERT 2POS 2.5MM"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JST Sales America Inc."
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "455-2247-ND XH"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1456,72 +1357,173 @@
 					(hide yes)
 				)
 			)
-			(symbol "B2B-XH-A_LF__SN__1_1"
-				(rectangle
-					(start -1.27 0)
-					(end 3.81 -2.54)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST Sales America Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B2B-XH-A_0_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -1.27)
+					)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
-					(start -0.254 -1.143)
-					(end 0.254 -1.651)
+					(start -3.175 2.2225)
+					(end -1.5875 2.8575)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.1)
+						(type default)
 					)
 					(fill
 						(type outline)
 					)
 				)
 				(rectangle
-					(start 2.286 -1.143)
-					(end 2.794 -1.651)
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.1)
+						(type default)
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "~"
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 2.54 270)
-					(length 2.54)
-					(name "~"
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2060,6 +2062,12 @@
 		(uuid "b7dac453-f080-408d-94c3-632fca19d62c")
 	)
 	(junction
+		(at 50.8 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc7fe62c-d533-4472-bce3-a8d0c6498746")
+	)
+	(junction
 		(at 114.3 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2137,6 +2145,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 34.29) (xy 44.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ce2371-fb94-4db6-bfb4-91c94abe6712")
+	)
+	(wire
+		(pts
 			(xy 114.3 33.02) (xy 114.3 36.83)
 		)
 		(stroke
@@ -2167,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 34.29) (xy 44.45 34.29)
+			(xy 60.96 34.29) (xy 50.8 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2374,16 +2392,6 @@
 			(type default)
 		)
 		(uuid "a567ea43-64be-496b-ada6-750e9196243b")
-	)
-	(wire
-		(pts
-			(xy 114.3 31.75) (xy 114.3 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b0ac14-8e6f-4e09-967e-9313b7e55839")
 	)
 	(wire
 		(pts
@@ -2667,6 +2675,78 @@
 				(hide yes)
 			)
 		)
+		(property "Category" ""
+			(at 114.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 114.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 114.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 114.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 114.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 114.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 114.3 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9fb61b4-4ed8-4160-bce2-29983cf7f284")
 		)
@@ -2677,72 +2757,6 @@
 			(project ""
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 114.3 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02a80ef9-a454-4c17-9a7f-d372f6585e60")
-		(property "Reference" "#FLG012"
-			(at 114.3 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 114.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e86d3cdc-a99b-4f7f-b660-5750265d2b68")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -2804,6 +2818,78 @@
 			)
 		)
 		(property "jlcpcb" "C502530"
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 69.85 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
 			(at 69.85 121.92 90)
 			(effects
 				(font
@@ -2917,6 +3003,78 @@
 				(hide yes)
 			)
 		)
+		(property "Category" ""
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 115.57 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffdb2578-07f5-45f4-b1bd-7c082123cf25")
 		)
@@ -2927,6 +3085,72 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 115.57 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12255488-93d3-4152-8cda-59f56c214b8e")
+		(property "Reference" "#FLG014"
+			(at 115.57 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac8419a-ca5e-47c1-bf12-74c13d4e9b20")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
@@ -2988,6 +3212,78 @@
 			)
 		)
 		(property "jlcpcb" "C17514"
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
 			(at 96.52 184.15 0)
 			(effects
 				(font
@@ -3363,6 +3659,78 @@
 				(hide yes)
 			)
 		)
+		(property "Category" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "P"
 			(uuid "878c7dff-f1ed-4227-99a2-44ffb8553cf5")
 		)
@@ -3602,6 +3970,78 @@
 				(hide yes)
 			)
 		)
+		(property "Category" ""
+			(at 93.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 93.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 93.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 93.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 93.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 93.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 93.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "2b436663-f221-4948-a21b-616eab17ce61")
 		)
@@ -3717,6 +4157,78 @@
 				(hide yes)
 			)
 		)
+		(property "Category" ""
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 96.52 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c57b66e-90ef-4445-b361-f174f3252874")
 		)
@@ -3799,6 +4311,78 @@
 				(hide yes)
 			)
 		)
+		(property "Category" ""
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32b1de2a-a57a-44fd-b23c-8254f6ea8cad")
 		)
@@ -3809,6 +4393,196 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mega_shield:B2B-XH-A")
+		(at 36.83 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9eee388-b999-43fa-9eda-ed05dcd50474")
+		(property "Reference" "J15"
+			(at 36.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2B-XH-A"
+			(at 36.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:JST_B2B-XH-A"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales America Inc."
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C158012"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0330d824-a494-4f88-8411-19a5c187865e")
+		)
+		(pin "2"
+			(uuid "6d7935ae-27bf-4343-b359-f7c216f95b15")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -3903,6 +4677,78 @@
 				(hide yes)
 			)
 		)
+		(property "Category" ""
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc391bf7-957f-4e2a-ab26-f6951b323861")
 		)
@@ -3922,53 +4768,17 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_")
-		(at 41.91 34.29 270)
+		(lib_id "power:PWR_FLAG")
+		(at 50.8 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eaaa293f-9418-4a42-af79-ff4159c23352")
-		(property "Reference" "J15"
-			(at 40.64 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B2B-XH-A_LF__SN_"
-			(at 40.64 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm"
-			(at 46.99 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 49.53 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-			(at 41.91 34.29 0)
+		(uuid "e1f6af1b-6cb1-4d1b-8a6b-b754f7667c21")
+		(property "Reference" "#FLG015"
+			(at 50.8 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,106 +4786,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "455-2247-ND"
-			(at 52.07 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B2B-XH-A(LF)(SN)"
-			(at 54.61 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Connectors, Interconnects"
-			(at 57.15 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Rectangular Connectors - Headers, Male Pins"
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 62.23 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045"
-			(at 64.77 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CONN HEADER VERT 2POS 2.5MM"
-			(at 67.31 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 69.85 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 72.39 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 41.91 34.29 0)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 41.91 34.29 90)
+		(property "Footprint" ""
+			(at 50.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,8 +4803,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 41.91 34.29 90)
+		(property "Datasheet" "~"
+			(at 50.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,17 +4812,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 41.91 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C158012"
-			(at 41.91 34.29 90)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,15 +4822,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bc68522-89c6-458b-8778-20a2fbc98fc2")
-		)
-		(pin "2"
-			(uuid "e29a815e-c42f-4be2-8a05-c0bf4463acd0")
+			(uuid "9424809a-e48b-4519-b529-984e088dfc31")
 		)
 		(instances
-			(project ""
+			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b"
-					(reference "J15")
+					(reference "#FLG015")
 					(unit 1)
 				)
 			)
@@ -4205,6 +4913,78 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" ""
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 86.36 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
 			(at 86.36 30.48 90)
 			(effects
 				(font
