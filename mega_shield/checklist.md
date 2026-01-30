@@ -35,13 +35,13 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [X] Run ERC on schematics.
 - [X] Bulk edit all components to ensure JLCPCB number assignment.
 - [X] Add some filter capacitors to the power interface.
-- [ ] Double check all bypass capacitors for ideal resonance frequencies.
+- [X] Double check all bypass capacitors for ideal resonance frequencies.
 - [X] Re-update the JLCPCB numbers.
-- [ ] Add GPIO for 24V control, setup for low-side digital switching.
+- [X] Add GPIO for 24V control, setup for low-side digital switching.
 - [X] Add pull-down resistors to all fets, mega pins could be in input on reset causing fets to pulse trigger during resets.
 - [X] Duplicate/re-factor solenoids as general purpose outputs(More flexibility.).
 - [X] Ensure digital outputs in low-side mode.
-- [ ] Check V_gs is setup for correct Vmax
+- [X] Check V_gs is setup for correct Vmax
 - [X] Add both models of the digital isolator IC.
 - [X] Add alternate digital isolators.
 - [X] Change isolator in spindle interface.
@@ -63,14 +63,12 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [.] Change out input section by adding(FET based):
     - [X] Reverse polarity protection.
     - [X] ESD protection.
-    - [ ] Over current Protection.
-    - [ ] Over Voltage protection.
-- [ ] Check/confirm digital isolation for Servo interfaces for I/O
+- [X] Check/confirm digital isolation for Servo interfaces for I/O
 - [ ] Add (un)populated 0ohm resistors for servo interfaces as option of 5v/24V.
-- [ ] Look into gate drivers for spindle mosfets, could just be resistors etc.
-- [ ] Change out voltage dividers for LDO voltage regulator +5V DC on digital gpo.
-- [ ] Swap all M8/M12 connectors for female versions/numbers.
-- [ ] Check connections between boards.
+- [X] Look into gate drivers for spindle mosfets, could just be resistors etc.
+- [X] Change out voltage dividers for LDO voltage regulator +5V DC on digital gpo.
+- [X] Swap all M8/M12 connectors for female versions/numbers.
+- [X] Check connections between boards.
 
 ## PCB design requirements
 
