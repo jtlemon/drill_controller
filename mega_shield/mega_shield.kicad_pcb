@@ -9094,38 +9094,35 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "footprints:KEYSTONE_5004"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "1494bcbb-7d8a-4f05-af13-e05ba05f5a77")
 		(at 185.375 195.975 90)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP36"
-			(at 0 -2.5 90)
+			(at 0.032 -2.2064 90)
 			(layer "F.SilkS")
 			(uuid "6b5587cf-b879-4b51-bcc7-6e1668db65c9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "RH-5009"
-			(at 0 2.5 90)
+		(property "Value" "5004"
+			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(uuid "dabcd7c1-72cc-4d4f-a2bf-d256c6fc4532")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20b90393-b6df-44c0-bec1-7d48ee296b22")
@@ -9136,9 +9133,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cbd4f0b4-b945-4ef9-85ea-68a936997a05")
@@ -9149,12 +9145,12 @@
 				)
 			)
 		)
-		(property "jlcpcb" "C5277088"
+		(property "MF" "Keystone Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e4389ce-0476-4bae-96b9-3506be00e900")
+			(uuid "68f159d8-f598-4269-9655-c031cf802384")
 			(effects
 				(font
 					(size 1 1)
@@ -9162,12 +9158,12 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd34f9db-a918-4e30-970e-3c0f74a299a6")
+			(uuid "ccf2d29f-90fc-43ca-9240-60e9b040cb12")
 			(effects
 				(font
 					(size 1 1)
@@ -9175,12 +9171,12 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Package" "0805 Keystone"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "febb7d5a-05e5-4102-af76-c4b42b737ed5")
+			(uuid "61a9ce72-8774-4865-806b-31e136db1f11")
 			(effects
 				(font
 					(size 1 1)
@@ -9188,12 +9184,12 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Price" "None"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3908677f-54b6-40e2-ae19-e46441f1ac21")
+			(uuid "657c4074-484f-4c46-9e03-f811d200ce76")
 			(effects
 				(font
 					(size 1 1)
@@ -9201,80 +9197,174 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f/1bfc7861-6f38-4e88-92e1-92d94e531465")
+		(property "Check_prices" "https://www.snapeda.com/parts/5004/Keystone/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aefd397c-cabe-4086-9b4a-24f5192e4b11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fda080f-6250-4c4a-92b6-0c95b415f8ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d39caf17-45f6-46ef-84c8-b113c129fd24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5004/Keystone/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6ec9b80-63e8-4caf-9dc4-b5b70ed88ccd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "5004"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2d34df9-8900-4c65-9a2d-deb9e8559676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Test Point, Miniature, THM, H .300, Nylon 46 Insulated Yellow, PhosBronze/Silver | Keystone Electronics 5004"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a556d7de-b532-4026-81e8-22d28a63c03a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ddc13ea-b211-4ddf-96e8-c7e4ee1e1676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "270605e0-1061-4583-9248-da1758cc3c9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "627bd61c-90f1-47b0-8f5b-cdf4a51825c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f/6f1ecaac-da37-4225-9903-a242670df201")
 		(sheetname "/spin_interface/")
 		(sheetfile "spin_interface.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 1.4 0)
+			(end 1.27 0)
 			(stroke
-				(width 0.12)
+				(width 0.127)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "412c8e46-7fa3-45b0-a4cc-e2aa8ac52256")
+			(uuid "d84cee17-ab1a-453c-8e12-17fcd7280470")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.65 0)
+			(end 1.52 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8d97b5ce-5da7-4959-b646-4affacc852e6")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "73d4c19c-436b-4f7c-813c-cf7a2ddaf07d")
+			(uuid "76f30fc7-f495-447b-8095-722ae55827ca")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.25 0)
+			(end 1.27 0)
 			(stroke
-				(width 0.1)
+				(width 0.127)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "44f0e1d2-23fd-4f13-9f3c-c7bacc090114")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "b9ac3540-5efe-43e8-a665-9f3149e8863d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "622d9c5e-02ad-4504-9fff-213b65fd6684")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 2 2)
-			(drill 1)
+			(size 1.53 1.53)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 69 "/spin_interface/SPIN_DIR_OC")
 			(pinfunction "1")
 			(pintype "passive")
+			(solder_mask_margin 0.102)
 			(uuid "a5027307-5583-48f7-aa7c-baa1e7f2efe3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/libraries/3D/5004.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9282,7 +9372,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -18852,38 +18942,35 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "footprints:KEYSTONE_5004"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "2cda9e60-0b6c-47b1-9c0d-358bbd35bbcf")
 		(at 190.425 195.95 90)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP37"
-			(at 0 -2.5 90)
+			(at 0.032 -2.2064 90)
 			(layer "F.SilkS")
 			(uuid "a104bf30-1fd0-4d68-b9e2-3e8a683e269f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "RH-5009"
-			(at 0 2.5 90)
+		(property "Value" "5004"
+			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(uuid "023171e0-e8d0-4c4a-9cf3-9c6d9a32dbf0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45007e8f-0b33-4a9c-8b3e-943db7251052")
@@ -18894,9 +18981,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "82ba42a4-8c24-4ad7-99f8-5cbdee44eee3")
@@ -18907,12 +18993,12 @@
 				)
 			)
 		)
-		(property "jlcpcb" "C5277088"
+		(property "MF" "Keystone Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d56861ee-da74-4c2e-b7c1-4e0a8247ae61")
+			(uuid "f0fb3152-a7ab-410b-955c-38fb09c28d9d")
 			(effects
 				(font
 					(size 1 1)
@@ -18920,12 +19006,12 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02061fb2-ec42-4696-b32e-8197291a23d0")
+			(uuid "e4a9a2e8-5258-427d-99ef-cca77469e21a")
 			(effects
 				(font
 					(size 1 1)
@@ -18933,12 +19019,12 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Package" "0805 Keystone"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b24a63e5-04c7-4665-8c5b-8e12e3246dea")
+			(uuid "005926bb-b88d-4795-aad8-c9734ae2370d")
 			(effects
 				(font
 					(size 1 1)
@@ -18946,12 +19032,12 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Price" "None"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac9b64f7-3982-4761-b761-d504d15e12b8")
+			(uuid "51f70497-de8a-46b0-9963-cc1a8146c582")
 			(effects
 				(font
 					(size 1 1)
@@ -18959,80 +19045,174 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f/82e06b16-6ed0-418e-bb8b-ad756f8e555e")
+		(property "Check_prices" "https://www.snapeda.com/parts/5004/Keystone/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14f83b3c-14a2-4752-b91b-ce4e4be6b3bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2847e1a0-8356-4365-8d91-78d5d91499d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6920b09-7057-4cf2-85a7-823aafec9bdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5004/Keystone/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "335cb4ef-f95d-4702-8ae9-b23913735041")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "5004"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ddd61fc-1f83-46d8-b330-a71e82f8859f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Test Point, Miniature, THM, H .300, Nylon 46 Insulated Yellow, PhosBronze/Silver | Keystone Electronics 5004"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c7334bd-f892-4cce-8019-14152c780b18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b254ef47-2e87-447c-a043-351bb773c913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73438f6c-a82a-45c4-9e9d-b78b745a7c46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32d04848-559d-494f-b05f-005ea97953b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f/060d5108-a0ea-4d14-97aa-c7f5c8884a67")
 		(sheetname "/spin_interface/")
 		(sheetfile "spin_interface.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 1.4 0)
+			(end 1.27 0)
 			(stroke
-				(width 0.12)
+				(width 0.127)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "a8179650-2fca-47c4-ad60-2d5f6ee3a216")
+			(uuid "fdaf37f2-c6e1-4736-b427-163c1af888b8")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.65 0)
+			(end 1.52 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "5cc2e4b0-0f6d-4cb8-83ca-9681b90f7a1e")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "99593a2c-4350-46c8-8fdb-ef3c07a6931d")
+			(uuid "923b027e-0b59-4c04-ba4e-e18e84152000")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.25 0)
+			(end 1.27 0)
 			(stroke
-				(width 0.1)
+				(width 0.127)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f60f07e8-1d05-4a37-a502-5da936c91184")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "b18c5272-add4-4dcf-a24d-8a6e9a362d11")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "9174619b-83a2-41a3-bc22-c273ee3bbdde")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 2 2)
-			(drill 1)
+			(size 1.53 1.53)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 70 "/spin_interface/SPIN_EN_OC")
 			(pinfunction "1")
 			(pintype "passive")
+			(solder_mask_margin 0.102)
 			(uuid "42ef340a-9c90-4b8b-9f8a-4ea2d58410cf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/libraries/3D/5004.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19040,7 +19220,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -22563,38 +22743,35 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "footprints:KEYSTONE_5004"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "3170cc2e-402e-4436-9659-d591e1236532")
 		(at 180.25 195.925 90)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP35"
-			(at 0 -2.5 90)
+			(at 0.032 -2.2064 90)
 			(layer "F.SilkS")
 			(uuid "10b57bbe-89fc-469b-bdf4-edba43a57b42")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "RH-5009"
-			(at 0 2.5 90)
+		(property "Value" "5004"
+			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(uuid "41fa05d1-dab9-4cc0-a865-96524e1bda92")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49024797-966e-4636-8b2f-9aae49993e39")
@@ -22605,9 +22782,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80a5d209-36bc-4286-bc62-b43872b4d67b")
@@ -22618,12 +22794,12 @@
 				)
 			)
 		)
-		(property "jlcpcb" "C5277088"
+		(property "MF" "Keystone Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e684208e-c6f9-470b-8e8d-875d47b941e2")
+			(uuid "0049bd1a-40ef-478b-aa24-8ac63d4f99df")
 			(effects
 				(font
 					(size 1 1)
@@ -22631,12 +22807,12 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70c7d887-1a2b-4de0-9d4c-e888484ec347")
+			(uuid "0c33d8a5-65b4-48ac-b0e0-ea239642d54e")
 			(effects
 				(font
 					(size 1 1)
@@ -22644,12 +22820,12 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Package" "0805 Keystone"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1977137-0981-4ada-a7ff-d38963bd584f")
+			(uuid "b39ec05d-185c-4ad1-b1bb-76ff98a0a9a8")
 			(effects
 				(font
 					(size 1 1)
@@ -22657,12 +22833,12 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Price" "None"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2dacd756-0497-40f5-a144-c8a8f373c244")
+			(uuid "d7316862-d29a-4f5f-a078-d46a5b89131c")
 			(effects
 				(font
 					(size 1 1)
@@ -22670,80 +22846,174 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f/07857826-09bd-4993-865d-a033c9425a35")
+		(property "Check_prices" "https://www.snapeda.com/parts/5004/Keystone/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c54e6f05-42cd-4449-ac8d-a28529a2d2e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf5e42a5-a6de-4271-af00-8207d76e6cff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab52b6e3-6565-47d0-ab4e-a2fe4dcb1abc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5004/Keystone/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e5aeb3c-6134-49dd-a0e6-60169707f3aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "5004"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7f5ec05-dfe8-4530-af64-24f37c1b0094")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Test Point, Miniature, THM, H .300, Nylon 46 Insulated Yellow, PhosBronze/Silver | Keystone Electronics 5004"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54e63862-d22a-4a7e-8b1c-ba1641a65d3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b7aba26-7657-4610-ae06-b68bb4dabf24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c905b53-b16e-423d-a5a1-a7a82608c00d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9d8e949-10f5-4849-9811-fd6afd332be7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f/57b6a024-5aef-4089-98ce-bb45afaf693c")
 		(sheetname "/spin_interface/")
 		(sheetfile "spin_interface.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 1.4 0)
+			(end 1.27 0)
 			(stroke
-				(width 0.12)
+				(width 0.127)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "c8ffeb13-2eca-46ea-9118-d55bf770aff9")
+			(uuid "1a94b990-a57d-492a-bdad-c1ea1c6c48d5")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.65 0)
+			(end 1.52 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c47b0fc9-1a9e-43a0-87cc-a380f3dbda6b")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "d90524f6-13d4-4d63-93a4-6b2b26f28c48")
+			(uuid "370f0600-3314-4e24-b0cc-6c977d47f33e")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.25 0)
+			(end 1.27 0)
 			(stroke
-				(width 0.1)
+				(width 0.127)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f8c8e5e2-47f6-4e68-85cb-3c4b78c574c3")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "705a8023-4590-48f0-bc3f-6f8a4532932d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "2e328cd2-f6e6-43fa-a3f2-f522079cbc58")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 2 2)
-			(drill 1)
+			(size 1.53 1.53)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 58 "/spin_interface/SPIN_SPEED")
 			(pinfunction "1")
 			(pintype "passive")
+			(solder_mask_margin 0.102)
 			(uuid "044840c8-13e4-48ea-aeeb-be0552a88613")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/libraries/3D/5004.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22751,7 +23021,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -100999,38 +101269,35 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "footprints:KEYSTONE_5004"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "e31c5973-741b-4615-9c7a-87ddd77a2ff0")
 		(at 175.2 195.925 90)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP34"
-			(at 0 -2.5 90)
+			(at 0.032 -2.2064 90)
 			(layer "F.SilkS")
 			(uuid "f24c4bff-a6a4-48c9-93d5-943f6f4ef91c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "RH-5009"
-			(at 0 2.5 90)
+		(property "Value" "5004"
+			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(uuid "b3c5f6a4-8287-48bc-9b58-aa57eb47a146")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bfdf23cd-d5bd-4f67-851e-1d00fd3e6cb0")
@@ -101041,9 +101308,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b360c545-c73e-4959-833c-668f4844817e")
@@ -101054,12 +101320,12 @@
 				)
 			)
 		)
-		(property "jlcpcb" "C5277088"
+		(property "MF" "Keystone Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d37501fe-7f06-4e6e-92aa-b543b7441841")
+			(uuid "1c11a9ac-bfeb-4ce7-b17c-23e36d72b0da")
 			(effects
 				(font
 					(size 1 1)
@@ -101067,12 +101333,12 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aaf7d047-5bcb-4bcf-aeb5-4638a7248404")
+			(uuid "2b6548ab-b6e5-4daf-98b8-99b379b9fba8")
 			(effects
 				(font
 					(size 1 1)
@@ -101080,12 +101346,12 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Package" "0805 Keystone"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4294a8fe-a178-42d9-9665-47efa1c43f90")
+			(uuid "9ec6edd5-c701-442c-baea-77eecb66c54d")
 			(effects
 				(font
 					(size 1 1)
@@ -101093,12 +101359,12 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Price" "None"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6ee2179-cb80-4dc8-b89f-5887ef061bc6")
+			(uuid "25e839c0-ea7b-4e14-992c-a1d04b4580fc")
 			(effects
 				(font
 					(size 1 1)
@@ -101106,80 +101372,174 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f/544930d2-59a5-4a18-aa1e-e0e362cde414")
+		(property "Check_prices" "https://www.snapeda.com/parts/5004/Keystone/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "498b6679-ea38-45b5-aa90-60f127ecd0d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "373556b5-96c8-42e9-ab6f-031a202d9ced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47914292-54d9-40a9-8fe1-197d5dda9938")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5004/Keystone/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35ec6061-a370-4b85-a97a-8e8a2f275bf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "5004"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2550300b-5919-424d-9fe2-3aee31da4811")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Test Point, Miniature, THM, H .300, Nylon 46 Insulated Yellow, PhosBronze/Silver | Keystone Electronics 5004"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75bfbfd6-9710-4217-8d15-5552e872f3e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72b54345-72cc-4e71-8864-bc7df6f7aebc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb4794ea-e08e-47fe-a184-ff2a5cb21b39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d1cf701-765f-41a8-8c60-5e68fdfe2c77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/05acfb4b-1f70-4813-b5f6-d6a6759e8a5f/39426c80-d189-4031-93cb-f950652150eb")
 		(sheetname "/spin_interface/")
 		(sheetfile "spin_interface.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
-			(end 1.4 0)
+			(end 1.27 0)
 			(stroke
-				(width 0.12)
+				(width 0.127)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "39335a24-3757-4e97-bb07-660996e6985c")
+			(uuid "c1f78e48-a333-40ab-9e4e-4b034afaf28a")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.65 0)
+			(end 1.52 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "589ffd4e-37ba-4423-ba9e-6b88af2fd084")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "776d0643-7d39-4e03-86eb-033c34c074c3")
+			(uuid "7491d1ba-8aad-429a-856b-cfb2a58ad877")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 1.25 0)
+			(end 1.27 0)
 			(stroke
-				(width 0.1)
+				(width 0.127)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "9f2d38f3-dc8c-46a5-b4fd-de8b3e9942f6")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "25762b90-0f75-4fec-ae91-decd073a4487")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "b35c37a6-dc21-4af3-a16d-b75959a2e33c")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 2 2)
-			(drill 1)
+			(size 1.53 1.53)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 60 "/spin_interface/V_SPIN")
 			(pinfunction "1")
 			(pintype "passive")
+			(solder_mask_margin 0.102)
 			(uuid "3cdee2ce-c295-4f7a-9a94-9fac49974ed5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/libraries/3D/5004.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -101187,7 +101547,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
