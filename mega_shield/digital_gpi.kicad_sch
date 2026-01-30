@@ -945,9 +945,19 @@
 		)
 		(uuid "0b333a16-0a0a-4cab-a2ee-c96ff47f56c0")
 	)
-	(text "Opto-Isolated Input"
+	(text "Opto-Isolated Input(Active Low)"
 		(exclude_from_sim no)
-		(at 127 49.53 0)
+		(at 132.842 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c4acc71-670e-488d-b616-3776057d790b")
+	)
+	(text "Opto-Isolated Input(Active Low)"
+		(exclude_from_sim no)
+		(at 132.334 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -964,16 +974,6 @@
 			)
 		)
 		(uuid "94ec2bbc-0fb9-41f9-839b-167d68949576")
-	)
-	(text "Opto-Isolated Input"
-		(exclude_from_sim no)
-		(at 127.254 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a1285a65-ff31-4099-b616-220ef10610af")
 	)
 	(junction
 		(at 165.1 107.95)
@@ -1338,7 +1338,7 @@
 		(fields_autoplaced yes)
 		(uuid "107a9672-840d-48ff-8aad-2cc9640a5903")
 		(property "Reference" "R80"
-			(at 167.64 101.5999 0)
+			(at 167.64 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,8 +1346,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 167.64 104.1399 0)
+		(property "Value" "4k7"
+			(at 167.64 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,12 +1382,13 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17557"
-			(at 165.1 102.87 0)
+		(property "jlcpcb" "C17673"
+			(at 167.64 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Sim.Device" ""
@@ -1443,15 +1444,15 @@
 		(fields_autoplaced yes)
 		(uuid "107d7f93-9dbd-4c07-bc9a-f706c19b7e3a")
 		(property "Reference" "R77"
-			(at 139.7 60.96 90)
+			(at 139.7 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "15k"
-			(at 139.7 63.5 90)
+		(property "Value" "2k7"
+			(at 139.7 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,8 +1486,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17475"
-			(at 139.7 67.31 0)
+		(property "jlcpcb" "C1854836"
+			(at 139.7 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2298,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cafc3c2-1e1a-48ba-a749-d217e0846639")
 		(property "Reference" "R79"
-			(at 167.64 63.4999 0)
+			(at 167.64 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,8 +2306,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 167.64 66.0399 0)
+		(property "Value" "4k7"
+			(at 167.64 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,12 +2342,13 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17557"
-			(at 165.1 64.77 0)
+		(property "jlcpcb" "C17673"
+			(at 167.64 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Sim.Device" ""
@@ -2402,15 +2404,15 @@
 		(fields_autoplaced yes)
 		(uuid "8faf079d-8a98-4614-8194-e342a687f335")
 		(property "Reference" "R78"
-			(at 139.7 99.06 90)
+			(at 139.7 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "15k"
-			(at 139.7 101.6 90)
+		(property "Value" "2k7"
+			(at 139.7 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,8 +2446,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17475"
-			(at 139.7 105.41 0)
+		(property "jlcpcb" "C1854836"
+			(at 139.7 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
