@@ -1322,7 +1322,7 @@
 		)
 	)
 	(rectangle
-		(start 139.7 38.1)
+		(start 139.7 35.56)
 		(end 212.09 71.12)
 		(stroke
 			(width 0)
@@ -1381,7 +1381,7 @@
 	)
 	(text "Opto-Isolated Input"
 		(exclude_from_sim no)
-		(at 149.86 36.83 0)
+		(at 150.368 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1449,7 +1449,7 @@
 		)
 		(uuid "1f494945-1721-4b54-b558-d8a6459bb203")
 	)
-	(text_box "SENSORS: ProSense Basic M8 Inductive Proximity Sensors.\nOperating range: 1.5mm-2mm\nVin: 10V-30V DC\nNo-load Current: <= 10mA\nOperating(Load) Current: 200mA\n"
+	(text_box "Part Num: DW-AS-603-M8-001\nOperating range: 1.5mm-2mm\nVin: 10V-30V DC\nNo-load Current: <= 10mA\nOperating(Load) Current: 200mA\n"
 		(exclude_from_sim no)
 		(at 24.892 74.93 0)
 		(size 77.47 13.97)
@@ -1469,25 +1469,11 @@
 		)
 		(uuid "60c1e5f4-10fe-4a9c-8348-6ff339d6278c")
 	)
-	(text_box "The current assumption is that the proximity sensor's selected will be \nof the normally closed type, as mechanical or electrical failure is more likely to\noccure with an open.\n\nThis should give the best chance of detecting an issue early on."
-		(exclude_from_sim no)
-		(at 80.01 25.4 0)
-		(size 46.99 17.78)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7f6647d0-0950-44c8-9a60-4b49e116553a")
+	(junction
+		(at 182.88 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "023d07c0-1a9b-4adb-b340-1a0a5be70453")
 	)
 	(junction
 		(at 83.82 49.53)
@@ -1501,15 +1487,39 @@
 		(color 0 0 0 0)
 		(uuid "b5f7876d-b233-4f9e-9188-6de8858cfca0")
 	)
-	(junction
-		(at 187.96 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5a0c91f-92c1-433b-92ba-20a66e022519")
-	)
 	(no_connect
-		(at 181.61 54.61)
+		(at 181.61 46.99)
 		(uuid "3fd62f18-a318-4539-9511-48ed77a44eb2")
+	)
+	(wire
+		(pts
+			(xy 182.88 52.07) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03dc2b8a-50c6-4cf1-a22f-1bddb0d17ded")
+	)
+	(wire
+		(pts
+			(xy 83.82 57.15) (xy 83.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c44141-9024-4966-a2f3-28472b04a46c")
+	)
+	(wire
+		(pts
+			(xy 50.8 49.53) (xy 50.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d30a01c-e5a3-41c1-8bb6-a62b4756f1bf")
 	)
 	(wire
 		(pts
@@ -1533,23 +1543,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 83.82 49.53)
+			(xy 182.88 60.96) (xy 182.88 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40eb1363-14cf-4c67-ae72-ed726f4d9310")
+		(uuid "3e3a97c9-b8db-44ce-8aac-e0a273dd9c48")
 	)
 	(wire
 		(pts
-			(xy 181.61 57.15) (xy 187.96 57.15)
+			(xy 181.61 49.53) (xy 190.5 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a7d2ecf-b597-4c22-9ddd-c65d1723edce")
+		(uuid "4aff8cf4-3e34-4ff5-aef2-852589891b33")
 	)
 	(wire
 		(pts
@@ -1573,33 +1583,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 57.15) (xy 194.31 57.15)
+			(xy 182.88 52.07) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92d1523e-1573-4c2e-b3ad-df3957aa93c4")
+		(uuid "7f1419ab-f6c3-451e-ba48-a2b36e37f956")
 	)
 	(wire
 		(pts
-			(xy 50.8 54.61) (xy 78.74 54.61)
+			(xy 50.8 49.53) (xy 83.82 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "977d7bd7-2e70-4988-806e-03b4936c3b20")
-	)
-	(wire
-		(pts
-			(xy 182.88 63.5) (xy 182.88 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc4397a-b1b5-4643-b858-dde015a41451")
 	)
 	(wire
 		(pts
@@ -1613,16 +1613,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 59.69) (xy 67.31 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b5dce1-203d-4546-96c7-ae7f58bd339f")
-	)
-	(wire
-		(pts
 			(xy 53.34 33.02) (xy 63.5 33.02)
 		)
 		(stroke
@@ -1633,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 166.37 59.69)
+			(xy 165.1 52.07) (xy 166.37 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 62.23) (xy 67.31 62.23)
+			(xy 50.8 62.23) (xy 63.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1653,17 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 54.61) (xy 78.74 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca6e592-b1b3-4301-b34f-c13c60f03103")
-	)
-	(wire
-		(pts
-			(xy 182.88 59.69) (xy 181.61 59.69)
+			(xy 182.88 52.07) (xy 181.61 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1673,17 +1653,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 59.69) (xy 67.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0032216-9714-4cc2-b0e0-31d7ff431d59")
-	)
-	(wire
-		(pts
-			(xy 165.1 59.69) (xy 165.1 63.5)
+			(xy 165.1 52.07) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1691,18 +1661,8 @@
 		)
 		(uuid "fbbb2948-cfe4-46a6-a61c-e55aeed62cfe")
 	)
-	(wire
-		(pts
-			(xy 187.96 57.15) (xy 187.96 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4279d0-7806-491a-8fac-fd5a5fa6882c")
-	)
 	(label "PROBE_IN"
-		(at 107.95 59.69 0)
+		(at 63.5 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,7 +1702,7 @@
 		(uuid "e1cfc511-a558-4fd1-9911-c01264e84371")
 	)
 	(label "PROBE_IN"
-		(at 158.75 54.61 180)
+		(at 158.75 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,14 +1723,14 @@
 	)
 	(hierarchical_label "+5V_IN"
 		(shape output)
-		(at 187.96 48.26 90)
+		(at 190.5 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "328b7637-7f8e-49df-8553-eda719708b09")
+		(uuid "772fb1e0-31e0-4067-b16e-07f77ec5bcf4")
 	)
 	(hierarchical_label "PROBE_OUT"
 		(shape output)
@@ -1785,7 +1745,7 @@
 	)
 	(hierarchical_label "PROBE_OUT"
 		(shape output)
-		(at 194.31 57.15 0)
+		(at 190.5 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1903,6 +1863,72 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/e56aebf0-16bd-4ef0-8607-05648fa38946"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ca51de-dc46-4408-bdb4-626fe194140c")
+		(property "Reference" "#PWR0131"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99207b4c-edd1-4e9a-acfd-3fa2fafa5e98")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/e56aebf0-16bd-4ef0-8607-05648fa38946"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -2440,7 +2466,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 54.61 270)
+		(at 162.56 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2449,15 +2475,15 @@
 		(fields_autoplaced yes)
 		(uuid "85540f9f-3169-4625-8197-3f37479f8c14")
 		(property "Reference" "R71"
-			(at 162.56 48.26 90)
+			(at 162.56 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "15k"
-			(at 162.56 50.8 90)
+		(property "Value" "2.7k"
+			(at 162.56 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2491,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 162.56 52.832 90)
+			(at 162.56 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 54.61 0)
+			(at 162.56 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2509,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 54.61 0)
+			(at 162.56 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,8 +2517,8 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17475"
-			(at 162.56 54.61 0)
+		(property "jlcpcb" "C17530"
+			(at 162.56 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2526,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 162.56 54.61 90)
+			(at 162.56 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2535,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 162.56 54.61 90)
+			(at 162.56 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2544,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 162.56 54.61 90)
+			(at 162.56 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2670,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 52.07 0)
+		(at 182.88 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2653,7 +2679,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0a4cc19-e3c7-41ab-bdca-01ceb20388dc")
 		(property "Reference" "R72"
-			(at 190.5 50.7999 0)
+			(at 185.42 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,8 +2687,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 190.5 53.3399 0)
+		(property "Value" "4k7"
+			(at 185.42 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 186.182 52.07 90)
+			(at 181.102 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 52.07 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2715,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 52.07 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,16 +2723,17 @@
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C17557"
-			(at 187.96 52.07 0)
+		(property "jlcpcb" "C17673"
+			(at 185.42 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Sim.Device" ""
-			(at 187.96 52.07 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2742,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 187.96 52.07 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2751,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 187.96 52.07 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3137,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:4N35")
-		(at 173.99 57.15 0)
+		(at 173.99 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3119,7 +3146,7 @@
 		(fields_autoplaced yes)
 		(uuid "f968cf92-0b02-4103-b93e-7a9354da5e06")
 		(property "Reference" "U27"
-			(at 173.99 48.26 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3154,7 @@
 			)
 		)
 		(property "Value" "4N35"
-			(at 173.99 50.8 0)
+			(at 173.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3162,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 168.91 62.23 0)
+			(at 168.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3173,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 173.99 57.15 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3183,7 @@
 			)
 		)
 		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 173.99 57.15 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3192,7 @@
 			)
 		)
 		(property "jlcpcb" "C3014310"
-			(at 173.99 57.15 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3200,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 173.99 57.15 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3209,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 173.99 57.15 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3218,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 173.99 57.15 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
