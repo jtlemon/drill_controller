@@ -60,6 +60,30 @@
       ],
       "drc_exclusions": [
         [
+          "lib_footprint_mismatch|239883200|121426000|2164df4c-ee46-4394-b027-bf9daf779821|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|239883200|156426000|45cc92cd-51fd-4915-a6fa-38bd553cb25c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|239883200|191426000|143ed4a5-6726-4d5e-a08e-f81e4c8e668b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|239883200|51426000|f5c8e1cc-a752-4cf0-bc32-5634219d471b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|239883200|86426000|d5d87bc5-719c-492a-b7c4-1df0064afd12|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|85630000|126670000|948ca2f5-85e5-4dfd-9a98-864597f16b04|00000000-0000-0000-0000-000000000000",
+          "Removed uneeded holes from footprint."
+        ],
+        [
           "silk_edge_clearance|156800000|211000000|bcff2737-48f1-408a-975e-830bcaabdf96|646466f5-12a5-4c63-8b8c-08ddb5d6c8b2",
           "XT30 Connector should hang off board for spacing."
         ],
@@ -68,68 +92,48 @@
           "XT30 Connector should hang off board for spacing."
         ],
         [
-          "silk_overlap|103260000|210000000|847f7ab2-649a-4973-b1b7-d345171ccb4f|d0169d8f-5b7f-4349-9d25-47747f72cca3",
-          "Ignore connector/box silkscreen conflict."
+          "silk_over_copper|125000000|178631995|d46ae766-7fd3-485d-86e8-ec33f30a83a5|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "silk_overlap|112270000|210000000|5ebf03e9-350c-4e26-8874-3746ad593e3e|d0169d8f-5b7f-4349-9d25-47747f72cca3",
-          "Ignore connector/box silkscreen conflict."
+          "silk_over_copper|168257847|187831693|7ac42faa-7e01-4dfe-9a90-4379e13f96e2|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "silk_overlap|117087500|210000000|b8326848-a335-41b9-9be3-41561812d86c|d0169d8f-5b7f-4349-9d25-47747f72cca3",
-          "Ignore connector/box silkscreen conflict."
+          "silk_over_copper|48250519|180750000|c842b1fd-6b10-4609-8dab-43ee9e897a64|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "silk_overlap|126097500|210000000|627254d3-a4b2-4830-a87a-95e5145e82cb|d0169d8f-5b7f-4349-9d25-47747f72cca3",
-          "Ignore connector/box silkscreen conflict."
+          "silk_over_copper|85673009|181576299|624037ed-eda7-4193-aebc-d176d7502fde|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "silk_overlap|130182500|210000000|2c580607-3235-49f5-bb4d-77f786fbee24|aca422ca-daaa-492f-8422-04258ff0e3fb",
-          "Ignore connector/box silkscreen conflict."
+          "silk_overlap|127855377|201208867|3e0d0b62-77fa-4e89-88f0-d6c178b0aea7|aca422ca-daaa-492f-8422-04258ff0e3fb",
+          ""
         ],
         [
-          "silk_overlap|139192500|210000000|0efd2e67-ad49-41c1-bc2f-421a373726a7|aca422ca-daaa-492f-8422-04258ff0e3fb",
-          "Ignore connector/box silkscreen conflict."
+          "silk_overlap|127855377|201208867|3e0d0b62-77fa-4e89-88f0-d6c178b0aea7|d0169d8f-5b7f-4349-9d25-47747f72cca3",
+          ""
         ],
         [
-          "silk_overlap|142282500|210000000|aca422ca-daaa-492f-8422-04258ff0e3fb|edf04946-c0ea-4219-bf27-bcf90c681d0d",
-          "Ignore connector/box silkscreen conflict."
+          "silk_overlap|156800000|210725000|646466f5-12a5-4c63-8b8c-08ddb5d6c8b2|69622dd6-02fe-42db-8eae-76ecb54e0106",
+          ""
         ],
         [
-          "silk_overlap|151292500|210000000|23dea402-0bf1-4401-b07f-2698f00ad369|aca422ca-daaa-492f-8422-04258ff0e3fb",
-          "Ignore connector/box silkscreen conflict."
+          "silk_overlap|166700000|210725000|69622dd6-02fe-42db-8eae-76ecb54e0106|91eaf05a-66f6-454e-8d22-8f4a5c053cb5",
+          ""
         ],
         [
-          "silk_overlap|156800000|210000000|646466f5-12a5-4c63-8b8c-08ddb5d6c8b2|69622dd6-02fe-42db-8eae-76ecb54e0106",
-          "Ignore connector/box silkscreen conflict."
+          "silk_overlap|169345336|185625000|18bf42a9-7198-4f45-ba9a-929778f5b550|1af975d5-8509-4323-a432-48691a324ac0",
+          ""
         ],
         [
-          "silk_overlap|166700000|210000000|69622dd6-02fe-42db-8eae-76ecb54e0106|91eaf05a-66f6-454e-8d22-8f4a5c053cb5",
-          "Ignore connector/box silkscreen conflict."
+          "silk_overlap|55350000|210000000|9c36294a-47f1-463f-b3ea-aa2167185bc7|b33f32d7-d45d-46d4-b41b-5c2a2f3fd8bb",
+          ""
         ],
         [
-          "silk_overlap|171800000|210000000|4455740f-9d6e-4235-b183-3baecef1f0fe|5fe0e6e8-934a-4b11-8db1-258b42f76129",
-          "Ignore connector/box silkscreen conflict."
-        ],
-        [
-          "silk_overlap|199200000|210000000|2629977f-ad0c-4799-bf80-b2a3079722c0|4455740f-9d6e-4235-b183-3baecef1f0fe",
-          "Ignore connector/box silkscreen conflict."
-        ],
-        [
-          "silk_overlap|72107500|210000000|916362c1-c7d3-49eb-bd26-42b17be96bc5|fc8e61ba-5760-4603-ab75-f021f40e73eb",
-          "Ignore connector/box silkscreen conflict."
-        ],
-        [
-          "silk_overlap|81117500|210000000|4099b80a-fe94-470a-a734-d7ed542bc27e|916362c1-c7d3-49eb-bd26-42b17be96bc5",
-          "Ignore connector/box silkscreen conflict."
-        ],
-        [
-          "silk_overlap|84982500|210000000|916362c1-c7d3-49eb-bd26-42b17be96bc5|9c5485a6-eb2b-47a4-a69a-861a8c7e0b43",
-          "Ignore connector/box silkscreen conflict."
-        ],
-        [
-          "silk_overlap|93992500|210000000|8c03b9ec-a5ee-4263-8dac-4ef0d461a2f7|916362c1-c7d3-49eb-bd26-42b17be96bc5",
-          "Ignore connector/box silkscreen conflict."
+          "silk_overlap|80826848|174000000|916362c1-c7d3-49eb-bd26-42b17be96bc5|d3d1a11f-ad90-4414-8c55-5203de46f4d6",
+          ""
         ],
         [
           "unconnected_items|131980000|150800000|F.Cu|4|9fb3fb34-2fe6-47ef-8160-4efdcde0565e|b8113248-ed8e-4f80-bd2a-9c2edd8af71c",
@@ -340,24 +344,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|939800|1320800|2b436663-f221-4948-a21b-616eab17ce61|dba091bf-5864-44ef-b650-1d6760d28cc0|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b",
-        "Connector pin type, false warning."
-      ],
-      [
-        "pin_to_pin|965200|1778000|350201b5-99c4-4a14-b26e-6443dac052c8|653247a3-4c81-4ebe-8b25-41976a917f0e|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b",
-        "Ideal diode, correct connection."
-      ],
-      [
-        "pin_to_pin|990600|1320800|808ed7f2-3ebf-4ac1-a544-25d5c3f056c0|b7461d57-49a3-462a-8f72-17a98a598821|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b",
-        "Ideal diode, correct connection."
-      ],
-      [
-        "pin_to_pin|990600|1778000|ef10e830-23b7-496b-bab9-900fb591b22d|32b1de2a-a57a-44fd-b23c-8254f6ea8cad|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b|/554fcf27-dc63-4666-abbc-7481d15942c4/79aa91ed-20a6-424f-83a6-c5f215a1df0b",
-        "Ideal diode, correct connection"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
