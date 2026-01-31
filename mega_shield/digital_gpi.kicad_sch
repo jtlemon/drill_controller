@@ -573,7 +573,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:4N35"
+		(symbol "Isolator:PC817"
 			(pin_names
 				(offset 1.016)
 			)
@@ -589,7 +589,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "4N35"
+			(property "Value" "PC817"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -598,7 +598,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+			(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 				(at -5.08 -5.08 0)
 				(effects
 					(font
@@ -609,7 +609,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
+			(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -619,7 +619,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
+			(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -628,7 +628,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler Base Connected"
+			(property "ki_keywords" "NPN DC Optocoupler"
 				(at 0 0 0)
 				(effects
 					(font
@@ -646,7 +646,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "4N35_0_1"
+			(symbol "PC817_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -660,7 +660,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -3.175 -2.54) (xy -3.175 2.54) (xy -5.08 2.54)
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -672,7 +672,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -0.635) (xy -2.54 -0.635)
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -684,7 +684,19 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -0.635) (xy -3.81 0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -696,7 +708,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0.508) (xy 0.635 0.508) (xy 0.254 0.381) (xy 0.254 0.635) (xy 0.635 0.508)
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 					)
 					(stroke
 						(width 0)
@@ -708,7 +720,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -0.508) (xy 0.635 -0.508) (xy 0.254 -0.635) (xy 0.254 -0.381) (xy 0.635 -0.508)
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -720,10 +732,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -0.254) (xy 2.667 -2.286)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
 					)
 					(stroke
-						(width 0.3556)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -732,19 +744,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -1.143) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 -1.397) (xy 3.81 -2.54)
+						(xy 2.54 0.635) (xy 4.445 2.54)
 					)
 					(stroke
 						(width 0)
@@ -756,7 +756,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.683 -2.413) (xy 3.429 -1.905) (xy 3.175 -2.159) (xy 3.683 -2.413)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0)
@@ -768,31 +780,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0) (xy 5.08 0)
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 3.81 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 1.905 2.54) (xy 1.905 -1.27) (xy 2.54 -1.27)
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -803,7 +803,7 @@
 					)
 				)
 			)
-			(symbol "4N35_1_1"
+			(symbol "PC817_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -840,25 +840,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -869,25 +850,7 @@
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -905,7 +868,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1313,13 +1276,13 @@
 		(uuid "94ec2bbc-0fb9-41f9-839b-167d68949576")
 	)
 	(junction
-		(at 165.1 107.95)
+		(at 165.1 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44c79122-349b-4572-bde0-daf52560a5a0")
 	)
 	(junction
-		(at 165.1 69.85)
+		(at 165.1 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa6c3f97-0195-488e-a85e-47199d06bbb3")
@@ -1330,17 +1293,9 @@
 		(color 0 0 0 0)
 		(uuid "e9b1140e-a0b4-4563-9f02-14339c975e83")
 	)
-	(no_connect
-		(at 158.75 105.41)
-		(uuid "82da07bc-0361-4be2-9b6f-c4d0aa2169f2")
-	)
-	(no_connect
-		(at 158.75 67.31)
-		(uuid "f1ba0315-955f-4517-a584-f1458370a90a")
-	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 165.1 106.68)
+			(xy 165.1 105.41) (xy 165.1 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 107.95) (xy 165.1 107.95)
+			(xy 158.75 105.41) (xy 165.1 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 69.85) (xy 165.1 69.85)
+			(xy 158.75 67.31) (xy 165.1 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 171.45 107.95)
+			(xy 165.1 105.41) (xy 171.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 69.85) (xy 171.45 69.85)
+			(xy 165.1 67.31) (xy 171.45 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 69.85) (xy 165.1 68.58)
+			(xy 165.1 67.31) (xy 165.1 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1555,7 @@
 	)
 	(hierarchical_label "digital_input1"
 		(shape output)
-		(at 171.45 69.85 0)
+		(at 171.45 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1611,23 +1566,23 @@
 	)
 	(hierarchical_label "+5V_IN"
 		(shape output)
-		(at 165.1 60.96 90)
+		(at 165.1 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8ced9e98-cc0e-4740-af0d-8ecc5438c0eb")
 	)
 	(hierarchical_label "+5V_IN"
 		(shape output)
-		(at 165.1 99.06 90)
+		(at 165.1 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9db6d352-c3f1-4848-af7e-2bc7df157c6b")
 	)
@@ -1644,7 +1599,7 @@
 	)
 	(hierarchical_label "digital_input2"
 		(shape output)
-		(at 171.45 107.95 0)
+		(at 171.45 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1666,7 +1621,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 102.87 0)
+		(at 165.1 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1675,7 +1630,7 @@
 		(fields_autoplaced yes)
 		(uuid "107a9672-840d-48ff-8aad-2cc9640a5903")
 		(property "Reference" "R80"
-			(at 167.64 100.3299 0)
+			(at 167.64 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1639,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 167.64 102.8699 0)
+			(at 167.64 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1648,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 163.322 102.87 90)
+			(at 163.322 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1666,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1675,7 @@
 			)
 		)
 		(property "jlcpcb" "C17673"
-			(at 167.64 105.4099 0)
+			(at 167.64 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +1684,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1693,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1702,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1711,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1720,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1729,7 @@
 			)
 		)
 		(property "DK_Detail_Page" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1738,7 @@
 			)
 		)
 		(property "Digi-Key_PN" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1747,7 @@
 			)
 		)
 		(property "Family" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1756,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1765,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1774,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 165.1 102.87 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,196 +2855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:4N35")
-		(at 151.13 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62365286-e672-40bc-9fa0-c77d6f100651")
-		(property "Reference" "U30"
-			(at 151.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N35"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C3014310"
-			(at 151.13 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Family" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" ""
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc5ed154-3572-4794-a1a2-df0670af4f5a")
-		)
-		(pin "2"
-			(uuid "64115a07-3d0b-4cc6-a246-1e428c3a4f4a")
-		)
-		(pin "3"
-			(uuid "8b976332-a5eb-4125-9684-3331751626fe")
-		)
-		(pin "6"
-			(uuid "d4ae7e86-9657-4d12-bbe7-1d7e3da0171a")
-		)
-		(pin "5"
-			(uuid "fe41aeac-27ad-4135-8664-c5afc474b958")
-		)
-		(pin "4"
-			(uuid "bb6decde-7c7e-415f-a894-52eb6c1e8487")
-		)
-		(instances
-			(project ""
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4443c59e-c01d-4253-ab50-7467fe3f72ca"
-					(reference "U30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 105.41 0)
 		(unit 1)
@@ -3461,7 +3226,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 64.77 0)
+		(at 165.1 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3470,7 +3235,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cafc3c2-1e1a-48ba-a749-d217e0846639")
 		(property "Reference" "R79"
-			(at 167.64 62.2299 0)
+			(at 167.64 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3244,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 167.64 64.7699 0)
+			(at 167.64 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3253,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 163.322 64.77 90)
+			(at 163.322 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3271,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3280,7 @@
 			)
 		)
 		(property "jlcpcb" "C17673"
-			(at 167.64 67.3099 0)
+			(at 167.64 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3289,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3298,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3307,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3316,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3325,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3334,7 @@
 			)
 		)
 		(property "DK_Detail_Page" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3343,7 @@
 			)
 		)
 		(property "Digi-Key_PN" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3352,7 @@
 			)
 		)
 		(property "Family" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3361,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3370,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3379,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 165.1 64.77 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:4N35")
+		(lib_id "Isolator:PC817")
 		(at 151.13 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3821,16 +3586,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf1fa73b-ea70-4545-a1f5-cef7cacf68e3")
+		(uuid "9fdc8591-8b1a-4982-b1e3-df204d10bb95")
 		(property "Reference" "U31"
-			(at 151.13 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N35"
 			(at 151.13 99.06 0)
 			(effects
 				(font
@@ -3838,7 +3595,15 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Value" "PC817"
+			(at 151.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 146.05 113.03 0)
 			(effects
 				(font
@@ -3849,7 +3614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -3859,7 +3624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -3867,131 +3632,18 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "jlcpcb" "C3014310"
-			(at 151.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Family" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" ""
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f252d74-7655-4723-bef5-cdb7e8c2bd0e")
-		)
-		(pin "2"
-			(uuid "058afacf-0917-4526-b3e7-03d249698b49")
 		)
 		(pin "3"
-			(uuid "01e1749b-1b05-4da9-b27e-e5fcb0a6b909")
+			(uuid "be39c43a-2ebf-4a34-8e84-6ac6d6af6ff0")
 		)
-		(pin "6"
-			(uuid "fea82fb7-1ee2-452c-9e15-22ae21313789")
-		)
-		(pin "5"
-			(uuid "7063b220-fba2-49e2-bd01-f3b7f4de2b16")
+		(pin "2"
+			(uuid "d0e3a26c-f71e-4526-b766-33960fdea8e2")
 		)
 		(pin "4"
-			(uuid "e408ab09-5e2c-42c9-8c51-73ae82a66898")
+			(uuid "d1de49ae-5ffc-4846-88d6-11a9d561bdb4")
+		)
+		(pin "1"
+			(uuid "51035e72-ebda-4415-a646-cfc87db14f0c")
 		)
 		(instances
 			(project "mega_shield"
@@ -4254,6 +3906,83 @@
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4443c59e-c01d-4253-ab50-7467fe3f72ca"
 					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:PC817")
+		(at 151.13 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eda00b23-8447-4206-bc00-864509b03ca2")
+		(property "Reference" "U30"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC817"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ad6bd048-f737-4407-b694-71a6118a8b2d")
+		)
+		(pin "2"
+			(uuid "9847a7ef-afda-428d-889e-1619f8f1f136")
+		)
+		(pin "4"
+			(uuid "844926f2-3159-42c4-af54-d37be2dade50")
+		)
+		(pin "1"
+			(uuid "6f60c6a6-02ec-4b41-9ef8-9f352058d9d2")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4443c59e-c01d-4253-ab50-7467fe3f72ca"
+					(reference "U30")
 					(unit 1)
 				)
 			)

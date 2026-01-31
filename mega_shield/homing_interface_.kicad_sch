@@ -1087,7 +1087,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:4N35"
+		(symbol "Isolator:PC817"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1103,7 +1103,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "4N35"
+			(property "Value" "PC817"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1112,7 +1112,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+			(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 				(at -5.08 -5.08 0)
 				(effects
 					(font
@@ -1123,7 +1123,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
+			(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1133,7 +1133,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
+			(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1142,7 +1142,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler Base Connected"
+			(property "ki_keywords" "NPN DC Optocoupler"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1160,7 +1160,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "4N35_0_1"
+			(symbol "PC817_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -1174,7 +1174,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -3.175 -2.54) (xy -3.175 2.54) (xy -5.08 2.54)
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -1186,7 +1186,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -0.635) (xy -2.54 -0.635)
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -1198,7 +1198,19 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -0.635) (xy -3.81 0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -1210,7 +1222,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0.508) (xy 0.635 0.508) (xy 0.254 0.381) (xy 0.254 0.635) (xy 0.635 0.508)
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 					)
 					(stroke
 						(width 0)
@@ -1222,7 +1234,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -0.508) (xy 0.635 -0.508) (xy 0.254 -0.635) (xy 0.254 -0.381) (xy 0.635 -0.508)
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -1234,10 +1246,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -0.254) (xy 2.667 -2.286)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
 					)
 					(stroke
-						(width 0.3556)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -1246,19 +1258,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -1.143) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 -1.397) (xy 3.81 -2.54)
+						(xy 2.54 0.635) (xy 4.445 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1270,7 +1270,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.683 -2.413) (xy 3.429 -1.905) (xy 3.175 -2.159) (xy 3.683 -2.413)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1282,31 +1294,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0) (xy 5.08 0)
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 3.81 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 1.905 2.54) (xy 1.905 -1.27) (xy 2.54 -1.27)
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1317,7 +1317,7 @@
 					)
 				)
 			)
-			(symbol "4N35_1_1"
+			(symbol "PC817_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1354,25 +1354,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -1383,25 +1364,7 @@
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1419,7 +1382,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1738,14 +1701,6 @@
 		(color 0 0 0 0)
 		(uuid "f3fd3901-5f08-471c-9c10-a19f0f106b9a")
 	)
-	(no_connect
-		(at 181.61 85.09)
-		(uuid "0a9f3ae1-c015-4b88-ab49-559982aa3c3f")
-	)
-	(no_connect
-		(at 181.61 46.99)
-		(uuid "f71b8194-2f64-4730-9b7e-5be48aef238f")
-	)
 	(wire
 		(pts
 			(xy 182.88 62.23) (xy 182.88 63.5)
@@ -1798,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 87.63) (xy 190.5 87.63)
+			(xy 181.61 85.09) (xy 190.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1918,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 49.53) (xy 190.5 49.53)
+			(xy 181.61 46.99) (xy 190.5 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2240,7 +2195,7 @@
 	)
 	(hierarchical_label "+5V_IN"
 		(shape output)
-		(at 190.5 49.53 0)
+		(at 190.5 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2262,7 +2217,7 @@
 	)
 	(hierarchical_label "+5V_IN"
 		(shape output)
-		(at 190.5 87.63 0)
+		(at 190.5 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2370,212 +2325,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:4N35")
-		(at 173.99 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15b46dd4-6a58-428b-842f-97e06af24594")
-		(property "Reference" "U15"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N35"
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 168.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C3014310"
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Family" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce5a28c5-8e48-4a28-acee-9710ae572360")
-		)
-		(pin "2"
-			(uuid "caab87e6-ed26-459a-86d4-2161a2217005")
-		)
-		(pin "3"
-			(uuid "cf18d9ef-c5b0-45d1-869c-546f40d11b74")
-		)
-		(pin "6"
-			(uuid "4b681238-9fba-43ca-843c-2629e55b8186")
-		)
-		(pin "5"
-			(uuid "0cca7b43-2025-4354-9c89-a742ba351cc1")
-		)
-		(pin "4"
-			(uuid "0817a0c2-77a5-409d-bb0d-9bf353e1f864")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "U17")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "U15")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "U23")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "U26")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -3697,212 +3446,6 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:4N35")
-		(at 173.99 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "443c087f-df7e-4a06-a282-4cb36a70e3a9")
-		(property "Reference" "U14"
-			(at 173.99 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N35"
-			(at 173.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 168.91 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C3014310"
-			(at 173.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Family" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" ""
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0257b90-cda8-499b-b2f1-997987e64893")
-		)
-		(pin "2"
-			(uuid "1a7282b4-b884-4aa4-b507-40325264c48f")
-		)
-		(pin "3"
-			(uuid "553964b4-a5a6-4002-aa1c-04b0f20141d5")
-		)
-		(pin "6"
-			(uuid "f0a3116a-de3c-452a-84d6-e14f1c601614")
-		)
-		(pin "5"
-			(uuid "567eebe5-4bfc-426e-b502-491883ad36d8")
-		)
-		(pin "4"
-			(uuid "4f19d36f-b2e7-481b-bc51-fead2826c496")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
-					(reference "U16")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
-					(reference "U14")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
-					(reference "U22")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
-					(reference "U25")
-					(unit 1)
-				)
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
-					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -5660,6 +5203,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:PC817")
+		(at 173.99 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d52200-20d7-4d6a-8b9a-e8caad83cdcd")
+		(property "Reference" "U14"
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC817"
+			(at 173.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5350"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "06a0f36c-7bc9-4237-9d8f-f8a64f142d01")
+		)
+		(pin "2"
+			(uuid "ccf22ef2-967c-458f-9023-1bd5a9414fa4")
+		)
+		(pin "4"
+			(uuid "83ba7712-bf74-4abb-9737-e7a35cbabc08")
+		)
+		(pin "1"
+			(uuid "a4d5b6ca-5077-4be7-97d9-867b2bbf6143")
+		)
+		(instances
+			(project ""
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
+					(reference "U33")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
+					(reference "U35")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
+					(reference "U36")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 82.55 60.96 0)
 		(mirror y)
@@ -6365,6 +6010,108 @@
 				)
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
 					(reference "TP92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:PC817")
+		(at 173.99 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea567f12-2c65-4f5e-852b-3956d6711c30")
+		(property "Reference" "U15"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC817"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C5350"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d6f11e79-2633-4bdb-925e-1584323380e1")
+		)
+		(pin "2"
+			(uuid "fb5f7ce8-441a-474f-abbd-aed8797c4c7d")
+		)
+		(pin "4"
+			(uuid "580b5369-6d87-410b-9b98-eea5b4ed3ff8")
+		)
+		(pin "1"
+			(uuid "6a871eff-2e82-49e4-8049-ddbae2f835d9")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/298c55ac-606f-4a25-bd04-443d4dadcb78"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/400d9ece-7151-4ceb-add7-34c828d7284c"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/64d796ae-634b-498c-8b87-bb3c7a5fb7ee"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/a1009379-c1df-4080-8264-1d6ad70ed4b7"
+					(reference "U32")
+					(unit 1)
+				)
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/cbf77838-d146-4db1-a0da-db3eb68b8af8"
+					(reference "U22")
 					(unit 1)
 				)
 			)
