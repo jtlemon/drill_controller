@@ -69,7 +69,7 @@ some active protection that can react faster than the polyfuse and SCR setup.
 - [X] Change out voltage dividers for LDO voltage regulator +5V DC on digital gpo.
 - [X] Swap all M8/M12 connectors for female versions/numbers.
 - [X] Check connections between boards.
-- [ ] Swap mega pins --> sockets? sockets gives option for dual sided stacking.
+- [X] Swap mega pins --> sockets? sockets gives option for dual sided stacking.
 
 ## PCB design requirements
 
