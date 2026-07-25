@@ -4015,7 +4015,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C417307"
+		(property "LCSC" "C417307"
 			(at 20.32 142.24 0)
 			(effects
 				(font
@@ -4097,7 +4097,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C4310"
+		(property "LCSC" "C4310"
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -4242,7 +4242,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C417307"
+		(property "LCSC" "C417307"
 			(at 20.32 101.6 0)
 			(effects
 				(font
@@ -4324,7 +4324,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C417307"
+		(property "LCSC" "C417307"
 			(at 20.32 162.56 0)
 			(effects
 				(font
@@ -4358,7 +4358,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "481d44a7-1872-4a5d-b879-848cca448789")
 		(property "Reference" "TP2"
@@ -4670,7 +4670,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C4310"
+		(property "LCSC" "C4310"
 			(at 177.8 83.82 0)
 			(effects
 				(font
@@ -4701,7 +4701,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6357d764-8ca8-4f31-a2a0-8992d3380fbf")
 		(property "Reference" "TP3"
@@ -4948,7 +4948,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5246567"
+		(property "LCSC" "C5246567"
 			(at 76.2 74.93 0)
 			(effects
 				(font
@@ -5045,7 +5045,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "879688ea-673b-4be4-bf44-29193e04e7fe")
 		(property "Reference" "TP1"
@@ -5382,85 +5382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 219.71 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eca2bd5-e733-4d50-bfdb-b2f4fc39bff4")
-		(property "Reference" "C2"
-			(at 223.52 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF/63V"
-			(at 223.52 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 220.6752 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 219.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C5246567"
-			(at 219.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6b3f13f-4db6-4b0d-b80f-3ade4170221c")
-		)
-		(pin "1"
-			(uuid "52c7d4fb-cf93-4eee-8655-cbd7c33caec8")
-		)
-		(instances
-			(project "servo_adapter"
-				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "T4140012081-000:T4140012081-000")
 		(at 39.37 64.77 0)
 		(mirror y)
@@ -5790,6 +5711,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 219.71 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4407b3f-3583-4925-b424-397e27533430")
+		(property "Reference" "C2"
+			(at 223.52 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF/63v"
+			(at 223.52 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 220.6752 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5246567"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3127854b-d32e-4bb0-aac1-b09cfe3d633f")
+		)
+		(pin "1"
+			(uuid "62908f84-ce0d-46e5-bc01-21eb1bfce2ff")
+		)
+		(instances
+			(project "servo_adapter"
+				(path "/d2a6932a-1682-4170-bbbb-2fb2c0f935d7"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MUN5233T1G:MUN5233T1G")
 		(at 20.32 121.92 0)
 		(unit 1)
@@ -5844,7 +5843,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C417307"
+		(property "LCSC" "C417307"
 			(at 20.32 121.92 0)
 			(effects
 				(font
@@ -6285,7 +6284,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5189069"
+		(property "LCSC" "C5189069"
 			(at 243.84 21.59 0)
 			(effects
 				(font
