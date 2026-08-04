@@ -25,4 +25,5 @@ externally for the higher voltage components.
 The board to adapter the servo motors to use a standardized set of connectors
 accross the machine.
 
-
+There is two sevo adapter boards, the one for the NEMA23 and the NEMA34 
+sized closed loop motors.
