@@ -10,13 +10,10 @@ is square 1mm x 1mm.
 ## Schematic
 
 - [ ] Add Mounting Holes to design.
-- [ ] Add M12 Power Connector.
-- [ ] Add M12 Signal Connector.
-- [ ] Add pcb to motor signal connector.
-- [ ] Add pcb to motor power connector.
+- [X] Add M12 Signal Connector.
+- [X] Add pcb to motor signal connector.
 - [ ] Add all JLCPCB or LCSC numbers.
-- [ ] Pass Electrical Rule check.
-- [ ] Find compatible power connector.
+- [X] Pass Electrical Rule check.
 
 ## PCB
 
@@ -24,7 +21,6 @@ is square 1mm x 1mm.
 - [ ] Import design rules from template I built.
 - [ ] Check text size design settings.
 - [ ] Pass design rule check.
-- [ ] 
 
 ### Stackup
 
