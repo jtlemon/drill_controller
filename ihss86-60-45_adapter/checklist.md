@@ -9,10 +9,10 @@ is square 1mm x 1mm.
 
 ## Schematic
 
-- [ ] Add Mounting Holes to design.
+- [X] Add Mounting Holes to design.
 - [X] Add M12 Signal Connector.
 - [X] Add pcb to motor signal connector.
-- [ ] Add all JLCPCB or LCSC numbers.
+- [X] Add all JLCPCB or LCSC numbers.
 - [X] Pass Electrical Rule check.
 
 ## PCB
@@ -40,3 +40,5 @@ is square 1mm x 1mm.
 
 
 ## Components
+
+
