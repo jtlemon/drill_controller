@@ -11,6 +11,7 @@
 - [X] Add mounting holes.
 - [X] Add all needed JLCPCB numbers.
 - [X] Pass electrical rules check.
+- [ ] Change Mounting hole to fit M2 standoffs 2.2mm?
 
 ## PCB
 
@@ -21,7 +22,8 @@
 - [X] Add connector info to front and back silkscreen layer.
 - [X] Add version number to silkscreen layer.
 - [X] Import Components into PCB editor
-- [X] Fix issue with rotated 3D model. 
+- [X] Fix issue with rotated 3D model.
+- [ ] Update mounting holes for M2 standoff(s).
 
 
 ## Components
