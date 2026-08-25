@@ -13419,6 +13419,12 @@
 		(uuid "3782e0a3-b90e-4463-8bf8-21570d9081b9")
 	)
 	(junction
+		(at 161.29 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f06b036-15b8-4bfd-a216-c8052bded58f")
+	)
+	(junction
 		(at 177.8 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13435,6 +13441,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7438763c-cb73-4f2c-9b78-8e83822cd969")
+	)
+	(junction
+		(at 148.59 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c91676e-62c9-4dc0-865f-e5ec7b7e264a")
 	)
 	(junction
 		(at 185.42 78.74)
@@ -13473,6 +13485,12 @@
 		(uuid "d584e031-abe3-4c3d-9bfc-8fbecdc9523c")
 	)
 	(junction
+		(at 237.49 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dac4f400-3830-444d-ae43-042a8610b465")
+	)
+	(junction
 		(at 190.5 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13489,6 +13507,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4c4f4d1-8c6e-4e88-ac28-07200e322a11")
+	)
+	(junction
+		(at 224.79 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edde34ca-b03c-4a70-b2a8-35c2ab5423b2")
 	)
 	(wire
 		(pts
@@ -13572,6 +13596,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 102.87) (xy 148.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc42572-f100-49c1-b1fe-aa6352fb144a")
+	)
+	(wire
+		(pts
 			(xy 161.29 88.9) (xy 161.29 90.17)
 		)
 		(stroke
@@ -13649,6 +13683,16 @@
 			(type default)
 		)
 		(uuid "324fd972-9459-4c6a-95b4-1d8648255568")
+	)
+	(wire
+		(pts
+			(xy 224.79 102.87) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33abb397-1497-48df-81dd-657e36ee0f05")
 	)
 	(wire
 		(pts
@@ -13912,7 +13956,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 100.33) (xy 237.49 101.6)
+			(xy 237.49 100.33) (xy 237.49 106.68)
 		)
 		(stroke
 			(width 0)
@@ -14052,7 +14096,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 161.29 101.6)
+			(xy 161.29 100.33) (xy 161.29 106.68)
 		)
 		(stroke
 			(width 0)
@@ -14142,6 +14186,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 106.68) (xy 237.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8c929e-16d8-4553-9886-71e1d03b19a9")
+	)
+	(wire
+		(pts
 			(xy 254 40.64) (xy 254 48.26)
 		)
 		(stroke
@@ -14189,6 +14243,16 @@
 			(type default)
 		)
 		(uuid "d025dc65-937c-4c2c-8ee1-440ac98f05b4")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 161.29 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0610ba0-807c-42d4-a3a2-11d52b366885")
 	)
 	(wire
 		(pts
@@ -14509,7 +14573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03cb76c1-aaf0-46d7-8117-c49af8523ccc")
-		(property "Reference" "Q34"
+		(property "Reference" "Q27"
 			(at 240.03 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14589,6 +14653,17 @@
 				)
 			)
 		)
+		(property "jlcpcb" "C2150"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aaa04191-706a-4921-b9e1-14080e2ccc61")
 		)
@@ -14601,7 +14676,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "Q34")
+					(reference "Q27")
 					(unit 1)
 				)
 			)
@@ -15025,7 +15100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fc7a528-0087-480f-b4bc-d6160ed08577")
-		(property "Reference" "R65"
+		(property "Reference" "R71"
 			(at 193.04 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15244,7 +15319,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "R65")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -15262,7 +15337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e6432a7-57f5-421f-a9bb-067a64a5d645")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0107"
 			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15322,7 +15397,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "#PWR0133")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -15340,7 +15415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b9893c-6d4d-4cf8-9be6-5acbf8c6dba0")
-		(property "Reference" "Q32"
+		(property "Reference" "Q24"
 			(at 163.83 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15420,6 +15495,17 @@
 				)
 			)
 		)
+		(property "jlcpcb" "C2150"
+			(at 158.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7b8a231b-f2f3-4348-8a11-553ec6402ce0")
 		)
@@ -15432,7 +15518,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "Q32")
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -15565,7 +15651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cd52843-390e-451c-bd9b-504da7c62310")
-		(property "Reference" "C46"
+		(property "Reference" "C42"
 			(at 227.33 68.5735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15728,7 +15814,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "C46")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -15970,7 +16056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c53f247-3473-41ed-8476-c99c8ab82838")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0116"
 			(at 261.62 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16030,7 +16116,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "#PWR0108")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -16048,7 +16134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54d9380d-c8e2-46d5-99bd-aa55da62e650")
-		(property "Reference" "J18"
+		(property "Reference" "J28"
 			(at 156.21 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16339,7 +16425,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "J18")
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -16357,7 +16443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "570b370b-831c-4f50-bd38-69950ce6a16d")
-		(property "Reference" "Q33"
+		(property "Reference" "Q25"
 			(at 163.83 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16437,6 +16523,17 @@
 				)
 			)
 		)
+		(property "jlcpcb" "C8542"
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "12066da0-8cfa-4c84-9558-6b7a47f2accd")
 		)
@@ -16449,7 +16546,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "Q33")
+					(reference "Q25")
 					(unit 1)
 				)
 			)
@@ -16690,7 +16787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58612089-d172-4e41-9fc5-9526cf302e45")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0113"
 			(at 185.42 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16750,7 +16847,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "#PWR0107")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -16767,7 +16864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dc5d32a-17b6-4912-88ce-2ce279655cc4")
-		(property "Reference" "R84"
+		(property "Reference" "R73"
 			(at 243.84 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16787,7 +16884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 243.84 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -16820,6 +16917,17 @@
 				)
 			)
 		)
+		(property "jlcpcb" "C2907218"
+			(at 243.84 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3bf53941-f623-49d6-be3f-1a12bf632410")
 		)
@@ -16829,7 +16937,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "R84")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -16847,7 +16955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "678dcad6-521a-44cd-9c1f-042b94a5e42d")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0114"
 			(at 224.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16907,7 +17015,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "#PWR0134")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -17126,6 +17234,219 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 224.79 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7297a28b-f841-4357-8674-0ec91c4bc617")
+		(property "Reference" "R72"
+			(at 227.33 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 223.012 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlcpcb" "C17414"
+			(at 224.79 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 224.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d877256e-886b-4849-a986-e0df972f3bd0")
+		)
+		(pin "1"
+			(uuid "96181dfb-80c3-495b-a98d-bdf9f5d985f4")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 148.59 69.85 180)
 		(unit 1)
@@ -17137,7 +17458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aed8ea8-bf23-48be-b027-f60bb3c8e396")
-		(property "Reference" "C45"
+		(property "Reference" "C41"
 			(at 151.13 68.5735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17300,7 +17621,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "C45")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -17542,7 +17863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c27080c-5f51-4cc2-80f1-d8e1b006eaa4")
-		(property "Reference" "Q24"
+		(property "Reference" "Q26"
 			(at 191.77 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17635,7 +17956,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "Q24")
+					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -17855,7 +18176,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 101.6 0)
+		(at 161.29 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17865,8 +18186,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9515af22-747e-4c2a-b829-bfbe2449bbdc")
-		(property "Reference" "#PWR0132"
-			(at 161.29 107.95 0)
+		(property "Reference" "#PWR0108"
+			(at 161.29 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17877,7 +18198,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 106.68 0)
+			(at 161.29 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17887,7 +18208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 101.6 0)
+			(at 161.29 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17898,7 +18219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 101.6 0)
+			(at 161.29 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17909,7 +18230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 101.6 0)
+			(at 161.29 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17925,7 +18246,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "#PWR0132")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -17943,7 +18264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b39a15-18f3-4c0c-8b9c-802f6546f2d0")
-		(property "Reference" "Q35"
+		(property "Reference" "Q28"
 			(at 240.03 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18023,6 +18344,17 @@
 				)
 			)
 		)
+		(property "jlcpcb" "C8542"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d15a7ea2-d46e-44ac-b063-d1bb8a40c30a")
 		)
@@ -18035,7 +18367,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "Q35")
+					(reference "Q28")
 					(unit 1)
 				)
 			)
@@ -18043,7 +18375,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 101.6 0)
+		(at 237.49 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18053,8 +18385,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b679d50-7be5-492d-8e71-536c7d2bcbc0")
-		(property "Reference" "#PWR0135"
-			(at 237.49 107.95 0)
+		(property "Reference" "#PWR0115"
+			(at 237.49 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18065,7 +18397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 106.68 0)
+			(at 237.49 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18075,7 +18407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 101.6 0)
+			(at 237.49 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18086,7 +18418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 101.6 0)
+			(at 237.49 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18097,7 +18429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 101.6 0)
+			(at 237.49 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18113,7 +18445,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "#PWR0135")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -18130,7 +18462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3505776-7772-4145-9b6e-dc1f56ce1f3f")
-		(property "Reference" "R83"
+		(property "Reference" "R68"
 			(at 167.64 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18150,7 +18482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.64 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -18183,6 +18515,17 @@
 				)
 			)
 		)
+		(property "jlcpcb" "C2907218"
+			(at 167.64 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "95b4f49e-bdc1-44f3-a3ae-85db1c9053a1")
 		)
@@ -18192,7 +18535,220 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "R83")
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be238b76-a555-48f1-bf4a-e99570245d53")
+		(property "Reference" "R65"
+			(at 151.13 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 151.13 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 146.812 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlcpcb" "C17414"
+			(at 148.59 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK_Detail_Page" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key_PN" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Family" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 148.59 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a4667083-1e25-4659-bd47-02ca7ab5ad3a")
+		)
+		(pin "1"
+			(uuid "2dae0d85-995c-4016-8343-1b4a7800fdaf")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -18210,7 +18766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c69f46da-f3fd-4b85-8073-05fd46e3394c")
-		(property "Reference" "Q25"
+		(property "Reference" "Q29"
 			(at 267.97 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18434,7 +18990,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "Q25")
+					(reference "Q29")
 					(unit 1)
 				)
 			)
@@ -18452,7 +19008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdc6eb8a-0da7-4857-9d53-1bfc824dead8")
-		(property "Reference" "J19"
+		(property "Reference" "J29"
 			(at 232.41 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18743,7 +19299,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "J19")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -18761,7 +19317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d1e7a7-0aa3-44fc-89f3-0bc86c788597")
-		(property "Reference" "R66"
+		(property "Reference" "R74"
 			(at 269.24 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18980,7 +19536,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/b5800b9f-f464-4485-8ad8-035cc7cf2bac"
-					(reference "R66")
+					(reference "R74")
 					(unit 1)
 				)
 			)

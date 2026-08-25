@@ -1167,7 +1167,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
+		(symbol "Transistor_BJT:SS8050"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1188,7 +1188,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT3904"
+			(property "Value" "SS8050"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1200,7 +1200,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
+				(at 5.08 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1212,8 +1212,8 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
+				(at 5.08 -4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1224,7 +1224,18 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
+				(at 34.036 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1235,7 +1246,18 @@
 					)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SS8050 NPN Transistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1257,7 +1279,7 @@
 					)
 				)
 			)
-			(symbol "MMBT3904_0_1"
+			(symbol "SS8050_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1294,7 +1316,7 @@
 					)
 				)
 			)
-			(symbol "MMBT3904_1_1"
+			(symbol "SS8050_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1388,7 +1410,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3906"
+		(symbol "Transistor_BJT:SS8550"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1409,7 +1431,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT3906"
+			(property "Value" "SS8550"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1421,7 +1443,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
+				(at 5.08 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1433,8 +1455,8 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8550.pdf"
+				(at 5.08 -4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1445,7 +1467,18 @@
 					(justify left)
 				)
 			)
-			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(property "Description" "General Purpose PNP Transistor, 1.5A Ic, 25V Vce, SOT-23"
+				(at 34.036 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1456,7 +1489,18 @@
 					)
 				)
 			)
-			(property "ki_keywords" "PNP Transistor"
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SS8550 PNP Transistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1478,7 +1522,7 @@
 					)
 				)
 			)
-			(symbol "MMBT3906_0_1"
+			(symbol "SS8550_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1551,7 +1595,7 @@
 					)
 				)
 			)
-			(symbol "MMBT3906_1_1"
+			(symbol "SS8550_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -14371,7 +14415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "011b536b-c8aa-4285-bf64-36321e30fe4f")
-		(property "Reference" "J24"
+		(property "Reference" "J34"
 			(at 227.33 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14662,7 +14706,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "J24")
+					(reference "J34")
 					(unit 1)
 				)
 			)
@@ -14680,7 +14724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1042581e-9646-4ffc-bfe5-b12b3ddfe3a2")
-		(property "Reference" "Q31"
+		(property "Reference" "Q35"
 			(at 224.79 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14904,7 +14948,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "Q31")
+					(reference "Q35")
 					(unit 1)
 				)
 			)
@@ -14922,7 +14966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10a98553-c57c-4ff2-93a9-c7e759da8373")
-		(property "Reference" "TP112"
+		(property "Reference" "TP116"
 			(at 51.308 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15113,7 +15157,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "TP112")
+					(reference "TP116")
 					(unit 1)
 				)
 			)
@@ -15130,7 +15174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cafa8cf-b812-46eb-a94a-45bcdf9543f1")
-		(property "Reference" "TP110"
+		(property "Reference" "TP112"
 			(at 34.798 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15321,227 +15365,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "TP110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3906")
-		(at 129.54 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cfe2032-6a3f-45b3-a99e-b52b3003183b")
-		(property "Reference" "Q27"
-			(at 134.62 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3906"
-			(at 134.62 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 134.62 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlcpcb" "C2891809"
-			(at 134.62 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Family" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 129.54 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "3048e211-0826-46b5-98ca-b9790a9a3d78")
-		)
-		(pin "2"
-			(uuid "dc5eba71-8a9f-4d8b-8479-ce02b9e21f93")
-		)
-		(pin "1"
-			(uuid "42208170-3deb-42d7-8b95-a9a379ed8405")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "Q27")
+					(reference "TP112")
 					(unit 1)
 				)
 			)
@@ -15770,7 +15594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "239dbf82-5e78-4cff-8280-8823604a71de")
-		(property "Reference" "R75"
+		(property "Reference" "R81"
 			(at 136.144 66.548 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15963,7 +15787,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "R75")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -16210,7 +16034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30fd7ea8-ff10-45c1-a51d-0adf5ae581c9")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0124"
 			(at 49.53 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16270,7 +16094,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0119")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -16288,7 +16112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb13afc-fb8e-4d5d-bb64-2a812fe22274")
-		(property "Reference" "C43"
+		(property "Reference" "C45"
 			(at 45.72 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16481,7 +16305,128 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "C43")
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:SS8550")
+		(at 129.54 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4418242d-b713-427a-852e-560ffb040857")
+		(property "Reference" "Q33"
+			(at 134.62 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8550"
+			(at 134.62 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 134.62 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8550.pdf"
+			(at 134.62 120.396 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistor, 1.5A Ic, 25V Vce, SOT-23"
+			(at 163.576 117.856 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlcpcb" "C8542"
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fbde99b7-6b8c-4030-9ad1-33f05bd3561e")
+		)
+		(pin "1"
+			(uuid "383bd5c9-904d-4c6d-9b6f-1070418c095e")
+		)
+		(pin "3"
+			(uuid "7571dc16-0941-4753-9873-0f1b45b33f9f")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "Q33")
 					(unit 1)
 				)
 			)
@@ -16499,7 +16444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4553b5a8-392b-48cd-a22c-6657848da621")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0135"
 			(at 218.44 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16559,7 +16504,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0125")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -16577,7 +16522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b49ae1-4f9e-483c-9a7f-d87d793e7515")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0129"
 			(at 132.08 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16637,7 +16582,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0123")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -16655,7 +16600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531b4f51-d273-4f69-931a-e13a826415c5")
-		(property "Reference" "R74"
+		(property "Reference" "R78"
 			(at 119.38 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16850,7 +16795,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "R74")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -17080,7 +17025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc578ab-7b4b-4670-bb05-90545a86a118")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0122"
 			(at 44.45 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -17141,7 +17086,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0117")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -17272,7 +17217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61ef93bb-fea1-45e0-aeb8-180bcbae1fc0")
-		(property "Reference" "TP109"
+		(property "Reference" "TP111"
 			(at 34.798 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17463,7 +17408,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "TP109")
+					(reference "TP111")
 					(unit 1)
 				)
 			)
@@ -17653,6 +17598,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:SS8550")
+		(at 129.54 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71df5749-6267-448c-b81c-7f774f46897e")
+		(property "Reference" "Q31"
+			(at 134.62 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8550"
+			(at 134.62 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 134.62 82.296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8550.pdf"
+			(at 134.62 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "General Purpose PNP Transistor, 1.5A Ic, 25V Vce, SOT-23"
+			(at 163.576 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 129.54 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 129.54 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlcpcb" "C8542"
+			(at 129.54 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4652c1a-fc09-4e38-beed-fd5fd22613d9")
+		)
+		(pin "1"
+			(uuid "879a187a-56d0-4a57-868c-8d24abed3e8d")
+		)
+		(pin "3"
+			(uuid "fdce8dae-7bbe-4322-a8ab-24434be377a4")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "Q31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mega_shield:UMW_AO4486")
 		(at 215.9 68.58 0)
 		(unit 1)
@@ -17664,7 +17730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732718a9-64da-4ffb-ad34-220c519adf6a")
-		(property "Reference" "Q30"
+		(property "Reference" "Q34"
 			(at 224.79 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17888,7 +17954,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "Q30")
+					(reference "Q34")
 					(unit 1)
 				)
 			)
@@ -17906,7 +17972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8111a3b4-6185-44a9-8958-97239ea84c13")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0126"
 			(at 87.63 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17966,15 +18032,15 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0121")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 129.54 102.87 0)
+		(lib_id "Transistor_BJT:SS8050")
+		(at 129.54 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17983,9 +18049,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8cfe9bc8-ad2a-45cb-ab18-1bdc08cf63fb")
-		(property "Reference" "Q28"
-			(at 134.62 100.3299 0)
+		(uuid "860175b6-315e-434a-8b7a-68f8a9536fc6")
+		(property "Reference" "Q30"
+			(at 134.62 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17995,8 +18061,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3904"
-			(at 134.62 102.8699 0)
+		(property "Value" "SS8050"
+			(at 134.62 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18007,7 +18073,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 134.62 104.775 0)
+			(at 134.62 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18019,8 +18085,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 129.54 102.87 0)
+		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
+			(at 134.62 67.056 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18031,8 +18097,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 129.54 102.87 0)
+		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
+			(at 163.576 64.516 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18042,19 +18108,8 @@
 				)
 			)
 		)
-		(property "jlcpcb" "C20526"
-			(at 134.62 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 129.54 102.87 0)
+		(property "Sim.Device" "NPN"
+			(at 129.54 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18064,8 +18119,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 129.54 102.87 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 129.54 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18075,8 +18130,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 129.54 102.87 0)
+		(property "jlcpcb" "C2150"
+			(at 129.54 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18085,108 +18140,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Category" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Family" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "420248df-7d1e-4246-896e-36f21d1c6713")
-		)
-		(pin "1"
-			(uuid "48be5234-0026-4d6b-84ee-bc1de65b6f63")
 		)
 		(pin "2"
-			(uuid "82f5c332-1896-4e68-98d4-dff36ec4ae8b")
+			(uuid "75662ae1-c204-4beb-994e-641802b59a35")
+		)
+		(pin "1"
+			(uuid "1e41fd49-6173-4a95-9497-2bd752b9d480")
+		)
+		(pin "3"
+			(uuid "4335ddff-8603-4fb4-89df-e6445fc3ab07")
 		)
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "Q28")
+					(reference "Q30")
 					(unit 1)
 				)
 			)
@@ -18204,7 +18171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d85b948-24b1-40f5-a0cd-d46162434ad9")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0123"
 			(at 44.45 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18264,7 +18231,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0118")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -18282,7 +18249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9787923e-9cd6-442c-a643-573b3a2fc26d")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0128"
 			(at 132.08 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -18342,7 +18309,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0122")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -18360,7 +18327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a5c64e-2bf3-426f-9581-7e8dd6eba382")
-		(property "Reference" "R73"
+		(property "Reference" "R77"
 			(at 119.38 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18555,7 +18522,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "R73")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -18675,226 +18642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 129.54 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c33dea58-3899-427a-a74e-5a0c0f972a5d")
-		(property "Reference" "Q26"
-			(at 134.62 59.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 134.62 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 134.62 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlcpcb" "C20526"
-			(at 134.62 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Family" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 129.54 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "dfb33fc3-3779-4d90-ad59-9644b0a075b2")
-		)
-		(pin "1"
-			(uuid "ac08e2a4-d4cd-41dc-b472-10b10cf8e745")
-		)
-		(pin "2"
-			(uuid "92e8bb5f-29b3-40bb-b67d-f4926d5842b2")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "Q26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 74.93 68.58 0)
 		(unit 1)
@@ -18906,7 +18653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9c87717-140e-4ace-b802-dda09f3e5d32")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0125"
 			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -18966,7 +18713,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0120")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -18983,7 +18730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cea4dd76-ec5d-4196-a9da-7bcdf50eaa53")
-		(property "Reference" "J23"
+		(property "Reference" "J33"
 			(at 227.33 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19274,7 +19021,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "J23")
+					(reference "J33")
 					(unit 1)
 				)
 			)
@@ -19291,7 +19038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1ef63fe-2ddf-4f44-b63f-c9b5db5aaa12")
-		(property "Reference" "R76"
+		(property "Reference" "R82"
 			(at 136.144 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19484,7 +19231,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "R76")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -19702,226 +19449,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3906")
-		(at 129.54 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8a503e4-3e0f-4874-927a-52d823d0a836")
-		(property "Reference" "Q29"
-			(at 134.62 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3906"
-			(at 134.62 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 134.62 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlcpcb" "C2891809"
-			(at 134.62 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Datasheet_Link" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK_Detail_Page" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digi-Key_PN" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Family" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 129.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8becb37c-32f4-48ad-8133-c352adeed2d3")
-		)
-		(pin "2"
-			(uuid "784791ff-0010-4b07-a7c0-74f9eca0b1ab")
-		)
-		(pin "1"
-			(uuid "37c4a0ca-a81e-4167-9ed5-4396908f8ece")
-		)
-		(instances
-			(project "mega_shield"
-				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "Q29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 218.44 80.01 0)
 		(unit 1)
@@ -19933,7 +19460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5d34000-582d-49f5-8437-90748ea77bfc")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0134"
 			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -19993,7 +19520,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0124")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -20011,7 +19538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e81ff7c7-20b4-4e0d-b072-bf54f2b5079f")
-		(property "Reference" "TP111"
+		(property "Reference" "TP115"
 			(at 51.308 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20202,7 +19729,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "TP111")
+					(reference "TP115")
 					(unit 1)
 				)
 			)
@@ -20431,7 +19958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4465048-7c24-4da5-a388-a9f203c06c8a")
-		(property "Reference" "C44"
+		(property "Reference" "C46"
 			(at 78.74 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20624,7 +20151,7 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -20642,7 +20169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc65c622-6d18-40d9-9e77-ff2f9c4e3897")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0121"
 			(at 35.56 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -20702,7 +20229,128 @@
 		(instances
 			(project "mega_shield"
 				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
-					(reference "#PWR0116")
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:SS8050")
+		(at 129.54 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd4d571d-680d-423f-80ae-a08773fc73e3")
+		(property "Reference" "Q32"
+			(at 134.62 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8050"
+			(at 134.62 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 134.62 110.236 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
+			(at 134.62 107.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
+			(at 163.576 105.156 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 129.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 129.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlcpcb" "C2150"
+			(at 129.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a38a581e-8137-4016-b314-8dd17e9d6a9b")
+		)
+		(pin "1"
+			(uuid "8da0e872-1d7d-4eb4-a484-f64932a2b568")
+		)
+		(pin "3"
+			(uuid "e3a07327-c79b-4a28-ad5b-7e6e657336cd")
+		)
+		(instances
+			(project "mega_shield"
+				(path "/554fcf27-dc63-4666-abbc-7481d15942c4/4360f303-59e6-4d3f-8a36-4d5595cafc98"
+					(reference "Q32")
 					(unit 1)
 				)
 			)
