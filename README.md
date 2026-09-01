@@ -27,3 +27,5 @@ accross the machine.
 
 There is two sevo adapter boards, the one for the NEMA23 and the NEMA34 
 sized closed loop motors.
+
+
