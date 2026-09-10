@@ -2,13 +2,13 @@
  * @author: Jake Goodwin
  * @date: 2026-08-27
  * @description: Testing program for mega shield.
- * @version: 0.1.0
+ * @version: 0.1.2
  */
 
 // Constantants
 
 //Uses semantic versioning.
-static const char PGRM_VERSION[] = "0.1.0";
+static const char PGRM_VERSION[] = "0.1.2";
 
 //The 9600 baud rate is reasonable and shouldn't be error prone
 // even over longer wires.
@@ -49,6 +49,7 @@ static const char PGRM_VERSION[] = "0.1.0";
 
 //10CH Solenoid Interface
 
+#define SLND_1 37 //D37
 #define SLND_2 6 //D6
 #define SLND_3 35 //D35
 #define SLND_4 7 //D7
@@ -59,7 +60,7 @@ static const char PGRM_VERSION[] = "0.1.0";
 #define SLND_9 41 //D41
 #define SLND_10 43 //D43
 
-//Spindle Interface
+//Spindle Interfacek
 
 #define SPINDLE_EN 4 //D4
 #define SPINDLE_DIR 5 //D5
@@ -80,7 +81,10 @@ static const char PGRM_VERSION[] = "0.1.0";
 #define SLND_11 45 //D45
 #define SLND_12 47 //D47
 
-#define SOLENOID_LEN 11
+#define SOLENOID_LEN 12
+
+//Defines number of elements in the servo array.
+#define SERVO_ARR_LEN 5
 
 #define SERVO_X_DIR 55//A1 = D55
 #define SERVO_X_STEP 54//A0 = D54
@@ -89,33 +93,33 @@ static const char PGRM_VERSION[] = "0.1.0";
 #define SERVO_X_PED 67//A13 = D67
 #define SERVO_X_ALARM 21
  
-#define SERVO_Y_DIR  //A7 = 
-#define SERVO_Y_STEP //A6 = 
-#define SERVO_Y_EN  //A2 = 
+#define SERVO_Y_DIR  61//A7 = D61
+#define SERVO_Y_STEP 63//A6 = D63
+#define SERVO_Y_EN  56//A2 = D56
 #define SERVO_Y_AUX -1//NC
-#define SERVO_Y_PED  //A14 = 
+#define SERVO_Y_PED  68//A14 = D68
 #define SERVO_Y_ALARM 20//D20
 
-#define SERVO_Z_DIR //D48
-#define SERVO_Z_STEP //D46
-#define SERVO_Z_EN //A8 = 
+#define SERVO_Z_DIR 48//D48
+#define SERVO_Z_STEP 46//D46
+#define SERVO_Z_EN 62//A8 = D62
 #define SERVO_Z_AUX -1//NC
 #define SERVO_Z_PED 13//D13
 #define SERVO_Z_ALARM 19//D19
 
-#define SERVO_A_DIR //D28
-#define SERVO_A_STEP //D26
-#define SERVO_A_EN //D24
+#define SERVO_A_DIR 28//D28
+#define SERVO_A_STEP 26//D26
+#define SERVO_A_EN 24//D24
 #define SERVO_A_AUX -1//NC
-#define SERVO_A_PED //D50
-#define SERVO_A_ALARM //D11
+#define SERVO_A_PED 50//D50
+#define SERVO_A_ALARM 11//D11
 
-#define SERVO_B_DIR //D34
-#define SERVO_B_STEP //D36
-#define SERVO_B_EN //D30
+#define SERVO_B_DIR 34//D34
+#define SERVO_B_STEP 36//D36
+#define SERVO_B_EN 30//D30
 #define SERVO_B_AUX -1//NC
-#define SERVO_B_PED //D52
-#define SERVO_B_ALARM //D12
+#define SERVO_B_PED 52//D52
+#define SERVO_B_ALARM 12//D12
 
 
 // Structures, classes and globals.
@@ -184,6 +188,7 @@ typedef struct servo_interface{
 
 
 uint8_t solenoid_pins_arr[SOLENOID_LEN] = {
+  SLND_1,
   SLND_2,
   SLND_3,
   SLND_4,
@@ -252,6 +257,87 @@ test_state_t tstate = {
   false,
   MODE_INVALID,
   0,
+};
+
+servo_interface_t servo_x = {
+  false, //is_enabled
+  {
+    SERVO_X_EN,
+    SERVO_X_DIR,
+    SERVO_X_STEP,
+    SERVO_X_AUX,
+  },
+  {
+    SERVO_X_PED,
+    SERVO_X_ALARM,
+  },
+};
+
+servo_interface_t servo_y = {
+  false, //is_enabled
+  {
+    SERVO_Y_EN,
+    SERVO_Y_DIR,
+    SERVO_Y_STEP,
+    SERVO_Y_AUX,
+  },
+  {
+    SERVO_Y_PED,
+    SERVO_Y_ALARM,
+  },
+};
+
+
+servo_interface_t servo_z = {
+  false, //is_enabled
+  {
+    SERVO_Z_EN,
+    SERVO_Z_DIR,
+    SERVO_Z_STEP,
+    SERVO_Z_AUX,
+  },
+  {
+    SERVO_Z_PED,
+    SERVO_Z_ALARM,
+  },
+};
+
+
+servo_interface_t servo_a = {
+  false, //is_enabled
+  {
+    SERVO_A_EN,
+    SERVO_A_DIR,
+    SERVO_A_STEP,
+    SERVO_A_AUX,
+  },
+  {
+    SERVO_A_PED,
+    SERVO_A_ALARM,
+  },
+};
+
+
+servo_interface_t servo_b = {
+  false, //is_enabled
+  {
+    SERVO_B_EN,
+    SERVO_B_DIR,
+    SERVO_B_STEP,
+    SERVO_B_AUX,
+  },
+  {
+    SERVO_B_PED,
+    SERVO_B_ALARM,
+  },
+};
+
+servo_interface_t servo_arr[SERVO_ARR_LEN] = {
+  servo_x,
+  servo_y,
+  servo_z,
+  servo_a,
+  servo_b,
 };
 
 // Function Prototypes
@@ -656,9 +742,11 @@ void spindle_tests(void)
 }
 
 //TODO: Use these helper functions with struct to hold data.
+//This section needs a bit of work as I want to eventually refactor for 
+//more in depth tests that will handle simulated inputs at some point.
 void spindle_enable()
 {
-  
+  Serial.println("Not yet implimented.");  
 }
 
 void spindle_disable()
@@ -669,6 +757,67 @@ void spindle_disable()
 void spindle_set_pwm()
 {
 
+}
+
+void servo_init(void)
+{
+  for(uint8_t i = 0; i < SERVO_ARR_LEN; i++)
+  {
+    pinMode(servo_arr[i].output_pins.enable_pin, OUTPUT);
+    pinMode(servo_arr[i].output_pins.direction_pin, OUTPUT);
+    pinMode(servo_arr[i].output_pins.step_pin, OUTPUT);
+    pinMode(servo_arr[i].output_pins.aux_pin, OUTPUT);
+
+    pinMode(servo_arr[i].input_pins.ped, INPUT);
+    pinMode(servo_arr[i].input_pins.alarm, INPUT);
+
+    servo_set_all_low(&servo_arr[i]);
+  }
+}
+
+void servo_tests()
+{
+  Serial.println("Calling servo_tests()...");
+
+  Serial.println("Setting all servo interfaces low.");
+  for(uint8_t i = 0; i < SERVO_ARR_LEN; i++)
+  {
+    servo_set_all_low(&servo_arr[i]);
+  }
+
+  for(uint8_t i = 0; i < SERVO_ARR_LEN; i++)
+  {
+    Serial.print("Setting servo high idx: ");
+    Serial.println(i);
+    servo_set_all_high(&servo_arr[i]);
+    wait_for_input();
+    Serial.println("Setting back to low state.\r\n");
+    servo_set_all_low(&servo_arr[i]);
+  }
+}
+
+void servo_set_all_high(servo_interface_t* servo)
+{
+  if(!servo)
+  {
+    Serial.println("Error: servo_set_all_high(), passed nullptr.");
+  }
+  digitalWrite(servo->output_pins.enable_pin, HIGH);
+  digitalWrite(servo->output_pins.direction_pin, HIGH);
+  digitalWrite(servo->output_pins.step_pin, HIGH);
+  digitalWrite(servo->output_pins.aux_pin, HIGH);
+}
+
+void servo_set_all_low(servo_interface_t* servo)
+{
+  if(!servo)
+  {
+    Serial.println("Error: servo_set_all_low(), passed nullptr.");
+  }
+  digitalWrite(servo->output_pins.enable_pin, LOW);
+  digitalWrite(servo->output_pins.direction_pin, LOW);
+  digitalWrite(servo->output_pins.step_pin, LOW);
+  digitalWrite(servo->output_pins.aux_pin, LOW);
 }
 
 
