@@ -2,6 +2,21 @@
 
 - Screw terminals > non-screw terminals.
 
+## Test point color coding
+
+Mostly following the ATX power supply color code here.
+
+Orange: +3.3V
+Red: +5V
+Yellow: +12V
+Grey/White: +24V
+Black: GND
+Blue: Assembly dependent.(5117)
+
+All the test points with the possible exception of grounds will use the 
+keystone style test points/loops 2.5mm.
+
+
 ## Protection
 
 - ESD
@@ -9,19 +24,24 @@
 - OCP
 - Opto-isolation
 
+I'm going to rework the input protection sections of the board to use 
+some active protection that can react faster than the polyfuse and SCR setup.
+
+
+
 ## TODO
 
 - [X] Add test points to all sheets.
 - [X] Run ERC on schematics.
 - [X] Bulk edit all components to ensure JLCPCB number assignment.
 - [X] Add some filter capacitors to the power interface.
-- [ ] Double check all bypass capacitors for ideal resonance frequencies.
+- [X] Double check all bypass capacitors for ideal resonance frequencies.
 - [X] Re-update the JLCPCB numbers.
-- [ ] Add GPIO for 24V control, setup for low-side digital switching.
+- [X] Add GPIO for 24V control, setup for low-side digital switching.
 - [X] Add pull-down resistors to all fets, mega pins could be in input on reset causing fets to pulse trigger during resets.
 - [X] Duplicate/re-factor solenoids as general purpose outputs(More flexibility.).
 - [X] Ensure digital outputs in low-side mode.
-- [ ] Check V_gs is setup for correct Vmax
+- [X] Check V_gs is setup for correct Vmax
 - [X] Add both models of the digital isolator IC.
 - [X] Add alternate digital isolators.
 - [X] Change isolator in spindle interface.
@@ -33,7 +53,23 @@
 - [X] Re-Route all traces.
 - [X] Run checks/tests.
 - [X] edit labels (silkscreen) for the servo interfaces.
-
+- [X] Update PCB Design Constraints for reduced jlcpcb cost.
+- [X] Change out footprints for default options where possible.
+- [X] Change test points to use loop TP(RH5000).
+- [ ] Clean up the .gitignore setup more.
+- [X] Update all Vias to minimum size of (0.3mm/0.45mm).
+- [X] Add via stitching patterns to reduce impedance near caps and power.
+- [X] Check all components in BOM for stock and alternatives.
+- [.] Change out input section by adding(FET based):
+    - [X] Reverse polarity protection.
+    - [X] ESD protection.
+- [X] Check/confirm digital isolation for Servo interfaces for I/O
+- [ ] Add (un)populated 0ohm resistors for servo interfaces as option of 5v/24V.
+- [X] Look into gate drivers for spindle mosfets, could just be resistors etc.
+- [X] Change out voltage dividers for LDO voltage regulator +5V DC on digital gpo.
+- [X] Swap all M8/M12 connectors for female versions/numbers.
+- [X] Check connections between boards.
+- [X] Swap mega pins --> sockets? sockets gives option for dual sided stacking.
 
 ## PCB design requirements
 

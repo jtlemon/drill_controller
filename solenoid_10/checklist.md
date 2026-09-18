@@ -1,13 +1,23 @@
 # Pneumatic Solenoid 10ch
 
+I think I need to rework some of PCB constraints to allow the build cost to be
+lower, such as the silkscreen minimum sizes and the Vias diameters.
+
+Also changing out the input protection might be a good idea, maybe using 
+active ov and oc protection.
+
+I think changing the text info to use the project variables on the silkscreen
+layer is also another good change.
+
+
 ## Ideas
 
+- Move the power supply pins +24V and GND to pins 1/2 for thicker power paths.
 - Conformal coating for PCB protection?
 - Per channel Polyfuses?
 - Indicator LEDs?
 - Manual actuation buttons?
 - Optical isolation?
-
 
 
 ## TODO
@@ -37,7 +47,10 @@
 - [X] Add mounting holes near M12 connecotr, C2C 32mm, diam: 4.5mm
 - [X] Move the Mosfets 2mm right(aka X-axis +2mm)
 - [ ] Import logo's onto boards.
-- [ ] Run DRC rulecheck.
+- [X] Run DRC rulecheck.
+- [X] Update pcb constraints for lower cost jlcPCB options.
+- [X] Update silk-screen with variables
+
 
 ## Dimension Data(Original PCB)
 
