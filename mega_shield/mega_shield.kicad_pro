@@ -98,28 +98,12 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|85630000|126670000|948ca2f5-85e5-4dfd-9a98-864597f16b04|00000000-0000-0000-0000-000000000000",
-          "Removed uneeded holes from footprint."
-        ],
-        [
           "silk_edge_clearance|156800000|211000000|bcff2737-48f1-408a-975e-830bcaabdf96|646466f5-12a5-4c63-8b8c-08ddb5d6c8b2",
           "XT30 Connector should hang off board for spacing."
         ],
         [
           "silk_edge_clearance|166700000|211000000|bcff2737-48f1-408a-975e-830bcaabdf96|91eaf05a-66f6-454e-8d22-8f4a5c053cb5",
           "XT30 Connector should hang off board for spacing."
-        ],
-        [
-          "silk_over_copper|125000000|178631995|d46ae766-7fd3-485d-86e8-ec33f30a83a5|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|48250519|180750000|c842b1fd-6b10-4609-8dab-43ee9e897a64|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|85673009|181576299|624037ed-eda7-4193-aebc-d176d7502fde|00000000-0000-0000-0000-000000000000",
-          ""
         ],
         [
           "silk_overlap|127855377|201208867|3e0d0b62-77fa-4e89-88f0-d6c178b0aea7|aca422ca-daaa-492f-8422-04258ff0e3fb",
@@ -138,23 +122,15 @@
           ""
         ],
         [
-          "silk_overlap|169345336|185625000|18bf42a9-7198-4f45-ba9a-929778f5b550|1af975d5-8509-4323-a432-48691a324ac0",
-          ""
-        ],
-        [
           "silk_overlap|55350000|210000000|9c36294a-47f1-463f-b3ea-aa2167185bc7|b33f32d7-d45d-46d4-b41b-5c2a2f3fd8bb",
           ""
         ],
         [
-          "silk_overlap|80826848|174000000|916362c1-c7d3-49eb-bd26-42b17be96bc5|d3d1a11f-ad90-4414-8c55-5203de46f4d6",
-          ""
-        ],
-        [
-          "unconnected_items|131980000|150800000|F.Cu|4|9fb3fb34-2fe6-47ef-8160-4efdcde0565e|b8113248-ed8e-4f80-bd2a-9c2edd8af71c",
+          "unconnected_items|131980000|150800000|F.Cu|4|e47482ce-cffa-4249-b74c-092528c1f40f|2dc9e4e5-13e9-4ff7-9d9e-8bdd270b83a5",
           "This connection is made on the Mega controller itself."
         ],
         [
-          "unconnected_items|76100000|102540000|F.Cu|4|c672c42b-d984-419c-bba0-20627c02dd71|9fb3fb34-2fe6-47ef-8160-4efdcde0565e",
+          "unconnected_items|76100000|102540000|F.Cu|4|ba38082d-575c-4eb7-a3c5-3dfc7e5ed024|e47482ce-cffa-4249-b74c-092528c1f40f",
           "This connection is made on the Mega controller itself."
         ]
       ],
@@ -238,7 +214,7 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
-        "min_text_thickness": 0.153,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.075,
@@ -374,7 +350,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1397000|977900|b52abd5b-4750-4cdc-a537-15c3fc52e6e5|00000000-0000-0000-0000-000000000000|||",
+        "Excluded for connector description"
+      ],
+      [
+        "lib_symbol_mismatch|2108200|330200|28f02e10-ebeb-4642-9bcd-eedf94f2d9f1|00000000-0000-0000-0000-000000000000|||",
+        "Excluded for connector description"
+      ],
+      [
+        "lib_symbol_mismatch|2108200|584200|af464be4-1014-4809-b8c3-0be4fbeef4b9|00000000-0000-0000-0000-000000000000|||",
+        "Excluded for connector description"
+      ],
+      [
+        "lib_symbol_mismatch|2108200|863600|208e6bfe-1043-4515-96ed-68e8bb70a741|00000000-0000-0000-0000-000000000000|||",
+        "Excluded for connector description"
+      ],
+      [
+        "lib_symbol_mismatch|330200|1092200|b60aaab5-db88-4fde-9854-4ed8f034aa0a|00000000-0000-0000-0000-000000000000|||",
+        "Excluded for connector description"
+      ],
+      [
+        "lib_symbol_mismatch|330200|330200|ee592874-9e7f-4021-8c67-6ba3a8016f45|00000000-0000-0000-0000-000000000000|||",
+        "Excluded for connector description"
+      ],
+      [
+        "lib_symbol_mismatch|330200|711200|24062c29-1286-4373-9073-acd0fc3cc033|00000000-0000-0000-0000-000000000000|||",
+        "Excluded for connector description"
+      ],
+      [
+        "lib_symbol_mismatch|939800|1778000|b37eda9b-a566-498a-80c7-e3c7c46a1406|00000000-0000-0000-0000-000000000000|||",
+        "Updated symbol as unconneced / unspecified have different meanings in other cad programs."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -1046,7 +1055,7 @@
         "uuid": "554fcf27-dc63-4666-abbc-7481d15942c4"
       }
     ],
-    "used_designators": "TP1-124,F1-15,NT1,J1-34,LED1-9,H1-14,R1-84,#FLG1-13,U1-31,C1-46,Q1-38,A1,#PWR1-135,D1-6",
+    "used_designators": "TP1-124,F1-15,NT1-8,J1-34,LED1-9,H1-14,R1-84,#FLG1-19,U1-31,C1-46,Q1-38,A1,#PWR1-139,D1-6",
     "variants": []
   },
   "sheets": [
