@@ -78,32 +78,36 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|239883200|121426000|2164df4c-ee46-4394-b027-bf9daf779821|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|239883200|156426000|45cc92cd-51fd-4915-a6fa-38bd553cb25c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|239883200|191426000|143ed4a5-6726-4d5e-a08e-f81e4c8e668b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|239883200|51426000|f5c8e1cc-a752-4cf0-bc32-5634219d471b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|239883200|86426000|d5d87bc5-719c-492a-b7c4-1df0064afd12|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_edge_clearance|156800000|211000000|bcff2737-48f1-408a-975e-830bcaabdf96|646466f5-12a5-4c63-8b8c-08ddb5d6c8b2",
           "XT30 Connector should hang off board for spacing."
         ],
         [
           "silk_edge_clearance|166700000|211000000|bcff2737-48f1-408a-975e-830bcaabdf96|91eaf05a-66f6-454e-8d22-8f4a5c053cb5",
           "XT30 Connector should hang off board for spacing."
+        ],
+        [
+          "silk_over_copper|125000000|177837500|d46ae766-7fd3-485d-86e8-ec33f30a83a5|1428636f-dc83-4f81-80b7-041629b815df",
+          ""
+        ],
+        [
+          "silk_over_copper|47775000|180750000|c842b1fd-6b10-4609-8dab-43ee9e897a64|be9a47d5-4ed8-4b4e-b6ae-06ac93d826e9",
+          ""
+        ],
+        [
+          "silk_over_copper|85775722|181706559|624037ed-eda7-4193-aebc-d176d7502fde|193328ce-83ad-4e83-bdbd-6e3402368bda",
+          ""
+        ],
+        [
+          "silk_over_copper|93299533|181706559|624037ed-eda7-4193-aebc-d176d7502fde|46de57b5-2da5-49d3-bad4-f341bc4d6ccd",
+          ""
+        ],
+        [
+          "silk_overlap|127902996|201446962|3e0d0b62-77fa-4e89-88f0-d6c178b0aea7|aca422ca-daaa-492f-8422-04258ff0e3fb",
+          ""
+        ],
+        [
+          "silk_overlap|127902996|201446962|3e0d0b62-77fa-4e89-88f0-d6c178b0aea7|d0169d8f-5b7f-4349-9d25-47747f72cca3",
+          ""
         ],
         [
           "silk_overlap|156800000|210725000|646466f5-12a5-4c63-8b8c-08ddb5d6c8b2|69622dd6-02fe-42db-8eae-76ecb54e0106",
@@ -114,12 +118,32 @@
           ""
         ],
         [
+          "silk_overlap|169226288|185625000|18bf42a9-7198-4f45-ba9a-929778f5b550|1af975d5-8509-4323-a432-48691a324ac0",
+          ""
+        ],
+        [
+          "silk_overlap|38000000|132160000|1ca33e82-c479-45f2-a3ec-b2ac9265a68c|9b3b0533-10d0-4d85-8b44-136f643cb780",
+          ""
+        ],
+        [
           "silk_overlap|55350000|210000000|9c36294a-47f1-463f-b3ea-aa2167185bc7|b33f32d7-d45d-46d4-b41b-5c2a2f3fd8bb",
+          ""
+        ],
+        [
+          "silk_overlap|80826848|174000000|916362c1-c7d3-49eb-bd26-42b17be96bc5|d3d1a11f-ad90-4414-8c55-5203de46f4d6",
           ""
         ],
         [
           "unconnected_items|131980000|150800000|F.Cu|4|e47482ce-cffa-4249-b74c-092528c1f40f|2dc9e4e5-13e9-4ff7-9d9e-8bdd270b83a5",
           "This connection is made on the Mega controller itself."
+        ],
+        [
+          "unconnected_items|56800000|150800000|F.Cu|4|cb159dee-7a20-4b53-906e-4243b3e74f78|1512a120-341b-4316-99fb-0194b94ecbd7",
+          "I2C lines connected externally"
+        ],
+        [
+          "unconnected_items|59340000|150800000|F.Cu|4|7513ddbe-6ba1-4360-a3ad-b54f94dfe3fc|c1f62b1b-2ade-46a7-b3fb-4c60dbc8aa98",
+          "I2C lines connected externally"
         ],
         [
           "unconnected_items|76100000|102540000|F.Cu|4|ba38082d-575c-4eb7-a3c5-3dfc7e5ed024|e47482ce-cffa-4249-b74c-092528c1f40f",
