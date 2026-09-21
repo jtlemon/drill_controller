@@ -296,7 +296,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1.0"
+      "sch_revision": "${VERSION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -755,7 +755,9 @@
       "Root"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "VERSION": "0.1.0"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0

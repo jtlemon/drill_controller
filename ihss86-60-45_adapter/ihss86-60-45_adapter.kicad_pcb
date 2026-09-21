@@ -127,6 +127,7 @@
 			(outputdirectory "")
 		)
 	)
+	(property "VERSION" "0.1.0")
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(locked yes)
 		(layer "F.Cu")
@@ -372,7 +373,7 @@
 				(pins)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -661,7 +662,7 @@
 				(pins)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1148,7 +1149,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -1250,7 +1251,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -1352,7 +1353,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -1836,7 +1837,7 @@
 				(pins)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1947,7 +1948,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -2049,7 +2050,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -2149,7 +2150,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -0.7)
@@ -2320,7 +2321,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -3172,7 +3173,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -0.7)
@@ -3349,7 +3350,7 @@
 				(pins)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3496,7 +3497,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C45986647"
+		(property "LCSC" "C19171040"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3518,7 +3519,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "7" "8")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 1.4977 -10.5)
@@ -4212,7 +4213,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -4998,7 +4999,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text_box "Name: ihss86-60-45 Adapter\nVer: 0.1.0\nDate: 2026-09-10\n"
+	(gr_text_box "Name: ihss86-60-45 Adapter\nVer: ${REVISION}\nDate: ${CURRENT_DATE}\n"
 		(start 122 84.2375)
 		(end 138.03443 105.3)
 		(margins 1.0025 1.0025 1.0025 1.0025)
